@@ -1,22 +1,17 @@
 <?php
 
 /*
- * Copyright (c) 2011, Sofun Gaming SAS
+ * Copyright (c)  Sofun Gaming SAS.
+ * Copyright (c)  Julien Anguenot <julien@anguenot.org>
+ * Copyright (c)  Julien De Preaumont <juliendepreaumont@gmail.com>
  *
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
  *
- *       This software is licensed under the Terms and Conditions
- *       contained within the "LICENSE.txt" file that accompanied
- *       this software.  Any inquiries concerning the scope or
- *       enforceability of the license should be addressed to:
- *
- *       Sofun Gaming SAS
- *       30 rue blondel
- *       75002 Paris
- *       France
- *       p. +33 (0) 7 86 85 70 44
- *       www.sofungaming.com
- *
- * @version $Id: sofun.php 52 2012-10-26 14:05:36Z anguenot $
+ * Contributors:
+ *     Julien Anguenot <julien@anguenot.org> - initial API and implementation
  */
 
 if (!function_exists('curl_init')) {
@@ -29,7 +24,7 @@ if (!function_exists('json_decode')) {
 /**
  * Provides acccess to the Sofun Platform.
  *
- * @author <a href="mailto:anguenot@sofungaming.com">Julien Anguenot</a>
+ * @author <a href="mailto:julien@anguenot.org">Julien Anguenot</a>
  *
  */
 class Sofun {
@@ -590,7 +585,7 @@ class Sofun {
 /**
  * Thrown when an API call returns an exception.
  *
- * @author <a href="mailto:anguenot@sofungaming.com">Julien Anguenot</a>
+ * @author <a href="mailto:julien@anguenot.org">Julien Anguenot</a>
  *
  */
 class SofunApiException extends Exception {
