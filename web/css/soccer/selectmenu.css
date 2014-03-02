@@ -1,0 +1,179 @@
+/* Selectmenu
+----------------------------------*/
+#full-predictions-container .ui-selectmenu { 
+	display: block; 
+	display: inline-block; 
+	position: relative;
+	height: 30px;
+	vertical-align: middle; 
+	text-decoration: none; 
+	overflow: hidden;
+	zoom: 1; 
+	background: none;
+	border: none;
+	color: #707070;
+	font: bold 12px Arial;
+	text-align: left;
+	border-radius: 0px;
+}
+#full-predictions-container .ui-selectmenu-icon {
+	height: 24px;
+	width: 15px;
+	display: block;
+	position:absolute;
+	right:0px; 
+	margin-top: -11px; 
+	border: none;
+	background: url('/image/default/euro/sprites_euro.png') -97px -113px no-repeat;
+}
+
+#full-predictions-container .ui-icon {
+	border-left: 2px solid #ccc;
+}
+
+#full-predictions-container .ui-state-default .ui-icon {
+	background: url('/image/default/euro/sprites_euro.png') -97px -113px no-repeat;
+}
+
+#full-predictions-container .ui-state-focus .ui-icon {
+	background: url('/image/default/euro/sprites_euro.png') -97px -113px no-repeat;
+}
+
+#full-predictions-container .ui-state-hover .ui-icon {
+	background: url('/image/default/euro/sprites_euro.png') -122px -113px no-repeat;
+}
+
+#full-predictions-container .ui-state-active .ui-icon {
+	background: url('/image/default/euro/sprites_euro.png') -122px -113px no-repeat;
+}
+
+#full-predictions-container .ui-selectmenu-menu { 
+	padding:0; 
+	margin:0; 
+	position:absolute; 
+	top: 0; 
+	display: none; 
+	z-index: 1005; /* z-index: 1005 to make selectmenu work with dialog */
+} 
+#full-predictions-container .ui-selectmenu-menu  ul { 
+	padding:0;
+	margin:0; 
+	list-style:none; 
+	position: relative; 
+	overflow: auto; 
+	overflow-y: auto; 
+	overflow-x: hidden; 
+} 
+#full-predictions-container .ui-selectmenu-open { 
+	display: block;
+}
+#full-predictions-container .ui-selectmenu-menu-popup { 
+	margin-top: -1px; 
+}
+#full-predictions-container .ui-selectmenu-menu li { 
+	padding:0; 
+	margin:0; 
+	display: block;
+	border: none;
+	font-weight: normal !important;
+}
+
+#full-predictions-container .ui-selectmenu-open li:hover {
+	border:none;
+}
+
+#full-predictions-container .ui-selectmenu-open li.ui-selectmenu-item-focus a {
+	border: none;
+	background-color: #F0F0F0;
+	color: #707070;
+}
+
+#full-predictions-container .ui-selectmenu-open li.ui-selectmenu-item-selected a {
+	border: none;
+	background-color: #F0F0F0;
+	color: #707070;
+}
+
+#full-predictions-container .ui-selectmenu-status { 
+	font: bold 12px Arial;
+	color: #707070;
+	display: block;
+	padding: 2px 2px 2px 7px;
+}
+
+#full-predictions-container .ui-selectmenu-menu li a {
+	font: bold 12px Arial;
+	color: #707070;
+	display: block; 
+	padding: .405em 1.8em .405em 1em; 
+	outline: none; 
+	text-decoration:none;	
+	border: none;
+}
+
+#full-predictions-container .ui-selectmenu-menu li.ui-state-disabled a, #full-predictions-container .ui-state-disabled { 
+	cursor: default; 
+	border: 0px;
+}
+#full-predictions-container .ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
+#full-predictions-container .ui-selectmenu-hasIcon .ui-selectmenu-status { 
+	padding-left: 20px; 
+	position: relative; 
+	margin-left: 5px; 
+}
+#full-predictions-container .ui-selectmenu-menu li .ui-icon, #full-predictions-container .ui-selectmenu-status .ui-icon { 
+	position: absolute; 
+	top: 1em; 
+	margin-top: -8px; 
+	left: 0; 
+}
+#full-predictions-container .ui-selectmenu-status { 
+	line-height: 25px; 
+}
+
+#full-predictions-container .ui-selectmenu-menu li span, #full-predictions-container .ui-selectmenu-status span { 
+	display:block; 
+	margin-bottom: .2em;
+}
+#full-predictions-container .ui-selectmenu-menu li .ui-selectmenu-item-header { 
+	font-weight: bold; 
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#full-predictions-container .ui-selectmenu-menu li .ui-selectmenu-item-content {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+#full-predictions-container .ui-selectmenu-menu li .ui-selectmenu-item-footer { 
+	opacity: 0.8; 
+}
+/* for optgroups */
+#full-predictions-container .ui-selectmenu-menu .ui-selectmenu-group { 
+	font-size: 1em; 
+}
+#full-predictions-container .ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { 
+	line-height: 1.4em; 
+	display:block; 
+	padding: .6em .5em 0; 
+	font-weight: bold; 
+}
+#full-predictions-container .ui-selectmenu-menu .ui-selectmenu-group ul { 
+	margin: 0; 
+	padding: 0; 
+}
+/* IE6 workaround (dotted transparent borders) */
+* html #full-predictions-container .ui-selectmenu-menu li { 
+	border-color: pink; 
+	filter:chroma(color=pink); 
+	width:100%; 
+}
+* html #full-predictions-container .ui-selectmenu-menu li a { 
+	position: relative 
+}
+/* IE7 workaround (opacity disabled) */
+*+html #full-predictions-container .ui-state-disabled, *+html #full-predictions-container .ui-state-disabled a { 
+	color: silver; 
+}

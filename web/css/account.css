@@ -1,0 +1,278 @@
+/* 
+    Document   : account
+    Created on : 17 juin 2011, 10:41:09
+    Author     : jerome
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.account {
+    display: block;
+}
+
+.account .login {
+    display: block;
+}
+
+.account .login h1 {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #575756;
+    margin-bottom: 8px;
+}
+
+.account .login h2 {
+	margin: 0px;
+	padding: 0px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #575756;
+    margin-bottom: 4px;
+}
+
+.account .login P {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #818180;
+    margin-bottom: 12px;
+    line-height: 16px;
+    margin-bottom: 17px;
+}
+
+.account .login label {
+    color: white;
+    width: 245px;
+}
+
+.popupConnection .account .login label {
+    color: #F0F0F0;
+}
+
+.account .login .legende label, .createAccountOnHome label {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #575756;
+    padding-bottom: 5px;
+}
+
+.account .login .input-text, .createAccountOnHome .input-text {
+    font-family: Arial; font-size: 14px; font-weight: normal; text-decoration: none; color: #8A8A8A;
+    width: 245px; height: 24px;
+    padding-left: 5px;
+    background-color: #F4F4F4;
+    border-top: 2px solid #D7D7D7;
+    border-left: 2px solid #D7D7D7;
+    border-right: 2px solid #EBEBEB;
+    border-bottom: 2px solid #EBEBEB;
+    margin-left: 1px; margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.account .login .input-text-popup, .createAccountOnHome .input-text-popup {
+    font-family: Arial; font-size: 14px; font-weight: normal; text-decoration: none; color: #8A8A8A;
+    width: 245px; height: 24px;
+    padding-left: 5px;
+    background-color: white;
+    border-top: 2px solid #D7D7D7;
+    border-left: 2px solid #D7D7D7;
+    border-right: 2px solid #EBEBEB;
+    border-bottom: 2px solid #EBEBEB;
+    margin-left: 1px; margin-top: 5px;
+    margin-bottom: 4px;
+    line-height: 155%;
+}
+
+.account .login .formInputVarcharSelected {
+    border-top: 2px solid #F5C95B;
+    border-left: 2px solid #F5C95B;
+    border-right: 2px solid #F4DA96;
+    border-bottom: 2px solid #F4DA96;
+}
+
+.account .login .formInputVarcharError {
+    border-top: 2px solid #e6332b;
+    border-left: 2px solid #e6332b;
+    border-right: 2px solid #ec807b;
+    border-bottom: 2px solid #ec807b;
+}
+
+.account .login .inputSelect {
+    font-family: Arial; font-size: 12px; font-weight: normal; text-decoration: none; color: #8A8A8A;
+    height: 28px;
+    background-color: #F4F4F4;
+    border-top: 1px solid #D7D7D7;
+    border-left: 1px solid #D7D7D7;
+    border-right: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    margin-left: 1px; margin-top: 5px;
+    margin-bottom: 4px;
+    width: 80px;
+}
+
+.account .login UL.error_list {
+    font-family: Arial; font-size: 11px; font-weight: normal; text-decoration: none; color: red;
+    list-style-type: none;
+}
+
+.account A, .account .login A {
+    font-family: Arial; font-size: 11px; font-weight: normal; text-decoration: none; color: #EA6920;
+}
+
+.account A:hover, .account .login A:hover {
+    font-family: Arial; font-size: 11px; font-weight: normal; text-decoration: none; color: #EA6920;
+    text-decoration: none;
+}
+
+.createAccountOnHome .input-text {
+    width: 230px;
+    background-color: white;
+    margin-bottom: 2px;
+}
+
+.createAccountOnHome .formInputVarcharSelected {
+    border-top: 2px solid #F5C95B;
+    border-left: 2px solid #F5C95B;
+    border-right: 2px solid #F4DA96;
+    border-bottom: 2px solid #F4DA96;
+}
+
+.createAccountOnHome label {
+    font-size: 11px;
+}
+
+.content-search-city-results {
+	width: 248px;
+    height: auto;
+	max-height: 220px;
+	background-color: #F4F4F4;
+	overflow: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid #AAAAAA;
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	margin-left: 170px;
+	margin-top: -15px;
+}
+
+.result-cities {
+	list-style: none;
+	width: 248px;
+}
+
+.result-cities-li {
+	line-height: 1.4em;
+	display: block;
+	padding: 5px;
+	background: none;
+	width: 100%;
+	color: #8A8A8A;
+}
+
+.result-cities-li-hover {
+	background-color: orange;
+}
+
+.result-cities-li a {
+	text-decoration: none;
+	color: #8A8A8A;
+	display: block;
+	outline: none;
+	width: 248px;
+}
+
+.result-cities-li-hover a {
+	width: 248px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.link-register:link, a.link-register:visited, a.link-register:active {
+	font-size: 12px;
+}
+
+a.link-register:hover {
+	text-decoration: underline;
+}
+
+.account-button {
+	display: block;
+	width: 180px;
+	height: 20px;
+	margin: 0px auto;
+    margin-left: 255px;
+	color: white;
+	font: normal 12px Arial;
+	text-decoration: none;
+	text-align: center;
+	background: #ec7023;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VjNzAyMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNTViMTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ec7023 0%, #e55b19 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ec7023), color-stop(100%,#e55b19));
+	background: -webkit-linear-gradient(top,  #ec7023 0%,#e55b19 100%);
+	background: -o-linear-gradient(top,  #ec7023 0%,#e55b19 100%);
+	background: -ms-linear-gradient(top,  #ec7023 0%,#e55b19 100%);
+	background: linear-gradient(top,  #ec7023 0%,#e55b19 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec7023', endColorstr='#e55b19',GradientType=0 );
+	border: 1px solid #CDAF9E;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 20px;
+}
+
+.account-button:hover {
+	text-decoration: underline;
+}
+
+.account-button-save {
+	display: block;
+	float: left;
+	width: 88px;
+	height: 20px;
+	margin: 0px;
+	color: white;
+	font: normal 12px Arial;
+	text-decoration: none;
+	text-align: center;
+	background: #ec7023;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VjNzAyMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNTViMTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ec7023 0%, #e55b19 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ec7023), color-stop(100%,#e55b19));
+	background: -webkit-linear-gradient(top,  #ec7023 0%,#e55b19 100%);
+	background: -o-linear-gradient(top,  #ec7023 0%,#e55b19 100%);
+	background: -ms-linear-gradient(top,  #ec7023 0%,#e55b19 100%);
+	background: linear-gradient(top,  #ec7023 0%,#e55b19 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec7023', endColorstr='#e55b19',GradientType=0 );
+	border: 1px solid #CDAF9E;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 20px;
+}
+
+.account-button-save:hover {
+	text-decoration: underline;
+}
+
+.login-loading-button {
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: url('/images/account/login/wait.png');
+}

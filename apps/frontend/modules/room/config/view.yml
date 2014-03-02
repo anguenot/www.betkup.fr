@@ -1,0 +1,108 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+#Room view
+default:
+  metas:
+    title:       text_rooms_page_title
+    description: text_rooms_page_description
+  has_layout:    true
+  layout:        layout_int
+
+homeSuccess:
+  stylesheets:   [my-account.css, room.css, kup.css, room/tabbar.css, tabsHome.css, room/roomRightBox.css]
+  
+viewSuccess:
+  stylesheets:   [my-account.css, kup.css, room.css, room/tabbar.css, tabsHome.css, kupview.css, room/kupsHomeFront.css, room/roomHome-1.css, room/roomRightBox.css]
+  javascripts:   [datetime.js, loading.js, hash-md5.js, ajaxQueues.js, sofunBatch-2.js]
+
+kupsNewsSuccess:
+  stylesheets:   [my-account.css, kup.css, room.css, live.css, room/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, room/members.css, room/kupsHomeFront.css, room/roomHome-1.css, room/roomRightBox.css]
+  javascripts:   [datetime.js, loading.js, hash-md5.js, ajaxQueues.js, sofunBatch-2.js]
+
+roomKupsRankingSuccess:
+  stylesheets:   [my-account.css, kup.css, room.css, live.css, room/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, room/members.css, room/kupsHomeFront.css, room/roomHome-1.css, room/roomRightBox.css, room/room-kups-ranking.css, interface/pagination.css, tipsy/tipsy.css]
+  javascripts:   [loading.js, jquery.tipsy.js]
+
+kupsSuccess:
+  stylesheets:   [my-account.css, kup.css, room.css, room/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, room/kupview.css, room/roomRightBox.css]
+  javascripts:   [loading.js]
+
+inviteSuccess:
+  stylesheets:   [my-account.css, kup.css, room.css, room/tabbar.css, tabsHome.css, kupview.css,  /scroll/css/scrollbar.css, invite/email.css, room/roomRightBox.css]
+  javascripts:   [loading.js, datetime.js, /scroll/jquery.scroll.js, php.default.min.js]
+
+editSuccess:
+  stylesheets:   [my-account.css, room.css, room/tabbar.css, tabsHome.css, kupview.css, char-counter.css, room/roomRightBox.css]
+  javascripts:   [php.default.min.js, characters-counter.js]
+
+editKupsSuccess:
+  stylesheets:   [my-account.css, kup.css, room.css, room/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, room/kupview.css, room/roomRightBox.css]
+  javascripts:   [loading.js,]
+
+membersSuccess:
+  stylesheets:   [my-account.css, room.css, room/tabbar.css, kup/search/checkbox.css, tabsHome.css, room/roomRightBox.css, interface/pagination.css]
+  javascripts:   [loading.js, php.default.min.js, loading-contents-2.js]
+
+searchSuccess:
+  stylesheets:   [my-account.css, room.css, kup.css, room/tabbar.css, tabsHome.css, kup/search/checkbox.css, room/search-room-home.css, room/roomRightBox.css]
+  javascripts:   [/scroll/jquery.scroll.js, loading.js, hash-md5.js, ajaxQueues.js, sofunBatch-2.js, loading-contents-2.js, jquery.checkbox.min.js]
+
+#Room Kups
+kupSuccess:
+  stylesheets:   [my-account, kup.css, room.css, kup/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, prediction.css, room/members.css, room/kupview.css, tipsy/tipsy.css, room/roomRightBox.css]
+  javascripts:   [datetime.js, php.default.min.js, jquery.tipsy.js]
+
+kupRankingSuccess:
+  stylesheets:   [my-account, kup.css, room.css, kup/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, room/members.css, room/kupview.css, room/roomRightBox.css]
+  javascripts:   [datetime.js]
+ 
+kupResultsSuccess:
+  stylesheets:   [my-account, kup.css, room.css, kup/tabbar.css, kupview.css, tabsHome.css, room/kupPreview.css, room/members.css, room/kupview.css, prediction.css, results.css, room/roomRightBox.css]
+  javascripts:   [datetime.js]
+ 
+kupRulesSuccess:
+  stylesheets:   [my-account, kup.css, room.css, kup/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, room/members.css, room/kupview.css, rules.css, prediction.css, room/roomRightBox.css]
+  javascripts:   [datetime.js]
+
+kupInviteSuccess:
+  stylesheets:   [my-account, kup.css, room.css, kup/tabbar.css, tabsHome.css, kupview.css, /scroll/css/scrollbar.css, room/kupview.css, invite/email.css, room/roomRightBox.css]
+  javascripts:   [datetime.js, php.default.min.js, loading.js, /scroll/jquery.scroll.js]
+
+kupBetSuccess:
+  stylesheets:   [my-account, kup.css, room.css, kup/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, room/members.css, room/kupview.css, bet.css, room/roomRightBox.css]
+  javascripts:   [datetime.js]
+
+#Room creation
+createSuccess:
+  stylesheets:   [my-account, room.css, room/tabbar.css, tabsHome.css, char-counter.css]
+  javascripts:   [php.default.min.js, characters-counter.js]
+
+uploadFileSuccess:
+  has_layout:    false
+  stylesheets:   [fancybox.css, jcrop.css, widgetdownload.css, uploadfile.css]
+  javascripts:   [ajaxfileupload.js, jquery.fancybox.js, jquery.Jcrop.min.js]
+  
+createAddKupsSuccess:
+  stylesheets:   [my-account, kup.css, room.css, room/tabbar.css, tabsHome.css, kupview.css, room/kupPreview.css, room/kupview.css]
+  javascripts:   [loading.js,]
+
+createInviteSuccess:
+  stylesheets:  [my-account.css, kup.css, room.css, kupview.css, prediction.css, kup/tabbar.css, /scroll/css/scrollbar.css, invite/email.css]
+  javascripts:  [datetime.js, php.default.min.js, loading.js, /scroll/jquery.scroll.js]
+  
+# WIDGET RANKING
+
+widgetRankingSuccess:
+  has_layout:   true
+  layout:       layout_widget_ranking
+  stylesheets:  [widget-ranking/layout.css, widget-ranking/ranking.css, widget-ranking/count-down.css, widget-ranking/selectmenu.css]
+  javascripts:  [datetime.js, php.default.min.js, loading.js]
+
+# LIKE PAGE
+
+likePageFansFacebookSuccess:
+  has_layout:   true
+  layout:       layout_like_facebook_tdf
+  stylesheets:  []
+  javascripts:  []

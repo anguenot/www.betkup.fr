@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'botonMediumCustom';
+    src: url('/fonts/BotonMedium.eot?') format('eot'),
+    url('/fonts/BotonMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#box-ready-to-play {
+    position: relative;
+    display: block;
+    float: right;
+    width: 270px;
+    height: 310px;
+    background: #F0F0F0;
+    margin: 2px 10px 0 0;
+    -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.ShadowDropShadow(color=#000000, offx=1, offy=1);
+}
+
+#box-ready-to-play .header-box {
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: -10px;
+    width: 291px;
+    height: 48px;
+    text-align: center;
+    font: normal 22px botonMediumCustom, Arial, sans-serif;
+    color: white;
+    background: url('/image/default/home/rady_to_play/sprite_ready_to_play_box.png') no-repeat;
+    line-height: 38px;
+}
+
+#box-ready-to-play .conatainer-box {
+    margin-top: 60px;
+    padding: 0 10px;
+}
+
+#box-ready-to-play .conatainer-box ul {
+    list-style: none;
+}
+
+#box-ready-to-play .conatainer-box ul li {
+    position: relative;
+    display: block;
+    height: 45px;
+}
+
+#box-ready-to-play .conatainer-box ul li a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font: bold 16px Arial, sans-serif;
+    color: #555555;
+}
+
+#box-ready-to-play .conatainer-box ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#box-ready-to-play .conatainer-box ul li a .pic {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+#box-ready-to-play .conatainer-box ul li a .pic-my-betkup {
+    background: url('/image/default/home/rady_to_play/sprite_ready_to_play_box.png') -5px -70px no-repeat;
+}
+
+#box-ready-to-play .conatainer-box ul li a .pic-kups {
+    background: url('/image/default/home/rady_to_play/sprite_ready_to_play_box.png') -46px -70px no-repeat;
+}
+
+#box-ready-to-play .conatainer-box ul li a .pic-rooms {
+    background: url('/image/default/home/rady_to_play/sprite_ready_to_play_box.png') -86px -70px no-repeat;
+}
+
+#box-ready-to-play .conatainer-box ul li a .pic-challenge {
+    background: url('/image/default/home/rady_to_play/sprite_ready_to_play_box.png') -126px -70px no-repeat;
+}
+
+#box-ready-to-play .conatainer-box ul li a .play {
+    display: inline-block;
+    vertical-align: middle;
+    width: 11px;
+    height: 11px;
+    margin: 0 0 0 5px;
+    background: url('/image/default/home/rady_to_play/sprite_ready_to_play_box.png') -172px -75px no-repeat;
+}
+
+#box-ready-to-play .conatainer-box .upgrade-account {
+    display: block;
+    margin: -5px auto 0 auto;
+    text-align: center;
+    width: 138px;
+    padding: 28px 0 0 32px;
+    height: 64px;
+    font: normal 14px Arial, sans-serif;
+    color: white;
+    background: url('/image/default/home/rady_to_play/sprite_ready_to_play_box.png') -6px -114px no-repeat;
+}
+
+#box-ready-to-play .conatainer-box .upgrade-account:hover {
+    text-decoration: underline;
+}
+
+#box-ready-to-play .conatainer-box .credit-account {
+    display: block;
+    margin: -5px auto 0 auto;
+    text-align: center;
+    width: 127px;
+    padding: 28px 0 0 32px;
+    height: 64px;
+    font: normal 14px Arial, sans-serif;
+    color: white;
+    background: url('/image/default/home/rady_to_play/sprite_ready_to_play_box.png') -193px -114px no-repeat;
+}
+
+#box-ready-to-play .conatainer-box .credit-account:hover {
+    text-decoration: underline;
+}
+

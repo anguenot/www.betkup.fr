@@ -1,0 +1,37 @@
+ui:
+  roomName: Pierre Rabadan
+  header-logo: /partner/trinquet/image/sofun-logo.png
+  avatar-room: /partner/rabadan/image/avatar_room.png
+  isHeaderPerso: 0
+  header-room-logo: /partner/rabadan/image/header_logo.png
+  header-bg: /partner/rabadan/image/header_bg_room.png
+  kup-header-bg: /partner/rabadan/image/header_bg_kup.png
+  path-img-title: /partner/rabadan/image/title
+  path-img-list: /partner/rabadan/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/melee_ouverte/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/rabadan/image/background.png
+  isPicBottomLeft: 1
+  isPicBottomRight: 1
+  body-bg-img-bottom-left: /partner/rabadan/image/body_bg_pic_bottom_left.png
+  body-bg-img-bottom-right: /partner/rabadan/image/body_bg_pic_bottom_right.png
+  body-bg-color: '#f1f1ee'
+  isRoomNameColorPerso: 1
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/rabadan/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/rabadan/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://rabadan.betkup.fr
+  show-box-prizes: 1
+  box-prizes: /partner/rabadan/image/box_prizes.png
+  box-prizes-button: /partner/rabadan/image/box_prizes_button.png
+  show-box-news: 0
+  box-news: /partner/rabadan/image/box_news_bg.png
+  show-box-facebook: 0
+  box-facebook: /partner/rabadan/image/box_fb_bg.png
+  path_img_kup_perso_prizes: /partner/rabadan/image/kupPrizes
+  array_kup_perso_prizes: ['2894','2895']
+  path_document_kup_perso_rules: /partner/rabadan/document
+  array_kup_perso_rules_pdf: ['2894','2895']

@@ -1,0 +1,9 @@
+datas:
+  isArchive: 1
+  type: kups
+  title: kups_euro_2012_title
+  avatar: /image/default/challenge/challenges/avatar/kups_euro_2012.png
+  link: kup,home
+  link_label:  kups_euro_2012_link_label
+  arguments: [kups_euro_2012_predictions, kups_euro_2012_jackpot, kups_euro_2012_community, kups_euro_2012_prize, kups_euro_2012_kups]
+  kups_search_params: [SPORTS_SOCCER, STAKE_ALL, status_IN_PROGRESS, status_IN_COMMING, SORTING_START_DATE]

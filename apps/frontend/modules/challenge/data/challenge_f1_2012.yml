@@ -1,0 +1,9 @@
+datas:
+  isArchive: 0
+  type: challenge
+  room_name: 'Challenge F1 2012'
+  title: challenge_f1_2012_title
+  avatar: /image/default/challenge/challenges/avatar/challenge_f1_2012.png
+  link: room,view
+  link_label: challenge_euro_2012_link_label
+  arguments: [challenge_f1_2012_kups, challenge_f1_2012_winners, challenge_f1_2012_ranking, challenge_f1_2012_jackpot]

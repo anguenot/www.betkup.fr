@@ -1,0 +1,37 @@
+ui:
+  roomName: So-Sport
+  header-logo: /partner/so_sport/image/sofun-logo.png
+  avatar-room: /partner/so_sport/image/avatar_room.png
+  isHeaderPerso: 1
+  header-hosted-logo: /partner/so_sport/image/hosted_logo.png
+  header-room-logo: /partner/so_sport/image/header_logo.png
+  header-bg: /partner/so_sport/image/header_bg_room.png
+  kup-header-bg: /partner/so_sport/image/header_bg_kup.png
+  path-img-title: /partner/so_sport/image/title
+  path-img-list: /partner/so_sport/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/so_sport/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/so_sport/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  body-bg-img-bottom-right: /partner/so_sport/image/body_bg_pic_bottom_right.png
+  body-bg-color: '#003366'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  show-box-how-work: 1
+  box-how-work: /partner/so_sport/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://so_sport.betkup.fr
+  show-box-prizes: 1
+  box-prizes: /partner/so_sport/image/box_prizes.png
+  box-prizes-button: /partner/so_sport/image/box_prizes_button.png
+  show-box-news: 1
+  box-news: /partner/so_sport/image/box_news_bg.png
+  box-news-rss: http://www.so-sport.fr/feed
+  show-box-facebook: 0
+  box-facebook: /partner/so_sport/image/box_fb_bg.png
+  path_img_kup_perso_prizes: /partner/so_sport/image/kupPrizes
+  array_kup_perso_prizes: ['2901']
+  path_document_kup_perso_rules: /partner/so_sport/document
+  array_kup_perso_rules_pdf: ['2901']

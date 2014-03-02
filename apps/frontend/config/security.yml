@@ -1,0 +1,9 @@
+# $Id: security.yml 3113 2011-10-02 18:51:22Z anguenot $
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+# ATTENTION: DO NOT, EVER, DISABLE SECURITY HERE!
+# Please see the security.yml within each modules to grant and/or restrict with credentials 
+# By default everything is restricted with no credentials which means nothing is accessible.
+default:
+  is_secure: true

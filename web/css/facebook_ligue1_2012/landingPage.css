@@ -1,0 +1,56 @@
+div#boxkup {
+    width: 755px;
+    margin: 0 auto;
+}
+
+.kup-header-container {
+    width: 800px;
+    height: 210px;
+    margin: 20px auto 10px auto;
+}
+
+.boxes-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box-infos {
+    width: 100%;
+    text-align: center;
+}
+
+.box-infos .home-box {
+    margin-top: 0;
+}
+
+.catchphrase {
+    display: block;
+    width: 750px;
+    margin: 0 auto;
+    padding: 30px 5px;
+    text-align: center;
+    font: bold 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 25px;
+    color: #444444;
+    background: #ffffff;
+    border: 1px solid #f0f0ed;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.catchphrase b {
+    color: #66869A;
+}
+
+.home-box-header {
+    height: 40px;
+    text-align: center;
+}
+
+.home-box-header h2 {
+    line-height: 40px;
+    font-size: 22px;
+    text-align: center;
+    float: none;
+}

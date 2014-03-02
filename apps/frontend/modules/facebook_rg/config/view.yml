@@ -1,0 +1,9 @@
+default:
+  stylesheets:    [facebook_rg/layout.css, facebook_rg/menu.css]
+  has_layout:     true
+  layout:         layout_facebook_rg
+
+homeSuccess:
+  stylesheets:    [facebook_rg/home.css, facebook_rg/box.css, facebook_rg/chrono.css, facebook_rg/last-results.css]
+  javascripts:    [jquery.urldecoder.min.js, php.default.min.js, loading-contents-2.js, f1.js, serialize-to-json.js]
+  

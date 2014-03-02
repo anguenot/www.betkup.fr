@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_6nations_france_italie
+  typeSport: rugby
+  picto: rugby.png
+  picto_mini: picto_rugby_mini.png
+  category: Rugby > VI Nations
+  events: 8 évènements
+  document_path: /kup/rugby/6nations/france_italie/document
+  vignette_kup_view: /kup/rugby/6nations/france_italie/image/vignette_kup_view.png
+  vignette_home_view: /kup/rugby/6nations/france_italie/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/rugby/6nations/france_italie/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/rugby/6nations/france_italie/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/rugby/6nations/france_italie/image/vignette_edition_kup.png
+  isPrizes: 1
+  rules_view_template: rugby,kup_6nations_france_italie
+  predictions_view_template: rugby,predictions
+  results_view_template: rugby,results
+  nbRules: 1
+  prizeValue : 125
+  img_box_right: /kup/rugby/6nations/france_italie/image/img_box_right.png
+  img_prize_1: /kup/rugby/6nations/france_italie/image/img_prize_1.png
+  img_prize_2: /kup/rugby/6nations/france_italie/image/img_prize_2.png
+  img_prize_3: /kup/rugby/6nations/france_italie/image/img_prize_3.png
+  prize_1_label: label_6nations_france_italie_prize_1
+  prize_2_label: label_6nations_france_italie_prize_2
+  prize_3_label: label_6nations_france_italie_prize_3
+  box_prizes_button: /kup/rugby/6nations/france_italie/image/box_prizes_button.png

@@ -1,0 +1,9 @@
+datas:
+  isArchive: 0
+  type: events
+  title: events_kups_europe_2012_title
+  avatar: /image/default/challenge/challenges/avatar/events_kups_europe_2012.png
+  link: kup,home
+  link_label: kups_euro_2012_link_label
+  arguments: [events_kups_europe_2012_kups, events_kups_europe_2012_winners, events_kups_europe_2012_ranking, events_kups_europe_2012_events, events_kups_europe_2012_jackpot]
+  kups_search_params: [SPORTS_SOCCER, STAKE_ALL, status_IN_PROGRESS, status_IN_COMMING, SORTING_START_DATE]

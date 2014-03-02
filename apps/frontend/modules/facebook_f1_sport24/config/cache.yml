@@ -1,0 +1,14 @@
+homePromo:
+  enabled:     true
+  with_layout: false
+  lifetime:    604800
+
+homeNews:
+  enabled:     true
+  with_layout: false
+  lifetime:    86400
+
+homeHowTo:
+  enabled:     true
+  with_layout: false
+  lifetime:    604800

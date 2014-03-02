@@ -1,0 +1,251 @@
+@CHARSET "UTF-8";
+@font-face {
+font-family: 'accountHowToPlayText';
+src: url('/fonts/Helvetica-LT-77-Bold-Condensed.eot?') format('eot'),
+     url('/fonts/Helvetica-LT-77-Bold-Condensed.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.layoutIntAllBlanc {
+	font-family: Arial;
+	font-size: 14px;	
+}
+
+#slice_top {
+	width: 970px;
+	height: 10px;
+	background: url('/image/fr/bettrust/slice_top.png') repeat-x;
+	margin-top:15px;
+	margin-left:13px;
+}
+
+#black_line {
+	width: 970px;
+	height: 3px;
+	background: url('/image/fr/bettrust/black_line.png') repeat-x;
+	margin-left:13px;
+}
+
+#why_betkup {
+	width: 970px;
+	height: 100px;
+	background-color: #F4F4F4;
+	margin-left:13px;
+}
+
+#first_menu {
+	width: 990px;
+	height: 150px;
+	padding-top: 40px;
+}
+
+#first_menu ul {
+	margin: 0;
+	margin-left: 100px;
+	list-style: none;
+	width: 465px;
+}
+
+#first_menu ul li {
+	background: url('/images/moncompte/fondsommaire.png') no-repeat;
+	margin: 0px;
+	padding: 8px 0px 0px 12px;
+	width: 457px;
+	height: 28px;
+}
+
+#first_menu ul li a {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F28A31;
+	text-decoration: none;
+}
+
+#first_menu ul li a:hover {
+	text-decoration: underline;
+}
+	
+#bloc1_law {
+	width: 970px; 
+	margin-left:13px;
+	height: 125px;
+	background: url('/image/fr/bettrust/bg_law.png') center no-repeat;
+}
+
+#bloc1_law div {
+	width: 850px;
+	height: 95px; 
+	margin-left: auto; 
+	margin-right: auto;
+	padding-top: 40px;
+	padding-left: 30px;
+	color:#F28A31;
+}
+
+#bloc2_law {
+	width: 970px;
+	margin-left:13px;
+	margin-top: 15px;
+	height: 200px;
+}
+
+#bloc2_law table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#bloc2_law table tr td {
+	vertical-align: top;
+}
+
+#bloc2_law table tr td ul {
+	margin: 0;
+	list-style: none;
+	width: 700px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#bloc2_law table tr td ul li {
+	list-style-type: none;
+	background: url(/image/fr/bettrust/ticker_success_big.png) no-repeat 0 0.32em;
+	padding-left: 30px;
+	height: 80px;
+	font-size: 14px;
+	color: #575756;
+}
+
+#bloc2_law table tr td ul li a {
+	float: right;
+	text-decoration: none;
+	color: blue;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#bloc2_law table tr td ul li a:hover {
+	text-decoration: underline;
+}
+
+#bloc_trust {
+	width: 970px;
+	margin-left:13px;
+	height: 390px;	
+}
+
+#bloc_trust table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 970px;
+	margin-top: 40px;
+}
+
+#bloc_trust table tr td {
+	width: 485px;
+	vertical-align: top;
+	padding-right: 20px;
+}
+
+.bloc_trust_title {
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: bold;
+	color: #575756;
+	text-align: center;
+	width: 485px;
+}
+
+.bloc_trust_corp {
+	margin-left: 50px;
+}
+
+.bloc_trust_corp div {
+	width: 150px;
+	margin-left: 30px;
+	margin-top:50px;
+	float: left;
+}
+
+#bloc_transparency {
+	width: 970px;
+	margin-left:13px;
+	margin-top: 40px;
+	height: 800px;
+}
+
+.bloc_transparency_title {
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: bold;
+	color: #575756;
+	text-align: left;
+	margin-left: 80px;
+}
+
+#bloc_transparency p {
+	font-family: Arial;
+	font-size: 14px;
+	color: #575756;
+	margin-left: 80px;
+}
+
+#bloc_transparency p {
+	width: 800px;	
+}
+
+#transparency_images {
+	margin-left: 260px;	
+}
+
+#transparency_images img {
+	margin-left: 20px;
+}
+
+#bloc_transparency table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 810px;
+	margin-left: 80px;
+}
+
+#bloc_transparency table tr td {
+	height: 20px;	
+	padding: 7px;
+	border: 2px solid orange;
+	color: #575756;
+}
+
+#bloc_chart {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;	
+}
+
+#bloc_chart img {
+	float: left;
+}
+
+#bloc_chart ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #575756;
+}
+
+#bloc_chart ul li {
+	height: 30px;
+	vertical-align: middle;	
+}
+
+#bloc_chart ul li span {
+	color: #575756;
+	padding-left: 10px;
+	padding-top: 2px;	
+	display: inline-block;
+}

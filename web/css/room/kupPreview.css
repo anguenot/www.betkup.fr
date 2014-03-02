@@ -1,0 +1,237 @@
+/* ------------------------------ *
+ *                                *
+ * KupPreview in ROOM             *
+ *                                *
+ * ------------------------------ */
+
+div.kupPreview {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 345px;
+}
+
+div.kupPreview div.plus {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 30px;
+	height: 57px;
+	left: 330px;
+	cursor: pointer;
+}
+
+div.kupPreview div.moins {
+	position: absolute;
+	margin: 0px; padding: 0px;
+	width: 18px; height: 18px;
+	left: 309px; top: 3px;
+	cursor: pointer;
+}
+
+/* Small */
+div.kupPreview div.closed {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 330px;
+	height: 56px;
+	background: url(/images/room/module/accordion/encart1.png) no-repeat;
+	margin-bottom: 10px;
+}
+
+div.kupPreview div.bouton_plus {
+	float: left;
+	margin: 10px 10px 10px 10px;
+	width: 19px;
+	height: 19px;
+	background: url(/images/room/module/accordion/plus.png) no-repeat;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+}
+
+div.kupPreview div.titre_encart {
+	position: absolute;
+	top: 10px;
+	margin-left: 37px;
+	font-size: 17px;
+	width: 280px;
+	font-family: roomEditionKupName, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #575757;
+	line-height: 25px;
+}
+
+div.kupPreview div.titre_encart img {
+	margin: 0px;
+	padding: 0px;
+	margin-right: 8px;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+div.kupPreview div.sstitre_encart {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 35px;
+	margin-left: 37px;
+	width: 280px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #575756;
+	line-height: 16px;
+}
+
+div.kupPreview div.sstitre_encart img {
+	margin-right: 6px;
+}
+
+div.kupPreview div.bouton_moins {
+	float: left;
+	width: 19px;
+	height: 19px;
+	background: url(/images/room/module/accordion/moins.png) no-repeat;
+	top: 10px;
+	left: 10px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+}
+
+div.kupPreview div.encart_ouvert_petit, div.kupPreview div.bloc_open_big, div.kupPreview div.bloc_open_big2 {
+	position: relative;
+	width: 330px;
+	height: 224px;
+	background: url(/images/room/module/accordion/encart2.png);
+	margin-bottom: 10px;
+}
+
+div.kupPreview div.bloc_open_big {
+	height: 393px;
+	background: url(/images/room/module/accordion/encart3.png);
+}
+
+div.kupPreview div.bloc_open_big2 {
+	height: 312px;
+	background: url(/images/room/module/accordion/encart4.png);
+}
+
+div.kupPreview div.delimiteur, div.kupPreview div.delimiteur2, div.kupPreview div.delimiteur3, div.kupPreview div.delimiteur4 {
+	position: relative;
+	top: 58px;
+	left: 38px;
+	width: 273px;
+	height: 2px;
+	background: url(/image/default/room/kups_separation.png) no-repeat;
+}
+
+div.kupPreview div.delimiteur2 {
+	top: 177px;	
+}
+
+div.kupPreview div.delimiteur3 {
+	top: 220px;	
+}
+
+div.kupPreview div.delimiteur4 {
+	top: 310px;	
+}
+
+div.kupPreview .bloc_part2_avatar {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	top: 68px; left: 38px;
+	width: 100px; height: 100px;
+}
+
+div.kupPreview .bloc_part2_texte {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #575756;
+	line-height: 14px;
+	width: 160px; height: 60px;
+	top: 68px; left: 150px;
+}
+
+div.kupPreview .bloc_part2_time, div.kupPreview .bloc_part2_event {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 160px; height: 15px;
+	top: 135px; left: 150px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #575756;
+	line-height: 14px;
+}
+
+div.kupPreview .bloc_part2_time IMG, div.kupPreview .bloc_part2_event IMG {
+	margin-right: 10px;
+	float: left;
+}
+
+div.kupPreview .bloc_part2_event {
+	top: 155px;
+}
+
+div.kupPreview .bloc_part2_chrono {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	overflow: hidden;
+	top: 182px; left: 26px;
+}
+
+div.kupPreview .bloc_part2_chrono_day, div.kupPreview .bloc_part2_chrono_hour {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+	line-height: 16px;
+	top: 11px; left: 130px;
+}
+
+div.kupPreview .bloc_part2_chrono_hour {
+	left: 215px;
+}
+
+div.kupPreview .bloc_part2_select1 {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	top: 230px; left: 38px;
+}
+
+.bloc_part2_select_legende {
+	margin: 0px; padding: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	font-weight: bold;
+	font-style: normal;
+	color: #575756;
+	line-height: 16px;
+}
+
+div.kupPreview div.bloc_part2_button {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	top: 335px;	left: 85px;
+}
+
+
+

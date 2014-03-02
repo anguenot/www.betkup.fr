@@ -1,0 +1,33 @@
+ui:
+  roomName: Sud Rugby
+  header-logo: /partner/sud_rugby/image/sofun-logo.png
+  avatar-room: /partner/sud_rugby/image/avatar_room.png
+  isHeaderPerso: 1
+  header-hosted-logo: /partner/sud_rugby/image/hosted_logo.png
+  header-room-logo: /partner/sud_rugby/image/header_logo.png
+  header-bg: /partner/sud_rugby/image/header_bg_room.png
+  kup-header-bg: /partner/sud_rugby/image/header_bg_kup.png
+  path-img-title: /partner/sud_rugby/image/title
+  path-img-list: /partner/sud_rugby/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/sud_rugby/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/sud_rugby/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  body-bg-img-bottom-right: /partner/sud_rugby/image/body_bg_pic_bottom_right.png
+  body-bg-color: 'white'
+  isRoomNameColorPerso: 0
+  header-author-font-color: 'black'
+  show-box-how-work: 1
+  box-how-work: /partner/sud_rugby/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://sud_rugby.betkup.fr
+  show-box-prizes: 0
+  box-prizes: /partner/sud_rugby/image/box_prizes.png
+  box-prizes-button: /partner/sud_rugby/image/box_prizes_button.png
+  show-box-news: 1
+  box-news: /partner/sud_rugby/image/box_news_bg.png
+  box-news-rss: http://www.sudrugby.com/?feed=rss2
+  show-box-facebook: 0
+  box-facebook: /partner/sud_rugby/image/box_fb_bg.png

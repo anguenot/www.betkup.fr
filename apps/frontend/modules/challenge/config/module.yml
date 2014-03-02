@@ -1,0 +1,5 @@
+all:
+  events: events_kups_europe_2012.yml events_wimbledon_2012.yml
+  promos: promo_bonus_edf_2012.yml promo_bonus_l1_2012.yml promo_euro_2012.yml promo_tdf_2012.yml promo_tdf_2012_e20.yml
+  kups: kups_k8_europe_2012.yml kups_f1_2012.yml kups_ligue1_2012.yml kups_euro_2012.yml kups_roland_garros_2012.yml kups_tdf_2012.yml
+  challenges: challenge_k8_europe_2012.yml challenge_f1_2012.yml challenge_ligue1_2012.yml challenge_mm_2012.yml challenge_klassico_2012.yml challenge_usopen_2012.yml challenge_wimbledon_2012.yml challenge_tdf_2012.yml

@@ -1,0 +1,123 @@
+.ranking-rules-table {
+	margin: 0px;
+	padding: 0px;
+	width: 698px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.td-default-ranking-rules {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	text-align: left;
+	width: 698px;
+}
+
+.td-default-title {
+	margin: 17px 0px 5px 13px;
+	padding: 0px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+}
+
+.td-default-text {
+	margin: 0px 0px 0px 13px;
+	padding: 0px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: black;
+}
+
+.td-default-text b {
+	color: #DB1F00;
+}
+
+.td-subtable-ranking {
+	margin: 0px 0px 0px 13px;
+	padding: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.td-subtable-ranking-default-text {
+	margin: 0px 0px 0px 13px;
+	padding: 0px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	color: #919295;
+	text-align: center;
+	background-color: white;
+}
+
+.td-subtable-ranking-default-text b {
+	color: #DB1F00;
+}
+
+.td-subtable-ranking-cell-header1 {
+	width: 198px;
+	height: 16px;
+	background: url(/image/default/f1/interface/rule_header1.jpg) top left no-repeat white;
+}
+
+.td-subtable-ranking-defalut-cell {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+}
+
+.td-subtable-ranking-defalut-cell {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+}
+
+.td-subtable-ranking-cell-results {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #DB1F00;
+}
+
+.td-subtable-ranking-cell-results b {
+	font-size: 26px;
+}
+
+.td-subtable-ranking-cell-header2 {
+	width: 330px;
+	height: 25px;
+	background: url(/image/default/f1/interface/rule_header2.jpg) top left no-repeat white;
+}
+
+.td-subtable-default-cell, .td-subtable-ranking-last-cell {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	width: 66px;
+	height: 59px;
+	border-right: 1px solid #B5B6B8;
+	background-color: white;
+	text-align: center;
+}
+
+.td-subtable-ranking-last-cell {
+	border: none;
+	background-color: white;
+}
+
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}

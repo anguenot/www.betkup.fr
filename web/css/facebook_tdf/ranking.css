@@ -1,0 +1,84 @@
+.span-ranking {
+	background: white;
+}
+
+#ranking-tabs {
+	width: 730px;
+	height: 60px;
+	margin: 20px auto;
+}
+
+#ranking-tabs ul {
+	margin: 0px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#ranking-tabs ul li {
+	float: left;
+	margin-left: 5px;
+}
+
+#ranking-tabs ul li a {
+	position: relative;
+	display: block;
+	width: 177px;
+	height: 50px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font: normal 14px Arial;
+	line-height: 50px;
+	background: #FABB00;
+}
+
+#ranking-tabs ul li a .arrow-down {
+	position: absolute;
+	display: inline-block;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #FABB00;
+	bottom: -10px;
+	left: 50%;
+	margin-left: -5px;
+}
+
+#ranking-tabs ul li a:hover, #ranking-tabs ul li a.selected-tab {
+	background: #040404;
+	color: #FABB00;
+}
+
+#ranking-tabs ul li a:hover .arrow-down, #ranking-tabs ul li a.selected-tab .arrow-down {
+	border-top: 10px solid #040404;
+}
+
+#ranking-content table.ranking-table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 730px;
+	margin: 0px auto;
+}
+
+#ranking-content table.ranking-table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#ranking-wall {
+	width: 730px;
+}
+
+#ranking-view table td {
+	vertical-align: middle;
+}
+
+.ranking-pagination {
+	position: relative;
+	float: right;
+	width: 400px;
+	margin-top: 0px;
+	margin-right: -20px;
+}

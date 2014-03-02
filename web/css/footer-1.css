@@ -1,0 +1,264 @@
+/* 
+    Document   : footer
+    Created on : 25 mai 2011, 14:02:48
+    Author     : jerome
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.mainFooter {
+    position: relative;
+    display: block;
+    height: 710px;
+    background: url('/images/footer/background-1.png') center top;
+    clear: both;
+    margin-top: -20px;
+    z-index: 10;
+	font-family: Arial;
+}
+
+a.map {
+
+    position: absolute;
+    top: 25px;
+    width: 40px;
+    left: 45%;
+    margin-left: -165px;
+    height: 35px;
+}
+
+
+.mainFooter #twitter {
+
+    position: absolute;
+    top: 15px;
+    width: 365px;
+    left: 50%;
+    margin-left: -165px;
+    height: 45px;
+	font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #6666;
+	overflow: hidden;
+
+}
+.spacer {
+	visibility: hidden;
+	height: 8px;
+}
+
+.mainFooter #twitter a{
+    font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-size: 12px;
+    color : #FFA900;	
+	text-decoration:underline;
+}
+
+.mainFooter .twitter #tweets {
+	position: absolute;
+	left: 0;
+	top: 0;
+    width: 325px;
+    height: 32px;
+}
+
+.mainFooter .twitter .tweet {
+    width: 325px;
+    height: 32px;
+}
+
+.mainFooter .twitter-navigator {
+	position: absolute;
+    top: 22px;
+    left: 50%;
+    margin-left: 255px;
+}
+
+.mainFooter .follow-us {
+    color: white;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -495px;
+    position: relative;
+    text-align: center;
+    top: 35px;
+    width: 990px;
+}
+
+.mainFooter .toppage {
+    position: absolute;
+    right: 0;
+    top: -13px;
+}
+.mainFooter .follow-us img {
+    top: 6px;
+    position: relative;
+}
+
+.mainFooter .infos {
+    clear: both;
+    display: block;
+    width: 990px;
+    left: 50%;
+    margin: 0px;
+    margin-left: -495px;
+    position: relative;
+}
+
+.mainFooter .infos div {
+    position: absolute;
+    display: block;
+    text-align: left;
+}
+
+.mainFooter .about {
+    top: 65px;
+    left: 100px;
+}
+
+.mainFooter .legal {
+    top: 65px;
+    left: 365px;
+}
+
+.mainFooter .more {
+    top: 65px;
+    left: 700px;
+}
+
+.mainFooter .legality {
+    top: 220px;
+    left: 50px;
+    width: 240px;
+    color: #575756;
+}
+
+.mainFooter .reliability {
+    top: 220px;
+    left: 370px;
+    width: 240px;
+    color: #575756;
+}
+
+.mainFooter .transparency {
+    top: 220px;
+    left: 690px;
+    width: 240px;
+    color: #575756;
+}
+
+.mainFooter .legality p {
+    padding: 0 10px 0 10px;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.mainFooter .reliability p {
+    font-size: 10px;
+    padding: 0 10px 0 7px;
+    margin-bottom: 5px;
+}
+
+.mainFooter .transparency p {
+    font-size: 10px;
+    padding: 0 10px 0 5px;
+    margin-bottom: 5px;
+}
+
+.mainFooter .bets {
+    color: #565655;
+    font-size: 16px;
+}
+
+.mainFooter .in-all {
+    color: #ed7421;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.mainFooter .know-more {
+    float: right;
+    clear: both;
+    color: #575756;
+    margin-right: 15px;
+    text-decoration: underline;
+    font: 10px Verdana, serif;
+}
+
+.mainFooter .sponsor {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.mainFooter H1 {
+    font-size: 16px;
+    text-shadow: 0 0 1px white;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.mainFooter .infos UL {
+    margin-top: 13px;
+    list-style-type: none;
+}
+
+.mainFooter .infos UL LI, .mainFooter .infos UL LI A {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #EEEEEE;
+    line-height: 16px;
+}
+
+.mainFooter .infos UL LI A:hover {
+    text-decoration: underline;
+}
+
+.mainFooter .game_interdiction {
+	margin: 0;
+	padding: 0;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 440px;
+    width: 900px;
+    color: #FFFFFF;
+}
+
+.mainFooter .game_interdiction h1 a { 
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Arial;
+	text-shadow: 0 0 1px white;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.mainFooter .game_interdiction p {
+	text-indent: 20px;
+	margin-top: 20px;
+}
+
+
+.mainFooter .game_interdiction p a {
+	color: #E5E5E5;	
+	font-size: 12px;
+	font-family: Arial;
+	line-height: 20px;
+}
+
+.mainFooter .game_interdiction p a:hover, .mainFooter .game_interdiction h1 a:hover {
+	text-decoration: underline;
+}

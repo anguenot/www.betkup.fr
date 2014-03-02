@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_2012_hcup_match_match
+  typeSport: rugby
+  picto: rugby.png
+  picto_mini: picto_rugby_mini.png
+  category: Rugby > HCup
+  events: 7 matchs
+  document_path: /kup/rugby/hcup/2012/match_match/document
+  vignette_kup_view: /kup/rugby/hcup/2012/match_match/image/vignette_kup_view.png
+  vignette_home_view: /kup/rugby/hcup/2012/match_match/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/rugby/hcup/2012/match_match/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/rugby/hcup/2012/match_match/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/rugby/hcup/2012/match_match/image/vignette_edition_kup.png
+  isPrizes: 1
+  rules_view_template: rugby,kup_hcup_2012_match_match
+  predictions_view_template: rugby,predictions
+  results_view_template: rugby,results
+  nbRules: 1
+  prizeValue: 80
+  img_box_right: /kup/rugby/hcup/2012/match_match/image/img_box_right.png
+  img_prize_1: /kup/rugby/hcup/2012/match_match/image/img_prize_1.png
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: label_kup_mix_eu_prize_1
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button: /kup/rugby/hcup/2012/match_match/image/box_prizes_button.png

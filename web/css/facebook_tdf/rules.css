@@ -1,0 +1,175 @@
+.rules-container {
+	background-color: white;
+	padding: 10px;
+}
+
+.rules-header {
+	display: table;
+	width: 100%;
+	height: 60px;
+}
+
+.rules-header h4 {
+	display: table-cell;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+}
+
+.rules-header h4 {
+	text-align: center;
+}
+
+h3 {
+	color: #FABB00;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+p {
+	text-align: justify;
+}
+
+.margin {
+	margin: 15px 2px;
+}
+
+.img-1 {
+	width: 244px;
+	height: 190px;
+	margin: 0px auto;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -43px -25px no-repeat;
+}
+
+.img-2 {
+	width: 328px;
+	height: 164px;
+	margin: 0px auto;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -362px -40px no-repeat;
+}
+
+.rules-prizes-container {
+	border: 2px solid #D6D8D8;
+}
+
+
+.border-rules {
+	border-bottom: 1px solid #D6D8D8;
+}
+
+
+.center {
+	text-align: center;
+}
+
+.prize-title-table {
+	margin: 10px 30px;
+	width: 100%;
+}
+
+.prize-title-table td {
+	vertical-align: middle;
+}
+
+.title-prize-img {
+	width: 39px;
+	height: 38px;
+	background: url('/image/default/tdf/interface/sprite_interface.png') -94px -237px no-repeat;
+}
+
+.green {
+	color: #c5cd09;
+}
+
+.big {
+	font-size: larger;
+}
+
+.colored {
+	color: #FABB00;
+}
+
+.center-big {
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.black {
+	color: black;
+}
+
+.prize-box-big {
+	background-color: #f7f7f7;
+	margin: 0px auto;
+	width: 90%;
+}
+
+.prize-box-small {
+	background-color: #f7f7f7;
+	margin: 0px auto;
+	width: 100%;
+}
+
+.img-prize {
+	margin: 0px auto;
+}
+
+.img-prize-1 {
+	width: 295px;
+	height: 190px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -25px -252px no-repeat;
+}
+
+.img-prize-2 {
+	width: 200px;
+	height: 206px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -363px -239px no-repeat;
+}
+
+.img-prize-3 {
+	width: 136px;
+	height: 196px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -616px -265px no-repeat;
+}
+
+.img-prize-4 {
+	width: 168px;
+	height: 203px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -37px -482px no-repeat;
+}
+
+.img-prize-5 {
+	width: 136px;
+	height: 196px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -616px -265px no-repeat;
+}
+
+.img-prize-6 {
+	width: 238px;
+	height: 203px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -284px -484px no-repeat;
+}
+
+.img-prize-7 {
+	width: 179px;
+	height: 195px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_rules.png') -637px -491px no-repeat;
+}
+
+.img-plus {
+	width: 44px;
+	height: 44px;
+	background: url('/image/default/tdf/interface/sprite_interface.png') -24px -232px no-repeat;
+	margin-top: 80px;
+}

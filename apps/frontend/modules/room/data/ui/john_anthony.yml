@@ -1,0 +1,31 @@
+ui:
+  roomName: John Anthony
+  avatar-room: /partner/john_anthony/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/john_anthony/image/header_logo.png
+  header-room-logo-size: 398x80
+  header-bg: /partner/john_anthony/image/header_bg_room.png
+  kup-header-bg: /partner/john_anthony/image/header_bg_kup.png
+  path-img-title-bg: /partner/john_anthony/image/title.png
+  path-img-title-question: /partner/john_anthony/image/header_question_john_anthony.png
+  path-img-title-kup: /partner/john_anthony/image/header_kup_john_anthony.png
+  path-img-list: /partner/john_anthony/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 1
+  body-bg-img-top-left: /partner/john_anthony/image/logo_john_anthony.png
+  body-bg-img: /partner/john_anthony/image/bg_room_john_anthony.png
+  body-bg-color: '#021D2E'
+  isRoomNameColorPerso: 1
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/john_anthony/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/john_anthony/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0

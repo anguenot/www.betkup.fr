@@ -1,0 +1,174 @@
+ui:
+  roomName: Fan2Sport
+  text_room_welcome_text: text_room_fan2sport_welcome_text
+  room_welcome_background: /partner/fan2sport/image/welcome.png
+  avatar-room: /partner/fan2sport/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/fan2sport/image/header_logo.png
+  header-room-logo-size: 209x86
+  header-bg: /partner/fan2sport/image/header_bg_room.png
+  kup-header-bg: /partner/fan2sport/image/header_bg_kup.png
+  path-img-title-bg: /partner/fan2sport/image/title.png
+  path-img-title-question: /partner/fan2sport/image/header_question_fan2sport.png
+  path-img-title-kup: /partner/fan2sport/image/header_kup_fan2sport.png
+  path-img-list: /partner/fan2sport/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 1
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 1
+  body-bg-img: /partner/fan2sport/image/bg_room_fan2sport.jpeg
+  body-bg-color: '#E40138'
+  isRoomNameColorPerso: 1
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/fan2sport/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/fan2sport/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 1
+  isBoxPrizesCustom: 1
+  box-prize-title-bg: /partner/fan2sport/image/box_title_prizes.png
+  img-box-prizes: /partner/fan2sport/image/prizes_fan2sport.png
+  img_box-prizes-size: 150x97
+  total-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0
+  kups:
+    279082301:
+      prize_value: 275
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/fan2sport/kups/weekly/image
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      img_prize_6: img_prize_6.png
+      box-prizes:  /partner/fan2sport/kups/weekly/image/img_box_right.png
+      box-prizes-size: 99x84
+      box_prizes_button:
+      box-how-work: /partner/fan2sport/image/box_title_howto.png
+      box-prize-title-bg: /partner/fan2sport/image/box_title_prizes.png
+      img-box-prizes: /partner/fan2sport/image/prizes_fan2sport.png
+      img_box-prizes-size: 99x84
+      total-prizes: 6
+      prizes-1-positions: '1er'
+      prizes-2-positions: '2e '
+      prizes-3-positions: '3e'
+      prizes-4-positions: '4e et 5e'
+      prizes-5-positions: '6e et 7e'
+      prizes-6-positions: '8e au 10e'
+      prizes-1-label: 'Cadre photo'
+      prizes-2-label: 'Fifa 13 ou PES 13'
+      prizes-3-label: 'Ballon de foot'
+      prizes-4-label: '15€ de bonus'
+      prizes-5-label: '10€ de bonus'
+      prizes-6-label: '5€ de bonus'
+      prizes-1-label-details: 'Cadre photo (120€)'
+      prizes-2-label-details: 'Fifa 13 ou PES 13 (65€)'
+      prizes-3-label-details: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+      prizes-4-label-details: '15€ Freebet'
+      prizes-5-label-details: '10€ de bonus'
+      prizes-6-label-details: '5€ Freebeet'
+    279082302:
+      prize_value: 275
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/fan2sport/kups/weekly/image
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      img_prize_6: img_prize_6.png
+      box-prizes:  /partner/fan2sport/kups/weekly/image/img_box_right.png
+      box-prizes-size: 99x84
+      box_prizes_button:
+      box-how-work: /partner/fan2sport/image/box_title_howto.png
+      box-prize-title-bg: /partner/fan2sport/image/box_title_prizes.png
+      img-box-prizes: /partner/fan2sport/image/prizes_fan2sport.png
+      img_box-prizes-size: 99x84
+      total-prizes: 6
+      prizes-1-positions: '1er'
+      prizes-2-positions: '2e '
+      prizes-3-positions: '3e'
+      prizes-4-positions: '4e et 5e'
+      prizes-5-positions: '6e et 7e'
+      prizes-6-positions: '8e au 10e'
+      prizes-1-label: 'Cadre photo'
+      prizes-2-label: 'Fifa 13 ou PES 13'
+      prizes-3-label: 'Ballon de foot'
+      prizes-4-label: '15€ de bonus'
+      prizes-5-label: '10€ de bonus'
+      prizes-6-label: '5€ de bonus'
+      prizes-1-label-details: 'Cadre photo (120€)'
+      prizes-2-label-details: 'Fifa 13 ou PES 13 (65€)'
+      prizes-3-label-details: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+      prizes-4-label-details: '15€ Freebet'
+      prizes-5-label-details: '10€ de bonus'
+      prizes-6-label-details: '5€ Freebeet'
+    279082303:
+      prize_value: 215
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/fan2sport/kups/week_2325/image
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      box-prizes:  /partner/fan2sport/kups/week_2325/image/img_box_right.png
+      box-prizes-size: 150x97
+      box_prizes_button:
+      box-how-work: /partner/fan2sport/image/box_title_howto.png
+      box-prize-title-bg: /partner/fan2sport/image/box_title_prizes.png
+      img-box-prizes: /partner/fan2sport/image/prizes_fan2sport.png
+      img_box-prizes-size: 99x84
+      total-prizes: 5
+      prizes-1-positions: '1er-2e'
+      prizes-2-positions: '3e '
+      prizes-3-positions: '4e'
+      prizes-4-positions: '5e au 7e'
+      prizes-5-positions: '8e au 10e'
+      prizes-1-label: 'Fifa 13 ou PES 13'
+      prizes-2-label: 'Ballon de foot'
+      prizes-3-label: 'Album Yannick Noah'
+      prizes-4-label: '10€ de bonus'
+      prizes-5-label: '5€ de bonus'
+      prizes-1-label-details: 'Fifa 13 ou PES 13 (65€)'
+      prizes-2-label-details: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+      prizes-3-label-details: 'Album Yannick Noah (15€)'
+      prizes-4-label-details: '10€ Freebet'
+      prizes-5-label-details: '5€ de bonus'
+    279082304:
+      prize_value: 215
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/fan2sport/kups/week_2325/image
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      box-prizes:  /partner/fan2sport/kups/week_2325/image/img_box_right.png
+      box-prizes-size: 150x97
+      box_prizes_button:
+      box-how-work: /partner/fan2sport/image/box_title_howto.png
+      box-prize-title-bg: /partner/fan2sport/image/box_title_prizes.png
+      img-box-prizes: /partner/fan2sport/image/prizes_fan2sport.png
+      img_box-prizes-size: 99x84
+      total-prizes: 5
+      prizes-1-positions: '1er-2e'
+      prizes-2-positions: '3e '
+      prizes-3-positions: '4e'
+      prizes-4-positions: '5e au 7e'
+      prizes-5-positions: '8e au 10e'
+      prizes-1-label: 'Fifa 13 ou PES 13'
+      prizes-2-label: 'Ballon de foot'
+      prizes-3-label: 'Album Yannick Noah'
+      prizes-4-label: '10€ de bonus'
+      prizes-5-label: '5€ de bonus'
+      prizes-1-label-details: 'Fifa 13 ou PES 13 (65€)'
+      prizes-2-label-details: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+      prizes-3-label-details: 'Album Yannick Noah (15€)'
+      prizes-4-label-details: '10€ Freebet'
+      prizes-5-label-details: '5€ de bonus'

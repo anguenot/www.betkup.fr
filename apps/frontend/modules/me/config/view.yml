@@ -1,0 +1,10 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  has_layout:  true
+  layout:      layout_int
+
+indexSuccess:
+  stylesheets: [kup.css, room.css, my-account.css, prediction.css, kupview.css, me.css]
+  javascripts: [datetime.js, loading.js, hash-md5.js, ajaxQueues.js, sofunBatch-2.js]

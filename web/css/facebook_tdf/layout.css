@@ -1,0 +1,287 @@
+@font-face {
+font-family: 'FF DIN BOLD';
+src: url('/fonts/DINPro-Bold.eot?') format('eot'),
+     url('/fonts/DINPro-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'FF DIN REGULAR';
+src: url('/fonts/DINPro-Regular.eot?') format('eot'),
+     url('/fonts/DINPro-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+/*
+ * Fix for headings.
+ */
+.home-container h1,
+.home-container h2,
+.home-container h3,
+.home-container h4,
+.home-container h5,
+.home-container h6 {
+  margin: 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+.home-container h1 {
+  line-height: 36px;
+  font: bold 26px "FF DIN BOLD", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.home-container h1 small {
+  font-size: 18px;
+}
+
+.home-container h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.home-container h2 small {
+  font-size: 18px;
+}
+
+.home-container h3 {
+  
+  line-height: 27px;
+  font: bold 16px "FF DIN BOLD", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.home-container h3 small {
+  font-size: 14px;
+}
+
+.home-container h4,
+.home-container h5,
+.home-container h6 {
+  line-height: 18px;
+}
+
+.home-container h4 {
+  font-size: 14px;
+}
+
+.home-container h4 small {
+  font-size: 12px;
+}
+
+.home-container h5 {
+  font-size: 12px;
+}
+
+.home-container h6 {
+  font-size: 11px;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+#body-contener {
+	background: url('/image/default/tdf/interface/cycling_patern.png') repeat;
+	min-width: 900px;
+}
+
+.menu-bar {
+	width: 100%;
+	background: #fabb00; /* Old browsers */
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.menu {
+	display: table;
+	margin: 0px auto;
+	list-style: none;
+}
+
+.menu li {
+	display: inline-table;
+}
+
+.menu li a {
+	display: inline-block;
+	color: black;
+	font: bold 14px "FF DIN BOLD", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 12px 25px;
+}
+
+.menu li a:hover, .menu li a.selected {
+	background: #040404;
+	color: #ffda00;
+}
+
+.header {
+	display: block;
+	margin: 0px;
+	width: 100%;
+	height: 100px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+	background: #0B0B0B url('/image/default/tdf/interface/sprite_interface.png') center top no-repeat;
+}
+
+.header-fixed {
+	display: block;
+	position: relative;
+	width: 900px;
+	margin: 0px auto;
+}
+
+.header-social-box {
+	position: absolute;
+	right: 120px;
+	top: 75px;
+	text-align: center;
+}
+
+#header-logo {
+	width: 185px;
+	height: 96px;
+	background: url('/image/default/tdf/interface/sprite_interface.png') -20px -114px no-repeat;
+	float: left;
+}
+
+#header-logo-betkup {
+	position: absolute;
+	width: 124px;
+	height: 73px;
+	left: 200px;
+	background: url('/image/default/tdf/interface/sprite_interface.png') -210px -145px no-repeat;
+	
+}
+
+.footer {
+	display: block;
+	margin: 0px;
+	width: 100%;
+	height: 70px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+	background: #3a3a3a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3a3a3a 0%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a3a3a), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3a3a3a 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3a3a3a 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3a3a3a 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3a3a3a 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.row-footer {
+	height: 70px;
+	width: 850px;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+.row-footer a {
+	font: normal 16px "FF DIN REGULAR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FABB00;
+}
+
+.row-footer a:hover {
+	color: #f9e8b8;
+}
+
+.row-footer table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer-play {
+	width: 25px;
+	height: 19px;
+	background: url('/image/default/tdf/interface/sprite_interface.png') -28px -298px no-repeat;
+}
+
+.tdf-box-title {
+	width: 100%;
+	height: 30px;
+	background: #f4d386; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f4d386 0%, #f7c64c 50%, #fabb00 51%, #f7d576 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4d386), color-stop(50%,#f7c64c), color-stop(51%,#fabb00), color-stop(100%,#f7d576)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f4d386 0%,#f7c64c 50%,#fabb00 51%,#f7d576 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f4d386 0%,#f7c64c 50%,#fabb00 51%,#f7d576 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f4d386 0%,#f7c64c 50%,#fabb00 51%,#f7d576 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f4d386 0%,#f7c64c 50%,#fabb00 51%,#f7d576 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d386', endColorstr='#f7d576',GradientType=0 ); /* IE6-9 */
+}
+
+.tdf-box-title h1 {
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	font: normal 18px "FF DIN REGULAR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-indent: 10px;
+	text-align: left;
+	line-height: 30px;
+	float: left;
+	text-shadow: 0px 0px 2px #FFFFFF;
+    filter: dropshadow(color=#FFFFFF, offx=0, offy=0);
+}
+
+.tdf-box-contents {
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #F7F7F7;
+	background: white;
+}
+
+#chrono {
+	position: absolute;
+	right: 20px;
+	width: 151px;
+	height: 44px;
+	margin-top: -10px;
+	background: transparent url('/image/default/sport24/chrono.png') top left no-repeat;
+}
+
+.tdf-progress-bar {
+	width: 400px;
+	position: relative;
+	display: block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 40px;
+}
+
+#tdf-progress-bar-text-table,
+#tdf-progress-bar-picto-table {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#tdf-progress-bar-text-table td,
+#tdf-progress-bar-picto-table td {
+	vertical-align: middle;
+	text-align: center;
+	width: 25%;
+	font: normal 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+.progress-picto {
+	margin: 0px auto;
+	width: 19px;
+	height: 19px;
+	background: url('/image/default/tdf/interface/sprite_interface.png') -179px -237px no-repeat;
+}
+
+.progress-picto-selected {
+	margin: 0px auto;
+	width: 19px;
+	height: 19px;
+	background: url('/image/default/tdf/interface/sprite_interface.png') -155px -237px no-repeat;
+}

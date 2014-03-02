@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+
+/* Selectmenu
+----------------------------------*/
+.tennisSelect.ui-selectmenu { 
+	display: block; 
+	position: relative;
+	height: 23px;
+	vertical-align: middle; 
+	text-decoration: none; 
+	overflow: hidden; 
+	zoom: 1; 
+	background: #d3d3d3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d3d3d3 0%, #e8e8e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#e8e8e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d3d3d3 0%,#e8e8e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d3d3d3 0%,#e8e8e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d3d3d3 0%,#e8e8e8 100%); /* IE10+ */
+	background: linear-gradient(top,  #d3d3d3 0%,#e8e8e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3d3', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #979797;
+	color: #8A8A8A;
+	font: normal 14px Arial;
+	text-align: left;
+	border-radius: 0px;
+}
+.tennisSelect.ui-selectmenu-icon {
+	height: 23px;
+	width: 20px;
+	display: block;
+	position:absolute;
+	right:0px; 
+	margin-top: -11px; 
+	border: none;
+	background: url('/image/default/tennis/sprites_tennis.png') -60px -100px no-repeat;
+}
+
+.tennisSelect.ui-state-default .ui-icon {
+	background: url('/image/default/tennis/sprites_tennis.png') -60px -100px no-repeat;
+}
+
+.tennisSelect.ui-state-focus .ui-icon {
+	background: url('/image/default/tennis/sprites_tennis.png') -60px -100px no-repeat;
+}
+
+.tennisSelect.ui-state-hover .ui-icon {
+	background: url('/image/default/tennis/sprites_tennis.png') -110px -100px no-repeat;
+}
+
+.tennisSelect.ui-state-active .ui-icon {
+	background: url('/image/default/tennis/sprites_tennis.png') -110px -100px no-repeat;
+}
+
+.ui-selectmenu-menu { 
+	padding:0; 
+	margin:0; 
+	position:absolute; 
+	top: 0; 
+	display: none; 
+	z-index: 1005; /* z-index: 1005 to make selectmenu work with dialog */
+} 
+.ui-selectmenu-menu ul.tennisSelect { 
+	padding:0;
+	margin:0; 
+	list-style:none; 
+	position: relative; 
+	overflow: auto; 
+	overflow-y: auto; 
+	overflow-x: hidden; 
+} 
+.ui-selectmenu-open { 
+	display: block;
+}
+.tennisSelect.ui-selectmenu-menu-popup { 
+	margin-top: -1px; 
+}
+.ui-selectmenu-menu .tennisSelect li { 
+	padding:0; 
+	margin:0; 
+	display: block;
+	border: none;
+	font-weight: normal !important;
+}
+
+.tennisSelect.formInputSelect:hover {
+	border: 1px solid #006AA8;
+}
+
+.ui-selectmenu-open .tennisSelect li:hover {
+	border:none;
+}
+
+.ui-selectmenu-open .tennisSelect li.ui-selectmenu-item-focus a {
+	border: none;
+	background-color: #006AA8;
+	color: white;
+}
+
+.ui-selectmenu-open .tennisSelect li.ui-selectmenu-item-selected a {
+	border: none;
+	background-color: #006AA8;
+	color: white;
+}
+
+.tennisSelect .ui-selectmenu-status { 
+	font: normal 14px Arial;
+	color: #006AA8;
+	display: block;
+	padding: 3px 2px 2px 8px;
+}
+
+.ui-selectmenu-menu .tennisSelect li a {
+	font-family: Arial;
+	font-size: 12px;
+	color: #8A8A93;
+	display: block; 
+	padding: .405em 1.8em .405em 1em; 
+	outline: none; 
+	text-decoration:none;	
+	border: none;
+}
+
+.ui-selectmenu-menu .tennisSelect li.ui-state-disabled a, .tennisSelect.ui-state-disabled { 
+	cursor: default; 
+	background-color: #E6E6E6;
+	border: 1px solid #979797;
+	color: #8A8A8A;
+}
+.ui-selectmenu-menu .tennisSelect li.ui-selectmenu-hasIcon a,
+.tennisSelect.ui-selectmenu-hasIcon .ui-selectmenu-status { 
+	padding-left: 20px; 
+	position: relative; 
+	margin-left: 5px; 
+}
+.ui-selectmenu-menu .tennisSelect li .ui-icon, .tennisSelect .ui-selectmenu-status .ui-icon { 
+	position: absolute; 
+	top: 1em; 
+	margin-top: -8px; 
+	left: 0; 
+}
+.tennisSelect .ui-selectmenu-status { 
+	line-height: 18px; 
+}
+
+.ui-selectmenu-menu .tennisSelect li span, .tennisSelect .ui-selectmenu-status span { 
+	display:block; 
+	margin-bottom: .2em;
+}
+.ui-selectmenu-menu .tennisSelect li .ui-selectmenu-item-header { 
+	font-weight: bold; 
+	font-size: 14px;
+	font-family: Arial;
+}
+
+.ui-selectmenu-menu .tennisSelect li .ui-selectmenu-item-content {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+.ui-selectmenu-menu .tennisSelect li .ui-selectmenu-item-footer { 
+	opacity: 0.8; 
+}
+/* for optgroups */
+.ui-selectmenu-menu .tennisSelect .ui-selectmenu-group { 
+	font-size: 1em; 
+}
+.ui-selectmenu-menu .tennisSelect .ui-selectmenu-group .ui-selectmenu-group-label { 
+	line-height: 1.4em; 
+	display:block; 
+	padding: .6em .5em 0; 
+	font-weight: bold; 
+}
+.ui-selectmenu-menu .tennisSelect .ui-selectmenu-group ul { 
+	margin: 0; 
+	padding: 0; 
+}
+/* IE6 workaround (dotted transparent borders) */
+* html .ui-selectmenu-menu .tennisSelect li { 
+	border-color: pink; 
+	filter:chroma(color=pink); 
+	width:100%; 
+}
+* html .ui-selectmenu-menu .tennisSelect li a { 
+	position: relative 
+}
+/* IE7 workaround (opacity disabled) */
+*+html .tennisSelect.ui-state-disabled, *+html .tennisSelect.ui-state-disabled a { 
+	color: silver; 
+}

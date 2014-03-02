@@ -1,0 +1,65 @@
+ui:
+  kupName: label_kup_title_ldc_2012_real_bayern
+  typeSport: soccer
+  picto: foot.png
+  category: Football > Champions L.
+  events: 10 critères
+  picto_mini: picto_foot_mini.png
+  document_path: 
+  vignette_kup_view: /kup/soccer/cl/2012/real_bayern/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/cl/2012/real_bayern/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/cl/2012/real_bayern/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/cl/2012/real_bayern/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/cl/2012/real_bayern/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_cl_2012_real_bayern
+  predictions_view_template: soccer,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1: 
+  img_prize_2: 
+  img_prize_3:
+  prize_1_label:
+  prize_2_label:
+  prize_3_label:
+  box_prizes_button: 
+  questions:
+    f435001:
+      helper: label_kup_question_exact_prolongation
+      label: label_kup_question_exact_prolongation
+      points: 20
+    winner:
+      label: label_kup_question_winner
+      points: 6
+    68:
+      helper: label_kup_question_players
+      label: label_question_ronaldo_real_scores 
+      points: 5
+    61:
+      helper: label_kup_question_players
+      label: label_question_gomez_bayern_scores 
+      points: 5
+    23:
+      label: label_question_team_winner_half_time 
+      points: 5
+    24:
+      label: label_question_team_winner_second_half
+      points: 5
+    26:
+      label: label_question_team_first_scores 
+      points: 5
+    27:
+      label: label_question_which_quaters_first_score
+      points: 15
+    25:
+      label: label_question_goals_difference_at_end 
+      points: 15
+    44:
+      label: label_question_extra_or_shootouts  
+      points: 10
+    45:
+      label: label_question_which_team_qualifies  
+      points: 10
+    

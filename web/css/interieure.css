@@ -1,0 +1,107 @@
+/* 
+    Document   : interieure
+    Created on : 25 mai 2011, 17:55:55
+    Author     : jerome
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+root {
+    display: block;
+}
+
+div.logo_betkup {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin: 0px 0px 0px -485px;
+    z-index: 20;
+    width: 320px;
+    height: 192px;
+}
+
+div.top_infos {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    margin: 0px 0px 0px 95px;
+    z-index: 30;
+    width: 400px;
+    height: 100px;
+}
+
+div.top_infos p.bienvenue {
+    margin: 6px 8px 0px 0px;
+    text-align: right;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+}
+
+div.top_infos p.bienvenue a {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+div.top_infos p.bienvenue a:hover {
+    color: #F28A31;
+    text-decoration: underline;
+}
+
+div.top_infos p.gratuit {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: #cd6629;
+    font-familiy: KupBlocGain, Helvetica, Arial, sans-serif;
+    font-style: bold;
+    font-weight: normal;
+}
+
+div.top_onglets {
+    position: absolute;
+    left: 50%;
+    top: 62px;
+    margin: 54px 0px 0px 95px;
+    z-index: 40;
+    width: 400px;
+    height: 46px;
+}
+
+div.top_facebookjaime {
+    position: absolute;
+    left: 50%;
+    top: 65px;
+    margin: 54px 0px 0px -144px;
+    z-index: 40;
+    width: 115px;
+    height: 35px;
+}
+
+ul#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+ul#menu li {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: white;
+    font-size: 14px;
+    font-familiy: KupBlocGain, Helvetica, Arial, sans-serif;
+    font-style: bold;
+    font-weight: normal;
+}

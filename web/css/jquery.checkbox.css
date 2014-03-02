@@ -1,0 +1,91 @@
+/*
+ * CSS FILE FOR K8 RADIO BUTTON CUSTOM SKIN
+ * 
+ * @package    betkup.fr
+ * @author     Sofun Gaming SAS
+ */
+
+/*
+ * CUSTOM LEFT RADIO HOME (1)
+ */
+
+.left-radio      {display: inline; font-size: 20px; line-height: 23px; cursor: pointer; cursor: hand;}
+.left-radio .mark {display: inline;}
+
+.left-radio img{
+	vertical-align: middle; width: 18px; height: 23px;
+	background: transparent url(/image/default/k8/interface/checkbox.png) no-repeat;
+	background-position: 0px -45px;
+}
+.left-radio-hover img{
+	background-position: 0px -68px;
+}
+.left-radio-checked img{
+	background-position: 0px -91px;
+}
+.left-radio-checked .left-radio-hover img {
+	background-position: 0px -91px;
+}
+
+.left-radio-disabled img{
+	background-position: 0px 0px;
+}
+.left-radio-checked .left-radio-disabled img{
+	background-position: 0px -22px;
+}
+
+/*
+ * CUSTOM RADIO N CENTER
+ */
+ 
+.center-radio      {display: inline; font-size: 20px; line-height: 23px; cursor: pointer; cursor: hand;}
+.center-radio .mark {display: inline;}
+
+.center-radio img{
+	vertical-align: middle; width: 18px; height: 23px;
+	background: transparent url(/image/default/k8/interface/checkbox.png) no-repeat;
+	background-position: -17px -45px;
+}
+.center-radio-hover img{
+	background-position: -17px -68px;
+}
+.center-radio-checked img{
+	background-position: -17px -91px;
+}
+.center-radio-checked .center-radio-hover img {
+	background-position: -17px -91px;
+}
+.center-radio-disabled img{
+	background-position: -17px 0px;
+}
+.center-radio-checked .center-radio-disabled img{
+	background-position: -17px -22px;
+}
+ 
+ /*
+ * CUSTOM RADIO EXTERIORS (2)
+ */
+ 
+.right-radio      {display: inline; font-size: 20px; line-height: 23px; cursor: pointer; cursor: hand;}
+.right-radio .mark {display: inline;}
+
+.right-radio img{
+	vertical-align: middle; width: 18px; height: 23px;
+	background: transparent url(/image/default/k8/interface/checkbox.png) no-repeat;
+	background-position: -35px -45px;
+}
+.right-radio-hover img{
+	background-position: -35px -68px;
+}
+.right-radio-checked img{
+	background-position: -35px -91px;
+}
+.right-radio-checked .right-radio-hover img {
+	background-position: -35px -91px;
+}
+.right-radio-disabled img{
+	background-position: -35px 0px;
+}
+.right-radio-checked .right-radio-disabled img{
+	background-position: -35px -22px;
+}

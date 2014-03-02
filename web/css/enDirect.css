@@ -1,0 +1,158 @@
+.enDirect .content {
+    width: 990px;
+    background: url('/images/home/middle.png') center;
+}
+
+.enDirect .content .col1 {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 464px;
+    height: 190px;
+    background: url('/images/home/enDirect/backgroundActivite.png') center; 
+    margin-left: 40px;
+    text-align: left;
+}
+
+.enDirect .content .header_table_select{
+	width: 50%; 
+	position: absolute; 
+	vertical-align: middle; 
+	right: -20px;
+}
+
+.enDirect .content .col2 {
+    float: left;
+    width: 446px;
+    height: 190px;
+    background: url('/images/home/enDirect/backgroundClassement.png') center; 
+}
+
+.enDirect .content .col1 .datas, .enDirect .content .col2 .datas {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 426px;
+    height: 138px;
+  /*  margin-top: 45px; */
+}
+.enDirect .content .col2 .datas {
+    width: 446px;
+}
+
+.enDirect .content .col1 .datas .cellule1, .enDirect .content .col2 .datas .cellule1 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 28px;
+    height: 26px;
+    margin-right: 2px;
+    line-height: 26px;
+}
+.enDirect .content .col2 .datas .cellule1 {
+    width: 35px;
+}
+
+.enDirect .content .col1 .datas .cellule2, .enDirect .content .col2 .datas .cellule2 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 329px;
+    height: 26px;
+    margin-right: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #575756;
+    line-height: 26px;
+}
+.enDirect .content .col2 .datas .cellule2 {
+    width: 35px;
+}
+
+.enDirect .content .col1 .datas .cellule3, .enDirect .content .col2 .datas .cellule3 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 64px;
+    height: 26px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #575756;
+    line-height: 30px;
+    overflow: hidden;
+}
+.enDirect .content .col2 .datas .cellule3 {
+    width: 266px;
+    margin-right: 2px;
+}
+
+.enDirect .content .col1 .datas .cellule1 P,
+.enDirect .content .col2 .datas .cellule1 P,
+.enDirect .content .col1 .datas .cellule3 P,
+.enDirect .content .col2 .datas .cellule3 P,
+.enDirect .content .col1 .datas .cellule4 P,
+.enDirect .content .col2 .datas .cellule4 P {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #575756;
+    margin-left: 6px;
+    overflow: hidden;
+}
+
+.enDirect .content .col2 .datas .cellule1 P {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.enDirect .content .col2 .datas .cellule3 P {
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #575756;
+}
+
+.enDirect .content .col2 .datas .cellule4 P {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #575756;
+}
+
+.enDirect .content .col2 .datas .cellule4 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 87px;
+    height: 26px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #575756;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.enDirect .content .col1 .datas .cellule2 IMG, .enDirect .content .col2 .datas .cellule3 IMG {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin: 2px;
+    margin-right: 7px;
+}
+
+.enDirect .fonce {
+    background-color: #EEEEEE;
+}
+
+.enDirect .clair {
+    background-color: #F6F6F6;
+}

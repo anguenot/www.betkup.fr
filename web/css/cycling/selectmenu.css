@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+
+/* Selectmenu
+----------------------------------*/
+.cycling-select.ui-selectmenu { 
+	display: inline-block; 
+	position: relative;
+	height: 27px;
+	vertical-align: middle; 
+	text-decoration: none; 
+	overflow: hidden; 
+	zoom: 1; 
+	background: #4c4c4c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 11%, #474747 35%, #2c2c2c 45%, #000000 46%, #2b2b2b 81%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(11%,#595959), color-stop(35%,#474747), color-stop(45%,#2c2c2c), color-stop(46%,#000000), color-stop(81%,#2b2b2b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 11%,#474747 35%,#2c2c2c 45%,#000000 46%,#2b2b2b 81%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4c4c4c 0%,#595959 11%,#474747 35%,#2c2c2c 45%,#000000 46%,#2b2b2b 81%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4c4c4c 0%,#595959 11%,#474747 35%,#2c2c2c 45%,#000000 46%,#2b2b2b 81%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 11%,#474747 35%,#2c2c2c 45%,#000000 46%,#2b2b2b 81%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #4c4c4c;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+	font: normal 14px Arial;
+	text-align: left;
+}
+.cycling-select.ui-selectmenu-icon {
+	height: 27px;
+	width: 20px;
+	display: block;
+	position:absolute;
+	right:0px; 
+	margin-top: -8px; 
+	border: none;
+}
+
+.ui-selectmenu-item-icon {
+	width: 22px;
+	height: 22px;
+}
+
+.ui-selectmenu-menu { 
+	padding:0; 
+	margin:0; 
+	position:absolute; 
+	top: 0; 
+	display: none;
+	z-index: 1005; /* z-index: 1005 to make selectmenu work with dialog */
+} 
+.ui-selectmenu-menu ul.cycling-select { 
+	padding:0;
+	margin:0; 
+	list-style:none; 
+	position: relative; 
+	overflow: auto; 
+	overflow-y: auto; 
+	overflow-x: hidden; 
+} 
+.ui-selectmenu-open { 
+	display: block;
+}
+.cycling-select.ui-selectmenu-menu-popup { 
+	margin-top: -1px; 
+}
+.ui-selectmenu-menu .cycling-select li { 
+	padding:0; 
+	margin:0; 
+	display: block;
+	border: none;
+	font-weight: normal !important;
+}
+
+.cycling-select.formInputSelect:hover {
+	border: 1px solid #595959;
+}
+
+.ui-selectmenu-open .cycling-select li:hover {
+	border:none;
+}
+
+.ui-selectmenu-open .cycling-select li.ui-selectmenu-item-focus a {
+	border: none;
+	background-color: #595959;
+	color: white;
+}
+
+.ui-selectmenu-open .cycling-select li.ui-selectmenu-item-selected a {
+	border: none;
+	background-color: #595959;
+	color: white;
+}
+
+.cycling-select .ui-selectmenu-status { 
+	font: normal 14px Arial;
+	color: white;
+	display: block;
+	padding: 3px 30px 2px 8px;
+	line-height: 22px; 
+}
+
+.ui-selectmenu-menu .cycling-select li a {
+	font-family: Arial;
+	font-size: 12px;
+	color: #8A8A93;
+	display: block; 
+	padding: 7px 5px 7px 5px; 
+	outline: none; 
+	text-decoration:none;
+	border: none;
+}
+
+.ui-selectmenu-menu .cycling-select li.ui-state-disabled a, .cycling-select.ui-state-disabled { 
+	cursor: default; 
+	background-color: #E6E6E6;
+	border: 1px solid #979797;
+	color: #8A8A8A;
+}
+.ui-selectmenu-menu .cycling-select li.ui-selectmenu-hasIcon a,
+.cycling-select.ui-selectmenu-hasIcon .ui-selectmenu-status { 
+	padding-left: 30px;
+	position: relative; 
+}
+.cycling-select .ui-selectmenu-status .ui-icon { 
+	position: absolute; 
+	top: 1em; 
+	margin-top: -12px;
+	left: 0; 
+}
+
+.ui-selectmenu-menu .cycling-select li .ui-icon {
+	position: absolute; 
+	top: 0px; 
+	margin-top: 3px;
+	left: 0; 
+}
+
+.ui-selectmenu-menu .cycling-select li span, .cycling-select .ui-selectmenu-status span { 
+	display:block; 
+	margin-bottom: .2em;
+}
+.ui-selectmenu-menu .cycling-select li .ui-selectmenu-item-header { 
+	font-weight: bold; 
+	font-size: 14px;
+	font-family: Arial;
+}
+
+.ui-selectmenu-menu .cycling-select li .ui-selectmenu-item-content {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+.ui-selectmenu-menu .cycling-select li .ui-selectmenu-item-footer { 
+	opacity: 0.8; 
+}
+/* for optgroups */
+.ui-selectmenu-menu .cycling-select .ui-selectmenu-group { 
+	font-size: 1em; 
+}
+.ui-selectmenu-menu .cycling-select .ui-selectmenu-group .ui-selectmenu-group-label { 
+	line-height: 1.4em; 
+	display:block; 
+	padding: .6em .5em 0; 
+	font-weight: bold; 
+}
+.ui-selectmenu-menu .cycling-select .ui-selectmenu-group ul { 
+	margin: 0; 
+	padding: 0; 
+}
+/* IE6 workaround (dotted transparent borders) */
+* html .ui-selectmenu-menu .cycling-select li { 
+	border-color: pink; 
+	filter:chroma(color=pink); 
+	width:100%; 
+}
+* html .ui-selectmenu-menu .cycling-select li a { 
+	position: relative 
+}
+/* IE7 workaround (opacity disabled) */
+*+html .cycling-select.ui-state-disabled, *+html .cycling-select.ui-state-disabled a { 
+	color: silver; 
+}

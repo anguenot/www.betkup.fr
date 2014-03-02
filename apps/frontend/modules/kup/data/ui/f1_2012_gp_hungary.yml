@@ -1,0 +1,37 @@
+ui:
+  kupName: label_kup_title_f1_gp_hungary
+  typeSport: f1
+  picto: f1.png
+  picto_mini: picto_f1_mini.png
+  category: Formula 1
+  events: 1 GP
+  document_path: /kup/f1/2012/gp_hungary/document
+  vignette_kup_view: /kup/f1/2012/gp_hungary/image/vignette_kup_view.png
+  vignette_home_view: /kup/f1/2012/gp_hungary/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/f1/2012/gp_hungary/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/f1/2012/gp_hungary/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/f1/2012/gp_hungary/image/vignette_edition_kup.png
+  isPrizes: 1
+  results_view_template: f1,results
+  rules_view_template: f1,kup_2012_free_rules
+  predictions_view_template: f1,predictions
+  nbRules: 1
+  prizeValue : 70
+  img_box_right: /kup/f1/2012/gp_malaysia/image/img_box_right.png
+  img_prize_1: /kup/f1/2012/gp_malaysia/image/img_prize_1.png
+  img_prize_2: /kup/f1/2012/gp_malaysia/image/img_prize_2.png
+  img_prize_3: /kup/f1/2012/gp_malaysia/image/img_prize_3.png
+  prize_1_label: label_f1_gp_australia_prize_1
+  prize_2_label: label_f1_gp_australia_prize_2
+  prize_3_label: label_f1_gp_australia_prize_3
+  box_prizes_button: /kup/f1/2012/gp_malaysia/image/box_prizes_button.png
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 11px
+    big_box:
+      title: 27px
+      description: 16px

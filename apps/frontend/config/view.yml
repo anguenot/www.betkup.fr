@@ -1,0 +1,22 @@
+# $Id: betkupActions.class.php 3088 2011-10-02 13:19:49Z anguenot $
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+    content-encoding: gzip
+    accept-encoding: gzip, deflate
+
+  metas:
+    title:        text_default_title
+    description:  text_default_description
+    keywords:     paris sportifs comunautaire, paris en ligne, paris sportifs, paris football, paris tennis, pronostics gratuits, pronostics football, paris formule 1, paris rugby, pronostics rugby, pronostics sportifs, pronostics tennis, concours de pronostics
+    language:     en, fr
+    robots:       index, follow
+
+  stylesheets:    [main.css, header.css, layout.css, account.css, footer-1.css, footer/twitter.css, multimedia.css, smoothness/jquery-ui-1.8.14.custom.css, widget.css, interface.css, smoothness/jquery.selectmenu.css, fancybox.css]
+  javascripts:    [jquery.js, jquery-ui-1.8.10.custom.js, jquery.mousewheel.js, php.default.min.js, noty/jquery.noty.js, noty/layouts/bottomLeft.js, noty/themes/default.js, json2.js, twitter.like.flash.message.js, jquery.cookie.js, popup_top.js, jquery.selectmenu.js, sofunBirthDateSaver.js, jquery.fancybox.js, hash-md5.js]
+
+  has_layout:     true
+  layout:         layout

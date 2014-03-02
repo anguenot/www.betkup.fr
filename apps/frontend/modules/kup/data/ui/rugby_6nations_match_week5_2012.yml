@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_6nations_match_week5
+  typeSport: rugby
+  picto: rugby.png
+  picto_mini: picto_rugby_mini.png
+  category: Rugby > VI Nations
+  events: 3 matchs
+  document_path: /kup/rugby/6nations/match_week5/document
+  vignette_kup_view: /kup/rugby/6nations/match_week5/image/vignette_kup_view.png
+  vignette_home_view: /kup/rugby/6nations/match_week5/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/rugby/6nations/match_week5/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/rugby/6nations/match_week5/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/rugby/6nations/match_week5/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: rugby,kup_6nations_match_week5
+  predictions_view_template: rugby,predictions
+  results_view_template: rugby,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:

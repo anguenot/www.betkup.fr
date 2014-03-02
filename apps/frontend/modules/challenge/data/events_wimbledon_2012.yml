@@ -1,0 +1,9 @@
+datas:
+  isArchive: 1
+  type: events
+  title: events_wimbledon_2012_title
+  avatar: /image/default/challenge/challenges/avatar/events_wimbledon_2012.png
+  link: kup,home
+  link_label: kups_euro_2012_link_label
+  arguments: [events_wimbledon_2012_kups, events_wimbledon_2012_winners, events_wimbledon_2012_ranking, events_wimbledon_2012_events, events_wimbledon_2012_jackpot]
+  kups_search_params: [SPORTS_TENNIS, STAKE_ALL, status_IN_PROGRESS, status_IN_COMMING, SORTING_START_DATE]

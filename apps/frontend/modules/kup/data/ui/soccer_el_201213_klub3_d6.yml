@@ -1,0 +1,46 @@
+ui:
+  kupName: label_kup_title_201213_el_klub3_d6
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Europa League
+  events: 3 matchs
+  document_path: /kup/soccer/el/201213/klub3/document
+  vignette_kup_view: /kup/soccer/el/201213/klub3/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/el/201213/klub3/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/el/201213/klub3/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/el/201213/klub3/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/el/201213/klub3/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_el_201213_klub3
+  predictions_view_template: soccer,predictions
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    se:
+      label: 'Pronostiquez le Score exact final'
+      points: '15/5 pts'
+    21:
+      label: 'Pronostiquez le premier buteur du match ?'
+      points: '15 pts'
+    25:
+      label: 'Pronostiquez le nombre de buts d\'écart à la fin du match ?'
+      points: '5 pts'

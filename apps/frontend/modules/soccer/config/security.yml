@@ -1,0 +1,12 @@
+default:
+  is_secure: true
+  credentials: member
+
+euro2012FullPredictionsGroup:
+  is_secure: false
+
+euro2012FullPredictionsFinal:
+  is_secure: false
+
+isUserConnected:
+  is_secure: false

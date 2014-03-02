@@ -1,0 +1,78 @@
+ui:
+  kupName: label_kup_title_201213_nba_match_lakers
+  typeSport: basket
+  picto: basket.png
+  picto_mini: picto_basket_mini.png
+  category: Basket > NBA
+  events: Saison 2012/13
+  document_path: /kup/basket/nba/201213/match_lakers/document
+  vignette_kup_view: /kup/basket/nba/201213/match_lakers/image/vignette_kup_view.png
+  vignette_home_view: /kup/basket/nba/201213/match_lakers/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/basket/nba/201213/match_lakers/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/basket/nba/201213/match_lakers/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/basket/nba/201213/match_lakers/image/vignette_edition_kup.png
+  isPrizes: 1
+  isCustom: 1
+  results_view_template: soccer,results
+  rules_view_template: basket,kup_nba_201213_match_match
+  predictions_view_template: basket,predictions
+  nbRules: 1
+  prizeValue : 125
+  img_box_right: /kup/basket/nba/201213/match_lakers/image/img_box_right.png
+  img_box_right_size: 150x97
+  img_prize_1: /kup/basket/nba/201213/match_lakers/image/img_prize_1.png
+  img_prize_2: /kup/basket/nba/201213/match_lakers/image/img_prize_2.png
+  img_prize_3: /kup/basket/nba/201213/match_lakers/image/img_prize_3.png
+  img_prize_4: /kup/basket/nba/201213/match_lakers/image/img_prize_4.png
+  img_prize_5: /kup/basket/nba/201213/match_lakers/image/img_prize_5.png
+  prize_1_label: '1 Maillot LA Lakers (55€) '
+  prize_2_label: '1 Ballon LA Lakers (20€)'
+  prize_3_label: '15€ Bonus Betkup'
+  prize_4_label: '10€ Bonus Betkup'
+  prize_5_label: '5€ Bonus Betkup'
+  prize_1_label_prefix: '1er'
+  prize_2_label_prefix: '2e'
+  prize_3_label_prefix: '3e'
+  prize_4_label_prefix: '4e et 5e'
+  prize_5_label_prefix: '6e au 8e'
+  custom_rules:
+    bindings:
+      prize_1:
+        prefix: prize_1_label_prefix
+        label: prize_1_label
+        image: img_prize_1
+      prize_2:
+        prefix: prize_2_label_prefix
+        label: prize_2_label
+        image: img_prize_2
+      prize_3:
+        prefix: prize_3_label_prefix
+        label: prize_3_label
+        image: img_prize_3
+      prize_4:
+        prefix: prize_4_label_prefix
+        label: prize_4_label
+        image: img_prize_4
+      prize_5:
+        prefix: prize_5_label_prefix
+        label: prize_5_label
+        image: img_prize_5
+    binding_map: {'Fin de la saison régulière' : [prize_1, prize_2, prize_3, prize_4, prize_5]}
+  box_prizes_button: /kup/basket/nba/201213/match_lakers/image/box_prizes_button.png
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    ic:
+      label: '1/2 : Pronostiquez sur la victoire de l équipe à domicile ou visiteuse'
+      points: '10 pts'
+    se:
+      label: 'Pronostiquez sur la victoire de l équipe à domicile ou visiteuse, vous avez la possibilité de pronostiquez une victoire avec au moins 10,20 ou 30 points d écart.'
+      points: '+10 : 8 pts / +20 : 14 pts / +30 : 22 pts'

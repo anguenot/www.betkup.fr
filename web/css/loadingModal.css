@@ -1,0 +1,31 @@
+/* 
+    Document   : loadingModal
+    Created on : 23 nov. 2011, 10:52:23
+    Author     : jonathan
+    Description:
+        CSS Style for loading modal components
+*/
+
+.showLoadingDivWait {
+    display: block;
+    position: absolute;
+    z-index: 5000; 
+    width: 220px;
+    height: 19px;
+    background: transparent url('/images/interface/wait_big.gif') no-repeat center;
+}
+
+.showModalDivWait {
+    position: absolute; 
+    display: block;
+    background-color: #ffffff; 
+    z-index: 1000; 
+    -moz-opacity: 0.60;
+    -khtml-opacity: 0.60;
+    opacity: 0.60;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter:alpha(opacity=60);
+}
+
+

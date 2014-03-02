@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_2012_hcup_leinster_ulster
+  typeSport: rugby
+  picto: rugby.png
+  picto_mini: picto_rugby_mini.png
+  category: Rugby > HCup
+  events: 8 événements
+  document_path: /kup/rugby/hcup/2012/leinster_ulster/document
+  vignette_kup_view: /kup/rugby/hcup/2012/leinster_ulster/image/vignette_kup_view.png
+  vignette_home_view: /kup/rugby/hcup/2012/leinster_ulster/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/rugby/hcup/2012/leinster_ulster/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/rugby/hcup/2012/leinster_ulster/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/rugby/hcup/2012/leinster_ulster/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: rugby,kup_hcup_2012_leinster_ulster
+  predictions_view_template: rugby,predictions
+  results_view_template: rugby,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right: 
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:

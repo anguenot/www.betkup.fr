@@ -1,0 +1,9 @@
+datas:
+  isArchive: 0
+  type: challenge
+  room_name: 'Challenge Match Par Match Europe'
+  title: challenge_mm_2012_title
+  avatar: /image/default/challenge/challenges/avatar/challenge_mm_2012.png
+  link: room,view
+  link_label: challenge_euro_2012_link_label
+  arguments: [challenge_mm_2012_kups, challenge_mm_2012_winners, challenge_mm_2012_ranking, challenge_mm_2012_jackpot]

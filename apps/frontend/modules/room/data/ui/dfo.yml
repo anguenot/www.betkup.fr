@@ -1,0 +1,32 @@
+ui:
+  roomName: Des filles en ovalie
+  header-logo: /partner/dfo/image/sofun-logo.png
+  avatar-room: /partner/dfo/image/avatar_room.png
+  isHeaderPerso: 1
+  header-hosted-logo: /partner/dfo/image/hosted_logo.png
+  header-room-logo: /partner/dfo/image/header_logo.png
+  header-bg: /partner/dfo/image/header_bg_room.png
+  kup-header-bg: /partner/dfo/image/header_bg_kup.png
+  path-img-title: /partner/dfo/image/title
+  path-img-list: /partner/dfo/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/dfo/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/dfo/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  body-bg-img-bottom-right: /partner/dfo/image/body_bg_pic_bottom_right.png
+  body-bg-color: '#ECECE2'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  show-box-how-work: 1
+  box-how-work: /partner/dfo/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://dfo.betkup.fr
+  show-box-prizes: 0
+  box-prizes: /partner/dfo/image/box_prizes.png
+  box-prizes-button: /partner/dfo/image/box_prizes_button.png
+  show-box-news: 0
+  box-news: /partner/dfo/image/box_news_bg.png
+  show-box-facebook: 0
+  box-facebook: /partner/dfo/image/box_fb_bg.png

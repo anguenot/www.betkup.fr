@@ -1,0 +1,323 @@
+#invite {
+	width: 760px;
+	margin-left: -33px;
+}
+
+#inviteModule {
+	display: block;	
+	width: 760px;
+	margin: 0px auto;
+}
+
+#inviteModule table {
+	display: table;
+	border-collapse: collapse; 
+	border-spacing: 0px;
+	margin: 0px auto;
+}
+
+#inviteModule table #tdRight {
+	vertical-align: top;
+}
+
+.invite {
+	margin: 0px; padding: 0px;
+}
+
+.topMenu {
+    margin: 0px auto 20px auto; 
+    padding: 0px;
+    width: 590px;
+    background: none;
+}
+
+.invite-menu-table {
+	width: auto;
+	margin: 0px auto;
+}
+
+.invite-menu-table td {
+	width: auto;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.menuEmail .picto {
+	width: 16px;
+	height: 15px;
+	float: left;
+	background: url('/image/default/invite/sprites_invite.png') no-repeat; 
+}
+.menuEmail.selectedInvite .picto {
+	background: url('/image/default/invite/sprites_invite.png') -19px 0px no-repeat; 
+}
+.menuFacebook .picto { 
+	width: 15px;
+	height: 15px;
+	float: left;
+	background: url('/image/default/invite/sprites_invite.png') -41px 0px no-repeat; 
+}
+.menuTwitter .picto { 
+	width: 15px;
+	height: 12px;
+	float: left;
+	background: url('/image/default/invite/sprites_invite.png') -60px no-repeat;
+}
+.menuLink .picto { 
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url('/image/default/invite/sprites_invite.png') -78px no-repeat;
+}
+.menuLink.selectedInvite .picto {
+	background: url('/image/default/invite/sprites_invite.png') -19px 0px no-repeat; 
+}
+
+div.topMenu ul li .arrow {
+	width: 12px;
+	height: 10px;
+	position: absolute;
+	right: 5px;
+	top: 12px;
+	background: url('/image/default/invite/sprites_invite.png') -125px 0px no-repeat; 
+}
+div.topMenu ul li.selectedInvite .arrow {
+	background: url('/image/default/invite/sprites_invite.png') -139px 0px no-repeat;
+}
+
+div.topMenu ul {
+    list-style-type: none;
+    margin: 0px; padding: 0px;
+    width: 100%;
+}
+
+div.topMenu ul li {
+	position: relative;
+	margin: 0px; 
+    padding: 0px;
+    width: 147px;
+    height: 30px;
+    float: left;
+}
+
+div.topMenu ul li.normal {
+	background: #ffffff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjY2NjY2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #ccccca 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ccccca));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#ccccca 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#ccccca 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#ccccca 100%);
+	background: linear-gradient(top,  #ffffff 0%,#ccccca 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ccccca',GradientType=0 );
+   
+}
+
+div.topMenu ul li.selectedInvite {
+   	background: #4d4d4d;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyODI4MjgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #4d4d4d 0%, #282828 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4d4d4d), color-stop(100%,#282828));
+	background: -webkit-linear-gradient(top,  #4d4d4d 0%,#282828 100%);
+	background: -o-linear-gradient(top,  #4d4d4d 0%,#282828 100%);
+	background: -ms-linear-gradient(top,  #4d4d4d 0%,#282828 100%);
+	background: linear-gradient(top,  #4d4d4d 0%,#282828 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4d', endColorstr='#282828',GradientType=0 );
+	   
+}
+
+div.topMenu ul li.normal:hover {
+    opacity: 0.75;
+    -moz-opacity: 0.75;
+    -webkit-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    -ms-filter: "Alpha(opacity=75)";
+    filter: Alpha(opacity=75);
+}
+div.topMenu ul li.selectedInvite:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    -khtml-opacity: 1;
+    -ms-filter: "Alpha(opacity=100)";
+    filter: Alpha(opacity=100);
+}
+div.topMenu ul li.normal a {
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin: 0px; padding: 0px;
+    padding-left: 5px;
+    text-align: left;
+    text-shadow: 1px 1px 0 white;
+    font: bold 14px Arial;
+    color: #646464;
+    line-height: 30px;
+}
+div.topMenu ul li.selectedInvite a {
+    color: white;
+    text-shadow: none;
+}
+
+.invite .adresse_manuellement {
+    margin: 0px; padding: 0px;
+    width: 280px;
+    margin-left: 7px;
+}
+
+.invite .adresse_manuellement .email {
+	margin: 0px; padding: 0px;
+	border: 1px solid #fac650;
+	border-right: 1px solid #f9d893;
+	border-bottom: 1px solid #f9d893;
+	background-color: #f4f4f4;
+	width: 190px; height: 26px;
+	padding-left: 5px;
+	font-family: Arial;
+    font-size: 12px;
+    color: #575756;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+	color: #919191;
+}
+
+
+.invite .import {
+	position: relative;
+	margin: 0px; padding: 0px;
+	background-color: #FFFFFF;
+	width: 260px;
+	z-index: 1000;
+}
+
+
+.invite #invite_send_list_emails {
+	position: relative;
+	margin: 0px; padding: 0px;
+	width: 280px;
+}
+
+.invite .send_list_email {
+	width: 260px; 
+	height: 26px;
+	background-color: #f2f2f2;
+	border-bottom: 2px solid #FFF;
+	font-family: Arial;
+    font-size: 11px;
+    color: #6a6a6a;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 26px;
+    text-indent: 10px;
+    cursor: pointer;
+}
+
+.invite .send_list_email_import {
+	width: 248px; 
+	height: 26px; 
+	background-color: #f2f2f2;
+	border-bottom: 2px solid #FFF;
+	font-family: Arial;
+    font-size: 11px;
+    color: #6a6a6a;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 26px;
+    text-indent: 10px;
+    cursor: pointer;
+}
+
+.invite .send_list_email_error {
+	margin: 0px; padding: 0px;
+	font-family: Arial;
+    font-size: 11px;
+	color: #e20514;
+    font-style: normal;
+    font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+
+div.inviteContainer div.inviteContainerReal {
+    position: relative;
+    margin: 0px; padding: 0px;
+    margin-top: 10px;
+    margin-right: 7px;
+    width: 560px;
+    min-height: 400px;
+    float: right;
+    text-align: center;
+}
+
+
+div.inviteContainer div.inviteContainerReal form.frmInviteEmail div.frmInviteEmailTop {
+    margin: 0px; padding: 0px;
+    width:560px;
+    height:412px;
+    background-image: url('/images/invite/invite-email-top.png');
+    background-repeat: no-repeat;
+}
+
+div.inviteContainer div.inviteContainerReal form.frmInviteFacebook p {
+    margin: 0px; padding: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #575756;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+}
+
+div.inviteContainer div.inviteContainerReal form.frmInviteTwitter div.frmInviteTwitterMessage {
+    margin: 0px; padding: 0px;
+    margin-left: 75px;
+    width:409px;
+    height:47px;
+    background-image: url('/images/invite/invite-twitter.png');
+    background-repeat: no-repeat;
+}
+div.inviteContainer div.inviteContainerReal form.frmInviteTwitter div.frmInviteTwitterMessage textarea {
+    margin: 0px; padding: 0px;
+    margin-left: 70px;
+    margin-top: 5px;
+    width:326px;
+    height:36px;
+    background-color: transparent;
+    border: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #575756;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#invite_emails_to {
+	margin: 0px; padding: 0px;
+	width: 280px;
+	height: 390px;
+}
+
+.inviteFriendsBtn {
+	width: 400px; 
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.inviteFriendsBtn a {
+	height: 20px; 
+	padding: 5px; 
+	background-color: #ECEEF5; 
+	color: #3B5998; 
+	border: 1px solid #CAD4E7; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px;
+}
+
+.inviteFriendsBtn a:hover {
+	border: 1px solid #9DACCE;
+}

@@ -1,0 +1,342 @@
+.club-header {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.club-header img {
+    display: inline-block;
+}
+
+.club-box-header {
+    width: 100%;
+    height: 33px;
+    text-align: left;
+    padding: 0 10px;
+    background: #7698ac; /* Old browsers */
+    background: -moz-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7698ac), color-stop(100%, #5a768a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #7698ac 0%, #5a768a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7698ac', endColorstr = '#5a768a', GradientType = 0); /* IE6-9 */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.club-box-header h2 {
+    display: inline-block;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 33px;
+    color: white;
+    font-size: 16px;
+    float: left;
+}
+
+.club-box-comments {
+    width: 809px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.club-title-infos {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 26px;
+    height: 29px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -293px -445px no-repeat;
+}
+
+.club-title-wall {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 35px;
+    height: 29px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -429px -442px no-repeat;
+}
+
+.club-title-ranking {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 22px;
+    height: 29px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -389px -442px no-repeat;
+}
+
+.club-title-feed {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 31px;
+    height: 29px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -336px -442px no-repeat;
+}
+
+.club-title-friends {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 24px;
+    height: 30px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -254px -442px no-repeat;
+}
+
+.club-box {
+    min-height: 200px;
+    overflow: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQIW2N8/erVfwYkwAgSEBUTYwSJgdjYBZC1AAA7gxb9RaBRGwAAAABJRU5ErkJggg==);
+}
+
+.club-box-feed-content {
+    height: 400px;
+    overflow: auto;
+}
+
+.club-table-news {
+    width: 100%;
+}
+
+.club-table-news td {
+    border-bottom: 1px solid #CCCCCC;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+
+.club-table-news td:hover {
+    background-color: #DDDDDD;
+}
+
+.club-table-news td h4 {
+    margin: 0px 5px;
+}
+
+.club-table-news td h4 a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font: normal 12px Arial;
+    color: #3B5998;
+}
+
+.club-table-news td p {
+    margin: 0px 5px;
+    padding: 0px 10px;
+}
+
+.club-table-news td p a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font: inherit;
+    color: #333333;
+}
+
+.friends-to-invite-container {
+    display: block;
+    width: 100%;
+    height: 215px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.friends-to-invite-container {
+    padding: 9px;
+}
+
+.box-wrap {
+    overflow: hidden;
+    text-align: center;
+}
+
+.friend-box {
+    width: 60px;
+    height: auto;
+    margin: 7px 3px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.friend-box img {
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.friend-box a {
+    font: normal 11px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #3661A0;
+}
+
+.friend-box .friend-name {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.friend-box a.friend-challenge-text {
+    color: black;
+    font-size: 12px;
+    padding: 1px 5px;
+    background: #F8F8F8;
+    border: 1px solid #D7D8DA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.friend-box a.friend-challenge-text:hover {
+    background: #BBBBBB;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button a {
+    display: inline-block;
+    padding: 6px 15px;
+    text-align: center;
+    margin: 10px 5px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #A71529;
+    background: #ec414a; /* Old browsers */
+    background: -moz-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ec414a), color-stop(50%, #bd282d), color-stop(51%, #a11126), color-stop(100%, #e53945)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ec414a', endColorstr = '#e53945', GradientType = 0); /* IE6-9 */
+}
+
+.button a:hover {
+    background: #e53945; /* Old browsers */
+    background: -moz-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e53945), color-stop(49%, #a11126), color-stop(50%, #bd282d), color-stop(100%, #ec414a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#e53945', endColorstr = '#ec414a', GradientType = 0); /* IE6-9 */
+}
+
+.club-infos .club-box-content {
+    padding: 10px;
+
+}
+
+.club-infos .club-box-content h2 {
+    font: normal 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5C798D;
+    line-height: 30px;
+}
+
+.club-logo {
+    float: right;
+}
+
+.club-ranking-box {
+    width: 100%;
+}
+
+.club-ranking-box .facebook-logo {
+    width: 22px;
+    height: 21px;
+    display: inline-block;
+    margin-left: 10px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -284px -500px  no-repeat;
+}
+
+.club-ranking-box-table .player a {
+    color: #3b5998;
+    line-height: 21px;
+}
+
+.club-ranking-box-table .player a:hover {
+    text-decoration: underline;
+}
+
+.club-ranking-box-table {
+    width: 100%;
+}
+
+.club-ranking-box-table .selected {
+    border: 1px dashed #7698AC;
+}
+
+.club-ranking-box-table .selected td {
+    background: white;
+}
+
+.club-ranking-box-table th {
+    background: #393B38;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.club-ranking-box-table td {
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
+    font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5C798D;
+}
+
+.club-ranking-box-table .separator {
+    border-right: 1px solid #393B38;
+}
+
+.club-ranking-box-table .player {
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.club-ranking-box-table .player img, .club-ranking-box-table .player a {
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.club-ranking-box-table .odd td {
+    background: rgba(77, 93, 101, 0.15);
+}
+
+.club-ranking-box-table .even td {
+    background: rgba(77, 93, 101, 0.05);
+}
+
+.club-ranking-box-table .selected td {
+    background: white;
+}

@@ -1,0 +1,71 @@
+bindings:
+  ic:
+    soccer:
+      label: label_kup_question_ic_soccer
+      points: '6 pts'
+    tennis:
+      label: label_kup_question_ic_tennis
+      points: '2 pts'
+    rugby:
+      label: label_kup_question_ic_rugby
+      points: '5 pts'
+  se:
+    soccer:
+      label: label_kup_question_se_soccer
+      points: '20 pts'
+    tennis:
+      label: label_kup_question_se_tennis
+      points: '10 ou 2 si issue correcte'
+    rugby:
+      label: label_kup_question_se_rugby
+      points: '30 pts'
+  sets:
+    tennis:
+      label: label_kup_question_sets_tennis
+      points: '40 ou 5 si issue correcte'
+  q:
+    f435001:
+      helper: label_kup_question_exact_prolongation
+      label: label_kup_question_exact_prolongation
+      points: '20 pts'
+    winner:
+      label: label_kup_question_winner
+      points: '6 pts'
+    68:
+      helper: label_kup_question_players
+      label: label_question_ronaldo_real_scores
+      points: '5 pts'
+    61:
+      helper: label_kup_question_players
+      label: label_question_gomez_bayern_scores
+      points: '5 pts'
+    21:
+      label: label_kup_question_21
+      points: '15 pts'
+    22:
+      label: label_kup_question_22
+      points: '20 pts'
+    23:
+      label: label_question_team_winner_half_time
+      points: '5 pts'
+    24:
+      label: label_question_team_winner_second_half
+      points: '5 pts'
+    25:
+      label: label_kup_question_25
+      points: '5 pts'
+    26:
+      label: label_question_team_first_scores
+      points: '5 pts'
+    27:
+      label: label_question_which_quaters_first_score
+      points: '15 pts'
+    25:
+      label: label_question_goals_difference_at_end
+      points: '15 pts'
+    44:
+      label: label_question_extra_or_shootouts
+      points: '10 pts'
+    45:
+      label: label_question_which_team_qualifies
+      points: '10 pts'

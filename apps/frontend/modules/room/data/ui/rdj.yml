@@ -1,0 +1,89 @@
+ui:
+  roomName: Rue Des Joueurs
+  header-logo: /partner/rdj/image/sofun-logo.png
+  avatar-room: /partner/rdj/image/avatar_room.png
+  more-infos-answer: text_room_rdj_home_more_infos_answer
+  text_room_bonus_text: text_room_rdj_bonus_text
+  needAdvancedAccount: true
+  show-buttons-right: false
+  isHeaderPerso: 1
+  header-room-logo: /partner/rdj/image/header_logo.png
+  header-room-logo-size: 137x84
+  header-bg: /partner/rdj/image/header_bg_room.png
+  kup-header-bg: /partner/rdj/image/header_bg_kup.png
+  path-img-title-bg: /partner/rdj/image/title.png
+  path-img-title-question: /partner/rdj/image/header_question_rdj.png
+  path-img-title-kup: /partner/rdj/image/header_kup_rdj.png
+
+  path-bonus-box-width: 680
+  path-bonus-box-height: 147
+  path-bonus-box: /partner/rdj/image/bonus_box.png
+  path-bonus-no-text: 1
+  path-bonus-box-margin: '10px 0 0 15px'
+  path-bonus-box-more-infos-link-class: 'custom-more-info-rdj'
+  isPictoPerso : 0
+  isBgPerso: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 1
+  body-bg-img-bottom-right: /partner/rdj/image/bg_bottom_right.png
+  body-bg-color: 
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/rdj/image/hosted_logo.png
+  show-box-how-work: 0
+  show-box-news: 0
+  show-box-facebook: 0
+  show-box-prizes: 1
+  isBoxPrizesCustom: 1
+  box-prize-title-bg: /partner/rdj/image/box_title_prizes.png
+  img-box-prizes: /partner/rdj/image/prizes_rdj.png
+  img_box-prizes-size: 150x97
+  total-prizes: 6
+  prizes-1-positions: '1er'
+  prizes-2-positions: '2e'
+  prizes-3-positions: '3e'
+  prizes-4-positions: '4e-5e'
+  prizes-5-positions: '6e-10e'
+  prizes-6-positions: '11e-20e'
+  prizes-1-label: 'Maillot Europe au choix + 20€ bonus'
+  prizes-2-label: 'Chaussure de foot + 15€ bonus'
+  prizes-3-label: 'Fifa 13 ou Pes 13 + 15€ bonus'
+  prizes-4-label: '25€ de bonus'
+  prizes-5-label: '10€ de bonus'
+  prizes-6-label: '5€ de bonus'
+  kups:
+    201223000:
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/rdj/kups/match_match_ldc_2012
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      img_prize_6: img_prize_6.png
+      prize_value: 410
+      box-prizes: /partner/rdj/image/prizes_rdj.png
+      box-prizes-size: 150x97
+      box_prizes_button:
+      box-prize-title-bg: /partner/rdj/image/box_title_prizes.png
+      img-box-prizes: /partner/rdj/image/prizes_rdj.png
+      img_box-prizes-size: 150x97
+      total-prizes: 6
+      prizes-1-positions: '1er'
+      prizes-2-positions: '2e'
+      prizes-3-positions: '3e'
+      prizes-4-positions: '4e-5e'
+      prizes-5-positions: '6e-10e'
+      prizes-6-positions: '11e-20e'
+      prizes-1-label: 'Maillot Europe au choix + 20€ bonus'
+      prizes-2-label: 'Chaussure de foot + 15€ bonus'
+      prizes-3-label: 'Fifa 13 ou Pes 13 + 15€ bonus'
+      prizes-4-label: '25€ de bonus'
+      prizes-5-label: '10€ de bonus'
+      prizes-6-label: '5€ de bonus'
+      prizes-1-label-details: 'Maillot Europe au choix (80€) + 20€ bonus'
+      prizes-2-label-details: 'Chaussure de foot Victory SG vert Nike (70€) + 15€ bonus'
+      prizes-3-label-details: 'Fifa 13 ou Pes 13 (au choix) (60€) + 15€ bonus'
+      prizes-4-label-details: '25€ de bonus'
+      prizes-5-label-details: '10€ de bonus'
+      prizes-6-label-details: '5€ de bonus'

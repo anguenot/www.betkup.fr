@@ -1,0 +1,36 @@
+default:
+  stylesheets:    [sofun_bootstrap/scaffolding.css, facebook_ligue1_2012/layout.css, facebook_ligue1_2012/chooseTeam.css, loadingModal.css]
+  javascripts:    [jquery.js, jquery-ui-1.8.10.custom.js, jquery.mousewheel.js, json2.js, twitter.like.flash.message.js, jquery.cookie.js, jquery.selectmenu.js, jstween.min.js]
+  has_layout:     true
+  layout:         layout_facebook_ligue1_2012
+
+homeSuccess:
+  stylesheets:    [facebook_ligue1_2012/home.css, facebook_ligue1_2012/chrono.css]
+  javascripts:    [datetime.js, php.default.min.js, loading.js, loading-contents-2.js]
+
+rulesSuccess:
+  stylesheets:    [facebook_ligue1_2012/rules.css]
+
+resultsSuccess:
+  stylesheets:    [facebook_ligue1_2012/results.css, my-account.css, kup.css, room.css, kupview.css, prediction.css, kup/tabbar.css, results.css]
+  javascripts:    [datetime.js, php.default.min.js, loading.js]
+
+rankingSuccess:
+  stylesheets:    [facebook_ligue1_2012/ranking.css, interface/pagination.css]
+  javascripts:    [datetime.js, php.default.min.js, loading.js, loading-contents-2.js]
+
+predictionsSuccess:
+  stylesheets:    [my-account, kup.css, prediction.css, facebook_ligue1_2012/predictions.css, facebook_ligue1_2012/chrono.css, tipsy/tipsy.css]
+  javascripts:    [datetime.js, php.default.min.js, loading.js, loading-contents-2.js, jquery.tipsy.js]
+
+landingPageSuccess:
+  stylesheets:    [my-account, kup.css, kupview.css, facebook_ligue1_2012/home.css, facebook_ligue1_2012/landingPage.css]
+  javascripts:    [datetime.js, php.default.min.js, loading.js, loading-contents-2.js]
+
+clubSuccess:
+  stylesheets:    [facebook_ligue1_2012/club.css]
+  javascripts:    [php.default.min.js, loading.js, loading-contents-2.js]
+
+likePageSuccess:
+  has_layout:     true
+  layout:       layout_like_facebook_ligue1_2012

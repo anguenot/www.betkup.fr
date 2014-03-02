@@ -1,0 +1,9 @@
+datas:
+  isArchive: 1
+  type: kups
+  title: kups_rolang_garros_2012_title
+  avatar: /image/default/challenge/challenges/avatar/kups_roland_garros_2012.png
+  link: kup,home
+  link_label: kups_rolang_garros_2012_link_label
+  arguments: [kups_rolang_garros_2012_prediction, kups_rolang_garros_2012_jackpot, kups_rolang_garros_2012_community, kups_rolang_garros_2012_winners, kups_rolang_garros_2012_kups]
+  kups_search_params: [SPORTS_TENNIS, STAKE_ALL, status_IN_PROGRESS, status_IN_COMMING, SORTING_START_DATE]

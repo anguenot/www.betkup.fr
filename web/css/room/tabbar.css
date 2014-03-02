@@ -1,0 +1,27 @@
+
+.room_tabbar {
+	margin: 0px; padding: 0px;
+}
+
+.room_tabbar a.off, .room_tabbar a.on {
+	margin: 0px; padding: 0px;
+	margin-top: 5px;
+    display: block;
+    text-align: left;
+    text-shadow: 1px 1px 0 white;
+    font-family: Arial;
+    font-size: 12px;
+    color: #F28A31;
+    font-style: normal;
+    font-weight: normal;
+   	text-align: center;
+}
+
+.room_tabbar a.off:hover {
+	color: #6A6A69;
+}
+
+.room_tabbar a.on {
+    color: #6A6A69;
+    font-weight: bold;
+}

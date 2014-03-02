@@ -1,0 +1,60 @@
+#predictions-module {
+	width: 730px;
+	margin: 10px auto; 
+	background: url(/image/default/f1/interface/damier.png) repeat;
+}
+
+#predictions-module #f1-rules {
+	margin: 0px;
+}
+
+#prediction-promo {
+	width: 720px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#rules {
+	margin: 10px auto;
+	width: 720px;
+	text-align: center;
+}
+
+#promo-container {
+	padding: 10px 0px;
+	background-color: #F0F0F0;
+}
+
+#kup-name {
+	margin: 0px 10px;
+}	
+
+#kup-name table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#kup-name table td {
+	vertical-align: middle;
+	text-align: left;
+}
+
+#kup-name td h2 {
+	font: bold 24px Arial;
+	color: #333333;
+	margin: 5px 20px;
+	text-align: left;
+}
+
+#kup-name td h4 {
+	font: bold 18px Arial;
+	color: #B70101;
+	margin:  5px 5px;
+	text-align: left;
+}
+
+#kup-name p {
+	font: normal 14px Arial;
+	color: #333333;
+	padding: 10px;
+}

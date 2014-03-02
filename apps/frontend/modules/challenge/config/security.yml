@@ -1,0 +1,9 @@
+default:
+  is_secure: true
+  credentials: member
+  
+home:
+  is_secure: false
+
+promos:
+  is_secure: false

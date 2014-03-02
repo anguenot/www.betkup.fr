@@ -1,0 +1,54 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  security_sofun:
+    administrator: Administrator
+    member: Member
+    anonymous: Anonymous
+    participant: Participant
+  security_betkup:
+    administrator: room_administrator
+    member: room_member
+    anonymous: room_anonymous
+    participant: room_participant
+    anonymous_public: room_public_anonymous
+    anonymous_private: room_private_anonymous
+    connected_public: room_public_connected
+    connected_private: room_private_connected
+  kup_security_sofun:
+    administrator: Administrator
+    member: Member
+    anonymous: Anonymous
+    participant: Participant
+  kup_security_betkup:
+    administrator: kup_administrator
+    member: kup_member
+    anonymous: kup_anonymous
+    participant: kup_participant
+  ui:
+    bindings: challenge_usopen_2012.yml pokermania.yml kuzeo.yml tf1.yml etam.yml rugby_division.yml trinquet.yml rabadan.yml rugby_a_15.yml rugby_connection.yml so_sport.yml dfo.yml melee_ouverte.yml sud_rugby.yml rdj.yml arsenal.yml etg.yml john_anthony.yml pshg.yml mister_rugby.yml club_pronostics.yml pubfoot.yml aps.yml sport24.yml sport_buzz_business.yml 20minutes.yml tester_tout.yml challenge_wimbledon_2012.yml challenge_tdf_2012.yml challenge_ligue1_2012.yml challenge_mm_2012.yml challenge_f1_2012.yml fans_facebook.yml challenge_k8_europe_2012.yml fan2sport.yml challenge_klassico.yml mediaPronos.yml
+    bindings_dir: /data/ui
+  home:
+    #specify the number of front room you attempted to be displayed (rooms_front_count)
+    #Depend of the number of "part" you write below (rooms_front_x => x need to be > 0 and represent the index of parts)
+    #Each rooms_front_x have 6 public room max
+    rooms_front_count: 1
+    rooms_front_1: Fans Facebook,Rue Des Joueurs,Fan2Sport,SPORT BUZZ BUSINESS,ETGblog,Arsenal
+    rooms_front_2: Fans Facebook,Rue Des Joueurs,Fan2Sport,SPORT BUZZ BUSINESS,ETGblog,Arsenal
+  privacy_public: PUBLIC
+  privacy_public_gambling_fr: PUBLIC_GAMBLING_FR
+  privacy_private: PRIVATE
+  privacy_private_gambling_fr: PRIVATE_GAMBLING_FR
+  privacy_default: PUBLIC
+  avatar_default: /images/room/home/default.png
+  avatar_path: /uploads/data/room/avatar/
+  tags_limit: 15
+  kup_type:
+    free: FREE
+    gambling_fr: GAMBLING_FR
+  registration:
+    account_type_simple: SIMPLE
+    account_type_gambling_fr: GAMBLING_FR
+    account_type_gambling_fr_verified: VERIFIED_FR

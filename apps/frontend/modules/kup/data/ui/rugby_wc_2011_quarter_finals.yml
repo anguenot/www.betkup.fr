@@ -1,0 +1,23 @@
+ui:
+  kupName: label_kup_title_quarter_finals
+  typeSport: rugby
+  picto: rugby.png
+  category: Rugby > Coupe Du Monde
+  events: 
+  picto_mini: picto_rugby_mini.png
+  document_path: /kup/rugby/wc/2011/quarter_finals/document
+  vignette_kup_view: /kup/rugby/wc/2011/quarter_finals/image/vignette_kup_view.png
+  vignette_home_view: /kup/rugby/wc/2011/quarter_finals/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/rugby/wc/2011/quarter_finals/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/rugby/wc/2011/quarter_finals/image/vignette_room_kup_view.png
+  vignette_room_kup_edit: /kup/rugby/wc/2011/quarter_finals/image/vignette_room_kup_edit.png
+  vignette_edition_kup: /kup/default/vignette_edition_kup.png
+  isPrizes: 1
+  img_prizes : /kup/rugby/wc/2011/quarter_finals/image/img_prizes.png
+  box_prizes: /kup/rugby/wc/2011/quarter_finals/image/box_prizes.png
+  box_prizes_button: /kup/rugby/wc/2011/quarter_finals/image/box_prizes_button.png
+  rules_view_template: rugby,kup_wc_2011_quarter_finals
+  predictions_view_template: rugby,predictions
+  results_view_template: rugby,results
+  nbRules: 1
+  prizeValue : 200

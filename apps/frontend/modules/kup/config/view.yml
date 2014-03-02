@@ -1,0 +1,37 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  metas:
+    title:       text_kups_page_title
+    description: text_kups_page_description
+  has_layout:   true
+  layout:       layout_int
+
+homeSuccess:
+  stylesheets:  [my-account.css, kup.css, room.css, kup/tabbar.css, kup/search-kup-home]
+  javascripts:  [datetime.js, loading.js, php.default.min.js, loading-contents-2.js]
+
+viewSuccess:
+  stylesheets:  [my-account.css, kup.css, room.css, kupview.css, prediction.css, kup/tabbar.css, tipsy/tipsy.css]
+  javascripts:  [datetime.js, php.default.min.js, jquery.tipsy.js]
+
+betSuccess:
+  stylesheets:  [my-account.css, kup.css, room.css, kupview.css, prediction.css, kup/tabbar.css, bet.css]
+  javascripts:  [datetime.js, php.default.min.js]
+
+rankingSuccess:
+  stylesheets:  [my-account.css, kup.css, room.css, kupview.css, prediction.css, kup/tabbar.css]
+  javascripts:  [datetime.js, php.default.min.js]
+
+resultsSuccess:
+  stylesheets:  [my-account.css, kup.css, room.css, kupview.css, prediction.css, kup/tabbar.css, results.css]
+  javascripts:  [datetime.js, php.default.min.js]
+
+rulesSuccess:
+  stylesheets:  [my-account.css, kup.css, room.css, kupview.css, prediction.css, kup/tabbar.css, rules.css ]
+  javascripts:  [datetime.js, php.default.min.js]
+
+inviteFriendsSuccess:
+  stylesheets:  [my-account.css, kup.css, room.css, kupview.css, prediction.css, kup/tabbar.css, /scroll/css/scrollbar.css, invite/email.css]
+  javascripts:  [datetime.js, php.default.min.js, loading.js, /scroll/jquery.scroll.js]

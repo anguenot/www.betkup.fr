@@ -1,0 +1,27 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/12-Filters
+
+rendering: ~
+
+# We need to call this filter before the security filter because it is responsible for injecting credentials depending
+# on the current member.
+roomCredentials:
+  class: sfRoomCredentialsFilter
+
+security: ~
+  
+# insert your own filters here
+flashMessage: ~
+
+tracking : ~ 
+
+redirection: ~
+
+roomUI:
+  class: sfRoomUIFilter
+
+cache:     ~
+
+execution: ~
+
+myI18nSaverFilter: ~

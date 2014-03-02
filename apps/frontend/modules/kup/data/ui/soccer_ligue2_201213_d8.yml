@@ -1,0 +1,38 @@
+ui:
+  kupName: label_kup_title_201213_ligue2_d8
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Ligue 2
+  events: 8 matchs
+  document_path: /kup/soccer/k8/2012/1/document
+  vignette_kup_view: /kup/soccer/ligue2/201213/default/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/ligue2/201213/default/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/ligue2/201213/default/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/ligue2/201213/default/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/ligue2/201213/default/image/vignette_edition_kup.png
+  predictions_view_template_header: /image/default/football/header_k8_ligue_2.jpg
+  isPrizes: 0
+  rules_view_template: soccer,kup_ligue2_201213_days
+  predictions_view_template: k8,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 12px
+    big_box:
+      title: 30px
+      description: 16px

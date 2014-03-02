@@ -1,0 +1,34 @@
+all:
+  room_associate:
+    name: 'Facebook Ligue 1 2012'
+  room_uuid: 3638935
+  rss_parser:
+    predictions_feed: 'http://www.echodesparis.com/rss_prono.php'
+  analytics:
+    google: UA-9329202-23
+  security_betkup:
+    administrator: room_administrator
+    member: room_member
+    anonymous: room_anonymous
+    participant: room_participant
+  kup_security_betkup:
+    administrator: kup_administrator
+    member: kup_member
+    anonymous: kup_anonymous
+    participant: kup_participant
+  privacy_public: PUBLIC
+  privacy_public_gambling_fr: PUBLIC_GAMBLING_FR
+  privacy_private: PRIVATE
+  privacy_private_gambling_fr: PRIVATE_GAMBLING_FR
+  privacy_default: PUBLIC
+  kup_type:
+    free: FREE
+    gambling_fr: GAMBLING_FR
+  registration:
+    account_type_simple: SIMPLE
+  facebook:
+    app_page_url: https://apps.facebook.com/betkup-pronos-foot/ # CHANGE IN PRODUCTION
+    connect_app_id:  395372147178321 # CHANGE IN PRODUCTION
+    connect_app_secret: b007a977692ef297032c6d2745de638c # CHANGE IN PRODUCTION
+    connect_app_scope: email,user_birthday,user_likes,friends_likes,publish_actions
+    canvas_ns: betkup-pronos-foot # CHANGE IN PRODUCTION

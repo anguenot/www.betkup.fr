@@ -1,0 +1,8 @@
+all:
+  twitter_betkup_page_url: https://twitter.com/betkup
+  twitter_oauth:
+    consumer_key: vFtzYzXqqiIv9X2nu2iFSA
+    consumer_secret: EPiFj3iz5fK3taLhPGKQ2oBtPzrXQ5b4M6YkdMjq4MI
+    access_token: 127639209-roR4xUAl56hxFo5neOWa2Wz2bBGL15FcGHRrD8Y7
+    token_secret: cZHTGS7I2Z5M1eoqKTbhQYTQ0W0kGDp9undg1uO8
+    count: 10

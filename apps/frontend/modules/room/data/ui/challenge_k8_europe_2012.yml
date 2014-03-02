@@ -1,0 +1,19 @@
+ui:
+  roomName: 'Challenge K8 Europe'
+  avatar-room: /challenge/k8_europe_2012/image/avatar.png
+  isChallenge: 1
+  room_view: challenge,challenge_view_k8_europe_2012
+  isHeaderPerso: 0
+  isPictoPerso : 0
+  isBgPerso: 0
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 0
+  isRoomNameColorPerso: 0
+  show-box-how-work: 0
+  isCustomBoxWork: 0
+  show-box-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0
+  jackpot_at_stake: 1500

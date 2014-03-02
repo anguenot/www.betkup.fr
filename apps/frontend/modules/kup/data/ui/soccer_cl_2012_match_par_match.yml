@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_cl_match_par_match
+  typeSport: soccer
+  picto: foot.png
+  category: Football > Champions L.
+  events: 4 tours A-R
+  picto_mini: picto_foot_mini.png
+  document_path: /kup/soccer/cl/2012/match_par_match/document
+  vignette_kup_view: /kup/soccer/cl/2012/match_par_match/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/cl/2012/match_par_match/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/cl/2012/match_par_match/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/cl/2012/match_par_match/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/cl/2012/match_par_match/image/vignette_edition_kup.png
+  isPrizes: 1
+  rules_view_template: soccer,kup_cl_2012_match_par_match
+  predictions_view_template: soccer,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 450
+  img_box_right: /kup/soccer/cl/2012/match_par_match/image/img_box_right.png
+  img_prize_1: /kup/soccer/cl/2012/match_par_match/image/img_prize_1.png
+  img_prize_2: /kup/soccer/cl/2012/match_par_match/image/img_prize_2.png
+  img_prize_3: /kup/soccer/cl/2012/match_par_match/image/img_prize_3.png
+  prize_1_label: label_kup_cl_match_par_match_prize_1
+  prize_2_label: label_kup_cl_match_par_match_prize_2
+  prize_3_label: label_kup_cl_match_par_match_prize_3
+  box_prizes_button: /kup/soccer/cl/2012/match_par_match/image/box_prizes_button.png

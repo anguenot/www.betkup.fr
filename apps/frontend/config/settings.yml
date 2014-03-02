@@ -1,0 +1,63 @@
+# $Id: settings.yml 6483 2012-11-16 17:05:05Z anguenot $
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/04-Settings
+
+prod:
+  .settings:
+    no_script_name:         true
+    logging_enabled:        true
+    error_reporting:  <?php echo (E_PARSE | E_COMPILE_ERROR | E_ERROR | E_CORE_ERROR | E_USER_ERROR)."\n" ?>
+    cache:                  true
+    compressed:             true
+    use_process_cache:      true
+   
+dev:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              true
+    cache:                  false
+    no_script_name:         false
+    etag:                   false
+    default_culture:        fr 
+    compressed:             true
+
+test:
+  .settings:
+    error_reporting:        <?php echo ((E_ALL | E_STRICT) ^ E_NOTICE)."\n" ?>
+    cache:                  false
+    web_debug:              false
+    no_script_name:         false
+    etag:                   false
+    cache:                  false
+
+all:
+  .settings:
+    # Form security secret (CSRF protection)
+    # csrf_secret:            cOign+mow31
+    # XXX BETKUP-542
+    csrf_secret:            false
+
+    # Output escaping settings
+    escaping_strategy:      true
+    escaping_method:        ESC_SPECIALCHARS
+
+    # Enable the database manager
+    use_database:           false
+    
+    # Langue
+    charset:                utf-8
+    default_culture:        fr
+    i18n:                   true
+    standard_helpers:       [Partial, Cache, I18N]
+    
+    # Maintenance
+    check_lock:    true
+    
+  .actions:
+    error_404_module: error
+    error_404_action: index
+    
+    login_module:           account
+    login_action:           login
+    secure_module:          account
+    secure_action:          login

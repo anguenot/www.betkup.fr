@@ -1,0 +1,204 @@
+.content-tennis {
+	margin:0px;
+	width: 685px;
+	background: #052330;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA1MjMzMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNzQ4NTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #052330 0%, #274856 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#052330), color-stop(100%,#274856));
+	background: -webkit-linear-gradient(left,  #052330 0%,#274856 100%);
+	background: -o-linear-gradient(left,  #052330 0%,#274856 100%);
+	background: -ms-linear-gradient(left,  #052330 0%,#274856 100%);
+	background: linear-gradient(left,  #052330 0%,#274856 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#052330', endColorstr='#274856',GradientType=1 );	
+	padding-left: 15px;
+}
+
+#header-tennis {
+	position: relative;
+	margin: 0px;
+	width: 700px;
+	height: 77px;
+	/*background: url('/image/default/tennis/header-prediction.png') no-repeat;*/
+}
+
+.logo-rg {
+	width: 69px;
+	height: 68px;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	/*background: url('/image/default/tennis/logo_rg.png') no-repeat;*/
+}
+
+#content-prediction-row {
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: 670px;
+	padding-top: 15px; 
+	
+}
+
+.match {
+	width: 670px;
+	background-color: #0A1B23; 
+	margin-bottom: 15px;
+}
+
+.question {
+	background: transparent url('/image/default/tennis/question_bg.png') no-repeat;
+}
+
+#content-prediction-row .date {
+	height: 20px;
+	width: 660px;
+	background-color: #000000; 
+	text-align: left;
+	line-height: 20px;
+	color: white;
+	padding-left: 10px;
+}
+
+.team {
+	color: white;
+	font: bold 14px Arial;
+}
+
+.seed {
+	color: white;
+	font: normal 12px Arial;
+}
+
+.sets-container {
+	width: 100%;
+	height: 50px;
+	margin: 10px auto;
+	color: white;
+	font: normal 12px Arial;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.sets-table {
+	height: 50px;
+	border-spacing: 3px;
+	margin: 0px auto;
+}
+
+.sets-table th {
+	width: 200px;
+	height: 25px;
+	padding-left: 10px;
+	background: #00bdf5;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYmRmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDZhYTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #00bdf5 0%, #006aa8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00bdf5), color-stop(100%,#006aa8));
+	background: -webkit-linear-gradient(top,  #00bdf5 0%,#006aa8 100%);
+	background: -o-linear-gradient(top,  #00bdf5 0%,#006aa8 100%);
+	background: -ms-linear-gradient(top,  #00bdf5 0%,#006aa8 100%);
+	background: linear-gradient(top,  #00bdf5 0%,#006aa8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bdf5', endColorstr='#006aa8',GradientType=0 );
+	border: 1px solid #0256A3;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.sets-table td {
+	width: 37px;
+	height: 25px;
+	padding: 4px 2px 0px 4px;
+	background: #00bdf5;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYmRmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDZhYTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #00bdf5 0%, #006aa8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00bdf5), color-stop(100%,#006aa8));
+	background: -webkit-linear-gradient(top,  #00bdf5 0%,#006aa8 100%);
+	background: -o-linear-gradient(top,  #00bdf5 0%,#006aa8 100%);
+	background: -ms-linear-gradient(top,  #00bdf5 0%,#006aa8 100%);
+	background: linear-gradient(top,  #00bdf5 0%,#006aa8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bdf5', endColorstr='#006aa8',GradientType=0 );
+	border: 1px solid #0256A3;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tdRadio-center {
+	font: bold 18px Verdana;
+	color: white;
+}
+
+.sets-inputs {
+	margin: 0px;
+	padding: 4px;
+	width: 14px;
+	height: 13px;
+	text-align: center;
+	float: left;
+	color: #666666;
+	font: normal 12px Arial;
+	border: none;
+}
+
+.sets-inputs[disabled=disabled] {
+	background: #CCCCCC;
+}
+
+.sets-cursors {
+	width: 14px;
+	height: 25px;
+	float: right;
+}
+
+.cursor-background {
+	width: 14px;
+	height: 10px;
+	background: #d2d2d2;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QyZDJkMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNWY1ZjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #d2d2d2 0%, #f5f5f5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2d2d2), color-stop(100%,#f5f5f5));
+	background: -webkit-linear-gradient(top,  #d2d2d2 0%,#f5f5f5 100%);
+	background: -o-linear-gradient(top,  #d2d2d2 0%,#f5f5f5 100%);
+	background: -ms-linear-gradient(top,  #d2d2d2 0%,#f5f5f5 100%);
+	background: linear-gradient(top,  #d2d2d2 0%,#f5f5f5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d2d2', endColorstr='#f5f5f5',GradientType=0 );
+}
+
+.sets-cursors-spacer {
+	height: 1px;
+}
+
+.cursor-up, .cursor-down {
+	display: block;
+	width: 13px;
+	height: 10px;
+	margin: auto;
+}
+.cursor-up {
+	background: transparent url('/image/default/tennis/sprites_tennis.png') -72px -70px no-repeat;
+}
+.cursor-down {
+	background: transparent url('/image/default/tennis/sprites_tennis.png') -72px -78px no-repeat;
+}
+.cursor-up:hover {
+	background: transparent url('/image/default/tennis/sprites_tennis.png') -94px -70px no-repeat;
+}
+.cursor-down:hover {
+	background: transparent url('/image/default/tennis/sprites_tennis.png') -94px -78px no-repeat;
+}
+
+.sets-cursors-disabled .cursor-up {
+	cursor:default;
+	background: transparent url('/image/default/tennis/sprites_tennis.png') -83px -70px no-repeat;
+}
+.sets-cursors-disabled .cursor-up:hover {
+	background: transparent url('/image/default/tennis/sprites_tennis.png') -83px -70px no-repeat;
+}
+.sets-cursors-disabled .cursor-down {
+	cursor:default;
+	background: transparent url('/image/default/tennis/sprites_tennis.png') -83px -78px no-repeat;
+}
+.sets-cursors-disabled .cursor-down:hover {
+	background: transparent url('/image/default/tennis/sprites_tennis.png') -83px -78px no-repeat;
+}
+
+
+

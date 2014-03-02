@@ -1,0 +1,221 @@
+clubs:
+  t147:
+    betkup_room_name: 'App FB L1 Club mhsc'
+    betkup_room_password: 'dun~CrieS15'
+    betkup_room_id: 3638852
+    name: Montpellier
+    facebook_page_id: 108559765783
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/MHSC.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/MHSC.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_mhsc.png
+    feed: http://www.madeinfoot.com/flux/rss_news.php?site_num=26
+    publish_description: text_facebook_ligue1_2012_t147
+  t149:
+    betkup_room_name: 'App FB L1 Club psg'
+    betkup_room_password: 'maisT^slop40'
+    betkup_room_id: 3638876
+    name: PSG
+    facebook_page_id: 139594698297
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/PSG.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/PSG.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_psg.png
+    feed: http://rss.feedsportal.com/c/603/f/502157/index.rss
+    publish_description: text_facebook_ligue1_2012_t149
+  t429:
+    betkup_room_name: 'App FB L1 Club losc'
+    betkup_room_password: 'ThEW24yeLL;'
+    betkup_room_id: 3638879
+    name: Lille
+    facebook_page_id: 137846509616746
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/LOSC.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/LOSC.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_losc.png
+    feed: http://www.losc.fr/rss/2/all/feed.xml
+    publish_description: text_facebook_ligue1_2012_t429
+  t143:
+    betkup_room_name: 'App FB L1 Club ol'
+    betkup_room_password: 'nEaPS%gongs25'
+    betkup_room_id: 3638882
+    name: Lyon
+    facebook_page_id: 250938593971
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/OL.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/OL.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_ol.png
+    feed: http://rss.feedsportal.com/c/603/f/502157/index.rss
+    publish_description: text_facebook_ligue1_2012_t143
+  t140:
+    betkup_room_name: 'App FB L1 Club gdb'
+    betkup_room_password: 'ZIncy89SNuB~'
+    betkup_room_id: 3638885
+    name: Bordeaux
+    facebook_page_id: 130890383602119
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/GDB.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/GDB.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_bordeaux.png
+    feed: http://www.girondins.com/fils-infos.rss
+    publish_description: text_facebook_ligue1_2012_t140
+  t150:
+    betkup_room_name: 'App FB L1 Club srfc'
+    betkup_room_password: 'tRaSs11fOal;'
+    betkup_room_id: 3638888
+    name: Rennes
+    facebook_page_id: 8023141388
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/SRFC.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/SRFC.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_rennes.png
+    feed: http://www.stade-rennais-online.com/spip.php?page=backend
+    publish_description: text_facebook_ligue1_2012_t150
+  t152:
+    betkup_room_name: 'App FB L1 Club asse'
+    betkup_room_password: 'makar$LoP50'
+    betkup_room_id: 3638893
+    name: 'St Etienne'
+    facebook_page_id: 136053823071441
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/ASSE.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/ASSE.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_asse.png
+    feed: http://www.asse.fr/rss/site.php
+    publish_description: text_facebook_ligue1_2012_t152
+  t427:
+    betkup_room_name: 'App FB L1 Club tfc'
+    betkup_room_password: 'hUmPs35Bys*'
+    betkup_room_id: 3638896
+    name: Toulouse
+    facebook_page_id: 73016258999
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/TFC.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/TFC.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_tfc.png
+    feed: http://www.tfc.info/rss/news/all
+    publish_description: text_facebook_ligue1_2012_t427
+  t5447:
+    betkup_room_name: 'App FB L1 Club etg'
+    betkup_room_password: 'Gum:oCa=wOrDS84'
+    betkup_room_id: 3638899
+    name: 'Evian Thonon Gaillard'
+    facebook_page_id: 113811945308837
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/ETG.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/ETG.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_etg.png
+    feed: http://www.ledauphine.com/sport/etg/rss
+    publish_description: text_facebook_ligue1_2012_t5447
+  t144:
+    betkup_room_name: 'App FB L1 Club om'
+    betkup_room_password: 'naBoB78The@'
+    betkup_room_id: 3638902
+    name: Marseille
+    facebook_page_id: 6051144797
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/OM.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/OM.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_om.png
+    feed: http://rss.feedsportal.com/c/603/f/502157/index.rss
+    publish_description: text_facebook_ligue1_2012_t144
+  t148:
+    betkup_room_name: 'App FB L1 Club asnl'
+    betkup_room_password: 'mewL:eveR*16'
+    betkup_room_id: 3638905
+    name: Nancy
+    facebook_page_id: 114902602851
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/ASNL.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/ASNL.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_nancy.png
+    feed: http://www.estrepublicain.fr/football/asnl/rss
+    publish_description: text_facebook_ligue1_2012_t148
+  t1996:
+    betkup_room_name: 'App FB L1 Club vafc'
+    betkup_room_password: 'dag+ErnS%Ruer76'
+    betkup_room_id: 3638908
+    name: Valencienne
+    facebook_page_id: 172980474737
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/VAFC.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/VAFC.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_valenciennes.png
+    feed: http://www.va-fc.com/fr/saison/breves/rss.html
+    publish_description: text_facebook_ligue1_2012_t1996
+  t1395:
+    betkup_room_name: 'App FB L1 Club ogcn'
+    betkup_room_password: 'Ser16Wasps$'
+    betkup_room_id: 3638911
+    name: Nice
+    facebook_page_id: 102714646451500
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/OGCN.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/OGCN.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_nice.png
+    feed: http://www.nicematin.com/football/rss
+    publish_description: text_facebook_ligue1_2012_t1395
+  t693:
+    betkup_room_name: 'App FB L1 Club fcsm'
+    betkup_room_password: 'Edhs99AxE&'
+    betkup_room_id: 3638914
+    name: Sochaux
+    facebook_page_id: 199721352390
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/FCSM.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/FCSM.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_sochaux.png
+    feed: http://www.lalsace.fr/sport/fc-sochaux/rss
+    publish_description: text_facebook_ligue1_2012_t693
+  t862:
+    betkup_room_name: 'App FB L1 Club sb'
+    betkup_room_password: 'mAEs38Baa^'
+    betkup_room_id: 3638917
+    name: Brest
+    facebook_page_id: 42180415985
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/SB.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/SB.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_brest.png
+    feed: http://www.corsematin.com/sc-bastia/rss
+    publish_description: text_facebook_ligue1_2012_t862
+  t1163:
+    betkup_room_name: 'App FB L1 Club aca'
+    betkup_room_password: 'weft64Poems#'
+    betkup_room_id: 3638920
+    name: Ajaccio
+    facebook_page_id: 13516422300
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/ACA.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/ACA.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_ajaccio.png
+    feed: http://www.francefootball.fr/rss/fiche/club/35/35-feed.xml
+    publish_description: text_facebook_ligue1_2012_t1163
+  t154:
+    betkup_room_name: 'App FB L1 Club estac'
+    betkup_room_password: 'Fluke=fuME46'
+    betkup_room_id: 3638923
+    name: 'ESTAC Troyes'
+    facebook_page_id:
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/ESTAC.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/ESTAC.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_troyes.png
+    feed: http://www.madeinfoot.com/flux/rss_news.php
+    publish_description: text_facebook_ligue1_2012_t154
+  t694:
+    betkup_room_name: 'App FB L1 Club fcl'
+    betkup_room_password: 'vaV53kue73:'
+    betkup_room_id: 3638926
+    name: 'FC Lorient'
+    facebook_page_id:
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/FCL.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/FCL.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_lorient.png
+    feed: http://dynamic.feedsportal.com/pf/463354/http://www.letelegramme.com/sports/clubs-football/fc-lorient/rss.xml
+    publish_description: text_facebook_ligue1_2012_t694
+  t139:
+    betkup_room_name: 'App FB L1 Club scb'
+    betkup_room_password: 'reAl@oMS$Moper53'
+    betkup_room_id: 3638929
+    name: 'SC Bastia'
+    facebook_page_id:
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/SCB.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/SCB.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_bastia.png
+    feed: http://www.corsematin.com/sc-bastia/rss
+    publish_description: text_facebook_ligue1_2012_t139
+  t1423:
+    betkup_room_name: 'App FB L1 Club sdr'
+    betkup_room_password: 'fIR79ogEe77:'
+    betkup_room_id: 3638932
+    name: 'Stade de Reims'
+    facebook_page_id:
+    avatar_small: /image/default/facebook_ligue1_2012/avatar_club_small/SDR.png
+    avatar_big: /image/default/facebook_ligue1_2012/avatar_club_big/SDR.png
+    header: /image/default/facebook_ligue1_2012/clubs_header/header_sdr.png
+    feed: http://www.lunion.presse.fr/rss/Sport-Stade-Reims.xml
+    publish_description: text_facebook_ligue1_2012_t1423

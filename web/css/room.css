@@ -1,0 +1,1714 @@
+/* 
+    Document   : room
+    Created on : 18 mai 2011, 10:43:03
+    Author     : jerome
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+font-family: 'RoomBlocTitle';
+src: url('/fonts/KupBlocTitle.eot?') format('eot'),
+     url('/fonts/KupBlocTitle.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'RoomVignetteLegend';
+src: url('/fonts/trebucbd.eot?') format('eot'),
+     url('/fonts/trebucbd.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'RoomVignetteTitle';
+src: url('/fonts/helveticalt57condensed.eot?') format('eot'),
+     url('/fonts/helveticalt57condensed.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'RoomVignetteButton';
+src: url('/fonts/myriad.eot?') format('eot'),
+     url('/fonts/myriad.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'roomEditionKupName';
+src: url('/fonts/KupBlocGain.eot?') format('eot'),
+     url('/fonts/KupBlocGain.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'botonMediumCustom';
+src: url('/fonts/BotonMedium.eot?') format('eot'),
+     url('/fonts/BotonMedium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+/* ------------------------------ *
+ *                                *
+ * colonne de droite in rooms     *
+ *                                *
+ * ------------------------------ */
+
+.rightroom {
+	display: block;
+	padding: 0px;
+	margin:0px;
+	position: relative;
+	width: 217px;
+	margin-top: 1px;
+	background: none;
+}
+
+.rightkup {
+	margin-left: 768px;
+}
+
+.rightkup .how_does_it_work {
+	font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #575757;
+    text-decoration: none;
+    line-height: 28px;
+}
+
+.rightroom .rightroom_texte {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #6A6A69;
+    text-decoration: none;
+	width: 140px;
+	margin-left: 50px;
+	line-height: 30px;
+}
+
+.box_right_room{
+	padding-top: 10px;
+}
+
+.rightroom .box_bg_top {
+	position: relative;
+	background: url('/images/room/right/liveChat_part1.png') no-repeat;
+	width: 218px;
+	height: 28px;
+}
+
+.rightroom .box_bg_middle {
+	position: relative;
+	background: url('/images/room/right/liveChat_part2.png') center repeat-y;
+	width: 218px;
+	height: auto;
+}
+
+.rightroom .box_bg_bottom {
+	position: relative;
+	background: url('/images/room/right/liveChat_part3.png') center repeat-y;
+	width: 218px;
+	height: 18px;
+	margin-bottom: 15px;
+}
+
+.rightroom .pellet {
+	background: url('/image/default/kup/right/pellet.png') no-repeat;
+	width: 26px;
+	height: 26px;
+	margin: 0px 10px;
+	text-align: center;
+	color: white;
+	font: bold 14px botonMediumCustom, Arial;
+	display: inline-block;
+	line-height: 26px;
+}
+
+.rightroom .right-how-to-table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 200px;
+	margin: 0px auto;
+}
+
+.rightroom .right-how-to-table td {
+	height: 30px;
+	vertical-align: middle;
+}
+
+.rightroom .right-how-to-table td.td-pellet {
+	width: 30px;
+}
+
+.rightroom .right-how-to-table-links {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 200px;
+	margin: 0px auto;
+}
+
+.rightroom .right-how-to-table-links td .picto {
+	width: 20px;
+	height: 20px;
+	margin: 0px 5px 0px 15px;
+	background: url('/image/default/challenge/sprites_challenge.png') -109px -219px no-repeat;
+}
+
+.rightroom .right-how-to-table-links td.td-picto {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.link-how_does_it_work {
+	font: normal 10px Verdana; 
+	color: #E8631D;
+	text-decoration: none;
+}
+
+.link-how_does_it_work:hover {
+	text-decoration: underline;
+}
+
+.rightroom .box_separation_line {
+	width: 190px;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #E0E0E0;
+}
+
+.rightroom .box_repartition {
+	width: 180px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.rightroom .box_win_picto {
+	position: absolute;
+	background: url('/images/room/right/win_picto.png') no-repeat;
+	width: 24px;
+	height: 35px;
+	margin-left: -10px;
+	margin-top: -4px;
+}
+
+.rightroom .box_repartition table {
+	width: 180px;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	vertical-align: middle;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.rightroom .box_repartition table thead th {
+	height: 25px;
+	background-color: #4A4949;
+	vertical-align: middle;
+	text-align: left;
+	color: #FFFFFF;
+	text-indent: 20px;
+	font-weight: normal;
+}
+
+.rightroom .box_repartition table tbody {
+	border-top: 4px solid white; 
+}
+
+.rightroom .box_repartition table tbody td {
+	vertical-align: middle;
+	text-align: center;
+	height: 25px;
+}
+
+.rightroom .box_gain_guarantee_bg .box_gain_guarantee_amount {
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	margin-left: 70px;
+	padding-top: 15px;
+}
+
+.rightroom .box_gain_guarantee_bg .box_gain_guarantee_text {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 55px;
+	margin-top: 10px;
+	color: white;
+}
+
+.rightroom .box_more_info {
+	width: 218px;
+	text-align: right;
+}
+
+.rightroom .box_more_info a {
+	margin-right: 20px;
+	color: black;
+}
+
+.rightroom .box_more_info a:hover {
+	text-decoration: underline;
+}
+
+.rightroom .box_gain_guarantee_bg {
+	background: url('/images/room/right/bg_box_warranty.png') no-repeat;
+	width: 152px;
+	height: 77px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rightroom .private, .rightroom .public, .rightroom .statut1, .rightroom .statut2, .rightroom .statut3 {
+	display: block;
+	margin: 0px; padding: 0px;
+	background: url('/images/room/right/private_background.png');
+	height: 310px;
+	margin-bottom: 15px;
+}
+
+.rightroom .public, .rightroom .statut3{
+	margin-top: 0px;
+}
+
+.rightroom .public {
+	background: url('/images/room/right/public_background.png');
+	height: 186px;
+}
+
+.rightroom .statut1 {
+	background: url('/images/room/right/statut1_background.png');
+	height: 186px;
+}
+
+.rightroom .statut2 {
+	background: url('/images/room/right/statut2_background.png');
+	height: 261px;
+	position: relative;
+}
+
+.rightroom .statut2 p {
+	font: normal 12px Arial;
+	color: #666666;
+	padding: 10px;
+}
+
+.rightroom .statut3 {
+	background: url('/images/room/right/statut3_background.png');
+	height: 330px;
+}
+
+.rightroom .private .title, .rightroom .public .title {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: #282828;
+	line-height: 20px;
+	padding-top: 42px;
+	margin-left: 60px;
+	width: 142px;
+	height: 20px;
+}
+
+.rightroom .private .message, 
+.rightroom .public .message, 
+.rightroom .statut1 .message,
+.rightroom .statut2 .message,
+.rightroom .statut3 .message {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: #575757;
+	margin-left: 15px;
+	width: 185px;
+	line-height: 13px;
+	height: 55px;
+}
+
+.rightroom .public .message {
+	height: 50px;
+}
+
+.rightroom .statut1 .message, .rightroom .statut2 .message, .rightroom .statut3 .message {
+	padding-top: 50px;
+	height: 80px;
+}
+
+.rightroom .statut2 .message {
+	height: 90px;
+}
+
+.rightroom .statut3 .message {
+	height: 100px;
+}
+
+.rightroom .private .legende {
+	margin: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: #575757;
+	margin-left: 15px;
+	width: 185px;
+	line-height: 13px;
+}
+
+.rightroom .private div.input {
+	margin-left: 14px;
+	margin-top: 9px;
+}
+
+.rightroom .private input.input {
+	width: 182px;
+	height: 26px;
+	border-left: 1px solid #d7d7d7;
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #575757;
+	padding-left: 5px;
+}
+
+.rightroom .private .join, .rightroom .public .join {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 9px;
+	margin-left: 55px;
+}
+
+.rightroom .homeRoom {
+	background: none;
+}
+
+
+/* ------------------------------ *
+ *                                *
+ * room / view / kups             *
+ *                                *
+ * ------------------------------ */
+
+.room .view .kups {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+.room .view .kups .header {
+	margin: 0px;
+	padding: 0px;
+	width: 710px;
+	text-align: left;
+	height: 34px;
+	background: none;
+}
+
+
+/* ---------------------
+ * Home
+ * --------------------- */
+.room .header {
+	margin: 0px;
+	padding: 0px;
+	width: 990px;
+	height: 64px;
+	background: url('/images/room/home/roomsFR.png');
+}
+
+.room .header .link {
+	float: right;
+	width: 155px;
+	line-height: 76px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	color: #FFFFFF;
+}
+
+.room .header .link A {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.room .header .link A:hover {
+	text-decoration: underline;
+}
+
+.room .content {
+	width: 990px;
+/*	background: url('/images/home/middle.png') center;*/
+}
+
+.room .bloc {
+    position: relative;
+	width: 216px;
+	height: 246px;
+	background: url('/image/default/room/bloc_background.png') no-repeat center;
+    margin-bottom: 5px;
+	margin-right: 11px;
+}
+
+.room .bloc .bloc-top {
+	height: 41px;
+	width: 216px;
+	position: relative;
+	cursor: pointer;
+}
+
+.room .bloc .bloc-official {
+    position: absolute;
+    top: -5px;
+    right: 27px;
+}
+
+.room .bloc .bloc-top .titre {
+	position: absolute;
+    left: 40px;
+    top: 3px;
+    padding-top: 0px;
+    color: white;
+    display: block;
+	font-weight: bold;
+	font-size: 19px;
+	font-family: RoomVignetteTitle;
+}
+
+.room .bloc .bloc-top .legende {
+	position: absolute;
+    color: #e55a19;
+	top: 27px;
+    left: 40px;
+    display: block;
+    margin-top: -5px;
+	font-size: 10px;
+	font-family: RoomVignetteLegend;
+}
+
+.room .bloc .bloc-content {
+    overflow: hidden;
+    width: 216px;
+    height: 131px;
+}
+
+.room .bloc .vignetteTexte {
+    background: black;
+    cursor: pointer; 
+    display: none; 
+    position: absolute; 
+    font-family: RoomVignetteLegend ,Arial, sans-serif; 
+    font-size: 11px; 
+    font-weight: normal; 
+    font-style: normal; 
+    color: #DDDDDD; 
+    width: 194px;
+	margin-left: 1px;
+    padding: 10px;
+    height: 109px;
+}
+
+.room .bloc .bloc-bottom, .room .bloc .bloc-bottom .vignetteLegendeFront {
+	height: 75px;
+	width: 216px;
+	position: absolute;
+	bottom: 0;
+}
+
+.room .bloc .bloc-bottom .vignetteLegendeFront {
+    cursor: pointer;
+    display: block;
+}
+
+.room .bloc .bloc-bottom .vignetteLegendeBack {
+	position: absolute;
+	height: 67px;
+	top: 0;
+	width: 216px;
+	background: url('/image/default/room/bloc_bottom_background.png') center;
+	z-index: 2;
+}
+
+.room .bloc .bloc-picto {
+	position: absolute;
+}
+
+.room .bloc .titre {
+	margin: 0px;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: normal;
+	font-family: RoomBlocTitle, Helvetica, Arial, sans-serif;
+}
+
+.room .bloc .intro {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 25px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+/*
+.room .bloc .bouton {
+	position: absolute;
+	width: 105px;
+	height: 36px;
+	margin-top: 178px;
+	margin-left: 120px;
+}*/
+
+.room .bloc .legende {
+	font-family: RoomVignetteLegend, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4e4d4d;
+}
+
+.room .footer {
+	height: 75px;
+        margin-top: 10px;
+        text-align: right;
+        margin-right: 45px;
+}
+
+.room .vide {
+	height: 15px;
+}
+
+/* MY BEKTUP */
+.room-with-kups {
+    border: 1px solid #ededed;
+    width: 714px;
+    height: 300px;
+    margin-top: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.only-kup-closed {
+    text-align: left;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4c4d4f;
+}
+.room-with-kups .no-kups {
+	margin: 30px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4c4d4f;
+}
+.room-vignette {
+    background: url(/image/default/me/room_horizontal_bloc.png) no-repeat;
+    width: 714px;
+    height: 80px;
+    position: relative;
+}
+
+.room-vignette .titre {
+    color: white;
+	font-weight: bold;
+    position: absolute;
+    left: 55px;
+    top: 10px;
+	font-family: RoomVignetteTitle;
+	font-size: 24px;
+}
+
+.room-vignette .bloc-image {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 180px;
+    top: 5px;
+}
+
+.room-vignette .legende {
+    color: #e55a19;
+    position: absolute;
+    left: 55px;
+    top: 37px;
+	font-family: RoomVignetteLegend;
+	font-size: 12px;
+}
+
+.room-vignette .bloc-bottom {
+    position: absolute;
+    left: 330px;
+    top: 13px;
+    width: 280px;
+    height: 60px;
+	text-align: left;
+}
+.room-vignette .admin {
+	position: absolute;
+	top: 12px;
+	left: 590px;
+}
+.room-vignette .bloc-bottom .bloc-picto {
+    float: left;
+    width: 140px;
+    height: 19px;
+}
+
+.room-vignette .bloc-bottom .bloc-picto table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.room-vignette .bloc-bottom .bloc-picto td {
+	vertical-align: middle;
+}
+
+.room-vignette .bloc-bottom .bloc-picto td.bloc-image-picto {
+	width: 25px;
+	text-align: center;
+}
+
+.room-vignette .bloc-bottom .bloc-picto .legende {
+    font-weight: bold;
+    position: inherit;
+    color: #4e4d4d;
+}
+
+/* SEARCH ENGINE ON HOME ROOM */
+.room .search {
+	width: 710px;
+	background-color: #EFEFEF;
+}
+
+.room .search .contentOfSearchRoom {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 22px;
+	margin-right: 22px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: black;
+}
+
+.room .search .inputSearchRoomHome {
+	padding-left: 6px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #555555;
+}
+
+.room .areaOne {
+    background: url("/images/interface/area/areaOne_background.png") repeat scroll 0 0 transparent;
+    padding-bottom: 190px;
+}
+
+.room {
+	padding-bottom:10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 990px;
+}
+
+
+/* ------------------------------ *
+ *                                *
+ * Header of Kup in Room          *
+ *                                *
+ * ------------------------------ */
+
+div#room_kup_header {
+	position: relative;
+	width: 765px;
+	height: 276px;
+	background: url(/image/default/room/room_kup_header_background.png) center no-repeat;
+}
+
+div#room_kup_header div.part1 {
+	position: relative;
+	margin: 0px; padding: 0px;
+	height: 96px;
+}
+
+div#room_kup_header div.part2 {
+	position: relative;
+	margin: -11px 0px 0px 0px;
+	padding: 0px;
+	height: 190px;
+}
+
+div#room_kup_header div#badge {
+	position: absolute;
+	top: 3px;
+	left: 710px;
+	width: 34px;
+	height: 59px;
+	background: url('/image/default/room/room_kup_header_off.png') no-repeat;
+}
+
+div#room_kup_header div.part1 .social {
+	position: absolute;
+	top: 58px;
+	left: 419px;
+	width: 333px;
+	height: 28px;
+}
+
+div#room_kup_header div.part2 .like {
+	position: absolute;
+	top: 138px;
+	left: 182px;
+	width: 200px;
+	height: 26px;
+}
+
+div#room_kup_header div#nomRoom {
+	position: relative;
+	top: 17px;
+	left: 54px;
+	font-family: Arial;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+div#room_kup_header div#membres {
+	position: absolute;
+	top: 25px;
+	left: 345px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+div#room_kup_header div#nom {
+	position: absolute;
+	top: 17px;
+	left: 434px;
+	font-family: Arial;
+	font-size: 10px;
+	color: #E55A19;
+	width: 118px;
+	overflow: hidden;
+}
+
+div#room_kup_header div#nom .auteur {
+	font-family: Arial;
+	font-size: 10px;
+	color: #E55A19;
+	text-decoration: none;
+}
+
+div#room_kup_header div#accueil {
+	position: absolute;
+	top: 25px;
+	left: 580px;
+}
+
+div#room_kup_header div#accueil A {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #E55A19;
+}
+
+div#module_blockHeader div#accueil {
+	position: absolute;
+	top: 23px;
+	left: 365px;
+}
+
+div#module_blockHeader div#accueil A {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #E55A19;
+}
+
+div#room_kup_header div#menu {
+	position: absolute;
+	top: 64px;
+	left: 9px;
+	height: 25px;
+	font-family: Arial;
+	font-size: 11px;
+	color: #575756;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 25px;
+    background: url('/images/kup/view/boxkup-title.png') 1px 0px no-repeat;
+    width: 747px;
+}
+
+div#room_kup_header div#menu p img {
+    margin: 0px; padding: 0px;
+}
+
+div#room_kup_header div#menu a {
+	font-family: Arial;
+	font-size: 11px;
+	color: #575756;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 22px;
+}
+
+div#room_kup_header div#titreKup {
+	position: absolute;
+	top: 0px;
+	left: 43px;
+	font-family: Arial;
+	font-size: 27px;
+	font-weight: bold;
+	color: #E55A19;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+div#room_kup_header div#imageKup {
+	position: absolute;
+	height: 92px;
+	width: 157px;
+	top: 40px;
+	left: 17px;
+}
+
+div#room_kup_header div#parag {
+	position: absolute;
+	top: 42px;
+	left: 183px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#room_kup_header div#parag P {
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+	margin-bottom: 4px;
+}
+
+div#room_kup_header div#parag a, div#room_kup_header div#parag a:hover {
+	position: relative;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #E55A19;
+}
+
+div#room_kup_header div#socialFB {
+	position: absolute;
+	bottom: 5px;
+	width: 365px;
+	left: 17px;
+	height: 25px;
+}
+
+div#parag a:hover {
+	text-decoration: underline;
+}
+
+div#room_kup_header div#jackpot {
+	position: absolute;
+	top: 13px;
+	left: 427px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#room_kup_header div#jackpotAmount {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	top: 30px;
+	width: 165px;
+	left: 405px;
+	height: 44px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+	text-align: right;
+}
+
+div#room_kup_header div#chrono {
+	margin: 0px; padding: 0px;
+	position: absolute;
+	top: 30px;
+	width: 130px;
+	left: 590px;
+	height: 40px;
+}
+
+div#room_kup_header div#temps {
+	position: absolute;
+	top: 13px;
+	left: 607px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#room_kup_header div#kupouverte, div#room_kup_header div#mise {
+	position: absolute;
+	top: 91px;
+	left: 437px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#room_kup_header div#jours, div#room_kup_header div#participants {
+	position: absolute;
+	top: 114px;
+	left: 437px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#room_kup_header div#evnt, div#room_kup_header div#fb {
+	position: absolute;
+	top: 136px;
+	left: 437px;
+	width: 140px;
+	height: 16px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+	line-height: 16px;
+}
+
+div#room_kup_header div#mise, div#room_kup_header div#participants, div#room_kup_header div#fb {
+	left: 618px;
+}
+
+
+/* ------------------------------ *
+ *                                *
+ * Header of Room / View          *
+ *                                *
+ * ------------------------------ */
+
+div#module_blockHeader {
+	margin: 0px; padding: 0px;
+	position: relative;
+	width: 760px;
+	height: 212px;
+	background: url('/images/room/module/blockHeaderRoom/fondBH.png') no-repeat;
+}
+
+div#module_blockHeader div#badge {
+	position: absolute;
+	top: 3px;
+	left: 707px;
+	width: 34px;
+	height: 107px;
+	background: url('/images/room/module/blockHeaderRoom/badgeBH.png') no-repeat;
+}
+
+div#module_blockHeader div#nomRoom {
+	position: relative;
+	height: 68px;
+	left: 72px;
+	font-family: Arial;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 65px;
+}
+
+div#module_blockHeader div#nom {
+	position: absolute;
+	top: 15px;
+	left: 480px;
+	font-family: Arial;
+	font-size: 10px;
+	color: #E55A19;
+	width: 180px;
+	height: 45px;
+}
+
+div#module_blockHeader div#bouton_edit {
+	position: absolute;
+	width: 20px;
+	top: 20px;
+	left: 680px;
+}
+
+div#module_blockHeader div#bouton_del {
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    left: 710px;
+}
+
+div#module_blockHeader div#nom img {
+	margin-right: 10px;
+}
+
+div#module_blockHeader div#contenuBH {
+	position: relative;
+	top: -22px;
+	height: 160px;
+}
+
+div#module_blockHeader div#imageKup {
+	position: relative;
+	height: 130px;
+	width: 226px;
+	top: 15px;
+	left: 13px;
+}
+
+div#module_blockHeader div#parag {
+	position: relative;
+	top: -115px;
+	left: 253px;
+	width: 444px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #575756;
+}
+
+div#module_blockHeader div#temps {
+	position: relative;
+	top: -216px;
+	left: 605px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_blockHeader div#room_publique {
+	position: relative;
+	top: -118px;
+	left: 286px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_blockHeader div#jeu {
+	position: relative;
+	top: -176px;
+	left: 420px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_blockHeader div#members {
+	position: relative;
+	top: -234px;
+	left: 550px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_blockHeader div#OpenKups {
+	position: relative;
+	top: -268px;
+	left: 285px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_blockHeader div#fb {
+	position: relative;
+	top: -325px;
+	left: 419px;
+	width: 189px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_blockHeader div#social {
+	position: absolute;
+	top: 127px;
+	left: 252px;
+	width: 430px;
+	height: 30px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+
+
+/* ------------------------------ *
+ *                                *
+ * Prono onLine                   *
+ *                                *
+ * ------------------------------ */
+
+div#module_prono {
+	position: relative;
+	width: 345px;
+	height: 163px;
+	background: url(/images/room/module/onlineProno/fond_Pr.png) no-repeat;
+}
+
+div#module_prono div#titre_onglet a {
+	position: relative;
+	top: 6px;
+	left: 38px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #575756;
+	text-decoration: none
+}
+
+div#module_prono div#contenu_haut {
+	position: relative;
+	top: 15px;
+	left: 0px;
+	width: 345px;
+	height: 46px;
+}
+
+div#module_prono div#contenu_haut div#titre {
+	float: left;
+	margin-left: 30px;
+	margin-top: 4px;
+	font-family: Arial;
+	font-size: 17px;
+	color: #575756;
+	font-weight: bold;
+}
+
+div#module_prono div#contenu_haut div#timer {
+	float: right;
+	margin-left: 0px;
+	margin-top: 3px;
+	margin-right: 10px;
+}
+
+div#module_prono div#contenu_bas {
+	position: relative;
+	top: 15px;
+	left: 0px;
+	width: 345px;
+	height: 46px;
+}
+
+div#module_prono div#contenu_bas div#gauche {
+	float: left;
+	top: 0px;
+	left: 0px;
+	width: 186px;
+	height: 46px;
+}
+
+div#module_prono div#contenu_bas div#gauche div#kup {
+	position: relative;
+	margin-left: 42px;
+	margin-top: 2px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_prono div#contenu_bas div#gauche div#mise {
+	position: relative;
+	margin-left: 42px;
+	margin-top: 9px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_prono div#contenu_bas div#gauche div#part {
+	position: relative;
+	margin-left: 42px;
+	margin-top: 5px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_prono div#contenu_bas div#gauche div#cagnotte {
+	position: relative;
+	margin-left: 42px;
+	margin-top: 2px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+div#module_prono div#contenu_bas div#gauche div#cagnotte b {
+	color: #F28A31;
+}
+
+div#module_prono div#contenu_bas div#droite {
+	float: right;
+	top: 0px;
+	left: 0px;
+	width: 159px;
+	height: 90px;
+}
+
+div#module_prono div#contenu_bas div#droite div#prono {
+	position: relative;
+	top: 0px;
+	left: 21px;
+	width: 159px;
+	height: 46px;
+}
+
+div#module_prono div#contenu_bas div#droite div#mise_img {
+	position: relative;
+	top: -43px;
+	left: 97px;
+	width: 159px;
+	height: 46px;
+}
+
+div#module_prono div#contenu_bas div#droite div#bouton {
+	position: relative;
+	top: -43px;
+	left: 0px;
+	width: 159px;
+	height: 27px;
+}
+
+
+/* ------------------------------ *
+ *                                *
+ * Bloc Kup condensed             *
+ *                                *
+ * ------------------------------ */
+
+.module_pronoNC {
+	position: relative;
+	width: 352px;
+	height: 163px;
+	/*background: url(/images/room/module/offlineProno/fond_NC.png) no-repeat;*/
+	background: url(/image/default/room/offline_prono/fond_NC.png) top center no-repeat;
+       
+}
+
+.module_pronoNC .titre_onglet a {
+	position: relative;
+	top: 5px;
+	left: 18px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #575756;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.module_pronoNC .contenu_haut {
+	position: relative;
+	top: 13px;
+	left: 3px;
+	width: 345px;
+	height: 90px;
+}
+
+.module_pronoNC .contenu_haut .photo {
+	float: left;
+	margin-left: 13px;
+	margin-top: 8px;
+}
+
+.module_pronoNC .contenu_haut .titre {
+	position: absolute;
+	left: 33px;
+	font-family: RoomVignetteTitle;
+	font-size: 17px;
+	color: #575756;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+.module_pronoNC .contenu_haut .kup {
+	position: absolute;
+	left: 40px;
+	top: 49px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+.module_pronoNC .contenu_haut .mise {
+	position: absolute;
+	left: 40px;
+	top: 70px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+.module_pronoNC .contenu_haut .part {
+	position: absolute;
+	left: 40px;
+	top: 90px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+.module_pronoNC .contenu_haut .cagnotte {
+	position: absolute;
+	left: 40px;
+	top: 110px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+.module_pronoNC .contenu_haut div.cagnotte b {
+	color: #F28A31;
+}
+
+.module_pronoNC .chrono {
+	position: absolute;
+	left: 275px;
+	top: 5px;
+	font-family: RoomVignetteButton;
+	color: white;
+	text-shadow: 1px 1px #000;
+	font-size: 13px;
+}
+
+.module_pronoNC .bouton {
+	position: absolute;
+	right: 32px;
+	top: 122px;
+	color: white;
+	font-size: 14px;
+	font-family: RoomVignetteButton;
+	text-shadow: 1px 1px rgba(204, 204, 204, 0.5);
+	font-weight: bold;
+	width: 148px;
+	height: 24px;
+	text-align: center;
+    padding-top: 3px;
+}
+
+.module_pronoNC .bouton a {
+    margin: 0px; padding: 0px;
+    width: 112px;
+    height: 30px;
+    background: url('/images/kup/boutonOff.png');
+    color: #FFFFFF;
+    font-family: RoomVignetteButton;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 0 black;
+    text-align: center;
+    line-height: 30px;
+    z-index: 100;
+    position: absolute;
+    left: 25px;
+}
+
+.module_pronoNC .has-estimated {
+	position: absolute;
+	left: 223px;
+	top: 78px;
+}
+
+.module_pronoNC .has-bet {
+	position: absolute;
+	left: 307px;
+	top: 78px;
+}
+.module_pronoNC .label-has-estimated {
+	position: absolute;
+	left: 191px;
+	top: 103px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #575756;
+}
+
+.module_pronoNC .label-has-bet {
+	position: absolute;
+	left: 285px;
+	top: 103px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #575756;
+}
+
+
+
+.room-with-kups .module_pronoNC {
+	position: relative;
+	width: 354px;
+	height: 155px;
+	background: url(/image/default/room/offline_prono/fond_NC_small.png) top center no-repeat;
+	margin-top: 15px;
+}
+
+.room-with-kups .module_pronoNC .titre_onglet a {
+	position: relative;
+	top: 5px;
+	left: 30px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #575756;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.room-with-kups .kup-list-content {
+	width: 710px !important;
+}
+
+
+.room-with-kups .module_pronoNC .contenu_haut {
+	position: relative;
+	top: 10px;
+	left: 0px;
+	width: 320px;
+	height: 90px;
+}
+
+.room-with-kups .module_pronoNC .contenu_haut .titre {
+	position: absolute;
+	left: 45px;
+	top: 1px;
+	font-family: Arial;
+	font-size: 17px;
+	color: #575756;
+	font-weight: bold;
+	line-height: 29px;
+}
+
+.room-with-kups .module_pronoNC .contenu_haut .kup {
+	position: absolute;
+	left: 55px;
+	top: 47px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+.room-with-kups .module_pronoNC .contenu_haut .mise {
+	position: absolute;
+	left: 55px;
+	top: 67px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+.room-with-kups .module_pronoNC .contenu_haut .part {
+	position: absolute;
+	left: 55px;
+	top: 86px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+.room-with-kups .module_pronoNC .contenu_haut .cagnotte {
+	position: absolute;
+	left: 55px;
+	top: 103px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #575756;
+}
+
+.room-with-kups .module_pronoNC .contenu_haut .chrono {
+	top: 6px;
+        left: 270px;
+}
+
+.room-with-kups .module_pronoNC .has-estimated {
+	position: absolute;
+	left: 224px;
+	top: 73px;
+}
+
+.room-with-kups .module_pronoNC .has-bet {
+	position: absolute;
+	left: 302px;
+	top: 73px;
+}
+.room-with-kups .module_pronoNC .label-has-estimated {
+	position: absolute;
+	left: 208px;
+	top: 98px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #575756;
+}
+
+.room-with-kups .module_pronoNC .label-has-bet {
+	position: absolute;
+	left: 281px;
+	top: 98px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #575756;
+}
+
+.room-with-kups .module_pronoNC .bouton {
+	position: absolute;
+	right: 24px;
+	top: 115px;
+	color: white;
+	font-size: 14px;
+	font-family: RoomVignetteButton;
+	text-shadow: 1px 1px rgba(204, 204, 204, 0.5);
+	font-weight: bold;
+	width: 139px;
+	height: 19px;
+	text-align: center;
+    padding-top: 3px;
+}
+
+.scrollFooter {
+    
+    position: relative;
+    height: 40px;
+    text-align: right;
+}
+
+.kup-list-content .scrollFooter tr, .kup-list-content .scrollFooter tr td {
+    vertical-align: middle;
+    text-align: right;
+}
+
+#bandeRoomsWithKups tr, #bandeRoomsWithKups tr td {
+    text-align: left;
+}
+
+.officialHomeRoom {
+    position: absolute;
+    top: 0px;
+    left: 175px;
+    width: 34px;
+    height: 59px;
+    background: url('/image/default/room/room_kup_header_off.png') no-repeat;
+}
+
+#rooms-thumbnails-container {
+	margin-left: 18px;
+}
+
+.warnning-room-authentification {
+	width: 680px;
+	margin: 0px auto;
+}
+
+.warnning-room-authentification table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+.warnning-room-authentification table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.warnning-room-authentification table td .alert {
+	margin: 0px 10px;
+}
+
+.warnning-room-authentification h3 {
+	font: bold 12px Arial;
+	color: #e55a19;
+	text-align: center;
+}
+
+.warnning-room-authentification a {
+	text-decoration: none;
+	color: #F28C2E;
+	font: bold 12px Arial;
+}
+
+.warnning-room-authentification a:hover {
+	text-decoration: underline;
+}
+
+.teaser-betkup {
+	display: block;
+	width: 205px;
+	margin: 0px 0px 0px 7px;
+}
+
+.title-teaser-video {
+	position: absolute;
+	font: normal 10px Verdana;
+	color: #000000;
+	text-align: left;
+	margin: 10px 0px 0px 10px;
+}

@@ -1,0 +1,191 @@
+@font-face {
+font-family: 'BotonRegularCustom';
+src: url('/fonts/Boton-Regular.eot?') format('eot'),
+     url('/fonts/Boton-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+#title-room-search {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px 0px 0px 15px;
+}
+#title-room-search td {
+	height: 35px;
+	vertical-align: middle;
+}
+#title-room-search td #title-pic {
+	width: 35px;
+	height: 35px;
+	background: url('/image/default/room/search/sprites_room.png') 0px 0px no-repeat;
+}
+#title-room-search h1 {
+	padding-top: 10px;
+	margin-left: 10px;
+	font: 24px BotonRegularCustom, Arial;
+	color: #575756;
+}
+
+
+#room-filters-container {
+	display: block;
+	display: none;
+	margin: 0px 0px 10px 15px;
+	height: 226px;
+}
+#room-filters {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+#room-filters td {
+	vertical-align: top;
+}
+
+#keyword-filter {
+	margin-left: 15px;
+}
+
+#rooms-thumbnails-container {
+	width: 720px;
+	min-height: 500px;
+	height: auto;
+}
+.more-option {
+	margin-left: 5px;
+	text-decoration: none;
+	font: bold 14px Arial;
+	color: #575756;
+}
+.more-option:hover {
+	text-decoration: underline;
+}
+.filters-options {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin-left: 15px;
+}
+.filters-options td {
+	vertical-align: middle;
+	text-align: left;
+}
+.pic-more {
+	width: 15px;
+	height: 13px;
+	background: url('/image/default/room/search/sprites_room.png') -58px -18px no-repeat;
+}
+.pic-less {
+	width: 15px;
+	height: 13px;
+	background: url('/image/default/room/search/sprites_room.png') -57px -33px no-repeat;
+}
+
+.interfaceWidgetChoices h2 {
+	font: bold 14px Arial;
+	color: #575756;
+	margin: 0px 0px 4px 5px;
+}
+
+
+#rooms-thumbnails-list h3 {
+	color: #575756;
+	font: normal 12px Arial;
+	margin: 10px 60px 0px 0px;
+	text-align: right;
+}
+
+#rooms-thumbnails-list .paging {
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+
+#rooms-thumbnails-list .paging table {
+	position: absolute;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	right: 20px;
+}
+
+#rooms-thumbnails-list .paging table td {
+	vertical-align: middle;
+	width: 25px;
+	text-align: center;
+}
+
+#rooms-thumbnails-list .paging table td a {
+	display: block;
+	width: 19px;
+	height: 19px;
+	text-align: center;
+	font: normal 12px Arial;
+	color: #575756;
+	line-height: 19px;
+	cursor: pointer;
+}
+
+#rooms-thumbnails-list .paging table td a.first {
+	background: url(/images/kup/classement/pageFirst.png) top left no-repeat;
+}
+
+#rooms-thumbnails-list .paging table td a.last {
+	background: url(/images/kup/classement/pageLast.png) top left no-repeat;
+}
+
+#rooms-thumbnails-list .paging table td a.back {
+	background: url(/images/kup/classement/pageBack.png) top left no-repeat;
+}
+
+#rooms-thumbnails-list .paging table td a.next {
+	background: url(/images/kup/classement/pageNext.png) top left no-repeat;
+}
+
+#rooms-thumbnails-list .paging table td a.points {
+	background: url(/images/kup/classement/pagePoints.png) top left no-repeat;
+}
+
+#rooms-thumbnails-list .paging table td a.page-off {
+	background: url(/images/kup/classement/pageOff.png) top left no-repeat;
+	color: #333333;
+}
+
+#rooms-thumbnails-list .paging table td a.page-on, #rooms-thumbnails-list .paging table td a.page:hover {
+	background: url(/images/kup/classement/pageOn.png) top left no-repeat;
+	font-weight: bold;
+	color: white;
+}
+
+.kup-cell-hover, .kup-cell-selected {
+	background-color: #E6E6E6; 
+}
+
+.kup-cell-hover label, .kup-cell-selected label {
+	font-weight: bold;
+	color: black;
+}
+
+.title-choices {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.pic-sport {
+	width: 15px;
+	height: 15px;
+	background: url('/image/default/room/search/sprites_room.png') -38px 0px no-repeat;
+}
+.pic-category {
+	width: 15px;
+	height: 15px;
+	background: url('/image/default/room/search/sprites_room.png') -56px 0px no-repeat;
+}
+.pic-access {
+	width: 15px;
+	height: 15px;
+	background: url('/image/default/room/search/sprites_room.png') -77px 0px no-repeat;
+}
+.pic-sort {
+	width: 11px;
+	height: 15px;
+	background: url('/image/default/room/search/sprites_room.png') -40px -18px no-repeat;
+}

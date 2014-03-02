@@ -1,0 +1,81 @@
+#grid {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 750px;
+	margin: 10px auto 10px auto;
+}
+
+#grid #grid-left {
+	width: 480px;
+	vertical-align: top;
+	text-align: center;
+}
+
+#grid #grid-right {
+	width: 270px;
+	vertical-align: top;
+	text-align: center;
+}
+
+/*
+ * GRID LEFT
+ */
+#next-chocs-container {
+	width: 470px;
+	height: 365px;
+	display: block;
+	position: relative;
+	margin: 30px auto;
+	background-color: white;
+}
+
+#last-results-container {
+	width: 470px;
+	height: auto;
+	display: block;
+	position: relative;
+	margin: 40px auto;
+	background-color: white;
+}
+
+#ranking-container {
+	width: 470px;
+	height: 350px;
+	display: block;
+	position: relative;
+	margin: 30px auto;
+	background-color: white;
+}
+
+
+/*
+ * GRID RIGHT
+ */
+#how-to-container {
+	width: 260px;
+	height: 340px;
+	display: block;
+	position: relative;
+	margin: 30px auto;
+	background-color: white;
+}
+
+#news-container {
+	width: 260px;
+	height: 340px;
+	display: block;
+	position: relative;
+	background-color: #F0F0F0;
+	margin: 30px auto;
+	background-color: white;
+}
+
+#betkup-promo-container {
+	width: 260px;
+	height: 270px;
+	display: block;
+	position: relative;
+	margin: 30px auto;
+	background-color: white;
+}
+

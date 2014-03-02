@@ -1,0 +1,37 @@
+ui:
+  kupName: label_kup_title_201213_klassico_k8
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Klassico
+  events: 8 matchs
+  document_path: /kup/soccer/eu/201213/k8/document
+  vignette_kup_view: /kup/soccer/eu/201213/k8_klassico/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/eu/201213/k8_klassico/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/eu/201213/k8_klassico/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/eu/201213/k8_klassico/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/eu/201213/k8_klassico/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_klassico_201213_k8
+  predictions_view_template: k8,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label:
+  box_prizes_button:
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 12px
+    big_box:
+      title: 30px
+      description: 16px

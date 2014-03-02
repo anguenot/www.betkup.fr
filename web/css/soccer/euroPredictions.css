@@ -1,0 +1,295 @@
+@font-face {
+font-family: 'BotonMediumCustom';
+src: url('/fonts/BotonMedium.eot?') format('eot'),
+     url('/fonts/BotonMedium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+#full-predictions-container {
+	width: 710px;
+}
+
+#last-predictions {
+	width: 710px;
+	height: 65px;
+	background: url('/images/kup/view/pronostic/disquette.png') left no-repeat;
+}
+
+#last-predictions .date {
+	height: 65px;
+	margin-left: 30px;
+	font: 12px Arial;
+	line-height: 65px;
+}
+
+#progress-bar {
+	width: 410px;
+	height: 40px;
+	margin: 0px auto;
+}
+#progress-bar.group {
+	background: url('/image/default/euro/sprites_euro.png') no-repeat;
+}
+
+#euro-group-progress-bar, #euro-final-progress-bar  {
+	position: relative;
+	width: 135px;
+	height: 40px;
+	margin-left: 70px;
+	font: 14px BotonMediumCustom, Arial;
+	color: #707070;
+	float: left;
+	line-height: 40px;
+}
+
+#euro-group-progress-bar .progress-bar-number, #euro-final-progress-bar .progress-bar-number {
+	position: absolute;
+	width: 23px;
+	height: 23px;
+	top: 7px;
+	left: -40px;
+	font: 16px BotonMediumCustom, Arial;
+	text-align: center;
+	color: #707070;
+	background: url('/image/default/euro/sprites_euro.png') 0px -133px no-repeat;
+	line-height: 23px;
+}
+
+#euro-group-progress-bar.active .progress-bar-number, #euro-final-progress-bar.active .progress-bar-number {
+	top: 5px;
+	left: -45px;
+	color: #000000;
+	font: 22px BotonMediumCustom, Arial;
+	background: none;
+}
+
+#euro-group-progress-bar.active, #euro-final-progress-bar.active {
+	color: #000000;
+}
+
+#euro-group-table {
+	border-spacing: 5px;
+	border-collapse: separate;
+	width: 710px; 
+	margin: 0px;
+}
+#euro-group-table td {
+	vertical-align: middle;
+}
+
+.full-predictions-title {
+	width: 100%;
+	height: 25px;
+	text-align: left;
+	background: #606060;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwNjA2MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNTM1MzUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #606060 0%, #353535 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606060), color-stop(100%,#353535));
+	background: -webkit-linear-gradient(top,  #606060 0%,#353535 100%);
+	background: -o-linear-gradient(top,  #606060 0%,#353535 100%);
+	background: -ms-linear-gradient(top,  #606060 0%,#353535 100%);
+	background: linear-gradient(top,  #606060 0%,#353535 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606060', endColorstr='#353535',GradientType=0 );
+	line-height: 25px;
+}
+.full-predictions-title h2 {
+	height: 25px;
+	text-align: left;
+	font: 14px Arial;
+	color: white;
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+.euro-prediction-row-table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.avatar-euro-team {
+	width: 26px;
+	height: 15px;
+	text-align: center;
+}
+.avatar-euro-team-left img {
+	float: right;
+	margin-right: 3px;
+}
+.avatar-euro-team-right img {
+	float: left;
+	margin-left: 3px;
+}
+.euro-team {
+	font: bold 11px Arial;
+	color: black;
+	width: 90px;
+}
+.euro-team-left {
+	text-align: right;
+	margin-right: 5px;
+}
+.euro-team-right {
+	text-align: left;
+	margin-left: 5px;
+}
+.euro-group-table-row {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+.euro-group-table-row td {
+	text-align: left;
+	vertical-align: middle;
+	height: 30px;
+}
+.odd {
+	background-color: #F0F0F0;
+}
+.even {
+	background-color: #E5E5E5;
+}
+.euro-date {
+	font: 10px Arial;
+	color: #666666;
+	width: 65px;
+	padding-left: 5px;
+}
+.euro-action {
+	width: 20px;
+}
+.euro-radio {
+	width: 15px;
+}
+
+.pic-action {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('/image/default/euro/sprites_euro.png') -24px -108px; no-repeat;
+}
+
+/*
+ *
+ * EURO PREDICTION FINAL
+ *
+ */
+
+#progress-bar.final {
+	background: url('/image/default/euro/sprites_euro.png') 0px -43px no-repeat;
+}
+
+#euro-prediction-final-table {
+	width: 710px;
+	border-spacing: 5px;
+	border-collapse: separate;
+}
+
+#euro-prediction-final-table th {
+	width: 177px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#euro-prediction-final-table th h1 {
+	height: 30px;
+	text-align: center;
+	font: 14px Arial;
+	color: white;
+	line-height: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.euro-final-team {
+	width: 158px;
+	height: 35px;
+	border: 1px solid #CECED1; 
+	text-align: left;
+	line-height: 35px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.team-first {
+	background-color: #F0F0F0;
+}
+.team-second {
+	background-color: #E5E5E5;
+}
+.euro-final-team h2 {
+	font: bold 12px Arial;
+	color: #707070;
+	line-height: 35px;
+}
+.euro-quarter-final-cell-table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+	height: 35px;
+}
+.euro-quarter-final-cell-table td {
+	vertical-align: middle;
+}
+
+.cell-quarter-container {
+	width: 100%;
+	margin-top: 10px;
+	height: 100px;
+}
+
+.euro-half-container {
+	height: 80px;
+	padding-top: 30px;
+}
+
+.team-name {
+	width: 85px;
+}
+.team-avatar {
+	width: 20px;
+	padding-left: 15px;
+}
+.team-input {
+	text-align: center;
+}
+
+#results-full-pronos {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 710px;
+	margin: 0px auto;
+}
+
+#results-full-pronos th {
+	height: 30px;
+	text-align: left;
+	text-indent: 10px;
+	vertical-align: middle;
+	font: 14px Arial;
+	color: white;
+	background: #606060;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwNjA2MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNTM1MzUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #606060 0%, #353535 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606060), color-stop(100%,#353535));
+	background: -webkit-linear-gradient(top, #606060 0%,#353535 100%);
+	background: -o-linear-gradient(top, #606060 0%,#353535 100%);
+	background: -ms-linear-gradient(top, #606060 0%,#353535 100%);
+	background: linear-gradient(top, #606060 0%,#353535 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606060', endColorstr='#353535',GradientType=0 );
+}
+
+#results-full-pronos td {
+	height: 30px;
+	text-align: center;
+	font: bold 16px Arial;
+	color: #EA6820;
+	background: #F0F0F0;
+}
+
+
+
+
+
+
+

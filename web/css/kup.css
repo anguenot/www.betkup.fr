@@ -1,0 +1,399 @@
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('/fonts/arialnb.eot?') format('eot'), url('/fonts/arialnb.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KupBlocTitle';
+    src: url('/fonts/KupBlocTitle.eot?') format('eot'), url('/fonts/KupBlocTitle.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KupBlocGain';
+    src: url('/fonts/KupBlocGain.eot?') format('eot'), url('/fonts/KupBlocGain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roomEditionKupName';
+    src: url('/fonts/KupBlocGain.eot?') format('eot'), url('/fonts/KupBlocGain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------------------
+ * Home
+ * --------------------- */
+
+.inputSearchRoomHome {
+    padding-left: 7px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    width: 520px;
+    height: 27px;
+    border-top: 1px solid #D7D7D7;
+    border-left: 1px solid #D7D7D7;
+    border-right: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    margin: 2px;
+    margin-right: 12px;
+}
+
+.inputSearchRoomHomeSelected {
+    border-top: 2px solid #F5C95B;
+    border-left: 2px solid #F5C95B;
+    border-right: 2px solid #F4DA96;
+    border-bottom: 2px solid #F4DA96;
+    margin: 1px;
+    margin-right: 11px;
+}
+
+.kup .header {
+    margin: 0px;
+    padding: 0px;
+    width: 990px;
+    height: 64px;
+    background: url('/images/kup/home/kupsFR.png');
+}
+
+.kup .header .link {
+    float: right;
+    width: 155px;
+    line-height: 76px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.kup .header .link A {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.kup .header .link A:hover {
+    text-decoration: underline;
+}
+
+.kup .content {
+    width: 990px;
+}
+
+.kup .footer {
+    height: 25px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+.kup .vide {
+    height: 15px;
+}
+
+/* ---------------------
+* Components
+* --------------------- */
+.kup .titre {
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: KupBlocTitle, Helvetica, Arial, sans-serif;
+    margin-left: 25px;
+}
+
+.kup .gain {
+    margin: 0px;
+    padding: 0px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: KupBlocGain, Helvetica, Arial, sans-serif;
+    color: #E55A19;
+    line-height: 15px;
+}
+
+.kup .gain_info {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: KupBlocGain, Helvetica, Arial, sans-serif;
+    color: #E55A19;
+    line-height: 15px;
+}
+
+.kup .duree, .kup .mise, .kup .chrono {
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+
+.kup .chrono {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 0 black;
+}
+
+.kup .content {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 16px;
+}
+
+.kup .bouton {
+    margin: 0px;
+    padding: 0px;
+    width: 112px;
+    height: 30px;
+    background: url('/images/kup/boutonOff.png');
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 0 black;
+    line-height: 30px;
+    z-index: 100;
+    position: absolute;
+    left: 62px;
+}
+
+.blocKup .bouton {
+    margin: 0px;
+    padding: 0px;
+    width: 112px;
+    height: 30px;
+    background: url('/images/kup/boutonOff.png');
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 0 black;
+    text-align: center;
+    line-height: 30px;
+    z-index: 100;
+    position: absolute;
+    left: -15px;
+}
+
+.blocKup .bouton a {
+    margin: 0px;
+    padding: 0px;
+    width: 112px;
+    height: 30px;
+    background: url('/images/kup/boutonOff.png');
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 0 black;
+    text-align: center;
+    line-height: 30px;
+    z-index: 100;
+    position: absolute;
+    left: 0px;
+}
+
+.kup #kupHomeBlocs {
+    margin: 0px;
+    padding: 0px;
+}
+
+#findKupResults .blocKup {
+    width: 710px;
+    height: 115px;
+    margin: 10px 0px 15px 10px;
+    background: url('/images/kup/home/background.jpg');
+    background-repeat: no-repeat;
+}
+
+#findKupResults .blocKup div.titre {
+    position: relative;
+    float: left;
+    width: 215px;
+    margin: 0px;
+    padding: 0px;
+    color: #575756;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Arial;
+    margin-left: 15px;
+    padding-top: 3px;
+}
+
+#findKupResults .blocKup div.white {
+    color: white;
+}
+
+#findKupResults .blocKup div.fbook {
+    position: relative;
+    float: right;
+    width: 196px;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 88px;
+    padding-top: 2px;
+}
+
+#findKupResults .blocKup div.identity {
+    position: relative;
+    float: left;
+    width: 257px;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    padding-left: 84px;
+    margin-top: 5px;
+}
+
+#findKupResults .blocKup div.identity h1.titleKup, .part2 h1.titleKup {
+    padding: 0;
+    margin: 6px 0 0 20px;
+    text-shadow: 0 0 5px #000000;
+    filter: dropshadow(color = #000000, offx = 0, offy = 0);
+}
+
+#findKupResults .blocKup div.identity p.descKup, .part2 p.descKup {
+    padding: 0;
+    margin: 5px 2px 0 20px;
+    text-shadow: 0 0 5px #000000;
+    filter: dropshadow(color = #000000, offx = 0, offy = 0);
+}
+
+#findKupResults .blocKup div.identity p.white {
+    color: white;
+}
+
+#findKupResults .blocKup div.tools {
+    position: relative;
+    float: left;
+    width: 260px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+}
+
+#findKupResults .blocKup div.tools a.toolsItems {
+    display: block;
+    width: 140px;
+    height: 22px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    color: #575756;
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#findKupResults .blocKup div.tools a.toolsItems img {
+    margin: 4px 8px 4px 8px;
+}
+
+#findKupResults .blocKup div.tools a.toolsItems .dataValue {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#findKupResults .blocKup div.tools a.toolsItems .colored {
+    color: #F28A31;
+}
+
+#findKupResults .blocKup div.right {
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 14px;
+    margin-top: 12px;
+}
+
+div.timer75 {
+    width: 74px;
+    height: 35px;
+    margin: 0px 0px 3px 0px;
+    padding: 6px 0px 0px 2px;
+    background: url('/images/kup/bgTimer75.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+div.timer75 .chrono {
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 0 black;
+}
+
+div.timer75 p.more {
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
+    color: #575756;
+    font-family: "Trebuchet MS";
+    font-size: 9px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.interogation-question {
+    display: inline-block;
+    text-decoration: none;
+    width: 16px;
+    height: 15px;
+    margin: 0 2px;
+    background: url('/images/kup/view/pronostic/sprites_questions.png') -24px -21px no-repeat;
+}
+
+.interogation-question:hover {
+    background: url('/images/kup/view/pronostic/sprites_questions.png') -24px 0 no-repeat;
+}
+
+.interogation-points {
+    display: inline-block;
+    text-decoration: none;
+    width: 16px;
+    height: 15px;
+    margin: 0 2px;
+    background: url('/images/kup/view/pronostic/sprites_questions.png') 0 -21px no-repeat;
+}
+
+.interogation-points:hover {
+    background: url('/images/kup/view/pronostic/sprites_questions.png') 0 0 no-repeat;
+}

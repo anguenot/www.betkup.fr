@@ -1,0 +1,23 @@
+default:
+  stylesheets:    [sport24/layout.css, sport24/menu.css]
+  has_layout:     true
+  layout:         layout_f1
+
+homeSuccess:
+  stylesheets:    [sport24/home.css, sport24/box.css, sport24/chrono.css, sport24/last-results.css]
+  javascripts:    [jquery.urldecoder.min.js, datetime.js, php.default.min.js, loading.js, loading-contents-2.js, f1.js, serialize-to-json.js]
+
+rulesSuccess:
+  stylesheets:    [sport24/rules.css]
+  
+predictionsSuccess:
+  stylesheets:    [sport24/predictions.css, sport24/box.css, /scroll/css/scrollbar.css, f1-rules.css, sport24/chrono.css]
+  javascripts:    [jquery.urldecoder.min.js, datetime.js, php.default.min.js, /scroll/jquery.scroll.js, loading.js, loading-contents-2.js, f1.js]
+  
+resultsSuccess:
+  stylesheets:    [sport24/results.css, f1-results.css, /scroll/css/scrollbar.css]
+  javascripts:    [jquery.urldecoder.min.js, datetime.js, php.default.min.js, loading.js, loading-contents-2.js, f1.js, serialize-to-json.js, /scroll/jquery.scroll.js]
+
+rankingSuccess:
+  stylesheets:    [kupview.css, sport24/box.css, sport24/ranking.css, interface/pagination.css]
+  javascripts:    [jquery.urldecoder.min.js, datetime.js, php.default.min.js, loading.js, loading-contents-2.js, f1.js, serialize-to-json.js]

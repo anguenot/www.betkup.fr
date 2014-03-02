@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+
+@font-face {
+font-family: 'accountHowToPlayText';
+src: url('/fonts/Helvetica-LT-77-Bold-Condensed.eot?') format('eot'),
+     url('/fonts/Helvetica-LT-77-Bold-Condensed.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+div.button_plus {
+	background: url("/image/default/home/howto/button_plus.png")
+		no-repeat scroll 0 0 transparent;
+	cursor: pointer;
+	float: left;
+	height: 30px;
+	left: 10px;
+	margin-left: 30px;
+	margin-top: 5px;
+	top: 10px;
+	width: 30px;
+	top: 10px;
+}
+
+div.button_less {
+	background: url("/image/default/home/howto/button_less.png")
+		no-repeat scroll 0 0 transparent;
+	cursor: pointer;
+	float: left;
+	height: 30px;
+	left: 10px;
+	margin-left: 30px;
+	margin-top: 5px;
+	top: 10px;
+	width: 30px;
+	margin-top: 5px;
+}
+
+div.title_box {
+	color: #575757;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-left: 12px;
+	position: relative;
+	top: 6px;
+	width: 350px;
+	float: left;
+	text-align: left;
+}
+
+div.text_box {
+	color: #575756;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 17px;
+	position: absolute;
+	top: 50px;
+	width: 650px;
+	float: left;
+	left: 72px;
+	text-align: left;
+}
+
+div#box_what_is_a_kup_deployed {
+	background:
+		url("/image/default/home/howto/bg_box_bottom_deployed.png")
+		no-repeat scroll 0 0 transparent;
+	margin: 0 0 10px;
+	padding: 0;
+	position: relative;
+	height: 148px;
+	width: 770px;
+}
+
+div#box_what_is_a_kup_undeployed {
+	background:
+		url("/image/default/home/howto/bg_box_bottom_undeployed.png")
+		no-repeat scroll 0 0 transparent;
+	margin: 0 0 10px;
+	padding: 0;
+	position: relative;
+	height: 40px;
+	width: 770px;
+}
+
+div#box_what_is_a_room_deployed {
+	background:
+		url("/image/default/home/howto/bg_box_bottom_deployed.png")
+		no-repeat scroll 0 0 transparent;
+	margin: 0 0 10px;
+	padding: 0;
+	position: relative;
+	height: 148px;
+	width: 770px;
+}
+
+div#box_what_is_a_room_undeployed {
+	background:
+		url("/image/default/home/howto/bg_box_bottom_undeployed.png")
+		no-repeat scroll 0 0 transparent;
+	margin: 0 0 10px;
+	padding: 0;
+	position: relative;
+	height: 40px;
+	width: 770px;
+}
+
+div#box_howto_win_deployed {
+	background:
+		url("/image/default/home/howto/bg_big.png")
+		no-repeat scroll 0 0 transparent;
+	margin: 0 0 10px;
+	padding: 0;
+	position: relative;
+	height: 600px;
+	width: 771px;
+}
+
+div#box_howto_win_undeployed {
+	background:
+		url("/image/default/home/howto/bg_box_bottom_undeployed.png")
+		no-repeat scroll 0 0 transparent;
+	margin: 0 0 10px;
+	padding: 0;
+	position: relative;
+	height: 40px;
+	width: 770px;
+}
+
+div#formRoomTagLabel {
+	font-family: Arial;
+	font-style: italic;
+	font-size: 10pt;
+	color: #575756;
+	width: 200px;
+}
+
+.how_does_it_work {
+	font-family: Arial;
+	font-size: 10pt;
+	color: #575756;
+	width: 250px;
+	padding-top: 4px;
+	display: block;
+}
+

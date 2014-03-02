@@ -1,0 +1,25 @@
+# $Id: filters.yml 6292 2012-10-23 08:45:54Z jmasmejean $
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/12-Filters
+
+rendering: ~
+
+security:
+  class: betkupSecurityFilter
+
+# insert your own filters here
+flashMessage:
+  class: FlashMessageFilter
+
+tracking:
+  class: TrackingFilter  
+ 
+redirection:
+  class: RedirectionFilter
+
+cache:     ~
+
+execution: ~
+
+myI18nSaverFilter:
+  class: I18nSaverFilter

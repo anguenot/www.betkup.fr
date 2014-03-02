@@ -1,0 +1,13 @@
+.sofun-counter {
+	text-align: right;
+	float: right;
+	font: normal 12px Arial;
+}
+
+.sofun-counter-green {
+	color: green;
+}
+
+.sofun-counter-red {
+	color: red;
+}

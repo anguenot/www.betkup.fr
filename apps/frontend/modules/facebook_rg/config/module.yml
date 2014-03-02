@@ -1,0 +1,36 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+all:
+  room_associate:
+    name: 'Roland Garros'
+  rss_parser:
+    url: 'http://www.lequipe.fr/rss/actu_rss_Tennis.xml'
+  analytics:
+    google: UA-9329202-16
+  security_betkup:
+    administrator: room_administrator
+    member: room_member
+    anonymous: room_anonymous
+    participant: room_participant
+  kup_security_betkup:
+    administrator: kup_administrator
+    member: kup_member
+    anonymous: kup_anonymous
+    participant: kup_participant
+  privacy_public: PUBLIC
+  privacy_public_gambling_fr: PUBLIC_GAMBLING_FR
+  privacy_private: PRIVATE
+  privacy_private_gambling_fr: PRIVATE_GAMBLING_FR
+  privacy_default: PUBLIC
+  kup_type:
+    free: FREE
+    gambling_fr: GAMBLING_FR
+  registration:
+    account_type_simple: SIMPLE
+  facebook:
+    connect_app_id:  409303885756854 # CHANGE IN PRODUCTION
+    connect_app_secret: 23cb74867e28e1272cea9993e623a56c # CHANGE IN PRODUCTION
+    connect_app_scope: email,user_birthday
+    canvas_ns: dev-betkup-roland # CHANGE IN PRODUCTION
+  ranking:
+    batch_size: 10

@@ -1,0 +1,92 @@
+ui:
+  kupName: label_kup_title_2012_usopen_match_match
+  typeSport: tennis
+  picto: tennis.png
+  picto_mini: picto_tennis_mini.png
+  category: Tennis > US Open
+  events: 7 manches
+  document_path: /kup/tennis/usopen/2012/match_match/document
+  vignette_kup_view: /kup/tennis/usopen/2012/match_match/image/vignette_kup_view.png
+  vignette_home_view: /kup/tennis/usopen/2012/match_match/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/tennis/usopen/2012/match_match/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/tennis/usopen/2012/match_match/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/tennis/usopen/2012/match_match/image/vignette_edition_kup.png
+  isPrizes: 1
+  isCustom: 1
+  results_view_template: tennis,results
+  rules_view_template: tennis,kup_usopen_2012_match_match
+  predictions_view_template: tennis,predictions
+  nbRules: 1
+  prizeValue : 280
+  img_box_right: /kup/tennis/usopen/2012/match_match/image/img_box_right.png
+  img_box_right_size: 150x97
+  img_prize_1: /kup/tennis/usopen/2012/match_match/image/img_prize_1.png
+  img_prize_2: /kup/tennis/usopen/2012/match_match/image/img_prize_2.png
+  img_prize_3: /kup/tennis/usopen/2012/match_match/image/img_prize_3.png
+  img_prize_4: /kup/tennis/usopen/2012/match_match/image/img_prize_4.png
+  img_prize_5: /kup/tennis/usopen/2012/match_match/image/img_prize_5.png
+  img_prize_6: /kup/tennis/usopen/2012/match_match/image/img_prize_6.png
+  img_prize_7: /kup/tennis/usopen/2012/match_match/image/img_prize_7.png
+  prize_1_label: 'Chaussure de tennis Nike - Air Max Courtballistec (120€)'
+  prize_2_label: 'Grand Chelem Tennis 2 (60€)'
+  prize_3_label: 'Casquette - Roger Federer Hybrid Cap (30€)'
+  prize_4_label: '20 € bonus Betkup'
+  prize_5_label: '15 € bonus Betkup'
+  prize_6_label: '10 € bonus Betkup'
+  prize_7_label: '5€ bonus Betkup'
+  prize_1_label_prefix: 1er
+  prize_2_label_prefix: 2e
+  prize_3_label_prefix: 3e
+  prize_4_label_prefix: 4e
+  prize_5_label_prefix: 5e
+  prize_6_label_prefix: 6e
+  prize_7_label_prefix: 7e au 11e
+  custom_rules:
+    bindings:
+      prize_1:
+        prefix: prize_1_label_prefix
+        label: prize_1_label
+        image: img_prize_1
+      prize_2:
+        prefix: prize_2_label_prefix
+        label: prize_2_label
+        image: img_prize_2
+      prize_3:
+        prefix: prize_3_label_prefix
+        label: prize_3_label
+        image: img_prize_3
+      prize_4:
+        prefix: prize_4_label_prefix
+        label: prize_4_label
+        image: img_prize_4
+      prize_5:
+        prefix: prize_5_label_prefix
+        label: prize_5_label
+        image: img_prize_5
+      prize_6:
+        prefix: prize_6_label_prefix
+        label: prize_6_label
+        image: img_prize_6
+      prize_7:
+        prefix: prize_7_label_prefix
+        label: prize_7_label
+        image: img_prize_7
+    binding_map: {label_kup_tennis_usopen_2012_match_match_custom_rule_1 : [prize_1, prize_2, prize_3, prize_4, prize_5, prize_6, prize_7]}
+  box_prizes_button: /kup/tennis/usopen/2012/match_match/image/box_prizes_button.png
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    ic:
+      label: '1N2'
+      points: '3 pts'
+    se:
+      label: 'Pronostiquez le score final en sets'
+      points: '10/3 pts'

@@ -1,0 +1,31 @@
+ui:
+  roomName: Mister Rugby
+  avatar-room: /partner/mister_rugby/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/mister_rugby/image/header_logo.png
+  header-room-logo-size: 225x129
+  header-bg: /partner/mister_rugby/image/header_bg_room.png
+  kup-header-bg: /partner/mister_rugby/image/header_bg_kup.png
+  path-img-title-bg: /partner/mister_rugby/image/title.png
+  path-img-title-question: /partner/mister_rugby/image/header_question_mister_rugby.png
+  path-img-title-kup: /partner/mister_rugby/image/header_kup_mister_rugby.png
+  path-img-list: /partner/etg/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 1
+  isBodyBgColor: 1
+  body-bg-img: /partner/mister_rugby/image/bg_room_mister_rugby.jpg
+  body-bg-img-bottom-right: /partner/mister_rugby/image/people_right.png
+  body-bg-color: '#454746'
+  isRoomNameColorPerso: 1
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/mister_rugby/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/mister_rugby/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0

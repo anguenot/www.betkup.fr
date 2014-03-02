@@ -1,0 +1,126 @@
+
+a{outline: none;}
+:focus{-moz-outline-style: none;}
+
+a {
+    position: relative;
+}
+
+/* pour enlever les pointilles autour des flashs */
+*{
+    outline:0;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background:url('../images/background_home.jpg') top repeat-x #f0f0ed;
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:normal;
+    text-decoration:none;
+    color:black;
+    margin:0px; 
+    padding:0px;
+}
+
+img{
+    border:none;
+    outline: none;
+}
+
+
+p, a {
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:normal;
+    text-decoration:none;
+    color:black;
+}
+
+.help {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #9D9D9C;
+    margin-left:10px;
+}
+
+.orange { color: #F28A31; text-decoration: none; }
+a.orangeUnderlineMedium { font-family: Arial; font-size: 12px; color: #F28A31; text-decoration: none; }
+a.orangeUnderlineMedium:hover { color: #F28A31; text-decoration: underline; }
+
+a { color: #81A126; text-decoration: none; }
+
+/* Link used in create room */
+
+
+a.orange12, a.orange12:hover {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #F28A31;
+}
+
+a.orange12:hover {
+    text-decoration: underline;
+}
+
+/* End Link used in create room */
+
+.container {
+    position: relative;
+    display: block;
+    width: 990px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+.blanc {
+     width: 970px;
+     background-color: #FFFFFF;
+}
+
+/*
+ * RULES
+ */
+ .rule {
+     width: 667px;
+     height: 308px;
+     background-color: #FFFFFF;
+     margin-bottom: 30px;
+}
+
+.normal {
+    font-family: Arial; font-size: 11px; font-weight: normal; color: #575756;
+}
+
+.strong {
+    font-weight: bold;
+    color: black;
+}
+
+a.registerGreenLink:link, a.registerGreenLink:active, a.registerGreenLink:visited  {
+	color: #95C11F; 
+	font-size: 12px; 
+	font-weight: bold; 
+	text-decoration: none;
+}
+
+a.registerGreenLink:hover {
+	text-decoration: underline;
+}
+
+#hide-button-submit {
+	display: none;
+	position: absolute;
+	width: 104px;
+	height: 34px;
+	background: url('/image/default/button_loading.gif') center no-repeat;
+	z-index: 100;
+}

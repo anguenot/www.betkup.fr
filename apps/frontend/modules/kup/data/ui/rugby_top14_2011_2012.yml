@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_top14_2011_2012
+  typeSport: rugby
+  picto: rugby.png
+  picto_mini: picto_rugby_mini.png
+  category: Rugby > TOP 14
+  events: 15 journées
+  document_path: /kup/rugby/top14/2012/match_match/document
+  vignette_kup_view: /kup/rugby/top14/2012/match_match/image/vignette_kup_view.png
+  vignette_home_view: /kup/rugby/top14/2012/match_match/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/rugby/top14/2012/match_match/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/rugby/top14/2012/match_match/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/rugby/top14/2012/match_match/image/vignette_edition_kup.png
+  isPrizes: 1
+  rules_view_template: rugby,kup_top14_2011_2012
+  predictions_view_template: rugby,predictions
+  results_view_template: rugby,results
+  nbRules: 1
+  prizeValue : 500
+  img_box_right: /kup/rugby/top14/2012/match_match/image/img_box_right.png
+  img_prize_1: /kup/rugby/top14/2012/match_match/image/img_prize_1.png
+  img_prize_2: /kup/rugby/top14/2012/match_match/image/img_prize_2.png
+  img_prize_3: /kup/rugby/top14/2012/match_match/image/img_prize_3.png
+  prize_1_label: label_kup_top14_2011_2012_prize_1
+  prize_2_label: label_kup_top14_2011_2012_prize_2
+  prize_3_label: label_kup_top14_2011_2012_prize_3
+  box_prizes_button: /kup/rugby/top14/2012/match_match/image/box_prizes_button.png

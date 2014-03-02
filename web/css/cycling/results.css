@@ -1,0 +1,178 @@
+@font-face {
+font-family: 'botonMediumCustom';
+src: url('/fonts/BotonMedium.eot?') format('eot'),
+     url('/fonts/BotonMedium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'RoomVignetteButton';
+src: url('/fonts/myriad.eot?') format('eot'),
+     url('/fonts/myriad.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+#cycling-header-infos {
+	width: 715px;
+	height: 80px;
+	background: #5c5c5c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5c5c5c 0%, #373737 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5c5c5c), color-stop(100%,#373737)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5c5c5c 0%,#373737 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5c5c5c 0%,#373737 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5c5c5c 0%,#373737 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5c5c5c 0%,#373737 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c5c5c', endColorstr='#373737',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #666666;
+	-webkit-box-shadow:  0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+	margin-left: -5px;
+	margin-top: -5px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#results-cycling-container {
+	width: 710px;
+}
+
+#results-cycling-container .result-cycling-title {
+	margin: 15px auto;
+	text-align: left;
+}
+
+#results-cycling-container .result-cycling-title h1 {
+	font: 16px RoomVignetteButton;
+	color: #666666;
+	text-align: left;
+}
+
+#results-cycling-maillots {
+
+}
+
+#results-cycling-podium-individual {
+
+}
+
+#results-cycling-podium-team {
+
+}
+
+#results-cycling-question {
+
+}
+
+#results-cycling-total {
+
+}
+
+#results-cycling-container table.results-cycling-table {
+	width: 710px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+#results-cycling-container .results-cycling-table > thead > tr > th {
+	background: #323232;
+	height: 35px;
+	color: white;
+	font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td {
+	height: 50px;
+	background: #f4f4f4;
+	vertical-align: middle;
+	border-bottom: 2px solid white;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td p {
+	font: normal 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666666;
+	text-indent: 10px;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td.border-right p {
+	border-right: 2px solid white;
+}
+
+#results-cycling-container .results-cycling-table > tfoot > tr > td {
+	background: #d2d2d2;
+	height: 54px;
+	vertical-align: middle;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td .racer {
+	width: 100%;
+	margin: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	border-right: 2px solid white;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td .racer td {
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 10px;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td .racer td h4 {
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666666;
+}
+
+#results-cycling-container .results-cycling-table > tfoot > tr > td > h2 {
+	font: bold 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: black;
+	text-indent: 10px;
+	text-shadow: 0px -1px 1px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=0, offy=-1);
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td.jersey-yellow p {
+	color: #F9B83F;
+	text-align: left;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td.jersey-green p {
+	color: green;
+	text-align: left;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td.jersey-pink p {
+	color: #ff6484;
+	text-align: left;
+}
+
+#results-cycling-container .results-cycling-table > tbody > tr > td.jersey-white p {
+	color: #666666;	
+	text-align: left;
+}
+
+.cycling-result-status {
+	display: inline-block;
+	width: 42px;
+	height: 36px;
+	background: url('/image/default/tdf/interface/sprite_result.png') no-repeat;
+}
+
+.cycling-result-cross {
+	margin-top: 7px;
+	background-position: -303px -3px;
+}
+

@@ -1,0 +1,49 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+# general.js
+default:
+  has_layout:  true
+  layout:      layout_int
+
+registerSuccess:
+  metas:
+    title:       text_register_page_title
+    description: text_register_page_description
+  javascripts: [checkAge.js]
+  
+registerAdvancedSuccess:
+  metas:
+    title:       text_registerAdvanced_page_title
+    description: text_registerAdvanced_page_description
+  javascripts: [validators.js, autoSuggest-1.js, checkAge.js]
+
+confirmCloseRequestSuccess:
+  stylesheets: [my-account.css]
+
+creditSuccess:
+  stylesheets: [my-account.css]
+
+registerCreditSuccess:
+  stylesheets: [my-account.css]
+
+changePasswordSuccess:
+  stylesheets: [my-account.css]
+
+predictionSuccess:
+  stylesheets: [my-account.css]  
+
+privacySuccess:
+  stylesheets: [my-account.css]
+
+statusSuccess:
+  stylesheets: [my-account.css]
+
+transactionSuccess:
+  stylesheets: [my-account.css]
+  
+wireSuccess:
+  stylesheets: [my-account.css]
+
+editSuccess:
+  stylesheets: [my-account.css]
+  javascripts: [php.default.min.js, validators.js, autoSuggest-1.js, jquery.urldecoder.min.js]

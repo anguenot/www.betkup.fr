@@ -1,0 +1,5 @@
+thumbnailTweets:
+  is_secure: false
+
+getLastApiTweets:
+  is_secure: false

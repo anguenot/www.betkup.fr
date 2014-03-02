@@ -1,0 +1,338 @@
+.home-container {
+	margin-top: 20px;
+}
+
+.home-span {
+	-webkit-box-shadow:  0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:  0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.news-logo {
+	float: right;
+	margin-right: 20px;
+}	
+
+#news-container {
+	height: 540px;
+}
+
+#cycling-news-container {
+	overflow: auto;
+	height: 540px;
+}
+
+#cycling-ranking-container {
+	min-height: 200px;
+	padding: 10px;
+}
+
+.ranking-box {
+	width: 100%;
+	margin: 0px auto;
+	background: #F7F7F7
+}
+
+.ranking-box-small {
+	height: 100px;
+	background: #F7F7F7 url('/image/default/tdf/app_facebook/interface/ranking_img.png') center no-repeat;
+}
+
+.ranking-div {
+	width: 200px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.ranking-div h3 {
+	font: bold 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FABB00;
+}
+
+.ranking-div p {
+	font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666666;
+}
+
+.ranking-box h2 {
+	font: normal 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+.cycling-table-news {
+	width: 100%;
+}
+
+.cycling-table-news td {
+	border-bottom: 1px solid #CCCCCC;
+	vertical-align: middle;
+	padding: 5px 10px;
+}
+
+.cycling-table-news td:hover {
+	background-color: #DDDDDD;
+}
+
+.cycling-table-news td h4 {
+	margin: 0px 5px;
+}
+
+.cycling-table-news td h4 a {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font: normal 12px Arial;
+	color: #3B5998;
+}
+
+.cycling-table-news td p {
+	margin: 0px 5px;
+	padding: 0px 10px;
+}
+
+.cycling-table-news td p a {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font: inherit;
+	color: #333333;
+}
+
+.fade-effect {
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	height: 35px;
+	bottom: 0px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(240,240,240,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(240,240,240,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,240,240,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,240,240,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,240,240,1) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,240,240,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f0f0f0',GradientType=0 );
+}
+
+#betkup-promo {
+	width: 100%;
+	text-align: center;
+	min-height: 300px;
+	background: #F7F7F7;
+	/*background: url('/image/default/tdf/interface/home_promo_background.png') repeat;*/
+}
+
+.logo-betkup {
+	display: inline-block;
+	width: 120px;
+	height: 66px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') no-repeat;
+}
+
+.title-promo {
+	position: relative;
+	display: block;
+	width: 95%;
+	height: 30px;
+	margin: 10px 0px;
+	text-align: left;
+	text-indent: 60px;
+	font: normal 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FABB00;
+	line-height: 30px;
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.promo-left {
+	float: left;
+}
+
+.promo-right {
+	float: right;
+}
+
+.img-multisport {
+	position: absolute;
+	left: 10px;
+	top: -10px;
+	width: 45px;
+	height: 47px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') -5px -88px no-repeat;
+}
+
+.img-prizes {
+	position: absolute;
+	left: 10px;
+	top: -10px;
+	width: 45px;
+	height: 47px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') -65px -88px no-repeat;
+}
+
+.img-community {
+	position: absolute;
+	left: 10px;
+	top: -10px;
+	width: 46px;
+	height: 47px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') -127px -89px no-repeat;
+}
+
+.img-cash {
+	position: absolute;
+	right: 10px;
+	top: -60px;
+	width: 95px;
+	height: 62px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') -139px -11px no-repeat;
+}
+
+.betkup-facebook {
+	display: inline-table;
+	width: 32px;
+	height: 32px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') -189px -126px no-repeat;
+}
+
+.betkup-twitter {
+	display: inline-table;
+	width: 32px;
+	height: 32px;
+	background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') -189px -88px no-repeat;
+}
+
+.betkup-facebook:hover {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+
+.betkup-twitter:hover {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+
+.button-box {
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 32px;
+	text-align: center;
+}
+
+.button-box a.button-link {
+	display: inline-table;
+	padding: 0px 10px;
+	height: 32px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px 5px;
+	font: normal 14px "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	background: #4c4c4c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 11%, #474747 35%, #2c2c2c 45%, #000000 46%, #2b2b2b 81%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(11%,#595959), color-stop(35%,#474747), color-stop(45%,#2c2c2c), color-stop(46%,#000000), color-stop(81%,#2b2b2b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 11%,#474747 35%,#2c2c2c 45%,#000000 46%,#2b2b2b 81%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4c4c4c 0%,#595959 11%,#474747 35%,#2c2c2c 45%,#000000 46%,#2b2b2b 81%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4c4c4c 0%,#595959 11%,#474747 35%,#2c2c2c 45%,#000000 46%,#2b2b2b 81%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 11%,#474747 35%,#2c2c2c 45%,#000000 46%,#2b2b2b 81%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	line-height: 32px;
+}
+
+.button-box a.button-link:hover {
+	color: #fabb00;
+	background: #0a0a0a;
+}
+
+.home-ranking-table {
+	width: 100%;
+}
+
+.home-ranking-table td {
+	text-align: center;
+}
+
+#cycling-next-race-container {
+	min-height: 280px;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.race-infos {
+	background: #F7F7F7;
+	text-align: center;
+	border-top: 1px dashed #888888;
+	margin-top: 10px;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.race-infos table {
+	width: 100%;
+}
+
+.betkup-tdf-box-howto {
+	width: 100%;
+	min-height: 280px;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.betkup-tdf-box-howto h1 {
+	font: normal 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444444;
+	margin: 20px 10px 0px 10px;
+	text-align: center;
+}	
+
+#betkup-promo h1 {
+	font: normal 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 10px auto;
+}
+
+.betkup-tdf-box-howto p {
+	font: normal 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444444;
+	margin: 10px;
+	text-align: justify;
+}
+
+.betkup-tdf-box-howto p.center {
+	text-align: center;
+}
+
+.betkup-tdf-box-howto .colored {
+	color: #F9C12A;
+}
+
+.image-container {
+	text-align: center;
+}
+
+.image-container img {
+	display: inline-block;
+}
+
+

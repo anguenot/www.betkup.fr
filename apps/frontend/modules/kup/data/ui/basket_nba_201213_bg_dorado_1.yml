@@ -1,0 +1,44 @@
+ui:
+  kupName: label_kup_title_201213_nba_bg_dorado_1
+  typeSport: basket
+  picto: basket.png
+  picto_mini: picto_basket_mini.png
+  category: Basket > NBA
+  events: 7 critères
+  document_path: /kup/soccer/k8/2012/1/document
+  vignette_kup_view: /kup/basket/nba/201213/dorado/image/vignette_kup_view.png
+  vignette_home_view: /kup/basket/nba/201213/dorado/image/vignette_home_view.png
+  vignette_room_kup_view: /kup/basket/nba/201213/dorado/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/basket/nba/201213/dorado/image/vignette_edition_kup.png
+  header-kup-custom:  /kup/basket/nba/201213/dorado/image/header_dorado_nba.png
+  isPrizes: 0
+  rules_view_template: basket,kup_nba_201213_dorado
+  predictions_view_template: basket,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 12px
+    big_box:
+      title: 30px
+      description: 16px
+  questions:
+    ic:
+      label: '1/2 : Pronostiquez sur la victoire de l équipe à domicile ou visiteuse'
+      points: '5 pts'
+    se:
+      label: 'Pronostiquez sur la victoire de l équipe à domicile ou visiteuse, vous avez la possibilité de pronostiquez une victoire avec au moins 10,20 ou 30 points d écart.'
+      points: '+10 : 8 pts / +20 : 14 pts / +30 : 22 pts'

@@ -1,0 +1,11 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  tb:
+    1: label_question_total_goals_kup_games
+    2: label_question_total_sets_kup_matches
+    3: label_question_total_matches_games
+    4: label_question_total_tries_kup_games
+    5: label_question_total_points_kup_games

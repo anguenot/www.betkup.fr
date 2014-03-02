@@ -1,0 +1,64 @@
+ui:
+  roomName: Fans Facebook
+  avatar-room: /partner/fans_facebook/image/avatar_room.png
+  more-infos-answer: text_room_fans_betkup_home_more_infos_answer
+  text_room_welcome_text: text_room_fans_betkup_welcome_text
+  isHeaderPerso: 0
+  header-room-logo:
+  header-room-logo-size:
+  header-hosted-logo:
+  header-bg: /partner/fans_facebook/image/header_bg_room.png
+  kup-header-bg: /partner/fans_facebook/image/header_bg_kup.png
+  path-img-title-bg: /partner/fans_facebook/image/title.png
+  path-img-title-question: /partner/fans_facebook/image/header_question_fans_facebook.png
+  path-img-title-kup: /partner/fans_facebook/image/header_kup_fans_facebook.png
+  path-img-list: /partner/fans_facebook/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 1
+  body-bg-img: /partner/fans_facebook/image/bg_room_fans_facebook.jpg
+  body-bg-color: '#335C9A'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  show-box-how-work: 1
+  box-how-work: /partner/fans_facebook/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 0
+  isBoxPrizesCustom: 0
+  show-box-news: 0
+  show-box-facebook: 0
+  path_img_kup_perso_prizes: /partner/fans_facebook/image/
+  array_kup_perso_prizes: ['3889335', 3889360]
+  kups:
+    3889335:
+      isCustom: 1
+      prize_value: 180
+      box-prizes: /partner/fans_facebook/image/img_box_right.png
+      box-prizes-size:
+      box_prizes_button:
+      box-prize-title-bg: /partner/sbb/image/box_title_prizes.png
+      img-box-prizes: /partner/fans_facebook/image/img_box_right.png
+      img_box-prizes-size: 130x84
+      total-prizes: 3
+      prizes-1-label: 'Bon achat 40€'
+      prizes-2-label: 'Bon achat 20€'
+      prizes-3-label: 'Bon achat 10€'
+    3889360:
+      isCustom: 1
+      prize_value: 255
+      box-prizes: /partner/fans_facebook/image/img_box_right_2.png
+      box-prizes-size:
+      box_prizes_button:
+      box-prize-title-bg: /partner/sbb/image/box_title_prizes.png
+      img-box-prizes: /partner/fans_facebook/image/img_box_right_2.png
+      img_box-prizes-size: 130x84
+      total-prizes: 5
+      prizes-1-label: '1 Maillot LDC au choix (80 €)'
+      prizes-2-label: 'Chaussures de football adulte Victory SG Sr Vert NIKE (70€)'
+      prizes-3-label: 'Jeu PES ou FIFA 2013 (65€)'
+      prizes-4-label: 'Ballon Ligue 1 (30€)'
+      prizes-5-label: '1 x 10 € bonus Betkup'

@@ -1,0 +1,46 @@
+ui:
+  kupName: label_kup_title_201213_rugby_bg_d7
+  typeSport: rugby
+  picto: rugby.png
+  picto_mini: picto_rugby_mini.png
+  category: Rugby > TOP 14
+  events: 3 matchs chocs
+  document_path: /kup/rugby/top14/201213/bg/document
+  vignette_kup_view: /kup/rugby/top14/201213/bg/image/vignette_kup_view.png
+  vignette_home_view: /kup/rugby/top14/201213/bg/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/rugby/top14/201213/bg/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/rugby/top14/201213/bg/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/rugby/top14/201213/bg/image/vignette_edition_kup.png
+  isPrizes: 0
+  isCustom: 0
+  results_view_template: rugby,results
+  rules_view_template: rugby,kup_top14_201213_bg
+  predictions_view_template: rugby,predictions
+  nbRules: 1
+  prizeValue : 0
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    ic:
+      label: label_kup_question_ic_rugby
+      points: '5 pts'
+    7:
+      label: Indiquez le nombre d'essais qu'inscrira l'équipe à domicile
+      points: '15 pts'
+    8:
+      label: Indiquez le nombre d'essais qu'inscrira l'équipe à l'extérieur
+      points: '15 pts'
+    9:
+      label: Pronostiquez l'équipe marquant le 1er essai
+      points: '10 pts'
+    20:
+      label: Pronostiquez le nombre de point d'écart à la fin de la rencontre
+      points: '20 pts'

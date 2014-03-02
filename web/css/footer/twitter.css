@@ -1,0 +1,142 @@
+#twitter-box {
+    width: 501px;
+    height: 73px;
+    background: url("/images/footer/sprite_footer_twitter.png") no-repeat;
+    margin: 10px auto 0 auto;
+    padding: 0;
+}
+
+#twitter-navigator {
+    display: block;
+}
+
+#twitter-box a.twitter-box-button {
+    display: inline-block;
+    width: 62px;
+    height: 70px;
+    background: url("/images/footer/sprite_footer_twitter.png") -8px -74px no-repeat;
+    margin-top: 1px;
+}
+
+#twitter-box a.twitter-box-button:hover {
+    background: url("/images/footer/sprite_footer_twitter.png") -76px -74px no-repeat;
+}
+
+#twitter-box .twitter-box-content {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 430px;
+    height: 70px;
+}
+
+#twitter-box .tweet {
+    height: 70px;
+}
+
+#tweets-container {
+    position: absolute;
+    height: auto;
+    width: auto;
+    display: block;
+    top: 0;
+}
+
+#twitter-box .tweet table td.tweet-image {
+    padding: 0 15px 0 0;
+}
+
+#twitter-box .tweet-text p {
+    padding: 0;
+}
+
+#twitter-box .tweet-text {
+    width: 100%;
+}
+
+#twitter-box .tweet-text div {
+    position: relative;
+}
+
+#twitter-box .tweet-text .tweet-date {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #999999;
+}
+
+
+
+/* //////////////////////////////////// Noty //////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.noty-tweet-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tweet-image {
+    width: 48px;
+    height: 48px;
+}
+
+.noty-tweet-table td {
+    padding: 0 4px;
+}
+
+.noty-tweet-table td:first-child {
+    padding: 0 4px 0 0;
+}
+
+.noty-tweet-table td:last-child {
+    padding: 0 0 0 4px;
+}
+
+.tweet-text {
+    font: normal 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444444;
+}
+
+.tweet-twitter-bird {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 23px;
+    height: 21px;
+    background: url('https://twimg0-a.akamaihd.net/a/1353007665/t1/img/twitter_web_sprite_icons.png') -120px 0 no-repeat;
+}
+
+.tweet-text  h3 {
+    font-size: 14px;
+    color: #222222;
+}
+
+.tweet-text p {
+    font: normal 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 5px;
+    line-height: 17px;
+}
+
+.tweet-text .tweet-date {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #999999;
+}
+
+.tweet-inline-link {
+    font: normal 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #0084B4;
+}
+
+.tweet-name-link {
+    font: normal 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #999999;
+}
+
+.tweet-name-link:hover {
+    text-decoration: underline;
+    color: #797979;
+}

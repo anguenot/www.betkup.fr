@@ -1,0 +1,30 @@
+ui:
+  roomName: APS OFFICIEL
+  avatar-room: /partner/aps/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/aps/image/header_logo.png
+  header-room-logo-size: 282x96
+  header-bg: /partner/aps/image/header_bg_room.png
+  kup-header-bg: /partner/aps/image/header_bg_kup.png
+  path-img-title-bg: /partner/aps/image/title.png
+  path-img-title-question: /partner/aps/image/header_question_aps.png
+  path-img-title-kup: /partner/aps/image/header_kup_aps.png
+  path-img-list: /partner/aps/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 1
+  body-bg-img: /partner/aps/image/bg_room_aps.jpg
+  body-bg-color: '#232323'
+  isRoomNameColorPerso: 1
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/aps/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/aps/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0

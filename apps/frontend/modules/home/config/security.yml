@@ -1,0 +1,56 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+#
+# Below are the different credentials in use within this module
+#
+#     - member: authenticated member
+#     - member_gambling_fr: member with a complex account to gamble in France 
+#                           not yet verified.
+#     - member_gambling_fr_verified: member with a complex account to gamble in France 
+#                           that has been verified.
+#
+
+#
+# Default behavior is to protect all actions with member
+#
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+default:
+  is_secure: true
+  credentials: member
+
+index:
+  is_secure: false
+
+landingPage:
+  is_secure: false
+
+howto:
+  is_secure: false
+  
+betTrust:
+  is_secure: false
+
+faq:
+  is_secure: false
+  
+faqAccount:
+  is_secure: false
+  
+faqKupRoom:
+  is_secure: false
+  
+faqPayment:
+  is_secure: false
+  
+faqPredictions:
+  is_secure: false
+  
+faqRegister:
+  is_secure: false
+
+sitemap:
+  is_secure: false

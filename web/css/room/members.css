@@ -1,0 +1,45 @@
+
+.room_members {
+	margin: 0px; padding: 0px;
+    display: block;
+    text-align: left;
+    text-shadow: 1px 1px 0 white;
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.room_members .room_members_name {
+	margin: 0px; padding: 0px;
+    text-align: left;
+    text-shadow: 1px 1px 0 white;
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.room_members .room_members_statut1, .room_members .room_members_statut2, .room_members .room_members_statut3 {
+	margin: 0px; padding: 0px;
+    text-align: left;
+    text-shadow: 1px 1px 0 white;
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 13px;
+}
+
+.room_members .room_members_statut2 {
+	color: #e55a19;
+}
+
+.room_members .room_members_statut3 {
+	color: #e7252e;
+}

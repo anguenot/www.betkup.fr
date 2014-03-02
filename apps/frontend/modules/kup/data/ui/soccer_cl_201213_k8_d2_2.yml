@@ -1,0 +1,40 @@
+ui:
+  kupName: label_kup_title_201213_cl_d2_2
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Champions League
+  events: 8 matchs
+  document_path: /kup/soccer/cl/201213/k8/document
+  vignette_kup_view: /kup/soccer/cl/201213/k8/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/cl/201213/k8/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/cl/201213/k8/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/cl/201213/k8/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/cl/201213/k8/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_cl_201213_k8
+  predictions_view_template: k8,predictions
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    ic:
+      label: 'Pronostiquez le vainqueur du match'
+      points: '5 pts'

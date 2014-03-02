@@ -1,0 +1,172 @@
+.result > table > thead > tr > th {
+	font: normal 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.result > table > tbody {
+	border: none;
+}
+
+.player-line {
+	display: block;
+	height: 17px;
+	width: 80px;
+	text-align: center;
+	margin: 0px auto;
+	line-height: 17px;
+}
+
+.sets {
+	float: left;
+}
+
+.separator {
+	width: 20px;
+	font: bold 18px Arial;
+	text-align: center;
+}
+
+.td-sets {
+}
+
+.sets p {
+	font: normal 10px Arial;
+	color: #666666;
+	padding: 2px;
+	margin: 0px;
+	text-align: center;
+}
+
+.sets sup {
+	font: normal 8px Arial;
+	color: #666666;
+}
+
+.orange sup {
+	color: orange;
+}
+.orange p {
+	color: orange;
+}
+
+.tennis-pellet {
+	width: 25px;
+	height: 24px;
+	background: url('/image/default/tennis/sprites_tennis.png') 0px -100px no-repeat;
+}
+
+.pellet-winner {
+	background: url('/image/default/tennis/sprites_tennis.png') -25px -100px no-repeat;
+}
+
+.player1, .player2 {
+	vertical-align: middle;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444444;
+	width: 132px;
+}
+
+.player1 {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.player2 {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.player-score {
+	font: bold 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #0f73af;
+	text-align: center;
+}
+
+.odd > td, .odd {
+	background-color: #EBEBEB;
+}
+
+.even > td, .even {
+	background-color: #F4F4F4;
+}
+
+.odd > td, .even > td {
+	border-bottom: 2px solid white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.result-predictions {
+	font: normal 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444444;
+}
+
+.result-points {
+	font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444444;
+}
+
+.result > table > tfoot > tr > td {
+	vertical-align: middle;
+	text-align: center;
+	height: 60px;
+}
+
+.result > table tr.sub-total td {
+	vertical-align: middle;
+	text-align: center;
+	height: 40px;
+}
+
+.result > table tr.sub-total td {
+	border-bottom: 2px solid white;
+}
+
+.result > table > tfoot > tr > td h2,
+.result > table tr.sub-total td h2 {
+	font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+	text-indent: 10px;
+}
+
+.result > table > tfoot > tr > td p,
+.result > table tr.sub-total td p {
+	font: bold 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #e56f39;
+}
+
+.flag {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.flag .flag-left {
+	text-align: right;
+	margin-right: 5px;
+}
+
+.flag .flag-right {
+	text-align: left;
+	margin-left: 5px; 
+}
+
+.flag img {
+	display: inline;
+}
+
+.seed-position {
+	font: normal 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tennis-result-question, 
+.odd > .tennis-result-question, 
+.even > .tennis-result-question {
+	text-align: left;
+	text-indent: 10px;
+	font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+}
+
+.sub-total td {
+	height: 40px;
+}

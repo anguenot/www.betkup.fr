@@ -1,0 +1,25 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/12-Filters
+
+facebookConnect:
+  class: sfFacebookConnectFilter
+
+facebookCanvas:
+  class: sfFacebookCanvasFilter
+
+rendering: ~
+
+security: ~
+  
+# insert your own filters here
+flashMessage: ~
+
+tracking : ~ 
+
+redirection: ~
+
+cache:     ~
+
+execution: ~
+
+myI18nSaverFilter: ~

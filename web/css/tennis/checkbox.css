@@ -1,0 +1,31 @@
+/*
+ * CSS FILE FOR TENNIS RADIO BUTTON CUSTOM SKIN
+ * 
+ * @package    betkup.fr
+ * @author     Sofun Gaming SAS
+ */
+.tennis-radio {display: inline;font-size: 20px;line-height: 23px;cursor: pointer;cursor: hand;}
+.tennis-radio .mark {display: inline;}
+
+.tennis-radio img {
+	vertical-align: middle; 
+	width: 28px; 
+	height: 28px;
+	background: transparent url(/image/default/tennis/sprites_tennis.png) no-repeat;
+	background-position: 0px -35px;
+}
+.tennis-radio-hover img {
+	background-position: -0px -70px;
+}
+.tennis-radio-checked img {
+	background-position: -34px -35px;
+}
+.tennis-radio-checked .tennis-radio-hover img {
+	background-position: -34px -70px;
+}
+.tennis-radio-disabled img {
+	background-position: 0px 0px;
+}
+.tennis-radio-checked .tennis-radio-disabled img{
+	background-position: -34px 0px;
+}

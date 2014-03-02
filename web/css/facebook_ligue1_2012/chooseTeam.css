@@ -1,0 +1,199 @@
+#modal-window {
+    position: absolute;
+    display: block;
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+#popup-clubs {
+    position: absolute;
+    width: 700px;
+    height: 560px;
+    left: 50%;
+    top: 60px;
+    margin-left: -350px;
+    background: #E9EAEE;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10 0 rgba(0, 0, 0, 0.3);
+    z-index: 101;
+}
+
+#popup-clubs .popup-footer-logo {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 195px;
+    height: 82px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -11px -335px no-repeat;
+}
+
+#choose-team-container {
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+#choose-team-container .header {
+    width: 700px;
+    height: 80px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') 0 -240px no-repeat;
+    padding: 15px 10px 10px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#choose-team-container .header h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font: normal 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0px 0px 3px #707070;
+    filter: dropshadow(color = #707070, offx = 0, offy = 0);
+}
+
+#team-container {
+    position: relative;
+    display: block;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.team-element {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 20px 0 0 30px;
+}
+
+#popup-clubs .team {
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 70px;
+    opacity: 0;
+    -moz-opacity: 0;
+    -ms-filter: "alpha(opacity=0)"; /* IE 8 */
+    filter: alpha(opacity = 0); /* IE < 8 */
+}
+
+.validation-box {
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    border: none;
+    z-index: 10;
+    margin-left: -130px;
+    margin-top: 90px;
+}
+
+.arrow-up {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    top: 0;
+    left: 50%;
+    z-index: 10;
+}
+
+.arrow-up:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFF;
+    -moz-transform: scale(1) rotate(45deg) translate(0px, 0px) skew(0deg, 0deg);
+    -webkit-transform: scale(1) rotate(45deg) translate(0px, 0px) skew(0deg, 0deg);
+    -o-transform: scale(1) rotate(45deg) translate(0px, 0px) skew(0deg, 0deg);
+    -ms-transform: scale(1) rotate(45deg) translate(0px, 0px) skew(0deg, 0deg);
+    transform: scale(1) rotate(45deg) translate(0px, 0px) skew(0deg, 0deg);
+    top: 15px;
+    left: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.validation-box-container {
+    position: absolute;
+    display: block;
+    margin: 20px 0 0 0;
+    background: #FFFFFF;
+    width: 100%;
+    height: auto;
+    min-height: 130px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.validation-box-warning {
+    display: block;
+    float: left;
+    width: 63px;
+    height: 55px;
+    margin: 30px 5px 0 10px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -219px -350px no-repeat;
+}
+
+.validation-box-description {
+    display: block;
+    float: left;
+    width: 235px;
+    margin: 30px 5px 0 0;
+    font: normal 13px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    color: #5c788d;
+}
+
+.validation-box-container .button-cancel {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    font: normal 13px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    background: #7698ac; /* Old browsers */
+    background: -moz-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7698ac), color-stop(100%, #5a768a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #7698ac 0%, #5a768a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7698ac', endColorstr = '#5a768a', GradientType = 0); /* IE6-9 */
+
+}
+
+.validation-box-container .button-validate {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    font: normal 13px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    background: #7698ac; /* Old browsers */
+    background: -moz-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7698ac), color-stop(100%, #5a768a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #7698ac 0%, #5a768a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7698ac', endColorstr = '#5a768a', GradientType = 0); /* IE6-9 */
+
+}
+

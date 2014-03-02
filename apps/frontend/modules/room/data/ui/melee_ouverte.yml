@@ -1,0 +1,33 @@
+ui:
+  roomName: Mêlée Ouverte
+  header-logo: /partner/melee_ouverte/image/sofun-logo.png
+  avatar-room: /partner/melee_ouverte/image/avatar_room.png
+  isHeaderPerso: 1
+  header-hosted-logo: /partner/melee_ouverte/image/hosted_logo.png
+  header-room-logo: /partner/melee_ouverte/image/header_logo.png
+  header-bg: /partner/melee_ouverte/image/header_bg_room.png
+  kup-header-bg: /partner/melee_ouverte/image/header_bg_kup.png
+  path-img-title: /partner/melee_ouverte/image/title
+  path-img-list: /partner/melee_ouverte/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/melee_ouverte/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/melee_ouverte/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  body-bg-img-bottom-right: /partner/melee_ouverte/image/body_bg_pic_bottom_right.png
+  body-bg-color: '#44B444'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#274900'
+  show-box-how-work: 1
+  box-how-work: /partner/melee_ouverte/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://melee_ouverte.betkup.fr
+  show-box-prizes: 0
+  box-prizes: /partner/melee_ouverte/image/box_prizes.png
+  box-prizes-button: /partner/melee_ouverte/image/box_prizes_button.png
+  show-box-news: 1
+  box-news: /partner/melee_ouverte/image/box_news_bg.png
+  box-news-rss: http://meleeouverte.blogs.ouest-france.fr/index.rss
+  show-box-facebook: 0
+  box-facebook: /partner/melee_ouverte/image/box_fb_bg.png

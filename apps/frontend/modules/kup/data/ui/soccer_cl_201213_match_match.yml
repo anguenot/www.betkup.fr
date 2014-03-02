@@ -1,0 +1,81 @@
+ui:
+  kupName: label_kup_title_201213_cl_match_par_match
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Champions League
+  events: Tous les matches
+  document_path: /kup/soccer/cl/201213/match_match/document
+  vignette_kup_view: /kup/soccer/cl/201213/match_match/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/cl/201213/match_match/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/cl/201213/match_match/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/cl/201213/match_match/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/cl/201213/match_match/image/vignette_edition_kup.png
+  isPrizes: 1
+  isCustom: 1
+  results_view_template: soccer,results
+  rules_view_template: soccer,kup_cl_201213_match_match
+  predictions_view_template: soccer,predictions
+  nbRules: 1
+  prizeValue : 255
+  img_box_right: /kup/soccer/cl/201213/match_match/image/img_box_right.png
+  img_box_right_size: 150x97
+  img_prize_1: /kup/soccer/cl/201213/match_match/image/img_prize_1.png
+  img_prize_2: /kup/soccer/cl/201213/match_match/image/img_prize_2.png
+  img_prize_3: /kup/soccer/cl/201213/match_match/image/img_prize_3.png
+  img_prize_4: /kup/soccer/cl/201213/match_match/image/img_prize_4.png
+  img_prize_5: /kup/soccer/cl/201213/match_match/image/img_prize_5.png
+  prize_1_label: 1er
+  prize_2_label: 2ème
+  prize_3_label: 3ème
+  prize_4_label: 4ème
+  prize_5_label: 5ème
+  prize_1_label_prefix: 1 Maillot LDC au choix (80 €)
+  prize_2_label_prefix: Chaussures de football adulte Victory SG Sr Vert NIKE (70€)
+  prize_3_label_prefix: Jeu PES ou FIFA 2013 (65€)
+  prize_4_label_prefix: Ballon Ligue 1 (30€)
+  prize_5_label_prefix: 1 x 10 € bonus Betkup
+  custom_rules:
+    bindings:
+      prize_1:
+        prefix: prize_1_label_prefix
+        label: prize_1_label
+        image: img_prize_1
+      prize_2:
+        prefix: prize_2_label_prefix
+        label: prize_2_label
+        image: img_prize_2
+      prize_3:
+        prefix: prize_3_label_prefix
+        label: prize_3_label
+        image: img_prize_3
+      prize_4:
+        prefix: prize_4_label_prefix
+        label: prize_4_label
+        image: img_prize_4
+      prize_5:
+        prefix: prize_5_label_prefix
+        label: prize_5_label
+        image: img_prize_5
+    binding_map: {label_kup_cl_201213_match_match_custom_rule_1 : [prize_1, prize_2, prize_3, prize_4, prize_5]}
+  box_prizes_button: /kup/soccer/cl/201213/match_match/image/box_prizes_button.png
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    ic:
+      label: label_kup_question_ic_soccer
+      points: '5 pts'
+    se:
+      label: label_kup_question_se_soccer
+      points: '10/2 pts'
+    21:
+      label: label_kup_question_21
+      points: '20 pts'

@@ -1,0 +1,37 @@
+ui:
+  roomName: Rugby Connection
+  header-logo: /partner/rugby_connection/image/sofun-logo.png
+  avatar-room: /partner/rugby_connection/image/avatar_room.png
+  isHeaderPerso: 1
+  header-hosted-logo: /partner/rugby_connection/image/hosted_logo.png
+  header-room-logo: /partner/rugby_connection/image/header_logo.png
+  header-bg: /partner/rugby_connection/image/header_bg_room.png
+  kup-header-bg: /partner/rugby_connection/image/header_bg_kup.png
+  path-img-title: /partner/rugby_connection/image/title
+  path-img-list: /partner/rugby_connection/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/rugby_connection/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/rugby_connection/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  body-bg-img-bottom-right: /partner/rugby_connection/image/body_bg_pic_bottom_right.png
+  body-bg-color: '#545D80'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  show-box-how-work: 1
+  box-how-work: /partner/rugby_connection/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://rugby_connection.betkup.fr
+  show-box-prizes: 1
+  box-prizes: /partner/rugby_connection/image/box_prizes.png
+  box-prizes-button: /partner/rugby_connection/image/box_prizes_button.png
+  show-box-news: 1
+  box-news: /partner/rugby_connection/image/box_news_bg.png
+  box-news-rss: http://blog.rugbyconnection.com/feed
+  show-box-facebook: 0
+  box-facebook: /partner/rugby_connection/image/box_fb_bg.png
+  path_img_kup_perso_prizes: /partner/rugby_connection/image/kupPrizes
+  array_kup_perso_prizes: ['131383','131382']
+  path_document_kup_perso_rules: /partner/rugby_connection/document
+  array_kup_perso_rules_pdf: ['']

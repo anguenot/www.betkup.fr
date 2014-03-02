@@ -1,0 +1,78 @@
+.results-box {
+    margin-top: 40px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.results-box-header {
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding: 0 10px;
+    background: #7698ac; /* Old browsers */
+    background: -moz-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7698ac), color-stop(100%, #5a768a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #7698ac 0%, #5a768a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7698ac', endColorstr = '#5a768a', GradientType = 0); /* IE6-9 */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+.results-box-prizes {
+    background: white;
+    text-align: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQIW2N8/erVfwYkwAgSEBUTYwSJgdjYBZC1AAA7gxb9RaBRGwAAAABJRU5ErkJggg==);
+}
+
+.results-box-prizes img {
+    text-align: center;
+}
+
+.results-box-header h2 {
+    display: inline-block;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 30px;
+    color: white;
+    font-size: 16px;
+    float: left;
+}
+
+.results-box-contents {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+
+.results-box-contents p {
+    text-align: center;
+}
+
+.results-contents {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.results-box-contents .result .round-select {
+    height: 0;
+}
+
+.results-box-contents .result table {
+    margin-left: 0;
+}

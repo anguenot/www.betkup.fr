@@ -1,0 +1,61 @@
+ui:
+  kupName: label_kup_title_201213_ligue1_d11_bordeaux_toulouse
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Ligue 1
+  events: 8 critères
+  document_path: /kup/soccer/ligue1/201213/default/
+  vignette_kup_view: /kup/soccer/ligue1/201213/bordeaux_toulouse/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/ligue1/201213/bg/image/vignette_home_view.png
+  vignette_room_kup_view: /kup/soccer/ligue1/201213/bordeaux_toulouse/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/ligue1/201213/bg/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_ligue1_201213_d11_bordeaux_toulouse
+  predictions_view_template: soccer,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 12px
+    big_box:
+      title: 30px
+      description: 16px
+  questions:
+    se:
+      label: Il s'agit du score à la fin du temps réglementaire
+      points: '20 / 6 pts'
+    11:
+      label: Pronostiquez l'issue de la première mi-temps
+      points: '5 pts'
+    24:
+      label: Pronostiquez l'issue de la deuxième mi-temps uniquement. Ne tenez pas compte de la première mi-temps 
+      points: '5 pts'
+    26:
+      label: Déterminez l'équipe qui marquera le premier but de la rencontre
+      points: '5 pts'
+    27:
+      label: Trouver le 1/4 d'heure où le premier but du match sera inscrit
+      points: '15 pts'
+    30:
+      label: Nombre de buts inscrits pendants les 90 minutes
+      points: '15 pts'
+    200:
+      label: Le joueur nommé marquera-t-il pendant le match ?
+      points: '5 pts'
+    201:
+      label: Le joueur nommé marquera-t-il pendant le match ?
+      points: '5 pts'

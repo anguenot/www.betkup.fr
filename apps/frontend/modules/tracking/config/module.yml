@@ -1,0 +1,4 @@
+all:
+  #specify the component name for each adWords tracking.
+  adwords_trackings:
+    nba_pierre: trackingNbaPierre

@@ -1,0 +1,14 @@
+all:
+  prediction_type:
+    cycling_maillot_jaune: cycling_maillot_jaune
+    cycling_maillot_blanc: cycling_maillot_blanc
+    cycling_maillot_vert: cycling_maillot_vert
+    cycling_maillot_apois: cycling_maillot_apois
+    cycling_podium_individual: cycling_podium_individual
+    cycling_podium_team: cycling_podium_team
+    cycling_question: cycling_question
+  kup_type:
+    free: FREE
+    gambling_fr: GAMBLING_FR
+  tb:
+    1: 'Question subsidiaire...'

@@ -1,0 +1,10 @@
+datas:
+  isArchive: 1
+  type: promo
+  uuid: promos_tdf_2012
+  title: promos_tdf_2012_title
+  avatar: /image/default/challenge/challenges/avatar/promos_tdf_2012_bonnus.png
+  link: challenge,promos
+  component_route: challenge,promos_tdf_2012_bonnus
+  link_label: promos_euro_2012_link_label
+  arguments: [promos_euro_2012_register, promos_euro_2012_bonnus, promos_euro_2012_upgrade_account, promos_euro_2012_enjoy, promos_euro_2012_bet]

@@ -1,0 +1,18 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# Home module configuration
+all:
+  kup_type:
+    free: FREE
+    gambling_fr: GAMBLING_FR
+  quotes: q1.yml q2.yml q3.yml q4.yml q5.yml q6.yml
+  rooms_front: Fans Facebook,Rue Des Joueurs,Fan2Sport,SPORT BUZZ BUSINESS,ETGblog,Arsenal
+  ranking_batch_size: 10
+  feed_batch_size: 10
+  room:
+    privacy_public: PUBLIC
+    privacy_public_gambling_fr: PUBLIC_GAMBLING_FR
+  registration:
+    account_type_simple: SIMPLE
+    account_type_gambling_fr: GAMBLING_FR

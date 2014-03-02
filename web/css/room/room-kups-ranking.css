@@ -1,0 +1,98 @@
+#room-kups-general-ranking {
+	width: 700px;
+	margin: 0px; 
+	position: relative;
+}
+
+.room-kups-general-ranking-table {
+	width: 700px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+.room-kups-general-ranking-table th {
+	vertical-align: middle;
+	text-align: left;
+	height: 40px;
+	background: #575757;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU3NTc1NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzYTNhM2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #575757 0%, #3a3a3a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#575757), color-stop(100%,#3a3a3a));
+	background: -webkit-linear-gradient(top,  #575757 0%,#3a3a3a 100%);
+	background: -o-linear-gradient(top,  #575757 0%,#3a3a3a 100%);
+	background: -ms-linear-gradient(top,  #575757 0%,#3a3a3a 100%);
+	background: linear-gradient(top,  #575757 0%,#3a3a3a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#3a3a3a',GradientType=0 );
+	color: white;
+	font: normal 14px Arial;
+}
+
+.room-kups-general-ranking-table .table-player {
+	text-indent: 50px;
+}
+
+.room-kups-general-ranking-table .table-point {
+	width: 120px;
+	text-align: center;
+}
+
+.room-kups-general-ranking-table td {
+	vertical-align: middle;
+	text-align: left;	
+	height: 55px;
+}
+
+.room-kups-general-ranking-table .odd td {
+	background: #f4f4f4;
+}
+
+.room-kups-general-ranking-table .even td {
+	background: #ebebeb;
+}
+
+.room-kups-general-ranking-table .member-position {
+	text-align: center;
+	font: bold 14px Arial;
+	width: 40px;
+	color: #E55A19;
+}
+
+.room-kups-general-ranking-table .member-avatar {
+	text-align: center;
+	width: 55px;
+}
+
+.room-kups-general-ranking-table .member-nickname {
+	text-align: left;
+	font: bold 14px Arial;
+	color: #3d3d3d;
+	padding-left: 20px; 
+}
+
+.room-kups-general-ranking-table .member-point {
+	text-align: center;
+	color: #3d3d3d;
+	font: bold 14px Arial;
+}
+
+.member-position-link {
+	display: block;
+	position: absolute;
+	margin-top: 10px;
+	color: #E55A19;
+	font: normal 12px Arial;
+	text-decoration: none;
+}
+
+.member-position-link:hover {
+	text-decoration: underline;
+}
+
+.pager {
+	position: absolute;
+	margin-top: 10px;
+	display: block;
+	right: 0px;
+	width: 200px;
+	text-align: right;
+}

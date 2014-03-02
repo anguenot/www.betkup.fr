@@ -1,0 +1,82 @@
+ui:
+  kupName: label_kup_title_201213_fan2sport_w2
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football
+  events: 10 matches
+  document_path: /partner/fan2sport/kups/weekly/document
+  vignette_kup_view: /partner/fan2sport/kups/weekly/image/vignette_kup_view.png
+  vignette_home_view: /partner/fan2sport/kups/weekly/image/vignette_home_view.png
+  vignette_room_kup_view: /partner/fan2sport/kups/weekly/image/vignette_room_kup_view.png
+  vignette_edition_kup: /partner/fan2sport/kups/weekly/image/vignette_edition_kup.png
+  isPrizes: 1
+  isCustom: 1
+  header-kup-custom: /partner/fan2sport/kups/weekly/image/header_fan2sport_kups.jpg
+  results_view_template: soccer,results
+  rules_view_template: soccer,kup_fan2sport_201213_weekly
+  predictions_view_template: soccer,predictions
+  nbRules: 1
+  prizeValue : 275
+  img_box_right: /partner/fan2sport/kups/weekly/image/img_box_right.png
+  img_box_right_size: 150x97
+  img_prize_1: /partner/fan2sport/kups/weekly/image/img_prize_1.png
+  img_prize_2: /partner/fan2sport/kups/weekly/image/img_prize_2.png
+  img_prize_3: /partner/fan2sport/kups/weekly/image/img_prize_3.png
+  img_prize_4: /partner/fan2sport/kups/weekly/image/img_prize_4.png
+  img_prize_5: /partner/fan2sport/kups/weekly/image/img_prize_5.png
+  img_prize_6: /partner/fan2sport/kups/weekly/image/img_prize_6.png
+  prize_1_label: 'Cadre photo (120€)'
+  prize_2_label: 'Fifa 13 ou PES 13 (65€)'
+  prize_3_label: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+  prize_4_label: 15€ Freebet
+  prize_5_label: 10€ Freebeet
+  prize_6_label: 5€ Freebeet
+  prize_1_label_prefix: 1er
+  prize_2_label_prefix: 2ème
+  prize_3_label_prefix: 3ème
+  prize_4_label_prefix: 4ème et 5ème
+  prize_5_label_prefix: 6ème et 7ème
+  prize_6_label_prefix: 8ème au 10ème
+  custom_rules:
+    bindings:
+      prize_1:
+        prefix: prize_1_label_prefix
+        label: prize_1_label
+        image: img_prize_1
+      prize_2:
+        prefix: prize_2_label_prefix
+        label: prize_2_label
+        image: img_prize_2
+      prize_3:
+        prefix: prize_3_label_prefix
+        label: prize_3_label
+        image: img_prize_3
+      prize_4:
+        prefix: prize_4_label_prefix
+        label: prize_4_label
+        image: img_prize_4
+      prize_5:
+        prefix: prize_5_label_prefix
+        label: prize_5_label
+        image: img_prize_5
+      prize_6:
+        prefix: prize_6_label_prefix
+        label: prize_6_label
+        image: img_prize_6
+    binding_map: {'' : [prize_1, prize_2, prize_3, prize_4, prize_5, prize_6]}
+  box_prizes_button: /partner/fan2sport/kups/weekly/image/box_prizes_button.png
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 9px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    se:
+      label: label_kup_question_se_soccer
+      points: '1 bon score : 3 pt. Bonne équipe victorieuse / ou nul bien pronostiqué : 6. Les 2 bon scores = 15 pts'

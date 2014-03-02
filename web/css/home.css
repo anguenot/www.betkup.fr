@@ -1,0 +1,77 @@
+@font-face {
+font-family: 'HomeBlocTitle';
+src: url('/fonts/BotonMedium.eot?') format('eot'),
+     url('/fonts/BotonMedium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.home {
+    background: url('/images/home/middle.png') center;
+    top: 0px;
+    position: relative;
+    padding-bottom: 150px;
+}
+.home .top {
+    margin: 0px;
+    padding: 0px;
+    width: 990px;
+    height: 18px;   
+    background: url('/images/home/top.png');
+    position: relative;
+    top: -16px;
+}
+
+.home .vide {
+	margin: 0 auto;
+/*    background: url('/images/home/middle.png') center;*/
+    width: 100%;
+    height: auto;
+	color: #575756;
+}
+.home .vide p {
+	
+padding-top: 5px;
+padding-bottom: 2px;
+font-family: KupBlocGain, Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+
+}
+
+.home .formulaire {
+    width: 990px; 
+    height: 195px;
+    position: absolute;
+	bottom: 15px;
+    left: 50%;
+    margin: 15px 0px 0px -495px;
+    text-align: center;
+	font-family: HomeBlocTitle;
+	color: #575757;
+	font-size: 13px;
+	background: url(/images/footer/kups.png) no-repeat center bottom;
+}
+
+.home .formulaire h2 {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.home .formulaire .facebook {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -225px;
+}
+
+.home .they-talk-about-us {
+	 width: 700px; 
+	 height: 103px;
+	 padding-left: 210px;
+}
+
+.home .they-talk-about-us .press-element {
+	 margin-right: 15px;
+}

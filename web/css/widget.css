@@ -1,0 +1,68 @@
+/* 
+    Document   : _widget
+    Created on : 22 juin 2011, 17:29:40
+    Author     : jerome
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+div.widgetError {
+	z-index: 100;
+	position: absolute;
+	margin-top: -5px;
+	width: 230px;
+	height: 40px;
+	background: url('/images/interface/bulle.png');
+	display: none;
+}
+
+div.widgetError_accept {
+	z-index: 100;
+	position: absolute;
+	margin-top: -5px;
+	width: 230px;
+	height: 40px;
+	background: url('/images/interface/bulle2.png');
+	display: none;
+}
+
+p.widgetError {
+	margin-left: 25px;
+	margin-top: 12px;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #DC2D32;
+}
+
+img.widgetSave {
+	cursor: pointer;
+	display: none;
+	float: left;
+	margin-top: 4px;
+}
+
+img.widgetCancel {
+	cursor: pointer;
+	display: none;
+	float: left;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+div.buttonText {
+	height: 20px;
+	background: url('/images/interface/buttonText/fleche.png') no-repeat;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.help {
+	float: left;
+	/*margin-left: 5px;*/
+}

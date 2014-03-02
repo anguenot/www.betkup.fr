@@ -1,0 +1,3311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-12-05 09:23:43\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "BANQUE"
+msgstr ""
+
+msgid "GUICHET"
+msgstr ""
+
+msgid "NUMERO DE COMPTE"
+msgstr ""
+
+msgid "CLE"
+msgstr ""
+
+msgid "NUMBER"
+msgstr ""
+
+msgid "BIC/SWIFT"
+msgstr ""
+
+msgid "LIMITE DE DEPOT"
+msgstr ""
+
+msgid "LIMITE DE MISE"
+msgstr ""
+
+msgid "Retirer mes gains"
+msgstr ""
+
+msgid "Créditer mon compte"
+msgstr ""
+
+msgid "Ouvrir un compte de jeu complet pour miser !"
+msgstr ""
+
+msgid "Votre ancien mot de passe est obligatoire"
+msgstr ""
+
+msgid "ANCIEN MOT DE PASSE"
+msgstr ""
+
+msgid "Votre nouveau mot de passe est obligatoire"
+msgstr ""
+
+msgid "NOUVEAU MOT DE PASSE"
+msgstr ""
+
+msgid "La confirmation est obligatoire"
+msgstr ""
+
+msgid "CONFIRMATION"
+msgstr ""
+
+msgid "Confirmer le changement de mon mot de passe"
+msgstr ""
+
+msgid "XX"
+msgstr ""
+
+msgid "Solde du compte :"
+msgstr ""
+
+msgid "Le montant du retrait est obligatoire"
+msgstr ""
+
+msgid "Je retire :"
+msgstr ""
+
+msgid "Le montant du retrait est obligatoire."
+msgstr ""
+
+msgid "Le numéro de compte est obligatoire."
+msgstr ""
+
+msgid "Votre montant est incorrect."
+msgstr ""
+
+msgid "label_privacy_notification_introduction_text_1"
+msgstr ""
+
+msgid "label_privacy_notification_introduction_text_2"
+msgstr ""
+
+msgid "label_privacy_notification_introduction_text_3"
+msgstr ""
+
+msgid "Kups auxquelles je participe :"
+msgstr ""
+
+msgid "Room dont je suis administrateur :"
+msgstr ""
+
+msgid "Room dont je suis membre :"
+msgstr ""
+
+msgid "Nouveauté et actualités :"
+msgstr ""
+
+msgid "Retour accueil"
+msgstr ""
+
+msgid "Le nom est obligatoire"
+msgstr ""
+
+msgid "NOM"
+msgstr ""
+
+msgid "Le prénom est obligatoire"
+msgstr ""
+
+msgid "PRENOM"
+msgstr ""
+
+msgid "Le pseudo est obligatoire"
+msgstr ""
+
+msgid "PSEUDO"
+msgstr ""
+
+msgid "DATE DE NAISSANCE"
+msgstr ""
+
+msgid "L'email est obligatoire"
+msgstr ""
+
+msgid "E-MAIL"
+msgstr ""
+
+msgid "Le mot de passe est obligatoire"
+msgstr ""
+
+msgid "MOT DE PASSE"
+msgstr ""
+
+msgid "La confirmation du mot de passe est obligatoire"
+msgstr ""
+
+msgid "Etes-vous humain ?"
+msgstr ""
+
+msgid "ETES-VOUS HUMAIN ?"
+msgstr ""
+
+msgid "Le mot de passe est obligatoire."
+msgstr ""
+
+msgid "Email est obligatoire."
+msgstr ""
+
+msgid "Le pseudo est obligatoire."
+msgstr ""
+
+msgid "Modifier mon mot de passe"
+msgstr ""
+
+msgid "Votre code d'activation est obligatoire"
+msgstr ""
+
+msgid "CODE D'ACTIVATION"
+msgstr ""
+
+msgid "Mes limites de jeu"
+msgstr ""
+
+msgid "Le montant est obligatoire"
+msgstr ""
+
+msgid "VIREMENT AUTOMATIQUE DES GAINS"
+msgstr ""
+
+msgid "Confirmer la clôture de mon compte"
+msgstr ""
+
+msgid "La civilité est obligatoire"
+msgstr ""
+
+msgid "Adresse est obligatoire"
+msgstr ""
+
+msgid "ADRESSE"
+msgstr ""
+
+msgid "Le code postal est obligatoire"
+msgstr ""
+
+msgid "CODE POSTAL"
+msgstr ""
+
+msgid "La ville est obligatoire"
+msgstr ""
+
+msgid "VILLE"
+msgstr ""
+
+msgid "Le pays est obligatoire"
+msgstr ""
+
+msgid "PAYS"
+msgstr ""
+
+msgid "Le pays de naissance est obligatoire"
+msgstr ""
+
+msgid "Veuillez sélectionner un pays"
+msgstr ""
+
+msgid "Le département de naissance est obligatoire"
+msgstr ""
+
+msgid "DEPARTEMENT DE NAISSANCE"
+msgstr ""
+
+msgid "Veuillez sélectionner un département"
+msgstr ""
+
+msgid "La ville de naissance est obligatoire"
+msgstr ""
+
+msgid "VILLE DE NAISSANCE"
+msgstr ""
+
+msgid "Le mail est obligatoire"
+msgstr ""
+
+msgid "RIB"
+msgstr ""
+
+msgid "IBAN"
+msgstr ""
+
+msgid "La limite de dépôt est obligatoire"
+msgstr ""
+
+msgid "La limite de mise est obligatoire"
+msgstr ""
+
+msgid "Vous devez accepter les conditions générales d'utilisation"
+msgstr ""
+
+msgid "Je confirme être majeur et J'accepte les conditions générales d'utilisation et règlement de betklub"
+msgstr ""
+
+msgid "J'accepte de recevoir des offres de Betkup ou des partenaires de Betkup. Je peux me désabonner à tous moment dans la section Mon Compte."
+msgstr ""
+
+msgid "La limite de dépôt est obligatoire."
+msgstr ""
+
+msgid "La limite de mise est obligatoire."
+msgstr ""
+
+msgid "Compte de jeu simple"
+msgstr ""
+
+msgid "Compte de jeu complet"
+msgstr ""
+
+msgid "Je crédite mon compte pour un montant de :"
+msgstr ""
+
+msgid "Le type de carte est obligatoire"
+msgstr ""
+
+msgid "CARTE"
+msgstr ""
+
+msgid "Le numéro de carte est obligatoire"
+msgstr ""
+
+msgid "NUMERO CARTE"
+msgstr ""
+
+msgid "DATE D'EXPIRATION"
+msgstr ""
+
+msgid "Le cryptogramme situé au dos de votre carte bancaire est obligatoire"
+msgstr ""
+
+msgid "CRYPTO"
+msgstr ""
+
+msgid "Créditer"
+msgstr ""
+
+msgid "Le montant est obligatoire."
+msgstr ""
+
+msgid "Le cryptogramme situé au dos de votre carte bancaire est obligatoire."
+msgstr ""
+
+msgid "Le numéro de carte est obligatoire."
+msgstr ""
+
+msgid "Votre montant est incorrect. Celui-ci doit etre compris entre 5 et 2000 €"
+msgstr ""
+
+msgid "Votre numéro de carte bancaire est incorrect"
+msgstr ""
+
+msgid "Votre cryptogramme est incorrect"
+msgstr ""
+
+msgid "Demander la clôture de mon compte"
+msgstr ""
+
+msgid "J'ouvre un compte pour un montant de :"
+msgstr ""
+
+msgid "Voir toutes les kups"
+msgstr ""
+
+msgid "Miser"
+msgstr ""
+
+msgid "Voir toutes les rooms"
+msgstr ""
+
+msgid "Recherche par mot clés"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Recherche par Tags"
+msgstr ""
+
+msgid "Banque"
+msgstr ""
+
+msgid "Guichet"
+msgstr ""
+
+msgid "Compte"
+msgstr ""
+
+msgid "Clé"
+msgstr ""
+
+msgid "Je veux m'inscrire à BetKup !"
+msgstr ""
+
+msgid "label_tab_account_player"
+msgstr ""
+
+msgid "label_form_privacy_notification_participate_kup_title"
+msgstr ""
+
+msgid "label_form_privacy_notification_friend_participate"
+msgstr ""
+
+msgid "label_form_privacy_notification_each_new_result"
+msgstr ""
+
+msgid "label_form_privacy_notification_alert_prono_each_round"
+msgstr ""
+
+msgid "label_form_privacy_notification_change_ranking"
+msgstr ""
+
+msgid "label_form_privacy_notification_admin_room_title"
+msgstr ""
+
+msgid "label_form_privacy_notification_invitation_accept"
+msgstr ""
+
+msgid "label_form_privacy_notification_player_join_room"
+msgstr ""
+
+msgid "label_form_privacy_notification_comment_post"
+msgstr ""
+
+msgid "label_form_privacy_notification_membre_room_title"
+msgstr ""
+
+msgid "label_form_privacy_notification_new_kup_activated"
+msgstr ""
+
+msgid "label_form_privacy_notification_news_actu_title"
+msgstr ""
+
+msgid "label_form_privacy_notification_new_official_kup"
+msgstr ""
+
+msgid "label_form_privacy_notification_new_official_room"
+msgstr ""
+
+msgid "label_form_privacy_notification_newsletter_betkup"
+msgstr ""
+
+msgid "label_form_privacy_notification_newsletter_partners"
+msgstr ""
+
+msgid "flash_notice_session_expired"
+msgstr "Your session expired. Please sign in again"
+
+msgid "flash_notice_password_forgotten_success"
+msgstr ""
+
+msgid "flash_error_password_reset_at_least_5_chars"
+msgstr ""
+
+msgid "flash_error_password_reset_passwords_do_not_match"
+msgstr ""
+
+msgid "flash_notice_password_reset_success"
+msgstr ""
+
+msgid "text_password_forgotten"
+msgstr ""
+
+msgid "COMPTE BANCAIRE"
+msgstr ""
+
+msgid "Indiquez un code banque"
+msgstr ""
+
+msgid "Code Banque"
+msgstr ""
+
+msgid "Indiquez un code guichet"
+msgstr ""
+
+msgid "Code Guichet"
+msgstr ""
+
+msgid "Indiquez un numéro compte"
+msgstr ""
+
+msgid "Numéro de compte"
+msgstr ""
+
+msgid "Indiquez une clé RIB"
+msgstr ""
+
+msgid "Clé RIB"
+msgstr ""
+
+msgid "Indiquez un SWIFT/BIC"
+msgstr ""
+
+msgid "SWIFT/BIC"
+msgstr ""
+
+msgid "Indiquez un IBAN"
+msgstr ""
+
+msgid "Indiquez un dépot limit"
+msgstr ""
+
+msgid "Choisir une limite"
+msgstr ""
+
+msgid "Indiquez un montant"
+msgstr ""
+
+msgid "Choisir un montant"
+msgstr ""
+
+msgid "Indiquez une limite de mise"
+msgstr ""
+
+msgid "flash_error_password_reset_token_expired"
+msgstr ""
+
+msgid "text_password_reset"
+msgstr ""
+
+msgid "flash_notice_password_forgotten_email_not_valid"
+msgstr ""
+
+msgid "label_rib_invalid"
+msgstr ""
+
+msgid "label_iban_invalid"
+msgstr ""
+
+msgid "label_iban_and_rib_null"
+msgstr ""
+
+msgid "label_bic_invalid"
+msgstr ""
+
+msgid "label_limit_values_invalid"
+msgstr ""
+
+msgid "flash_message_create_account_success"
+msgstr ""
+
+msgid "message_flash_error_captcha"
+msgstr ""
+
+msgid "login_form_birthdate_error"
+msgstr ""
+
+msgid "captcha_message_error"
+msgstr ""
+
+msgid "legende_bloc_captcha"
+msgstr ""
+
+msgid "account_tab_prediction_text"
+msgstr ""
+
+msgid "open_account_complet_to_bet"
+msgstr ""
+
+msgid "account_tab_limit_text"
+msgstr ""
+
+msgid "label_why_cannot_wire"
+msgstr ""
+
+msgid "account_tab_transaction_text"
+msgstr ""
+
+msgid "account_facebook_nolink_message"
+msgstr ""
+
+msgid "flash_error_facebook_account_already_linked"
+msgstr ""
+
+msgid "flash_error_facebook_account_already_unlinked"
+msgstr ""
+
+msgid "flash_message_upgrade_account_success"
+msgstr ""
+
+msgid "flash_notice_member_logged_out"
+msgstr ""
+
+msgid "flash_error_member_logged_out"
+msgstr ""
+
+msgid "NOM DE LA ROOM"
+msgstr ""
+
+msgid "AVATAR DE LA ROOM"
+msgstr ""
+
+msgid "ACCES"
+msgstr ""
+
+msgid "DESCRIPTION DE LA ROOM"
+msgstr ""
+
+msgid "TYPE DE ROOM"
+msgstr ""
+
+msgid "TAGS"
+msgstr ""
+
+msgid "account_tab_prediction_title"
+msgstr ""
+
+msgid "register_credit_select_amount_help_text"
+msgstr ""
+
+msgid "register_credit_amount_perso_help_text"
+msgstr ""
+
+msgid "register_credit_type_carte_help_text"
+msgstr ""
+
+msgid "register_credit_numero_carte_help_text"
+msgstr ""
+
+msgid "register_credit_expiration_date_help_text"
+msgstr ""
+
+msgid "register_credit_crypto_help_text"
+msgstr ""
+
+msgid "account_tab_limit_title"
+msgstr ""
+
+msgid "account_tab_transaction_title"
+msgstr ""
+
+msgid "flash_notice_room_created_success"
+msgstr ""
+
+msgid "flash_error_room_created_failure"
+msgstr ""
+
+msgid "ACCESS"
+msgstr ""
+
+msgid "account_tab_prediction_text_1"
+msgstr ""
+
+msgid "account_tab_prediction_text_2"
+msgstr ""
+
+msgid "account_tab_prediction_text_3"
+msgstr ""
+
+msgid "account_tab_prediction_text_4"
+msgstr ""
+
+msgid "account_tab_limit_text_1"
+msgstr ""
+
+msgid "account_tab_limit_text_2"
+msgstr ""
+
+msgid "account_tab_limit_text_3"
+msgstr ""
+
+msgid "account_tab_limit_text_4"
+msgstr ""
+
+msgid "account_tab_transaction_text_1"
+msgstr ""
+
+msgid "account_tab_transaction_text_2"
+msgstr ""
+
+msgid "account_tab_transaction_text_3"
+msgstr ""
+
+msgid "account_tab_transaction_text_4"
+msgstr ""
+
+msgid "flash_notice_internal_error"
+msgstr "An unexpected internal error occured..."
+
+msgid "label_team_type_official"
+msgstr "Official"
+
+msgid "label_team_type_colleagues"
+msgstr "Colleagues"
+
+msgid "label_team_type_fans"
+msgstr "Fans"
+
+msgid "label_team_type_enemies"
+msgstr "Enemies"
+
+msgid "label_team_type_students"
+msgstr "Students"
+
+msgid "label_team_type_supporters"
+msgstr "Supporters"
+
+msgid "PUBLIC"
+msgstr "Public"
+
+msgid "PRIVATE"
+msgstr "Private"
+
+msgid "label_back_to_room_home"
+msgstr ""
+
+msgid "label_form_create_room_name_field"
+msgstr ""
+
+msgid "label_form_create_room_name_legend"
+msgstr ""
+
+msgid "label_form_create_room_avatar_field"
+msgstr ""
+
+msgid "label_form_create_room_avatar_legend"
+msgstr ""
+
+msgid "label_form_create_room_access_field"
+msgstr ""
+
+msgid "label_form_create_room_access_legend"
+msgstr ""
+
+msgid "label_room_create_form_more_options"
+msgstr ""
+
+msgid "label_form_create_room_name_error"
+msgstr ""
+
+msgid "label_form_create_room_avatar_error"
+msgstr ""
+
+msgid "label_form_create_room_access_error"
+msgstr ""
+
+msgid "flash_error_missing_room_uuid"
+msgstr ""
+
+msgid "label_room_search_facebook_friends"
+msgstr ""
+
+msgid "label_room_search_kups"
+msgstr ""
+
+msgid "label_room_search_categories"
+msgstr ""
+
+msgid "label_room_search_access"
+msgstr ""
+
+msgid "label_room_search_friends"
+msgstr ""
+
+msgid "label_footer_follow_us"
+msgstr ""
+
+msgid "label_footer_about_us"
+msgstr ""
+
+msgid "link_footer_who_are_we"
+msgstr ""
+
+msgid "link_footer_faq"
+msgstr ""
+
+msgid "link_footer_they_talk_about_us"
+msgstr ""
+
+msgid "link_footer_how_it_works"
+msgstr ""
+
+msgid "label_footer_legal_rights"
+msgstr ""
+
+msgid "link_footer_terms_of_use"
+msgstr ""
+
+msgid "link_footer_rules"
+msgstr ""
+
+msgid "label_footer_further_infos"
+msgstr ""
+
+msgid "link_footer_promote_us"
+msgstr ""
+
+msgid "link_footer_blog"
+msgstr ""
+
+msgid "link_footer_jobs"
+msgstr ""
+
+msgid "label_footer_bets"
+msgstr ""
+
+msgid "label_footer_legality"
+msgstr ""
+
+msgid "text_footer_authority_agreement"
+msgstr ""
+
+msgid "link_footer_know_more"
+msgstr ""
+
+msgid "label_footer_reliability"
+msgstr ""
+
+msgid "text_footer_secure_paiements"
+msgstr ""
+
+msgid "label_footer_transparency"
+msgstr ""
+
+msgid "text_footer_money_refund"
+msgstr ""
+
+msgid "ROOM PRIVEE"
+msgstr ""
+
+msgid "Cette Room est privee et son acces est protege par un mot de passe."
+msgstr ""
+
+msgid "Vous avez le mot de passe ?"
+msgstr ""
+
+msgid "ROOM PUBLIQUE"
+msgstr ""
+
+msgid "Cette Room est publique et accessible a tous."
+msgstr ""
+
+msgid "Vous etes membre de cette Room. Si vous ne participez a aucune de ses Kups vous pouvez la quitter."
+msgstr ""
+
+msgid "Vous etes membre de cette Room. Vous pouvez quitter cette Room ou y inviter des amis."
+msgstr ""
+
+msgid "Vous etes le createur et l'administrateur de cette Room. Vous pouvez personnaliser la Room, lancer une Kup ou inviter des amis."
+msgstr ""
+
+msgid "account_tab_limit_fieldset_text_1"
+msgstr ""
+
+msgid "account_tab_limit_fieldset_text_2"
+msgstr ""
+
+msgid "account_tab_limit_fieldset_text_3"
+msgstr ""
+
+msgid "account_tab_limit_fieldset_text_4"
+msgstr ""
+
+msgid "label_home_I_want_to_register"
+msgstr ""
+
+msgid "label_header_popup_password_forgotten"
+msgstr ""
+
+msgid "label_header_welcome_member"
+msgstr ""
+
+msgid "label_header_member_logout"
+msgstr ""
+
+msgid "label_header_member_credit"
+msgstr ""
+
+msgid "label_header_member_placed"
+msgstr ""
+
+msgid "label_home_kups_front"
+msgstr ""
+
+msgid "label_home_rooms_front"
+msgstr ""
+
+msgid "label_chat_soon_available"
+msgstr ""
+
+msgid "label_chat_register"
+msgstr ""
+
+msgid "register_accountLastName_messageError_text"
+msgstr ""
+
+msgid "register_accountFirstname_messageError_text"
+msgstr ""
+
+msgid "register_accountPseudo_messageError_text"
+msgstr ""
+
+msgid "register_accountEmail_messageError_text"
+msgstr ""
+
+msgid "register_accountPassword_messageError_text"
+msgstr ""
+
+msgid "register_accountConfirmation_messageError_text"
+msgstr ""
+
+msgid "register_accountHumain_messageError_text"
+msgstr ""
+
+msgid "interface_blockPseudo_input_placeholder_text"
+msgstr ""
+
+msgid "label_room_search_keywords"
+msgstr ""
+
+msgid "label_rooms_home_kups_front"
+msgstr ""
+
+msgid "label_home_rooms_feeds_rankingr"
+msgstr ""
+
+msgid "flash_message_transaction_unknown_status"
+msgstr ""
+
+msgid "flash_message_transaction_failed"
+msgstr ""
+
+msgid "flash_message_transaction_succeeded"
+msgstr ""
+
+msgid "info_monComptePrenom_legende_text"
+msgstr ""
+
+msgid "info_monCompteNom_legende_text"
+msgstr ""
+
+msgid "info_monCompteAdresse_legende_text"
+msgstr ""
+
+msgid "info_monCompteCodepostal_legende_text"
+msgstr ""
+
+msgid "info_monCompteVille_legende_text"
+msgstr ""
+
+msgid "info_accountCountry_messageError_text"
+msgstr ""
+
+msgid "info_accountCountry_legende_text"
+msgstr ""
+
+msgid "info_monCompteDateNaissance_legende_text"
+msgstr ""
+
+msgid "info_monCompteDepartementNaissance_legende_text"
+msgstr ""
+
+msgid "info_monCompteVilleNaissance_legende_text"
+msgstr ""
+
+msgid "info_monCompteDateCreationCompte_legende_text"
+msgstr ""
+
+msgid "account_changePassword_corpsGauche_sommaire_text"
+msgstr ""
+
+msgid "account_changePassword_oldPassword_messageError_text"
+msgstr ""
+
+msgid "account_changePassword_oldPassword_legende_text"
+msgstr ""
+
+msgid "account_changePassword_newPassword_messageError_text"
+msgstr ""
+
+msgid "account_changePassword_newPassword_legende_text"
+msgstr ""
+
+msgid "account_changePassword_confirmationPassword_messageError_text"
+msgstr ""
+
+msgid "account_changePassword_confirmationPassword_legende_text"
+msgstr ""
+
+msgid "account_changePassword_buttonSubmit_alt_text"
+msgstr ""
+
+msgid "account_credit_amountCreditSelect_messageError_text"
+msgstr ""
+
+msgid "account_credit_amountCreditSelect_legende_text"
+msgstr ""
+
+msgid "account_credit_amountCreditPerso_messageError_text"
+msgstr ""
+
+msgid "account_credit_amountCreditPerso_legend_text"
+msgstr ""
+
+msgid "account_credit_cardtype_messageError_text"
+msgstr ""
+
+msgid "account_credit_cardnumber_messageError_text"
+msgstr ""
+
+msgid "account_credit_expiration_legend_text"
+msgstr ""
+
+msgid "account_credit_crypto_messageError_text"
+msgstr ""
+
+msgid "account_credit_crypto_legend_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCivilite_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLastname_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLastname_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLastname_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountFirstname_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountFirstname_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountFirstname_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountAdresse_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountAdresse_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountAdresse_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodezip_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodezip_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodezip_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCity_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCity_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCity_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCountry_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCountry_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCountry_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthdate_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthdate_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthcountry_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthcountry_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthcountry_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthregion_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthregion_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthregion_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthplace_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthplace_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountBirthplace_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountPseudo_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountPseudo_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountPseudo_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountEmail_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountEmail_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountEmail_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountPassword_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountPassword_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountPassword_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountConfirmation_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountConfirmation_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountConfirmation_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountRib_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodeBank_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodeBank_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodeBank_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodeGuichet_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodeGuichet_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountCodeGuichet_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountNumAccount_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountNumAccount_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountNumAccount_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountKeyRIB_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountKeyRIB_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountKeyRIB_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountSwift_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountSwift_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountSwift_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountIban_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountIban_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountIban_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountDepotLimit_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountDepotLimit_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountDepotLimit_firstRow_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountDepotLimit_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLimiteDepotPerso_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLimiteDepotPerso_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLimiteDepotPerso_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountMiseLimit_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountMiseLimit_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountMiseLimit_firstRow_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountMiseLimit_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLimiteMisePerso_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLimiteMisePerso_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountLimiteMisePerso_help_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountHumain_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountHumain_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountAcceptConditions_messageError_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountAcceptConditions_legende_text"
+msgstr ""
+
+msgid "account_registerAdvanced_accountAcceptOffres_legende_text"
+msgstr ""
+
+msgid "account_registerCredit_link_credit_later_text"
+msgstr ""
+
+msgid "account_register_interface_droite_titreWithBorder_text_1"
+msgstr ""
+
+msgid "account_register_interface_droite_font_standard_text"
+msgstr ""
+
+msgid "account_register_interface_droite_titreWithBorder_text_2"
+msgstr ""
+
+msgid "account_register_accountCivilite_messageError_text"
+msgstr ""
+
+msgid "account_register_accountLastName_legende_text"
+msgstr ""
+
+msgid "account_register_accountLastName_help_text"
+msgstr ""
+
+msgid "account_register_accountFirstname_legende_text"
+msgstr ""
+
+msgid "account_register_accountFirstname_help_text"
+msgstr ""
+
+msgid "account_register_accountPseudo_legende_text"
+msgstr ""
+
+msgid "account_register_accountPseudo_help_text"
+msgstr ""
+
+msgid "account_register_accountBirthdate_legende_text"
+msgstr ""
+
+msgid "account_register_accountBirthdate_help_text"
+msgstr ""
+
+msgid "account_register_accountEmail_legende_text"
+msgstr ""
+
+msgid "account_register_accountEmail_help_text"
+msgstr ""
+
+msgid "account_register_accountPassword_legende_text"
+msgstr ""
+
+msgid "account_register_accountPassword_help_text"
+msgstr ""
+
+msgid "account_register_accountConfirmation_legende_text"
+msgstr ""
+
+msgid "account_register_accountConfirmation_help_text"
+msgstr ""
+
+msgid "account_register_accountHumain_legende_text"
+msgstr ""
+
+msgid "account_status_interface_gauche_sommaire_mesdocdeverif_text"
+msgstr ""
+
+msgid "account_status_interface_gauche_sommaire_moncodeactivation_text"
+msgstr ""
+
+msgid "account_status_interface_gauche_sommaire_meslimitesdejeu_text"
+msgstr ""
+
+msgid "account_status_formAccountLimites_margeGauche_title_1"
+msgstr ""
+
+msgid "account_status_formAccountLimites_margeGauche_title_2"
+msgstr ""
+
+msgid "account_status_formAccountLimites_sendDocTitle_title_1"
+msgstr ""
+
+msgid "account_status_formAccountLimites_sendDocTexte_text_1"
+msgstr ""
+
+msgid "account_status_formAccountLimites_sendDocTitle_title_2"
+msgstr ""
+
+msgid "account_status_formAccountLimites_sendDocTexte_text_2"
+msgstr ""
+
+msgid "account_status_formAccountLimites_sendDocTitle_title_3"
+msgstr ""
+
+msgid "account_status_formAccountLimites_sendDocTexte_text_3"
+msgstr ""
+
+msgid "account_status_formAccountLimites_margeGauche_title_3"
+msgstr ""
+
+msgid "account_status_formAccountLimites_moduleEnvoiIdentite_title_1"
+msgstr ""
+
+msgid "account_status_formAccountLimites_moduleEnvoiIdentite_title_2"
+msgstr ""
+
+msgid "account_status_activationKey_messageError_text"
+msgstr ""
+
+msgid "account_status_activationKey_legende_text"
+msgstr ""
+
+msgid "account_status_meslimitesdejeu_altImg_text"
+msgstr ""
+
+msgid "account_status_maxAmountBetWeekly_messageError_text"
+msgstr ""
+
+msgid "account_status_maxAmountBetWeekly_legende_text"
+msgstr ""
+
+msgid "account_status_maxAmountBetWeekly_help_text"
+msgstr ""
+
+msgid "account_status_maxAmountCreditWeekly_messageError_text"
+msgstr ""
+
+msgid "account_status_maxAmountCreditWeekly_legende_text"
+msgstr ""
+
+msgid "account_status_maxAmountCreditWeekly_help_text"
+msgstr ""
+
+msgid "account_status_maxAmountAutomaticWire_messageError_text"
+msgstr ""
+
+msgid "account_status_maxAmountAutomaticWire_legende_text"
+msgstr ""
+
+msgid "account_status_maxAmountAutomaticWire_help_text"
+msgstr ""
+
+msgid "account_status_autoExclusion_legende_text"
+msgstr ""
+
+msgid "account_status_autoExclusion_choice_0_text"
+msgstr ""
+
+msgid "account_status_autoExclusion_choice_7_text"
+msgstr ""
+
+msgid "account_status_autoExclusion_choice_14_text"
+msgstr ""
+
+msgid "account_status_autoExclusion_choice_-1_text"
+msgstr ""
+
+msgid "title_account_home"
+msgstr ""
+
+msgid "title_account_kups"
+msgstr ""
+
+msgid "title_account_rooms"
+msgstr ""
+
+msgid "link_me_see_home"
+msgstr ""
+
+msgid "link_me_how_to_play"
+msgstr ""
+
+msgid "link_me_get_rid_todo"
+msgstr ""
+
+msgid "text_todolist_account_created"
+msgstr ""
+
+msgid "text_todolist_account_credited"
+msgstr ""
+
+msgid "text_todolist_player_verified"
+msgstr ""
+
+msgid "text_todolist_photo_added"
+msgstr ""
+
+msgid "text_todolist_facebook_linked"
+msgstr ""
+
+msgid "label_me_room_admin_link"
+msgstr ""
+
+msgid "label_form_create_room_password_error"
+msgstr ""
+
+msgid "label_form_create_room_password_field"
+msgstr ""
+
+msgid "label_form_edit_room_name_error"
+msgstr ""
+
+msgid "label_form_edit_room_name_legend"
+msgstr ""
+
+msgid "label_form_edit_room_name_help"
+msgstr ""
+
+msgid "label_form_edit_room_pict_legend"
+msgstr ""
+
+msgid "label_form_edit_room_pict_help"
+msgstr ""
+
+msgid "label_form_edit_room_desc_legend"
+msgstr ""
+
+msgid "label_form_edit_room_desc_help"
+msgstr ""
+
+msgid "label_form_edit_room_type_legend"
+msgstr ""
+
+msgid "label_form_edit_room_type_help"
+msgstr ""
+
+msgid "label_form_edit_room_tag_legend"
+msgstr ""
+
+msgid "label_form_edit_room_tag_help"
+msgstr ""
+
+msgid "label_form_edit_room_access_error"
+msgstr ""
+
+msgid "label_form_edit_room_access_help"
+msgstr ""
+
+msgid "label_form_edit_room_password_error"
+msgstr ""
+
+msgid "label_button_kup_front_play_win"
+msgstr ""
+
+msgid "label_footer_twitter_up"
+msgstr ""
+
+msgid "label_footer_twitter_down"
+msgstr ""
+
+msgid "label_footer_facebook"
+msgstr ""
+
+msgid "label_footer_twitter"
+msgstr ""
+
+msgid "label_footer_mail"
+msgstr ""
+
+msgid "label_home_press"
+msgstr ""
+
+msgid "label_home_like_betkup"
+msgstr ""
+
+msgid "label_home_reference"
+msgstr ""
+
+msgid "label_room_kup_header_home"
+msgstr ""
+
+msgid "label_room_kup_header_social"
+msgstr ""
+
+msgid "label_room_kup_header_like"
+msgstr ""
+
+msgid "label_kup_title_la_totale"
+msgstr "La Totale"
+
+msgid "label_kup_description_la_totale"
+msgstr "Pronostiquez toutes la Coupe du Monde avant qu'elle ne débute PUIS tous les matchs au quotidien !"
+
+msgid "label_kup_title_votre_tableau"
+msgstr "Votre Tableau"
+
+msgid "label_kup_description_votre_tableau"
+msgstr "En partant des poules, construisez votre pronostic sur le tableau final. Attention les pronos ferment avec le 1er match."
+
+msgid "label_kup_title_match_par_match"
+msgstr "Match par Match"
+
+msgid "label_kup_description_match_par_match"
+msgstr "Vivez la CDM en pronostiquant match après match. Les pronostics sont ouverts jusqu à 5 min avant le coup de sifflet."
+
+msgid "label_kup_title_chocs_poules"
+msgstr "Chocs des poules"
+
+msgid "label_kup_description_chocs_poules"
+msgstr "Pronostiquez sur les 4 matchs chocs de cette phase de la phase de poule."
+
+msgid "label_kup_title_6_nations"
+msgstr "VI Nations"
+
+msgid "label_kup_description_6_nations"
+msgstr "Pronostiquez sur les chocs des équipes participantes des VI Nations"
+
+msgid "label_kup_title_coq"
+msgstr "Poule du coq"
+
+msgid "label_kup_description_coq"
+msgstr "Pronostiquez sur les chocs des équipes participantes des VI Nations"
+
+msgid "label_home_press_ref_1"
+msgstr ""
+
+msgid "label_home_press_ref_2"
+msgstr ""
+
+msgid "label_home_press_ref_3"
+msgstr ""
+
+msgid "label_home_press_ref_4"
+msgstr ""
+
+msgid "label_home_press_ref_5"
+msgstr ""
+
+msgid "label_kup_has_estimated"
+msgstr ""
+
+msgid "label_kup_has_not_estimated"
+msgstr ""
+
+msgid "label_kup_has_bet"
+msgstr ""
+
+msgid "label_kup_has_not_bet"
+msgstr ""
+
+msgid "texte_me_intro_header"
+msgstr ""
+
+msgid "texte_me_intro_content"
+msgstr ""
+
+msgid "label_me_dashboard_close"
+msgstr ""
+
+msgid "label_me_arrow"
+msgstr ""
+
+msgid "label_me_myboard_title"
+msgstr ""
+
+msgid "title_me_kups"
+msgstr ""
+
+msgid "label_me_alert"
+msgstr ""
+
+msgid "texte_me_no_kup"
+msgstr ""
+
+msgid "label_kup_search"
+msgstr ""
+
+msgid "title_me_rooms"
+msgstr ""
+
+msgid "texte_me_no_room"
+msgstr ""
+
+msgid "label_room_search"
+msgstr ""
+
+msgid "label_room_create"
+msgstr ""
+
+msgid "label_room_join"
+msgstr ""
+
+msgid "label_kup_tabbar_item1"
+msgstr ""
+
+msgid "label_kup_tabbar_item2"
+msgstr ""
+
+msgid "label_kup_tabbar_item3"
+msgstr ""
+
+msgid "label_kup_tabbar_item4"
+msgstr ""
+
+msgid "label_kup_tabbar_item5"
+msgstr ""
+
+msgid "label_kup_change_pronostic"
+msgstr ""
+
+msgid "label_kup_bet"
+msgstr ""
+
+msgid "label_kup_follow_ladder"
+msgstr ""
+
+msgid "label_kup_play"
+msgstr ""
+
+msgid "kup_tabar_item1"
+msgstr ""
+
+msgid "kup_tabar_item2"
+msgstr ""
+
+msgid "kup_tabar_item3"
+msgstr ""
+
+msgid "kup_tabar_item4"
+msgstr ""
+
+msgid "kup_tabar_item5"
+msgstr ""
+
+msgid "flash_error_room_name_exists"
+msgstr ""
+
+msgid "room_view_right_box_how_to_work_small_text_1"
+msgstr ""
+
+msgid "room_view_right_box_how_to_work_small_text_2"
+msgstr ""
+
+msgid "room_view_right_box_how_to_work_small_text_3"
+msgstr ""
+
+msgid "room_view_right_box_how_to_work_big_text_1"
+msgstr ""
+
+msgid "room_view_right_box_how_to_work_big_text_2"
+msgstr ""
+
+msgid "room_view_right_box_how_to_work_big_text_3"
+msgstr ""
+
+msgid "room_view_right_box_how_to_work_big_text_4"
+msgstr ""
+
+msgid "label_form_create_room_description_field"
+msgstr ""
+
+msgid "label_form_create_room_description_help"
+msgstr ""
+
+msgid "label_form_create_room_types_field"
+msgstr ""
+
+msgid "label_form_create_room_types_help"
+msgstr ""
+
+msgid "label_form_create_room_tags_field"
+msgstr ""
+
+msgid "label_form_create_room_tags_help"
+msgstr ""
+
+msgid "Supporters"
+msgstr "Supporters"
+
+msgid "Enemies"
+msgstr "Enemies"
+
+msgid "Colleagues"
+msgstr "Colleagues"
+
+msgid "Fans"
+msgstr "Fans"
+
+msgid "Students"
+msgstr "Students"
+
+msgid "Official"
+msgstr "Official"
+
+msgid "Jackpot"
+msgstr ""
+
+msgid "label_room_tabar_item1"
+msgstr ""
+
+msgid "label_room_tabar_item2"
+msgstr ""
+
+msgid "label_room_tabar_item3"
+msgstr ""
+
+msgid "label_room_tabbar_item1"
+msgstr ""
+
+msgid "label_room_tabbar_item2"
+msgstr ""
+
+msgid "label_room_tabbar_item3"
+msgstr ""
+
+msgid "flash_notice_room_edited_success"
+msgstr ""
+
+msgid "flash_error_room_edited_failure"
+msgstr ""
+
+msgid "label_header_free"
+msgstr ""
+
+msgid "home_slide_how_work_room_text"
+msgstr ""
+
+msgid "home_slide_how_how_work_kup_front_text"
+msgstr ""
+
+msgid "home_slide_how_how_work_kup_text"
+msgstr ""
+
+msgid "home_slide_how_how_work_room_front_text"
+msgstr ""
+
+msgid "label_room_kups_add"
+msgstr ""
+
+msgid "label_room_manage_kups_button"
+msgstr ""
+
+msgid "flash_notice_joined_team_success"
+msgstr ""
+
+msgid "flash_error_joined_team_error"
+msgstr ""
+
+msgid "flash_notice_leaved_team_success"
+msgstr ""
+
+msgid "flash_error_leaved_team_error"
+msgstr ""
+
+msgid "label_room_members_header"
+msgstr ""
+
+msgid "label_room_members_avatar"
+msgstr ""
+
+msgid "label_room_members_button_01"
+msgstr ""
+
+msgid "text_me_no_kup_in_room"
+msgstr ""
+
+msgid "label_room_kups_header"
+msgstr ""
+
+msgid "label_room_members"
+msgstr ""
+
+msgid "label_kups_members"
+msgstr ""
+
+msgid "label_room_members_choose_kup"
+msgstr ""
+
+msgid "label_rugby_fixtures"
+msgstr ""
+
+msgid "label_rugby_erase_pronostics"
+msgstr ""
+
+msgid "label_rugby_fill_randomly"
+msgstr ""
+
+msgid "label_rugby_choose_favorites"
+msgstr ""
+
+msgid "text_rugby_pronostic_as"
+msgstr ""
+
+msgid "label_rugby_goto_table"
+msgstr ""
+
+msgid "label_rugby_help"
+msgstr ""
+
+msgid "label_rugby_graphic"
+msgstr ""
+
+msgid "label_rugby_save"
+msgstr ""
+
+msgid "flash_notice_joined_room_success"
+msgstr ""
+
+msgid "flash_error_joined_room_error"
+msgstr ""
+
+msgid "flash_notice_left_room_success"
+msgstr ""
+
+msgid "flash_error_left_room_error"
+msgstr ""
+
+msgid "label_tab_kup_prediction"
+msgstr ""
+
+msgid "label_tab_kup_ranking"
+msgstr ""
+
+msgid "label_tab_kup_results"
+msgstr ""
+
+msgid "label_tab_kup_news"
+msgstr ""
+
+msgid "label_tab_kup_rules"
+msgstr ""
+
+msgid "label_room_kups_del"
+msgstr ""
+
+msgid "label_kup_rules"
+msgstr ""
+
+msgid "label_kup_bareme"
+msgstr ""
+
+msgid "label_kup_news"
+msgstr ""
+
+msgid "label_kup_ranking"
+msgstr ""
+
+msgid "a_title_real_money_bets_unavailable_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_1_title"
+msgstr ""
+
+msgid "home_slidedeck_slide_1_img_how_work_1_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_1_arrow_link_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_1_img_how_work_2_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_button_previous_text"
+msgstr ""
+
+msgid "home_slidedeck_button_next_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_2_title"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_title"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_la_totale_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_le_tableau_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_match_par_match_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_poule_du_coq_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_choc_poule_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_VI_nations_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_arrow_prev_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_separator_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_kup_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_la_totale_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_table_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_le_tableau_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_match_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_match_par_match_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_coq_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_la_poule_du_coq_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_match_choc_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_match_choc_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_vi_nations_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_vi_nations_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_arrow_next_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_4_title"
+msgstr ""
+
+msgid "home_slidedeck_slide_4_img_room_rugby_division_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_4_img_room_rabadan_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_4_img_room_rencontres_XV_alt_text"
+msgstr ""
+
+msgid "flash_error_email_already_in_list"
+msgstr ""
+
+msgid "flash_error_email_format_incorrect"
+msgstr ""
+
+msgid "flash_error_email_missing"
+msgstr ""
+
+msgid "label_invite_button_publish"
+msgstr ""
+
+msgid "label_invite_add_button"
+msgstr ""
+
+msgid "label_invite_picto_gmail"
+msgstr ""
+
+msgid "label_invite_picto_yahoo"
+msgstr ""
+
+msgid "label_invite_picto_hotmail"
+msgstr ""
+
+msgid "label_invite_email_button_import"
+msgstr ""
+
+msgid "label_invite_email_button_send"
+msgstr ""
+
+msgid "label_invite_email_del"
+msgstr ""
+
+msgid "chrono_day_text"
+msgstr ""
+
+msgid "chrono_started_text"
+msgstr ""
+
+msgid "kup_blocKup_jackpot_text"
+msgstr ""
+
+msgid "kup_blocKup_stake_text"
+msgstr ""
+
+msgid "kup_blocKup_time_text"
+msgstr ""
+
+msgid "kup_blocKup_participants_text"
+msgstr ""
+
+msgid "kup_blocKup_friends_text"
+msgstr ""
+
+msgid "kup_blocKup_beforeClose_text"
+msgstr ""
+
+msgid "kup_box_know_more_text"
+msgstr ""
+
+msgid "label_kup_results_none"
+msgstr ""
+
+msgid "kup_rules_title_1"
+msgstr ""
+
+msgid "kup_rules_text_1"
+msgstr ""
+
+msgid "kup_rules_"
+msgstr ""
+
+msgid "kup_regle_learn_all_rules_text"
+msgstr ""
+
+msgid "label_kup_prize"
+msgstr ""
+
+msgid "kup_vignette_stake_text"
+msgstr ""
+
+msgid "kup_vignette_participants_text"
+msgstr ""
+
+msgid "kup_vignette_jackpot_text"
+msgstr ""
+
+msgid "kup_vignette_bet_text"
+msgstr ""
+
+msgid "label_room_searching"
+msgstr ""
+
+msgid "label_room_advanced_search"
+msgstr ""
+
+msgid "label_title_search_rooms"
+msgstr ""
+
+msgid "label_room_invite_friends"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_6_nations_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_legende_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_chocs_poules_ruleBloc_1_score_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_coq_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_legende_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_1_score_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_2_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_2_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_2_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_3_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_3_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_3_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_3_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_la_totale_ruleBloc_3_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_match_par_match_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_match_par_match_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_match_par_match_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_match_par_match_ruleBloc_2_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_match_par_match_ruleBloc_2_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_match_par_match_ruleBloc_2_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_match_par_match_ruleBloc_2_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_match_par_match_ruleBloc_2_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_legende_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_tableau_ruleBloc_1_score_5"
+msgstr ""
+
+msgid "label_rugby_choose_winner"
+msgstr ""
+
+msgid "kup_bloc_time_before_start_text"
+msgstr ""
+
+msgid "kup_box_time_before_start_text"
+msgstr ""
+
+msgid "room_kupHeader_time_before_start_text"
+msgstr ""
+
+msgid "A"
+msgstr "Pool A"
+
+msgid "B"
+msgstr "Pool B"
+
+msgid "C"
+msgstr "Pool C"
+
+msgid "D"
+msgstr "Pool D"
+
+msgid "QF"
+msgstr "Quarter Finals"
+
+msgid "SF"
+msgstr "Semi Finals"
+
+msgid "3RD"
+msgstr "3rd Place Play-Off"
+
+msgid "F"
+msgstr "Final"
+
+msgid "label_kup_prediction_last_modified"
+msgstr ""
+
+msgid "label_kup_prediction_none"
+msgstr ""
+
+msgid "flash_notice_kup_predictions_saved_failed_must_login"
+msgstr ""
+
+msgid "flash_notice_kup_predictions_saved_failed"
+msgstr ""
+
+msgid "flash_notice_kup_predictions_saved_success"
+msgstr ""
+
+msgid "label_select_none"
+msgstr ""
+
+msgid "label_choice_"
+msgstr ""
+
+msgid "home_slidedeck_slide_2_img_rabadan_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_2_button_rabadan_1_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_2_button_rabadan_2__alt_text"
+msgstr ""
+
+msgid "Login failed. Please check the email and password you have provided and try again later !"
+msgstr ""
+
+msgid "Unable to get contacts !"
+msgstr ""
+
+msgid "Vos invitations sont envoyees."
+msgstr ""
+
+msgid "Rejoignez ma Room de pronostiqueur sur Betkup"
+msgstr ""
+
+msgid "label_select_choose"
+msgstr ""
+
+msgid "label_kup_predictions_saved"
+msgstr ""
+
+msgid "label_kup_no_predictions_saved"
+msgstr ""
+
+msgid "flash_notice_room_kup_registered_error"
+msgstr ""
+
+msgid "flash_notice_room_kup_registered_success"
+msgstr ""
+
+msgid "flash_notice_room_kup_removed_error"
+msgstr ""
+
+msgid "flash_notice_room_kup_removed_success"
+msgstr ""
+
+msgid "room_header_img_privacy_alt"
+msgstr ""
+
+msgid "room_header_img_mise_alt"
+msgstr ""
+
+msgid "room_header_img_participants_alt"
+msgstr ""
+
+msgid "room_header_img_kup_alt"
+msgstr ""
+
+msgid "label_soon_to_come"
+msgstr ""
+
+msgid "kup_home_prizes_value"
+msgstr ""
+
+msgid "kup_vignette_prize_text"
+msgstr ""
+
+msgid "flash_notice_invites_sent_sucess"
+msgstr ""
+
+msgid "flash_notice_invites_sent_failure"
+msgstr ""
+
+msgid "rugby_predictionKnockout_selectBox_"
+msgstr ""
+
+msgid "link_footer_site_corpo"
+msgstr ""
+
+msgid "link_footer_appli_f1"
+msgstr ""
+
+msgid "label_room_invite_admin_body"
+msgstr ""
+
+msgid "text_todo_account_created"
+msgstr ""
+
+msgid "text_todolist_do_prediction"
+msgstr ""
+
+msgid "text_todolist_room_join"
+msgstr ""
+
+msgid "label_room_invite_admin_subject"
+msgstr ""
+
+msgid "label_invite_error_wrong_credentials"
+msgstr ""
+
+msgid "label_invite_error_enable_to_get_contacts"
+msgstr ""
+
+msgid "ATTENTION : votre room étant privée n'oubliez pas d'indiquer le mot de passe d'accès à l'endroit prévu dans le texte ci-dessous."
+msgstr ""
+
+msgid "label_kup_follow_lader"
+msgstr ""
+
+msgid "Il n'est plus possible de pronostiquer sur cette Kup. Vous pouvez en revanche suivre le classement de la Kup."
+msgstr ""
+
+msgid "label_room_invite_facebook_request_type"
+msgstr ""
+
+msgid "label_room_invite_twitter"
+msgstr ""
+
+msgid "label_invite_left_menu_email"
+msgstr ""
+
+msgid "label_invite_left_menu_facebook"
+msgstr ""
+
+msgid "label_invite_left_menu_twitter"
+msgstr ""
+
+msgid "label_invite_left_menu_url"
+msgstr ""
+
+msgid "ATTENTION : si votre room est privée n'oubliez pas d'indiquer le mot de passe d'accès à l'endroit prévu dans le texte ci-dessous."
+msgstr ""
+
+msgid "label_invite_copy_link_below"
+msgstr ""
+
+msgid "label_invite_picto_"
+msgstr ""
+
+msgid "label_prediction_draw"
+msgstr ""
+
+msgid "label_no_prediction"
+msgstr ""
+
+msgid "label_kup_ranking_adjust_ranking"
+msgstr ""
+
+msgid "label_kup_ranking_general"
+msgstr ""
+
+msgid "label_kup_ranking_player_name"
+msgstr ""
+
+msgid "label_kup_ranking_nb_points"
+msgstr ""
+
+msgid "label_kup_ranking_correct_predictions"
+msgstr ""
+
+msgid "label_kup_ranking_trend"
+msgstr ""
+
+msgid "label_kup_ranking_possible_winnings"
+msgstr ""
+
+msgid "label_kup_title_blacks_blues"
+msgstr ""
+
+msgid "label_kup_description_blacks_blues"
+msgstr ""
+
+msgid "label_button_kup_front_follow_lader"
+msgstr ""
+
+msgid "label_button_kup_front_see_winner"
+msgstr ""
+
+msgid "label_yes"
+msgstr ""
+
+msgid "label_no"
+msgstr ""
+
+msgid "open_graph_title"
+msgstr ""
+
+msgid "open_graph_description"
+msgstr ""
+
+msgid "account_how_to_play_link_go_to_home_label"
+msgstr ""
+
+msgid "account_how_to_play_discover_kups_label_1"
+msgstr ""
+
+msgid "account_how_to_play_discover_kups_label_2"
+msgstr ""
+
+msgid "account_how_to_play_discover_kups_label_3"
+msgstr ""
+
+msgid "account_how_to_play_discover_kups_label_4"
+msgstr ""
+
+msgid "account_how_to_play_retrieve_room_form_label"
+msgstr ""
+
+msgid "account_how_to_play_button_find_room_title"
+msgstr ""
+
+msgid "account_how_to_play_discover_public_room_label_1"
+msgstr ""
+
+msgid "account_how_to_play_discover_public_room_label_2"
+msgstr ""
+
+msgid "account_how_to_play_discover_public_room_label_3"
+msgstr ""
+
+msgid "account_how_to_play_discover_public_room_label_4"
+msgstr ""
+
+msgid "account_how_to_play_create_room_label_1"
+msgstr ""
+
+msgid "account_how_to_play_create_room_label_2"
+msgstr ""
+
+msgid "account_how_to_play_create_room_label_3"
+msgstr ""
+
+msgid "account_how_to_play_create_room_label_4"
+msgstr ""
+
+msgid "account_how_to_play_box_what_is_a_kup_title"
+msgstr ""
+
+msgid "account_how_to_play_box_what_is_a_kup_text"
+msgstr ""
+
+msgid "account_how_to_play_box_what_is_a_room_title"
+msgstr ""
+
+msgid "account_how_to_play_box_what_is_a_room_text"
+msgstr ""
+
+msgid "Venez relever la Kup &quot;%kupTitle%&quot; sur Betkup, le 1er site de paris sportifs communautaire."
+msgstr ""
+
+msgid "label_kup_question_"
+msgstr ""
+
+msgid "kup_ranking_link_go_to_ranking_label"
+msgstr ""
+
+msgid "label_kup_result_event"
+msgstr ""
+
+msgid "label_kup_result_bet"
+msgstr ""
+
+msgid "label_kup_result_official_bet"
+msgstr ""
+
+msgid "label_kup_result_result_bet"
+msgstr ""
+
+msgid "label_kup_result_points"
+msgstr ""
+
+msgid "label_kup_result_percentage_correct_answer"
+msgstr ""
+
+msgid "kup_right_how_does_it_work_text_1"
+msgstr ""
+
+msgid "kup_right_how_does_it_work_text_2"
+msgstr ""
+
+msgid "kup_right_how_does_it_work_text_3"
+msgstr ""
+
+msgid "kup_right_how_does_it_work_text_4"
+msgstr ""
+
+msgid "kup_right_how_does_it_work_text_5"
+msgstr ""
+
+msgid "Venez voir la Room &quot;%roomTitle%&quot; sur Betkup, le 1er site de paris sportifs communautaire."
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_7"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_7"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_8"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_8"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_9"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_9"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_10"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_10"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_legende_11"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_blacks_blues_ruleBloc_1_score_11"
+msgstr ""
+
+msgid "label_button_kup_front_follow_ladder"
+msgstr ""
+
+msgid "label_kup_predictions_none"
+msgstr ""
+
+msgid "flash_error_login_failed"
+msgstr ""
+
+msgid "flash_error_wire_failed"
+msgstr ""
+
+msgid "label_free"
+msgstr ""
+
+msgid "label_cancelled"
+msgstr ""
+
+msgid "label_in_progress"
+msgstr ""
+
+msgid "me_last_login_time"
+msgstr ""
+
+msgid "half_1"
+msgstr ""
+
+msgid "half_2"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_quarters_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_quarters_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_quarters_text"
+msgstr ""
+
+msgid "label_kup_ranking_none"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_legende_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_score_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_legende_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_quarter_finals_ruleBloc_1_score_6"
+msgstr ""
+
+msgid "label_button_kup_front_do_predict"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_semi_finals_one_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_semi_finals_two_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_semi_finals_one_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_semi_finals_two_text"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_7"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_7"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_8"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_8"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_legende_9"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_one_ruleBloc_1_score_9"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_7"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_7"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_8"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_8"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_legende_9"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_semi_finals_two_ruleBloc_1_score_9"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_final_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_final_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_final_text"
+msgstr ""
+
+msgid "text_kups_active"
+msgstr "Active kups"
+
+msgid "text_me_only_closed_kup"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_4"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_5"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_6"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_7"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_7"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_8"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_8"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_9"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_9"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_10"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_10"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_11"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_11"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_12"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_12"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_13"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_13"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_14"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_14"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_legende_15"
+msgstr ""
+
+msgid "rugby_kup_wc_2011_final_ruleBloc_1_score_15"
+msgstr ""
+
+msgid "text_kups_closed"
+msgstr "Inactive kups"
+
+msgid "text_me_display"
+msgstr "Display"
+
+msgid "text_slider_kups"
+msgstr ""
+
+msgid "label_room_create_less_options"
+msgstr ""
+
+msgid "chrono_opened_text"
+msgstr ""
+
+msgid "chrono_ongoing_text"
+msgstr ""
+
+msgid "chrono_closed_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_ligue1_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_premier_league_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_bundesliga_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_liga_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_lega_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_ligue1_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_ligue1_2010_2011_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_premier_league_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_premier_league2010_2011_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_bundesliga_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_bundesliga2010_2011_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_liga_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_liga2010_2011_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_lega_2010_2011_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_lega2010_2011_text"
+msgstr ""
+
+msgid "label_kup_first"
+msgstr ""
+
+msgid "label_kup_second"
+msgstr ""
+
+msgid "label_kup_third"
+msgstr ""
+
+msgid "text_kups_choose_and_configure"
+msgstr ""
+
+msgid "soccer_bundesliga_2010_2011_ruleBloc_1_title"
+msgstr ""
+
+msgid "soccer_bundesliga_2010_2011_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "soccer_bundesliga_2010_2011_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "soccer_bundesliga_2010_2011_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "soccer_bundesliga_2010_2011_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "soccer_bundesliga_2010_2011_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "soccer_bundesliga_2010_2011_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "soccer_lega_2010_2011_ruleBloc_1_title"
+msgstr ""
+
+msgid "soccer_lega_2010_2011_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "soccer_lega_2010_2011_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "soccer_lega_2010_2011_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "soccer_lega_2010_2011_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "soccer_lega_2010_2011_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "soccer_lega_2010_2011_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "soccer_liga_2010_2011_ruleBloc_1_title"
+msgstr ""
+
+msgid "soccer_liga_2010_2011_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "soccer_liga_2010_2011_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "soccer_liga_2010_2011_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "soccer_liga_2010_2011_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "soccer_liga_2010_2011_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "soccer_liga_2010_2011_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "soccer_ligue1_2010_2011_ruleBloc_1_title"
+msgstr ""
+
+msgid "soccer_ligue1_2010_2011_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "soccer_ligue1_2010_2011_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "soccer_ligue1_2010_2011_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "soccer_ligue1_2010_2011_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "soccer_ligue1_2010_2011_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "soccer_ligue1_2010_2011_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "soccer_premier_league_2010_2011_ruleBloc_1_title"
+msgstr ""
+
+msgid "soccer_premier_league_2010_2011_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "soccer_premier_league_2010_2011_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "soccer_premier_league_2010_2011_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "soccer_premier_league_2010_2011_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "soccer_premier_league_2010_2011_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "soccer_premier_league_2010_2011_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "text_already_subscribe_kup"
+msgstr ""
+
+msgid "text_confirm_add_edit_kup"
+msgstr ""
+
+msgid "text_confirm_delete_edit_kup"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_img_kups_top14_2011_2012_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_picto_lega_2011_2012_alt_text"
+msgstr ""
+
+msgid "home_slidedeck_slide_3_top142011_2012_text"
+msgstr ""
+
+msgid "text_not_defined"
+msgstr ""
+
+msgid "text_preview_stake"
+msgstr ""
+
+msgid "text_prize_distibution_pool"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_1_title"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_1_legende_1"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_1_score_1"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_1_legende_2"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_1_score_2"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_1_legende_3"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_1_score_3"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_2_title"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_2_legende_1"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_2_score_1"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_2_legende_2"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_2_score_2"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_2_legende_3"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_2_score_3"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_3_title"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_3_legende_1"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_3_score_1"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_3_legende_2"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_3_score_2"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_3_legende_3"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_3_score_3"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_4_title"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_4_legende_1"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_4_score_1"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_4_legende_2"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_4_score_2"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_4_legende_3"
+msgstr ""
+
+msgid "rugby_kup_top14_2011_2012_ruleBloc_4_score_3"
+msgstr ""
+
+msgid "text_preview_time_spend"
+msgstr ""
+
+msgid "text_bet_account_balance"
+msgstr ""
+
+msgid "text_bet_needed_bet"
+msgstr ""
+
+msgid "text_bet_insufficient_balance"
+msgstr ""
+
+msgid "text_bet_credit_account"
+msgstr ""
+
+msgid "text_bet_credit_before"
+msgstr ""
+
+msgid "text_invite_email_add_adress"
+msgstr ""
+
+msgid "text_invite_email_pesonalize_message"
+msgstr ""
+
+msgid "text_invite_email_warning"
+msgstr ""
+
+msgid "label_room_private_invite_admin_body"
+msgstr ""
+
+msgid "label_room_public_invite_admin_body"
+msgstr ""
+
+msgid "label_room_reward_invite_admin_body"
+msgstr ""
+
+msgid "label_room_stake_invite_admin_body"
+msgstr ""
+
+msgid "text_invite_email_no_user_add"
+msgstr ""
+

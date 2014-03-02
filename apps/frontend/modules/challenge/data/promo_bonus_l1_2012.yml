@@ -1,0 +1,10 @@
+datas:
+  isArchive: 0
+  type: promo
+  uuid: promos_bonus_l1_2012
+  title: BONUS REPRISE LIGUE 1
+  avatar: /image/default/challenge/challenges/avatar/promo_bonus_l1_2012.png
+  link: challenge,promos
+  component_route: challenge,promo_bonus_l1_2012
+  link_label: promos_euro_2012_link_label
+  arguments: [Créez un compte complet ou Surclassez un compte simple, Betkup double votre premier dépôt !, Créditez pour la première fois votre compte de 5 € à 50 €, Participez aux Kups payantes et remporter la cagnotte !]

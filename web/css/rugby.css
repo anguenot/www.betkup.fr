@@ -1,0 +1,219 @@
+.rugby .links {
+    margin-bottom: 20px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.rugby .fixtures-container {
+}
+
+.rugby .fixture-title {
+    height: 28px; 
+    background: url(/image/default/rugby/background_fixture.png); 
+    color: white; 
+    font-weight: bold; 
+    font-size: 12px; 
+    font-family: Arial; 
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.rugby .phase .title {
+    height: 23px; 
+    background: url(/image/default/rugby/background_fixture.png); 
+    color: white; 
+    font-weight: bold; 
+    font-size: 12px; 
+    font-family: Arial; 
+    text-transform: uppercase;
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rugby td {
+    color: #575757;
+    font-family: Arial;
+    font-size: 9px;
+}
+
+.rugby .first-country {
+    font-size: 9px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.rugby .second-country {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.rugby .date, .rugby .hour {
+    color: #8a8a8a;
+}
+
+.rugby .even {
+    background-color: #f0f0f0;
+    height: 28px;
+    padding: 3px;
+}
+
+.rugby .odd {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    height: 30px;
+    background-color: white;
+    padding: 3px;
+}
+
+.rugby .phase {
+    float: left;
+    width: 170px;
+    margin-right: 10px;
+    height: 580px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.rugby .phase .border {
+    width: 1px;
+    position: absolute;
+    border-right: 1px solid #e5e5e5;
+    right: -6px;
+    display: block;
+}
+
+.rugby .phase .erase {
+    position: absolute;
+    bottom: -70px;
+    left: 2px;
+}
+
+.rugby .country {
+    background-color: #f0f0f0;
+    border: 2px solid #e5e5e5;
+    margin-bottom: 10px;
+    height: 32px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.rugby .country:hover {
+    border: 2px solid #f28a31;
+}
+
+.rugby .country .country-name {
+    float: left;
+    margin-top: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 95px;
+}
+
+.rugby .country img {
+    float: left;
+    margin-top: 2px;
+}
+
+.rugby .country input {
+    float: left;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+.rugby .match .date {
+    float: left;
+}
+
+.rugby .match .buttons {
+    float: right;
+}
+
+.rugby .matches {
+    height: 530px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 170px;
+}
+
+.rugby .phase-4 .match {
+    height: 22%;
+    margin-bottom: 4%;
+}
+
+.rugby .phase-4 .border {
+    height: 445px;
+    top: 80px;
+}
+
+.rugby .phase-3 .match {
+    height: 43%;
+    margin-top: 12%;
+}
+.rugby .phase-3 .country-1 {
+    margin-bottom: 51%;
+}
+
+.rugby .phase-3 .border {
+    height: 402px;
+    top: 100px;
+}
+
+.rugby .phase-2 .match {
+    height: 88%;
+    margin-top: 47%;
+}
+.rugby .phase-2 .country-1 {
+    margin-bottom: 125%;
+}
+
+.rugby .phase-2 .border {
+    height: 282px;
+    top: 158px;
+}
+
+.rugby .phase-1 .match {
+    height: 50%;
+    margin-top: 116%;
+}
+
+.rugby .bottom-links {
+    margin-top: 10px;
+    margin-right: 40px;
+    font-family: Arial;
+    color: #8a8a8a;
+    line-height: 1em;
+}
+
+.rugby .bottom-links a {
+    float: left;
+    width: 50%;
+}
+
+.rugby .bottom-links .button {
+    margin-top: 18px;
+}
+
+.rugby .bottom-links .next {
+    margin-top: 20px;
+}
+
+.ui-selectmenuMiddle-status-Middle-box {
+    background-image: url(/image/default/rugby/bg_select_box.png) !important;
+    background-position: -10px 0;
+    color: black !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+}
+
+.pronostic-checkbox {
+    float: left;
+    margin-left: 8px;
+    top: 7px;
+    position: relative;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+home:
+  enabled:     true
+  with_layout: false
+  lifetime:    604800
+
+promos:
+  enabled:     true
+  with_layout: false
+  lifetime:    604800

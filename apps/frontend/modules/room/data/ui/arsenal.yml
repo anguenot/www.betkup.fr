@@ -1,0 +1,33 @@
+ui:
+  roomName: Arsenal
+  avatar-room: /partner/arsenal/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/arsenal/image/header_logo.png
+  header-room-logo-size: 315x100
+  header-bg: /partner/arsenal/image/header_bg_room.png
+  kup-header-bg: /partner/arsenal/image/header_bg_kup.png
+  path-img-title-bg: /partner/arsenal/image/title.png
+  path-img-title-question: /partner/arsenal/image/header_question_arsenal.png
+  path-img-title-kup: /partner/arsenal/image/header_kup_arsenal.png
+  path-img-list: /partner/arsenal/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 1
+  isPicBottomLeft: 1
+  isPicBottomRight: 1
+  isBodyBgColor: 1
+  body-bg-img-bottom-left: /partner/arsenal/image/canon_left.png
+  body-bg-img-bottom-right: /partner/arsenal/image/canon_right.png
+  body-bg-img-top-left: /partner/arsenal/image/logo_arsenal.png
+  body-bg-img: /partner/arsenal/image/bg_room_groover.png
+  body-bg-color: '#FFFFFF'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#E55A19'
+  header-hosted-logo: /partner/arsenal/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/arsenal/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0

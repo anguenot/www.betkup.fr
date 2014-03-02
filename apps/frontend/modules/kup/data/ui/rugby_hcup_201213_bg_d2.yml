@@ -1,0 +1,31 @@
+ui:
+  kupName: label_kup_title_201213_rugby_hcup_bg_d2
+  typeSport: rugby
+  picto: rugby.png
+  picto_mini: picto_rugby_mini.png
+  category: Rugby > H Cup
+  events: 8 matchs
+  document_path: /kup/rugby/hcup/201213/bg/document
+  vignette_kup_view: /kup/rugby/hcup/201213/bg/image/vignette_kup_view.png
+  vignette_home_view: /kup/rugby/hcup/201213/bg/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/rugby/hcup/201213/bg/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/rugby/hcup/201213/bg/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/rugby/hcup/201213/bg/image/vignette_edition_kup.png
+  isPrizes: 0
+  isCustom: 0
+  results_view_template: rugby,results
+  rules_view_template: rugby,kup_hcup_201213_bg
+  predictions_view_template: rugby,predictions
+  results_view_template: rugby,results
+  nbRules: 1
+  prizeValue : 0
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px

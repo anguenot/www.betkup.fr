@@ -1,0 +1,209 @@
+/* 
+    Document   : layout
+    Created on : 9 juin 2011, 10:16:55
+    Author     : jerome
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div.logo_betkup {
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin: 0px 0px 0px -485px;
+    z-index: 20;
+    width: 320px;
+    height: 195px;
+}
+
+div.top_infos {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    margin: 0px 0px 0px -110px;
+    z-index: 30;
+    width: 600px;
+    height: 100px;
+}
+
+div.top_infos .avatar-infos {
+    overflow: hidden;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    margin-top: 5px;
+    -webkit-box-shadow:  0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+div.top_infos .text-infos {
+    float: right;
+    margin-top: 5px;
+}
+
+div.top_infos p.bienvenue {
+    margin: 6px 10px 0px 0px;
+    text-align: right;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+}
+
+div.top_infos p.bienvenue a {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+div.top_infos p.bienvenue a:hover {
+    color: #F28A31;
+}
+
+div.top_infos p.rappel a {
+    text-align: right;
+    font-family: Trebuchet MS, Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #F28A31;
+}
+
+div.top_infos p.rappel {
+    text-align: right;
+    font-family: Trebuchet MS, Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #F28A31;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.rappel a {
+    text-align: right;
+    font-family: Trebuchet MS, Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #F28A31;
+}
+
+div.top_infos p.gratuit {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: #cd6629;
+    font-familiy: KupBlocGain, Helvetica, Arial, sans-serif;
+    font-style: bold;
+    font-weight: normal;
+}
+
+div.top_onglets {
+    position: absolute;
+    left: 50%;
+    top: 62px;
+    margin: 54px 0px 0px 95px;
+    z-index: 40;
+    width: 400px;
+    height: 46px;
+}
+
+div.top_free {
+	position: absolute; 
+	left: 50%; 
+	top: 102px; 
+	margin-left: 135px; 
+	color: orange;
+}
+
+div.top_facebookjaime {
+    position: absolute;
+    left: 50%;
+    top: 65px;
+    margin: 54px 0px 0px -144px;
+    z-index: 40;
+    width: 115px;
+    height: 35px;
+}
+
+ul#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+ul#menu li {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: white;
+    font-size: 14px;
+    font-familiy: KupBlocGain, Helvetica, Arial, sans-serif;
+    font-style: bold;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+div.layoutIntAllBlanc {
+    position: relative;
+    margin: 102px 0px 0px 0px;
+    padding: 7px 0px 0px 0px;
+    z-index: 10;
+    width: 990px;
+    clear:both;
+    display: block;
+}
+
+div.layoutIntAllBlanc div.interface {
+    margin: 4px 0px 0px 0px;
+    width: 990px;
+    background:url('/images/layout/intAllBlanc.png') repeat-y;
+}
+
+div.layoutIntAllBlanc div.gauche {
+    width: 279px;
+    float: left;
+    margin-left: 14px;
+}
+
+div.layoutIntAllBlanc div.droite {
+    width: 660px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+H1.titreWithBorder {
+    height: 22px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #575756;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 24px;
+}
+
+.standard {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #575756;
+    text-decoration: none;
+}

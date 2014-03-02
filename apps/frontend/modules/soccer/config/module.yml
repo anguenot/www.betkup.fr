@@ -1,0 +1,10 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+all:
+  season_uuid: 744006
+  prediction_type:
+    # should  move to Kup's config
+    final_stage: euro2012_final_stage
+  kup_type:
+    free: FREE
+    gambling_fr: GAMBLING_FR

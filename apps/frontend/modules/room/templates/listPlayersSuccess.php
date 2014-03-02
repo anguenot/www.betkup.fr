@@ -1,0 +1,1 @@
+<?php include_component('room', 'listMembers', array('data' => $kups_players)) ?>

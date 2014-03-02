@@ -1,0 +1,54 @@
+/* 
+    Document   : miser.css
+    Created on : 2 juil. 2011, 10:50:12
+    Author     : jerome
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.stakeContener {
+	width: 700px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	height: 385px; 
+	background: url('/images/kup/view/mise/bg_kup_bet.png') no-repeat;
+}
+
+.stakeContener .title {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #575756;
+}
+
+.stakeContener .price {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.stakeContener .legende {
+    font-family: Arial; 
+    font-size: 12px;
+    color: #6A6A69;
+    font-weight: bold;
+}
+
+.stakeContener .stake-table {
+	padding: 0px; 
+	border-spacing: 0; 
+	border-collapse: collapse; 
+	height: 120px; 
+	width: 680px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.stakeContener .stake-sub-table {
+	padding: 0; 
+	border-spacing: 0; 
+	border-collapse: collapse;
+}
+
+
+

@@ -1,0 +1,980 @@
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('/fonts/arialnb.eot?') format('eot'), url('/fonts/arialnb.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+div.titleFashion {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -30px;
+}
+
+/* ---------------------
+ * View screen
+ * --------------------- */
+
+div.specialView {
+    background-image: none;
+    background: none;
+    margin-top: 8px;
+}
+
+div.specialView div.interface_gauche {
+    width: 762px;
+}
+
+div.specialView div.interface_gauche div.corpsGauche {
+    padding: 0px 0px 0px 0px;
+}
+
+div#boxkup {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 12px;
+    width: 747px;
+    height: 205px;
+    overflow: hidden;
+}
+
+div#boxkup div#boxkupTools {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 346px;
+    position: absolute;
+    z-index: 120;
+    width: 400px;
+    height: 25px;
+    text-align: right;
+}
+
+div#boxkup div#boxkupOnglet {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    /* z-index:100; */
+    width: 749px;
+    height: 23px;
+    background: url('/images/kup/view/boxkup-title.png');
+    background-repeat: no-repeat;
+}
+
+div#boxkup div#boxkupOnglet p {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 4px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #575756;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div#boxkup div#boxkupOnglet p img {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#boxkup div#boxkupBox {
+    margin: 0px;
+    padding: 0px;
+    margin-left: -5px;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 110;
+    width: 755px;
+    height: 190px;
+    background: url('/images/kup/view/boxkup.png');
+    background-repeat: no-repeat;
+}
+
+div.leftContent {
+    margin: 2px;
+    padding: 0;
+    position: relative;
+    width: 375px;
+    height: 175px;
+    float: left;
+}
+
+div.leftContent h1.titleKup {
+    padding: 0;
+    margin: 20px 0 0 110px;
+    text-shadow: 0 0 5px #000000;
+    filter: dropshadow(color = #000000, offx = 0, offy = 0);
+}
+
+div.leftContent p.descKup {
+    padding: 0;
+    margin: 10px 10px 0 110px;
+    text-align: left;
+    text-shadow: 0 0 5px #000000;
+    filter: dropshadow(color = #000000, offx = 0, offy = 0);
+}
+
+div.leftContent p.more-infos {
+    position: absolute;
+    bottom: 2px;
+    right: 20px;
+}
+
+div.leftContent p.more-infos a {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font: 14px Arial, sans-serif;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: right;
+    text-shadow: 0 0 5px #000000;
+    filter: dropshadow(color = #000000, offx = 0, offy = 0);
+}
+
+div.leftContent p.more-infos a:hover {
+    text-decoration: underline;
+}
+
+div#boxkup div#boxkupBox div.leftContent p.descKup img {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 10px;
+    border: 3px solid #C8C8C8;
+}
+
+div#boxkup div#boxkupBox div.leftContent p.descKup a {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+div#boxkup div#boxkupBox div.leftContent p.facebookKup {
+    display: block;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+div#boxkup div#boxkupBox div.rightContent {
+    margin: 2px;
+    padding: 0px;
+    position: relative;
+    width: 355px;
+    height: 180px;
+    float: right;
+}
+
+div#boxkup div#boxkupBox div.rightContent table {
+    margin: 2px;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+div#boxkup div#boxkupBox div.rightContent table tr td {
+    padding: 0px;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #575756;
+    font-style: normal;
+    font-weight: normal;
+}
+
+div#boxkup div#boxkupBox div.rightContent table tr td .dataValueTop {
+    font-family: Helvetica, Arial;
+    font-size: 13px;
+    color: #575756;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div#boxkup div#boxkupBox div.rightContent table tr td .dataValue {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div#boxkup div#boxkupBox div.rightContent table tr td div.cagnotte {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2px;
+    width: 163px;
+    height: 44px;
+    background: url('/images/kup/view/boxkup-tools-cagnotte.png');
+    background-repeat: repeat-y;
+    text-align: right;
+}
+
+div#boxkup div#boxkupBox div.rightContent table tr td div.cagnotte img {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 1px;
+}
+
+/**
+* Kup View in a Room
+*/
+
+div.kupViewTabs {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 9px;
+    margin-top: 12px;
+    width: 750px;
+    height: 55px;
+    background: url('/images/kup/view/tabs-background.png');
+    background-repeat: repeat-y;
+}
+
+div.kupViewTabs1 {
+    background: url('/images/kup/view/tabs-background1.png');
+}
+
+div.kupViewTabs2 {
+    background: url('/images/kup/view/tabs-background2.png');
+}
+
+div.kupViewTabs3 {
+    background: url('/images/kup/view/tabs-background3.png');
+}
+
+div.kupViewTabs4 {
+    background: url('/images/kup/view/tabs-background4.png');
+}
+
+div.kupViewTabs5 {
+    background: url('/images/kup/view/tabs-background5.png');
+}
+
+div.kupViewTabs ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: inline;
+}
+
+div.kupViewTabs ul li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 4px;
+    margin-right: 2px;
+    margin-left: 1px;
+    width: 139px;
+    height: 34px;
+}
+
+div.kupViewTabs ul li a {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 4px;
+    display: block;
+    float: left;
+    width: 135px;
+    height: 34px;
+    text-align: center;
+    text-shadow: 1px 1px 0 white;
+    font-family: Arial;
+    font-size: 12px;
+    color: #F28A31;
+    font-style: normal;
+    font-weight: normal;
+}
+
+div.kupViewTabs ul li.tabSelected a {
+    font-weight: normal;
+    color: #6A6A69;
+}
+
+div.kupViewTabs ul li a:hover {
+    color: #333300;
+}
+
+div.kupViewTabs ul li.tabSelected a:hover {
+    color: #6A6A69;
+}
+
+div.kupViewTabs ul li a img {
+    margin: 0px;
+    padding: 0px;
+    margin-right: -2px;
+    margin-left: 3px;
+    vertical-align: -30%;
+}
+
+/**
+* End Kup View in a Room
+*/
+
+div.tabsInt {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 4px;
+    margin-top: -12px;
+    width: 758px;
+    background: url('/images/kup/view/tabsint-background.png');
+    background-repeat: repeat-y;
+}
+
+div.tabsInt div.tabsIntContainer {
+    width: 722px;
+    margin: 0px 12px 0px 24px;
+    padding: 24px 0px 24px 0px;
+    min-height: 300px;
+}
+
+div.boxRight {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 14px;
+    width: 226px;
+}
+
+div.boxRight div.boxRightCorps {
+    margin: 0px;
+    padding: 0px;
+    width: 226px;
+    background: url('/images/kup/view/boxright-back.png');
+    background-repeat: repeat-y;
+    text-align: center;
+}
+
+div.boxRight div.boxRightCorps div.texte {
+    width: 140px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+/* ---------------------
+* Tab 2 : bloc percent
+* --------------------- */
+
+div.blocPercent {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 24px;
+    width: 722px;
+    margin-bottom: 40px;
+}
+
+div.blocPercent p.events {
+    font-family: Arial;
+    font-size: 12px;
+    color: #575756;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+div.blocPercent p.events img {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 5px;
+    vertical-align: -30%;
+}
+
+div.blocPercent p.events .dataValue {
+    font-size: 13px;
+    color: #F28A31;
+}
+
+div.blocPercent div.percentBar {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 31px;
+    width: 660px;
+    height: 34px;
+    background: url('/images/kup/view/classement/percent-background.png');
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+div.blocPercent div.percentBar div.percentProgress {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 79px;
+    margin-top: -1px;
+    width: 505px;
+    height: 34px;
+    background: url('/images/kup/view/classement/percent-bar.png');
+    background-repeat: no-repeat;
+}
+
+div.blocPercent div.percentBar div.percentProgressLabel {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -1px;
+    margin-left: 79px;
+    width: 505px;
+    height: 34px;
+}
+
+div.blocPercent div.percentBar div.percentProgressLabel p {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 6px;
+    padding-top: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #325409;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* ---------------------
+* Tab 2 : bloc Wall
+* --------------------- */
+
+div.blocWall {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 722px;
+}
+
+div.blocWall div.blocMessage {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 18px;
+    width: 710px;
+}
+
+div.blocWall div.blocMessage div.avatar {
+    position: relative;
+    width: 110px;
+    height: 115px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+div.blocWall div.blocMessage div.avatar p.name {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #282828;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div.blocWall div.blocMessage div.formMessage {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 600px;
+    height: 115px;
+    float: right;
+    background: url('/images/kup/view/wall/message-zone.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+div.blocWall div.blocMessage div.formMessage form.frmWallMessage {
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+div.blocWall div.blocMessage div.formMessage form.frmWallMessage label {
+    font-family: Arial;
+    font-size: 12px;
+    color: #575756;
+    font-style: normal;
+    font-weight: normal;
+}
+
+div.blocWall div.blocMessage div.formMessage form.frmWallMessage div.frmWallMessageLeft {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 16px;
+    width: 280px;
+    float: left;
+    text-align: left;
+}
+
+div.blocWall div.blocMessage div.formMessage form.frmWallMessage div.frmWallMessageRight {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    width: 300px;
+    float: right;
+    text-align: right;
+}
+
+div.blocWall div.blocMessage div.formMessage form.frmWallMessage div.frmWallMessageRight span#charlimitinfo {
+    font-family: Trebuchet MS, Arial;
+    font-size: 10px;
+    color: #575756;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div.blocWall div.blocMessage div.formMessage form.frmWallMessage div.frmWallMessageRight input {
+    margin: 5px;
+    padding: 0px;
+    margin-left: 10px;
+    vertical-align: -40%;
+}
+
+div.blocWall div.blocMessage div.formMessage form.frmWallMessage textarea {
+    margin: 5px;
+    padding: 0px;
+    width: 570px;
+    height: 60px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #575756;
+    font-style: normal;
+    font-weight: normal;
+    background-color: transparent;
+    border: 0px;
+}
+
+div.blocWall div.oneComment {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 18px;
+    width: 710px;
+    border: 0px;
+    border-top: 1px solid #E0E0E0;
+}
+
+div.blocWall div.oneComment div.avatar {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    float: left;
+}
+
+div.blocWall div.oneComment div.identity {
+    position: relative;
+    width: 120px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+div.blocWall div.oneComment div.identity p.name {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 3px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #282828;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div.blocWall div.oneComment div.identity p.infos {
+    margin: 0px;
+    padding: 0px;
+    font-family: Trebuchet MS, Arial;
+    font-size: 11px;
+    color: #EB701F;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div.blocWall div.oneComment div.comment {
+    position: relative;
+    width: 520px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    float: right;
+}
+
+div.blocWall div.oneComment div.comment div.zoneComment {
+    margin: 0px;
+    padding: 4px;
+    width: 514px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #575756;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #E0E0E0;
+}
+
+div.blocWall div.oneComment div.comment p.response {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2px;
+    text-align: right;
+}
+
+div.blocWall div.oneComment div.comment p.response a {
+    font-family: Arial;
+    font-size: 11px;
+    color: #E55A19;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+div.blocWall div.oneComment div.comment p.response a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+/**
+ * Chrono
+*/
+.chapeauLargeChrono {
+    width: 130px;
+    height: 44px;
+    background: url('/images/kup/view/boxkup_tools_chrono.png') no-repeat;
+}
+
+.chapeauLargeChrono .content {
+    margin-left: 10px;
+    line-height: 45px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+.chapeauLargeChrono .content2 {
+    line-height: 50px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    width: 230px;
+    text-align: right;
+}
+
+.chapeauLargeChrono .content2 A {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+.chapeauLargeChrono .content2 A:hover {
+    text-decoration: underline;
+}
+
+.chrono1, .chrono2, .chrono3, .chrono4 {
+    width: 32px;
+    line-height: 0px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+/**
+ * Classement listing
+*/
+
+form.frmClassementList {
+    margin: 0px;
+    padding: 0px;
+    width: 710px;
+}
+
+form.frmClassementList div.affine {
+    margin: 0px;
+    padding: 0px;
+    width: 710px;
+    text-align: right;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    color: #8A8A8A;
+}
+
+form.frmClassementList div.affine select {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-family: Trebuchet MS, Arial;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    color: #282828;
+    background-color: #DADAD8;
+}
+
+form.frmClassementList table tr th {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    color: #FFFFFF;
+    height: 42px;
+    background: url('/images/kup/classement/thbackground.png');
+    background-repeat: repeat-x;
+    text-align: left;
+    border: 0px;
+    border-bottom: 2px solid white;
+}
+
+form.frmClassementList table tr td {
+    height: 50px;
+    border: 0px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 2px solid white;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    color: #282828;
+    text-align: center;
+}
+
+form.frmClassementList table tr td.num {
+    color: #E55A19;
+    font-size: 14px;
+}
+
+form.frmClassementList table tr td.prediction-date {
+    font: italic 12px Arial;
+}
+
+form.frmClassementList table tr td.num a.publish_jackpot {
+    display: block;
+    background: url('/image/default/ranking/publish_fb.png') right center no-repeat;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    margin: 0px auto;
+    color: #3B5998;
+    font: bold 14px Arial;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+form.frmClassementList table tr td.num a.publish_jackpot:hover {
+    text-decoration: underline;
+}
+
+form.frmClassementList table tr.pair td {
+    background-color: #F4F4F4;
+}
+
+form.frmClassementList table tr.impair td {
+    background-color: #EBEBEB;
+}
+
+form.frmClassementList table tr td.gamer {
+    text-align: left;
+}
+
+form.frmClassementList table tr td.gamer img {
+    margin: 0;
+}
+
+form.frmClassementList table tr td.gamer .ranking-kup-avatar {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+form.frmClassementList table tr td.gamer div.winner {
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    z-index: 1;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: 35px;
+    background: url('/images/kup/classement/winner.png') -35px 0px no-repeat;
+}
+
+form.frmClassementList table tr.selected td {
+    color: #E55A19;
+    font-size: 13px;
+    border: 1px dashed #BBBBBB;
+    background-color: #FFFFFF;
+    background-position: center;
+}
+
+form.frmClassementList table tr.selected td.num {
+    background-position: left;
+}
+
+form.frmClassementList table tr.selected td.gains {
+    background-position: right;
+}
+
+form.frmClassementList div.tabClassementBottom {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    float: left;
+    vertical-align: middle;
+}
+
+form.frmClassementList div.tabClassementBottom a {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #E55A19;
+    display: block;
+    margin: 0px;
+    margin-top: 12px;
+    text-decoration: underline;
+}
+
+form.frmClassementList div.tabClassementBottomPage {
+    width: 450px;
+    height: 50px;
+    position: relative;
+    float: right;
+    text-align: right;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    color: #575756;
+}
+
+form.frmClassementList div.tabClassementBottomPage img {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+form.frmClassementList div.tabClassementBottomPage input.paginate {
+    width: 19px;
+    height: 19px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 2px;
+    background: url('/images/kup/classement/pageOff.png');
+    text-align: center;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    color: #575756;
+    vertical-align: 78%;
+    border: 0px;
+    cursor: pointer;
+}
+
+form.frmClassementList div.tabClassementBottomPage input.pageSelect {
+    background: url('/images/kup/classement/pageOn.png');
+    color: #FFFFFF;
+}
+
+.kup_Rules_Table_TrEven_Td_Div {
+    height: 50px;
+    background-color: #F4F4F4;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.kup_Rules_Table_TrOdd_Td_Div {
+    height: 50px;
+    background-color: #ebebeb;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.title_rules_general {
+    font: Arial;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #575756;
+}
+
+.text_rules_general {
+    font: Arial;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #6A6A69;
+    text-align: justify;
+}
+
+.title_rules_perso {
+    font: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #575756;
+    font-style: italic;
+}
+
+.regle .table_rules tr td {
+    padding-top: 15px;
+}
+
+.regle table tr td ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.regle table tr td ul li {
+    font: Arial;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #6A6A69;
+    text-align: justify;
+    text-indent: 20px;
+    padding-bottom: 5px;
+}
+
+.text_rules_perso {
+    font: Arial;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #6A6A69;
+    text-align: justify;
+}
+
+.text_rules_perso a {
+    font-family: Verdana;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+.text_rules_perso a:hover {
+    text-decoration: underline;
+}
+

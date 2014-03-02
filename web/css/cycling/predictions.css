@@ -1,0 +1,372 @@
+.fix-margin {
+	margin-left: -11px;
+}
+
+#cycling-header-infos {
+	width: 715px;
+	height: 80px;
+	background: #5c5c5c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5c5c5c 0%, #373737 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5c5c5c), color-stop(100%,#373737)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5c5c5c 0%,#373737 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5c5c5c 0%,#373737 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5c5c5c 0%,#373737 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5c5c5c 0%,#373737 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c5c5c', endColorstr='#373737',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #666666;
+	-webkit-box-shadow:  0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+	margin-left: 7px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#cycling-header-infos #cycling-header-infos-table {
+	width: 715px;
+	height: auto;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#cycling-header-infos #cycling-header-infos-table td {
+	vertical-align: middle;
+	text-align: left;
+	height: 40px;
+}
+
+#cycling-header-infos #cycling-header-infos-table td.td-margin {
+	width: 5%;
+}
+
+#cycling-header-infos #cycling-header-infos-table td.td-text {
+	width: 37.5%;
+}
+
+#cycling-header-infos #cycling-header-infos-table td.td-km {
+	width: 20%;
+}
+
+#cycling-header-infos #cycling-header-infos-table td.td-text table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0;
+}
+
+#cycling-header-infos #cycling-header-infos-table td.td-text table td {
+	vertical-align: middle;
+}
+
+#cycling-header-infos #cycling-header-infos-table td.td-text table td.icon {
+	width: 36px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#cycling-header-infos #cycling-header-infos-table td.td-text table td span {
+	display: inline-block;
+	margin: 0px auto;
+}
+
+#cycling-header-infos #cycling-header-infos-table .icon-steps {
+	width: 30px;
+	height: 30px;
+	background: url('/image/default/tdf/interface/sprite.png') -206px -107px no-repeat;
+}
+
+#cycling-header-infos #cycling-header-infos-table .icon-departure {
+	width: 30px;
+	height: 30px;
+	background: url('/image/default/tdf/interface/sprite.png') -157px -104px no-repeat;
+}
+
+#cycling-header-infos #cycling-header-infos-table .icon-distance {	
+	width: 30px;
+	height: 30px;
+	background: url('/image/default/tdf/interface/sprite.png') -255px -106px no-repeat;
+}
+
+#cycling-header-infos #cycling-header-infos-table .icon-Plaine {
+	width: 30px;
+	height: 30px;
+	background: url('/image/default/tdf/interface/sprite.png') -387px -109px no-repeat;
+}
+#cycling-header-infos #cycling-header-infos-table .icon-Etape-accidentee {
+	width: 30px;
+	height: 30px;
+	background: url('/image/default/tdf/interface/sprite.png') -6px -108px no-repeat;
+}
+#cycling-header-infos #cycling-header-infos-table .icon-Montagne {
+	width: 30px;
+	height: 30px;
+	background: url('/image/default/tdf/interface/sprite.png') -337px -107px no-repeat;
+}
+#cycling-header-infos #cycling-header-infos-table .icon-Contre-la-montre-individuel {
+	width: 30px;
+	height: 30px;
+	background: url('/image/default/tdf/interface/sprite.png') -105px -107px no-repeat;
+}
+
+#cycling-header-infos #cycling-header-infos-table .icon-arival {
+	width: 30px;
+	height: 30px;
+	background: url('/image/default/tdf/interface/sprite.png') -57px -104px no-repeat;
+}
+
+#cycling-header-infos #cycling-header-infos-table td p {
+	font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+#cycling-header-infos #cycling-header-infos-table td .underline {
+	text-decoration: underline;
+}
+
+.cycling-title {
+	background: #373737; /* Old browsers */
+	background: -moz-linear-gradient(left,  #373737 0%, #5c5c5c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#373737), color-stop(100%,#5c5c5c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #373737 0%,#5c5c5c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #373737 0%,#5c5c5c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #373737 0%,#5c5c5c 100%); /* IE10+ */
+	background: linear-gradient(to right,  #373737 0%,#5c5c5c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#5c5c5c',GradientType=1 ); /* IE6-9 */
+	height: 30px;
+	width: 100%;
+}
+
+.cycling-title h1 {
+	text-align: left;
+	color: white;
+	font: normal 18px Arial;
+	line-height: 30px;
+	text-indent: 10px;
+}
+
+.cycling-title-picto {
+	float: right;
+	margin-right: 10px;
+	background: url('/image/default/tdf/interface/sprite.png') no-repeat;
+}
+
+.cycling-podium {
+	width: 57px;
+	height: 27px;
+	background-position: -429px -103px;
+}
+
+.cycling-jersey {
+	margin-top: 3px;
+	width: 30px;
+	height: 26px;
+	background-position: -297px -101px;
+}
+
+.cycling-choice-title {
+	width: 225px;
+	height: 40px;
+	background: #191919;
+	margin: 0px auto;
+	padding-top: 4px;
+	background: url('/image/default/tdf/interface/sprite.png') 0px 0px no-repeat;
+}
+
+.cycling-choice-title h2 {
+	font: 12px Arial;
+	color: white;
+	text-align: center;
+}
+
+#cycling-jersey .cycling-choice-jersey, 
+#cycling-podium .cycling-choice-jersey {
+	position: relative;
+	height: 103px;
+	padding: 7px 0px
+}
+
+#cycling-jersey .cycling-choice-jersey img, 
+#cycling-podium .cycling-choice-jersey img {
+	position: absolute;
+	left: 50%;
+	margin-left: -43px;
+	z-index: 10;
+}
+
+#cycling-jersey .cycling-choice-jersey .cycling-choice-jersey-background, 
+#cycling-podium .cycling-choice-jersey .cycling-choice-jersey-background {
+	position: absolute;
+	width: 140px;
+	height: 110px;
+	left: 50%;
+	top: 4px;
+	margin-left: -70px;
+	background: white;
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+	z-index: 1;
+}
+
+#cycling-podium-team .cycling-choice-jersey .cycling-choice-jersey-background {
+	position: absolute;
+	width: 150px;
+	height: 120px;
+	left: 50%;
+	top: 4px;
+	margin-left: -75px;
+	background: white;
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+	z-index: 1;
+}
+
+#cycling-podium-team .cycling-choice-jersey {
+	position: relative;
+	height: 121px;
+	padding: 7px 0px
+}
+
+#cycling-podium-team .cycling-choice-jersey img {
+	position: absolute;
+	left: 50%;
+	margin-left: -86px;
+	z-index: 10;
+}
+
+
+
+#cycling-jersey {
+	width: 715px;
+	margin-left: 7px;
+	background: #FFDA00 url('/image/default/tdf/interface/background_jersey.png') 0px 30px no-repeat;
+}
+
+#cycling-podium {
+	width: 715px;
+	margin-left: 7px;
+	background: #FDD615 url('/image/default/tdf/interface/background_podium.png') 0px 30px no-repeat;
+}
+
+#cycling-podium-team {
+	width: 715px;
+	margin-left: 7px;
+	background: #FDD615 url('/image/default/tdf/interface/background_podium.png') 0px 30px no-repeat;
+}
+
+.buttons {
+	width: 715px;
+	margin-left: 7px;
+	text-align: center;
+}
+
+#cycling-jersey #cycling-jersey-table {
+	width: 710px;
+	height: 580px;
+	border-spacing: Opx;
+	border-collapse: collapse;
+	margin: 10px auto 0px auto;
+}
+
+#cycling-podium #cycling-jersey-table {
+	width: 570px;
+	height: 210px;
+	border-spacing: Opx;
+	border-collapse: collapse;
+	margin: 135px 0px 0px 80px;
+}
+
+#cycling-podium-team #cycling-jersey-table {
+	width: 570px;
+	height: 210px;
+	border-spacing: Opx;
+	border-collapse: collapse;
+	margin: 115px 0px 0px 80px;
+}
+
+#cycling-jersey #cycling-jersey-table td,
+#cycling-podium #cycling-jersey-table td,
+#cycling-podium-team #cycling-jersey-table td {
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+
+#cycling-podium #cycling-jersey-table td.cycling-podium-1,
+#cycling-podium-team #cycling-jersey-table td.cycling-podium-1 {
+	vertical-align: top;
+}
+
+.cycling-container {
+	position: relative;
+}
+
+.cycling-podium-title {
+	position: absolute;
+	width: 429px;
+	height: 37px;
+	top: -80px;
+	left: 50%;
+	margin-left: -214px;
+	text-align: center;
+	background: url('/image/default/tdf/interface/sprite.png') 0px -62px no-repeat;
+}
+
+.cycling-podium-title h2 {
+	font: normal 16px Arial;
+	color: white;
+	line-height: 27px;
+}
+
+.cycling-predictions-question {
+	width: 520px;
+	height: 70px;
+	margin: 0px auto;
+	background: #dededc;
+	border: 1px solid #d3d3d3;
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
+	-webkit-box-shadow:  0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cycling-predictions-question .cycling-predictions-question-table {
+	width: 520px;
+	height: 70px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.cycling-predictions-question .cycling-predictions-question-table td {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.cycling-predictions-question .cycling-predictions-question-table td p {
+	font: normal 16px Arial;
+	color: #666666;
+	text-shadow: 0px 0px 3px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=0, offy=0);
+}
+
+.cycling-predictions-question .cycling-predictions-question-table td.question-select {
+	width: 200px;
+}
+
+.hidden-jersey {
+	display: none;
+}
+
+#stage-choice select {
+	display: inline-block;
+}
+
+#stage-choice {
+	width: 710px;
+	padding: 10px 0px;
+	text-align: right;
+	margin: 0px;
+	-webkit-transition: color 0.2s ease-out;
+	   -moz-transition: color 0.2s ease-out;
+        -ms-transition: color 0.2s ease-out;
+         -o-transition: color 0.2s ease-out;
+	        transition: color 0.2s ease-out;
+}
+

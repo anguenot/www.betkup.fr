@@ -1,0 +1,122 @@
+* {
+	outline: 0;
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	display: block;
+}
+
+body {
+	font: normal 10px Verdana;
+	color: black;
+}
+
+#body-contener {
+	width: 756px;
+	border: 1px solid #BBC8DB;
+	border-top: 0px;
+	overflow: hidden;
+	margin: 0px auto;
+	position: relative;
+	display: block;
+	background: #E6E6E3;
+}
+
+#header {
+	width: 756px;
+    height: 215px;
+    position: relative;
+    display: block;
+    background: url('/image/default/facebook_rg/bg-header.jpg') no-repeat;
+}
+
+#header > .header-logo {
+	position: absolute;
+	left: 20px;
+	top:5px;
+}
+
+#header > #dashboard {
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	right: 75px;
+	top: 30px;
+	width: 370px;
+	height: 44px;
+	background: url('/image/default/facebook_rg/bg-status-bar.png') left top no-repeat;
+}
+
+#header > #dashboard table {
+	width: 370px;
+	height: 20px;
+}
+
+#header > #dashboard table td {
+	width: 92px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#header > #dashboard table td p {
+	font: normal 10px Arial;
+	color: #CCCCCC;
+}
+
+#header > #dashboard table td p.left {
+	text-align: left;
+}
+
+#header > #dashboard table td p.right {
+	text-align: right;
+}
+
+#header #header-social-box {	
+	position: absolute;
+	right: 60px;
+	top: 80px;
+	text-align: left;
+	width: 150px;
+}
+
+#contents {
+	width: 756px;
+	height: auto;
+	min-height: 400px;
+}
+
+#footer {
+	width: 756px;
+    height: 66px;
+    background: url('/image/default/facebook_rg/bg-footer.gif') no-repeat;
+}
+
+#footer table {
+	width: 756px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	height: 65px;
+}
+
+#footer table td {
+	width: 189px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#footer table td a {
+	color: white;
+	text-decoration: none;
+	font: normal 12px Arial;
+}
+
+#footer table td a:hover {
+	text-decoration: underline;
+}
+
+.slogan {
+	position: absolute;
+	bottom: 45px;
+	right: 10px;
+}

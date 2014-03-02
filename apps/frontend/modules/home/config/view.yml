@@ -1,0 +1,41 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+indexSuccess:
+  metas:
+    title:        text_home_page_title
+    description:  text_home_page_description
+  stylesheets: [account.css, home.css, kup.css, room.css, enDirect.css, theyLikeBetkup-1.css, tipsy/tipsy.css, slidedeck.skin.css, slidedeck-page-home.css, slidedeck-slide-custom.css]
+  javascripts: [Tween.js, datetime.js, slidedeck.jquery.js, jquery.cookie.js]
+
+howtoSuccess:
+  metas:
+    title:       text_howto_page_title
+    description: text_howto_page_description
+  stylesheets: [howto.css]
+
+faqSuccess:
+  metas:
+    title:       text_faq_page_title
+    description: text_faq_page_description
+  stylesheets: [faq.css]
+  javascripts: [loading.js]
+  has_layout:  true
+  layout:      layout_faq
+
+betTrustSuccess:
+  metas:
+    title:       text_bettrust_page_title
+    description: text_bettrust_page_description
+  stylesheets: [bettrust.css]
+
+landingPageSuccess:
+  metas:
+    title:        text_landing_page_title
+
+  stylesheets: [sofun_bootstrap/scaffolding.css, landing_page.css]
+  javascripts: [Tween.js]
+
+sitemapSuccess:
+  metas:
+    title:        text_sitemap_page_title

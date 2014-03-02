@@ -1,0 +1,15 @@
+
+.chrono {
+	width: 152px; text-align: left;
+}
+
+.chrono .chrono1, .chrono .chrono2, .chrono .chrono3, .chrono .chrono4 {
+    width: 32px;
+    line-height: 38px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}

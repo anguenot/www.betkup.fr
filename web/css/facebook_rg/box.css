@@ -1,0 +1,521 @@
+/*
+ * GRID LEFT
+ */
+#next-chocs {
+	width: 470px;
+	height: 365px;
+	display: block;
+	position: relative;
+}
+
+#last-results {
+	width: 470px;
+	height: auto;
+	display: block;
+	position: relative;
+}
+
+#ranking {
+	width: 470px;
+	height: 350px;
+	display: block;
+	position: relative;
+}
+
+
+/*
+ * GRID RIGHT
+ */
+#how-to {
+	width: 260px;
+	height: 340px;
+	display: block;
+	position: relative;
+}
+
+#news {
+	width: 260px;
+	height: 340px;
+	display: block;
+	position: relative;
+}
+
+#betkup-promo {
+	width: 260px;
+	height: 270px;
+	display: block;
+	position: relative;
+}
+
+#betkup-promo .betkup-promo-link {
+	display: block;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	left: 50%;
+	margin-left: -38px;
+	top: 190px;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	color: white;
+	background: #00baf2;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYmFmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDZmYWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #00baf2 0%, #006fad 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00baf2), color-stop(100%,#006fad));
+	background: -webkit-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: -o-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: -ms-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00baf2', endColorstr='#006fad',GradientType=0 );
+}
+
+.title-box {
+	height: 30px;
+	width: 100%;
+	text-align: left;
+	background: #00baf2;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYmFmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDZmYWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #00baf2 0%, #006fad 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00baf2), color-stop(100%,#006fad));
+	background: -webkit-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: -o-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: -ms-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00baf2', endColorstr='#006fad',GradientType=0 );
+	line-height: 30px;
+}
+
+h2.title2 {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font: 14px Arial;
+	text-indent: 10px;
+	text-align: left;
+	line-height: 30px;
+	float: left;
+}
+
+.content-box {
+	background-color: white;
+	position: relative;
+}
+
+.content-box-left {
+	width: 450px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.content-box-right {
+	width: 240px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.content-box-right p {
+	font: bold 12px Arial;
+	color: #333333;
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+}
+
+.content-box-right h4 {
+	margin: Opx;
+	padding: 5px 0px 5px 10px;
+	font: bold 12px Arial;
+	color: #333333;
+	text-align: left;
+}
+
+#next-chocs .social-box {
+	position: absolute;
+	top:15px;
+	right: 0px;
+	height: 40px;
+	width: 150px;
+	text-align: left;
+}
+
+
+#next-chocs .content-box-left table {
+	width: 430px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+#next-chocs .content-box-left table th {
+	vertical-align: middle;
+}
+
+#next-chocs .content-box-left table th h2 {
+	color: #333333;
+	font: bold 24px Arial;
+	margin: 10px 10px 10px 20px;
+	text-align: left;
+}
+
+#next-chocs .content-box-left table td {
+	vertical-align: top;
+	text-align: left;
+}
+
+#next-chocs .content-box-left table td.circuit {
+	width: 260px;
+	padding-top: 5px;
+}
+
+#next-chocs .content-box-left table td.border-bottom {
+	border-bottom: 1px solid black;
+}
+
+#next-chocs .content-box-left table td p {
+	font: bold 14px Arial;
+	color: #333333;
+	margin: 5px 0px 0px 0px;
+	padding: 0px; 
+}
+
+#next-chocs .content-box-left table td h4 {
+	color: #B70101;
+	font: bold 18px Arial;
+	margin: 5px 0px;
+}
+
+#ranking .content-box {
+	background: transparent;
+}
+
+#ranking .content-box table {
+	width: 450px;
+}
+
+#ranking .content-box .td-box-top {
+	width: 225px;
+	text-align: left;
+}
+
+#ranking .content-box .ranking-box-top {
+	margin: 0px;
+	padding: 0px;
+	width: 220px;
+	height: 95px;
+	background: white url('/image/default/sport24/flag_ranking.png') center no-repeat;
+}
+#ranking .content-box .box-left {
+	float: left;
+}
+#ranking .content-box .box-right {
+	float: right;
+}
+
+#ranking .content-box .ranking-box-top h2 {
+	color: #333333;
+	font: bold 16px Arial;
+	margin: 5px 10px;
+}
+
+#ranking .content-box .ranking-box-top .ranking-div {
+	width: 100px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+#ranking .content-box .ranking-box-top .ranking-div h3 {
+	color: #B70101;
+	font: bold 18px Arial;
+}
+
+#ranking .content-box .ranking-box-top .ranking-div p {
+	color: #333333;	
+	font: normal 12px Arial;
+}
+
+#ranking .content-box .td-ranking-box {
+	padding-top: 10px;
+}
+
+#ranking .content-box .ranking-box {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	width: 450px;
+	height: 180px;
+	padding-top: 5px; 
+	text-align: left;
+}
+
+#ranking .content-box .ranking-box h2 {
+	text-align: left;
+	color: #333333;
+	font: bold 16px Arial;
+	margin: 0px 10px;
+}
+
+#ranking .content-box .ranking-box table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 430px;
+	margin: 10px auto;
+	height: 110px;
+}
+
+#ranking .content-box .ranking-box a {
+	color: #333333;
+	text-align: left;
+	text-decoration: none;
+	font: normal 12px Arial;
+	margin: 5px 10px;
+}
+
+#ranking .content-box .ranking-box a:hover {
+	text-decoration: underline;
+}
+
+#ranking .content-box .box-rank {
+	width: 65px;
+	height: 85px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#ranking .content-box .box-rank h4 {
+	color: #B70101;
+	font: bold 14px Arial;
+	margin: 0px;
+}
+
+#ranking .content-box .box-rank p {
+	color: #333333;
+	font: bold 12px Arial;
+	margin: 5px 0px;
+}
+
+#ranking .content-box .challenge-box p a {
+	color: #3B5998;
+	text-decoration: none;
+}
+
+#ranking .content-box .challenge-box p a:hover {
+	text-decoration: underline;
+}
+
+
+.button-box {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#how-to .content-box-right {
+	height: 290px;
+	text-align: center;
+}
+
+#how-to .content-box-right p {
+	font: bold 14px Arial;
+}
+
+#how-to .content-box-right table {
+	width: 100%;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#how-to .content-box-right table td {
+	vertical-align: top; 
+	text-align: left;
+}
+
+#how-to .content-box-right table td.pellet {
+	vertical-align: middle; 
+	text-align: center;
+	width: 35px;
+	vertical-align: top;
+}
+
+#how-to .content-box-right table td.pellet p {
+	width: 20px;
+	height: 19px;
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	background: url('/image/default/sport24/pellet_howto.png') center no-repeat;
+	font: normal 10px Arial;
+	color: white; 
+	line-height: 19px;
+}
+
+#how-to .content-box-right table td p {
+	font: normal 12px Arial;
+}
+
+#how-to .content-box-right table td p span.red {
+	color: #B70101;
+	font: bold 16px Arial;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+
+#betkup-promo .content-box-right ul {
+	list-style: square;
+	list-style-position: inside;
+	margin: 0px 25px;
+	padding: 0px;
+}
+
+#betkup-promo .content-box-right ul li {
+	text-align: left;
+	font: bold 12px Arial;
+	color: #333333;
+	padding: 5px 0px 0px 0px;
+}
+
+#next-chocs .content-box-left a, #how-to .content-box-right a, #ranking .button-box a {
+	display: inline-block;
+	width: auto;
+	height: 25px;
+	font: normal 12px Arial;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	margin: 10px auto -10px auto; 
+	padding: 0px 25px;
+	color: white;
+	background: #00baf2;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYmFmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDZmYWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #00baf2 0%, #006fad 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00baf2), color-stop(100%,#006fad));
+	background: -webkit-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: -o-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: -ms-linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	background: linear-gradient(top,  #00baf2 0%,#006fad 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00baf2', endColorstr='#006fad',GradientType=0 );
+}
+
+#betkup-promo .content-box-right a:hover, #next-chocs .content-box-left a:hover, #how-to .content-box-right a:hover, #ranking .button-box a:hover {
+	text-decoration: underline;
+}
+
+#news .content-box, #news .content-box-right {
+	height: 290px;
+	width: 260px;
+	overflow: auto;
+	background-color: transparent;
+}
+
+.fade-effect {
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	height: 35px;
+	bottom: 0px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(240,240,240,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(240,240,240,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,240,240,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,240,240,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,240,240,1) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,240,240,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f0f0f0',GradientType=0 );
+
+}
+
+#news .content-box-right table {
+	width: 250px;
+	position: relative;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+#news .content-box-right table td:hover {
+	background-color: #DDDDDD;
+}
+
+#news .content-box-right table td {
+	height: 55px;
+	border-bottom: 1px solid #CCCCCC;
+	vertical-align: middle;
+}
+
+#news .content-box-right table td h4 {
+	margin: 0px 5px;
+}
+
+#news .content-box-right table td h4 a:link, #news .content-box-right table td h4 a:active, #news .content-box-right table td h4 a:visited {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font: normal 12px Arial;
+	color: #3B5998;
+}
+
+#news .content-box-right table td p a:link, #news .content-box-right table td p a:active, #news .content-box-right table td p a:visited {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font: inherit;
+	color: #333333;
+}
+
+#news .content-box-right table td p {
+	margin: 0px 5px;
+	padding: 0px 10px;
+}
+
+
+.news-logo {
+	float: right;
+	margin-right: 20px;
+}
+
+#last-results .last-result-table {
+	width: 450px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#last-results .last-result-table th {
+	vertical-align: middle;
+	height: 45px;
+}
+
+#last-results .last-result-table th.left, #last-results .last-result-table tr.title-challenge td.left {
+	text-align: left;
+	padding-left: 20px;
+	width: 250px;
+}
+
+#last-results .last-result-table th h3 {
+	font: bold 18px Arial;
+	color: #333333;
+}
+
+#last-results .last-result-table th.right, #last-results .last-result-table tr.title-challenge td.right {
+	text-align: right;
+	padding-right: 20px;
+	width: 200px;
+}
+
+#last-results .last-result-table tr.title-challenge td {
+	background: #404042;
+	height: 30px;
+	vertical-align: middle;
+}
+	
+#last-results .last-result-table tr.title-challenge td h3 {
+	color: white;
+	font: normal 14px Arial;
+}
+
+
+
+
+
+
+

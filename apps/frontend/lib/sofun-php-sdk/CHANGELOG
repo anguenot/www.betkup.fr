@@ -1,0 +1,9 @@
+Release Notes - Sofun SDK - Version 1.0
+
+** Bug
+    * [SDK-5] - Bug while using SSL w/ SHA1 signature
+
+** Task
+    * [SDK-1] - Initial 1.0 release
+    * [SDK-3] - Better logging upon exception
+    * [SDK-4] - logout()

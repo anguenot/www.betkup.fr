@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/09-Cache
+
+_home:
+  enabled:     true
+  lifetime:    86400
+
+home:
+  enabled:     true
+  with_layout: false
+  lifetime:    3600
+
+_roomHome:
+  enabled: true
+  contextual: true
+  lifetime:    3600
+  
+roomsThumbnailsHome:
+  enabled: true
+  lifetime:    3600

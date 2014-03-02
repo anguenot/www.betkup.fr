@@ -1,0 +1,35 @@
+/*
+ * CSS FILE FOR CUSTOM CHECKBOX BUTTON FOR SEARCH KUPS
+ * 
+ * @package    betkup.fr
+ * @author     Sofun Gaming SAS
+ */
+.checkbox      {display: inline; font-size: 20px; line-height: 14px; cursor: pointer; cursor: hand;}
+.checkbox .mark {display: inline;}
+
+.checkbox img{
+	vertical-align: middle; width: 14px; height: 14px;
+	background: transparent url(/images/interface/widgetChoices/checkBoxOff.png) no-repeat;
+	background-position: -5px -5px;
+}
+.checkbox-hover img{
+	background: transparent url(/images/interface/widgetChoices/checkBoxOff.png) no-repeat;
+	background-position: -5px -5px;
+}
+.checkbox-checked img{
+	background: transparent url(/images/interface/widgetChoices/checkBoxOn.png) no-repeat;
+	background-position: -5px -5px;
+}
+.checkbox-checked .checkbox-hover img {
+	background: transparent url(/images/interface/widgetChoices/checkBoxOn.png) no-repeat;
+	background-position: -5px -5px;
+}
+
+.checkbox-disabled img{
+	background: transparent url(/images/interface/widgetChoices/checkBoxOff.png) no-repeat;
+	background-position: -5px -5px;
+}
+.checkbox-checked .checkbox-disabled img{
+	background: transparent url(/images/interface/widgetChoices/checkBoxOn.png) no-repeat;
+	background-position: -5px -5px;
+}

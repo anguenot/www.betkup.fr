@@ -1,0 +1,38 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+all:
+  room_associate:
+    name: 'sport24'
+    uuid: 2410622
+    ui: sport24.yml
+  rss_parser:
+    url: 'http://www.sport24.com/rssfeeds/sport24-formule1.xml'
+  analytics:
+    google: UA-9329202-15
+  security_betkup:
+    administrator: room_administrator
+    member: room_member
+    anonymous: room_anonymous
+    participant: room_participant
+  kup_security_betkup:
+    administrator: kup_administrator
+    member: kup_member
+    anonymous: kup_anonymous
+    participant: kup_participant
+  privacy_public: PUBLIC
+  privacy_public_gambling_fr: PUBLIC_GAMBLING_FR
+  privacy_private: PRIVATE
+  privacy_private_gambling_fr: PRIVATE_GAMBLING_FR
+  privacy_default: PUBLIC
+  kup_type:
+    free: FREE
+    gambling_fr: GAMBLING_FR
+  registration:
+    account_type_simple: SIMPLE
+  facebook:
+    connect_app_id: 392882520732769 # CHANGE IN PRODUCTION
+    connect_app_secret: 9dec0db63bd2961befed6c91292ea308 # CHANGE IN PRODUCTION
+    connect_app_scope: email,user_birthday
+    canvas_ns: dev-sport-formule-un # CHANGE IN PRODUCTION
+  ranking:
+    batch_size: 10

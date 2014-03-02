@@ -1,0 +1,26 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+#
+# Below are the different credentials in use within this module
+#
+#     - member: authenticated member
+#     - member_gambling_fr: member with a complex account to gamble in France 
+#                           not yet verified.
+#     - member_gambling_fr_verified: member with a complex account to gamble in France 
+#                           that has been verified.
+#
+
+#
+# Default behavior is to protect all actions with member
+# This module can be accessible by all members having a simple account.
+# This is a Facebook application where only free Kups are allowed.
+#
+
+default:
+  is_secure: true
+  credentials: member
+
+facebookConnect:
+  is_secure: false
+  

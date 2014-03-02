@@ -1,0 +1,73 @@
+/*
+ * CSS FILE FOR TENNIS RADIO BUTTON CUSTOM SKIN
+ * 
+ * @package    betkup.fr
+ * @author     Sofun Gaming SAS
+ */
+.radio {display: inline;font-size: 20px;line-height: 15px;cursor: pointer;cursor: hand;}
+.radio .mark {display: inline;}
+
+.radio img {
+	vertical-align: middle; 
+	width: 15px; 
+	height: 15px;
+	background: transparent url(/image/default/euro/sprites_euro.png) no-repeat;
+	background-position: -50px -89px;
+}
+.radio-hover img {
+	background-position: -50px -104px;
+}
+.radio-checked img {
+	background-position: -70px -89px;
+}
+.radio-checked .radio-hover img {
+	background-position: -70px -104px;
+}
+.radio-disabled img {
+	background-position: -50px -118px;
+}
+.radio-checked .radio-disabled img{
+	background-position: -70px -118px;
+}
+
+
+
+.radio-final {display: inline;font-size: 20px;line-height: 25px;cursor: pointer;cursor: hand;}
+.radio-final .mark {display: inline;}
+
+.radio-final img {
+	vertical-align: middle; 
+	width: 30px; 
+	height: 25px;
+	background: transparent url(/image/default/euro/sprites_euro.png) no-repeat;
+	background-position: -95px -85px;
+}
+.radio-final-hover img {
+	background-position: -95px -85x;
+}
+.radio-final-checked img {
+	background-position: -125px -85px;
+}
+.radio-final-checked .radio-final-hover img {
+	background-position: -125px -85px;
+}
+.radio-final-disabled img {
+	background-position: -95px -85px;
+	-moz-opacity: 0.50;
+	-khtml-opacity: 0.50;
+	opacity: 0.50;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	filter:alpha(opacity=50);
+	cursor: default;
+}
+.radio-final-checked .radio-final-disabled img{
+	background-position: -125px -85px;
+	-moz-opacity: 0.50;
+	-khtml-opacity: 0.50;
+	opacity: 0.50;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	filter:alpha(opacity=50);
+	cursor: default;
+}

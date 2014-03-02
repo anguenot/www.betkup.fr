@@ -1,0 +1,102 @@
+ui:
+  kupName: label_kup_title_201213_ligue2_match_match
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Ligue 2
+  events: 38 journées
+  document_path: /kup/soccer/ligue2/201213/match_match/document
+  vignette_kup_view: /kup/soccer/ligue2/201213/match_match/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/ligue2/201213/match_match/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/ligue2/201213/match_match/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/ligue2/201213/match_match/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/ligue2/201213/match_match/image/vignette_edition_kup.png
+  isPrizes: 1
+  isCustom: 1
+  results_view_template: soccer,results
+  rules_view_template: soccer,kup_ligue2_201213_match_match
+  predictions_view_template: soccer,predictions
+  nbRules: 1
+  prizeValue : 750
+  img_box_right: /kup/soccer/ligue2/201213/match_match/image/img_box_right.png
+  img_box_right_size: 150x97
+  img_prize_1: /kup/soccer/ligue2/201213/match_match/image/img_prize_1.png
+  img_prize_2: /kup/soccer/ligue2/201213/match_match/image/img_prize_2.png
+  img_prize_3: /kup/soccer/ligue2/201213/match_match/image/img_prize_4.png
+  img_prize_4: /kup/soccer/ligue2/201213/match_match/image/img_prize_5.png
+  img_prize_5: /kup/soccer/ligue2/201213/match_match/image/img_prize_6.png
+  img_prize_6: /kup/soccer/ligue2/201213/match_match/image/img_prize_7.png
+  img_prize_7: /kup/soccer/ligue2/201213/match_match/image/img_prize_8.png
+  img_prize_8: /kup/soccer/ligue2/201213/match_match/image/img_prize_9.png
+  prize_1_label: label_kup_ligue2_201213_match_match_prize_1
+  prize_2_label: label_kup_ligue2_201213_match_match_prize_2
+  prize_3_label: label_kup_ligue2_201213_match_match_prize_4
+  prize_4_label: label_kup_ligue2_201213_match_match_prize_5
+  prize_5_label: label_kup_ligue2_201213_match_match_prize_6
+  prize_6_label: label_kup_ligue2_201213_match_match_prize_7
+  prize_7_label: label_kup_ligue2_201213_match_match_prize_8
+  prize_8_label: label_kup_ligue2_201213_match_match_prize_9
+  prize_1_label_prefix: label_kup_ligue2_201213_match_match_label_prefix_1
+  prize_2_label_prefix: label_kup_ligue2_201213_match_match_label_prefix_2
+  prize_3_label_prefix: label_kup_ligue2_201213_match_match_label_prefix_4
+  prize_4_label_prefix: label_kup_ligue2_201213_match_match_label_prefix_5
+  prize_5_label_prefix: label_kup_ligue2_201213_match_match_label_prefix_6
+  prize_6_label_prefix: label_kup_ligue2_201213_match_match_label_prefix_7
+  prize_7_label_prefix: label_kup_ligue2_201213_match_match_label_prefix_8
+  prize_8_label_prefix: label_kup_ligue2_201213_match_match_label_prefix_9
+  custom_rules:
+    bindings:
+      prize_1:
+        prefix: prize_1_label_prefix
+        label: prize_1_label
+        image: img_prize_1
+      prize_2:
+        prefix: prize_2_label_prefix
+        label: prize_2_label
+        image: img_prize_2
+      prize_3:
+        prefix: prize_3_label_prefix
+        label: prize_3_label
+        image: img_prize_3
+      prize_4:
+        prefix: prize_4_label_prefix
+        label: prize_4_label
+        image: img_prize_4
+      prize_5:
+        prefix: prize_5_label_prefix
+        label: prize_5_label
+        image: img_prize_5
+      prize_6:
+        prefix: prize_6_label_prefix
+        label: prize_6_label
+        image: img_prize_6
+      prize_7:
+        prefix: prize_7_label_prefix
+        label: prize_7_label
+        image: img_prize_7
+      prize_8:
+        prefix: prize_8_label_prefix
+        label: prize_8_label
+        image: img_prize_8
+    binding_map: {label_kup_ligue2_201213_match_match_custom_rule_1 : [prize_1, prize_2, prize_3], label_kup_ligue2_201213_match_match_custom_rule_2 : [prize_4, prize_5, prize_6, prize_7, prize_8] }
+  box_prizes_button: /kup/soccer/ligue2/201213/match_match/image/box_prizes_button.png
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    ic:
+      label: label_kup_question_ic_soccer
+      points: '5 pts'
+    se:
+      label: label_kup_question_se_soccer
+      points: '15 pts'
+    21:
+      label: label_kup_question_21
+      points: '20 pts'

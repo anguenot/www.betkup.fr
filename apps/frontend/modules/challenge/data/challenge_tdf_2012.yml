@@ -1,0 +1,9 @@
+datas:
+  isArchive: 1
+  type: challenge
+  room_name: 'Challenge TDF 2012'
+  title: challenge_tdf_2012_title
+  avatar: /image/default/challenge/challenges/avatar/challenge_tdf_2012.png
+  link: room,view
+  link_label: challenge_euro_2012_link_label
+  arguments: [challenge_tdf_2012_kups, challenge_tdf_2012_winners, challenge_tdf_2012_ranking, challenge_tdf_2012_jackpot]

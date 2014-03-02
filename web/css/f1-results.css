@@ -1,0 +1,275 @@
+@CHARSET "UTF-8";
+
+#results-contener {
+	width: 720px;
+	height: auto;
+	margin-left: -6px;
+}
+
+#results-contener table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.title-results {
+	width: 720px;
+	height: 43px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 21px;
+	text-decoration: none;
+	color: black;
+	line-height: 43px;
+	font-weight: normal;
+}
+
+td.bonus {
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+	height: 42px;
+}
+
+.resultsTheader {
+	background-color: #404042;
+	color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	height: 35px;
+}
+
+#results-contener table td {
+	height: 42px;
+	vertical-align: middle;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+ *			RESULTS RANKING
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+*/
+
+#results-ranking, #results-ranking > .background-div  {
+	width: 720px;
+	height: auto;
+	min-height: 504px;
+}
+
+#results-ranking table {
+	width: 720px;
+}
+
+#results-ranking .table-results-content td {
+	background-color: #F4F4F4;
+	height: 42px;
+	text-align:center;
+	border-bottom: 2px solid white;
+}
+
+#results-ranking .table-results-content td.bonus {
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #C70015;
+	height: 42px;
+}
+
+#results-ranking .table-results-content td.bonus div {
+	width: 716px;
+	height: 38px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px dashed #F4F4F4;
+}
+
+#results-ranking .table-results-content td.bonus table {
+	width: 250px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#results-ranking .table-results-content td.bonus table td {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;
+	height: 30px;
+}
+
+#results-ranking .table-results-content td span {
+	font-size: 14px;
+	color: #C70015;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#results-ranking .table-results-content td span sup {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+#results-ranking .table-results-content td.left {
+	border-right: 2px solid white;
+}
+
+#results-ranking .table-results-content td.predictions table, #results-ranking .table-results-content td.results table {
+	width: 230px;
+	height: 27px;
+	margin: auto;
+	padding: 0px;
+	text-align: left;
+	border: none;
+}
+
+#results-ranking .table-results-content td.predictions table td, #results-ranking .table-results-content td.results table td  {
+	text-align: left;
+	border: none;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+ *			RESULTS GRID
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+*/
+#results-grid, #results-grid > .background-div {
+	width: 720px;
+	height: auto;
+	min-height: 252px;
+}
+
+#results-grid table {
+	width: 720px;
+}
+
+#results-grid .table-results-content td {
+	background-color: #F4F4F4;
+	height: 42px;
+	text-align:center;
+	border-bottom: 2px solid white;
+}
+
+#results-grid .table-results-content td.left {
+	border-right: 2px solid white;
+}
+
+
+#results-grid .table-results-content td span {
+	font-size: 14px;
+	color: #C70015;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#results-grid .table-results-content td span sup {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+#results-grid .table-results-content td.predictions table, #results-grid .table-results-content td.results table {
+	width: 230px;
+	height: 27px;
+	margin: auto;
+	padding: 0px;
+	text-align: left;
+	border: none;
+}
+
+#results-grid .table-results-content td.predictions table td, #results-grid .table-results-content td.results table td  {
+	text-align: left;
+	border: none;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+ *			RESULTS BEST LAP
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+*/
+#results-best-lap, #results-best-lap > .background-div {
+	width: 720px;
+	height: auto;
+	min-height: 126px;
+}
+
+#results-best-lap table {
+	width: 720px;
+}
+
+#results-best-lap .table-results-content td {
+	background-color: #F4F4F4;
+	height: 42px;
+	text-align:center;
+	border-bottom: 2px solid white;
+}
+
+#results-best-lap .table-results-content td.left {
+	border-right: 2px solid white;
+}
+
+#results-best-lap .table-results-content td span {
+	font-size: 14px;
+	color: #C70015;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#results-best-lap .table-results-content td span sup {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+#results-best-lap .table-results-content td.predictions table, #results-best-lap .table-results-content td.results table {
+	width: 230px;
+	height: 27px;
+	margin: auto;
+	padding: 0px;
+	text-align: left;
+	border: none;
+}
+
+#results-best-lap .table-results-content td.predictions table td, #results-best-lap .table-results-content td.results table td  {
+	text-align: left;
+	border: none;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+ *			RESULTS TOTAL
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+*/
+#results-total {
+	width: 720px;
+	height: 70px;
+}
+
+#results-total #results-total-point {
+	width: 280px;
+	height: 70px;
+	border: 1px solid #E3E3E3;
+	margin-left: 438px;
+}
+
+#results-total #results-total-point table {
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#results-total #results-total-point table td {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+#results-total #results-total-point table td span {
+	color: #C70015;
+	font-size: 14px;
+	font-weight: bold;
+}
+

@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'botonMediumCustom';
+    src: url('/fonts/BotonMedium.eot?') format('eot'),
+    url('/fonts/BotonMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.blazon {
+    display: inline-block;
+    vertical-align: top;
+    width: 34px;
+    height: 41px;
+    margin-left: 10px;
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -23px -108px no-repeat;
+}
+
+.blazon p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    font: normal 20px botonMediumCustom, Arial, sans-serif;
+    color: white;
+    line-height: 40px;
+}
+
+.plus-button-focus {
+    margin: 20px 0 0 40px;
+}
+
+.plus-button-link span {
+    display: inline-block;
+    vertical-align: middle;
+    font: bold italic 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+.plus {
+    display: inline-block;
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -77px -112px no-repeat;
+}
+
+#more-infos-container {
+    display: none;
+    width: 650px;
+    margin: 10px auto;
+    font: normal 14px Arial, sans-serif;
+    text-align: justify;
+    color: #444;
+    line-height: 20px;
+}
+
+.span7 {
+    display: inline-block;
+    vertical-align: top;
+    width: 56%;
+}
+
+.span5 {
+    display: inline-block;
+    vertical-align: top;
+    width: 43%;
+}
+
+.header-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    text-align: justify;
+    font: normal 16px Futura, Arial, sans-serif;
+    color: #888888;
+}
+
+.span5 .header-text {
+    width: 230px;
+}
+.span7 .header-text {
+    width: 230px;
+}
+
+.jackpot {
+    width: 218px;
+    height: 92px;
+    margin: 0 auto;
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -27px -191px no-repeat;
+}
+
+.repartition-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 200px;
+    margin: 50px auto 0 auto;
+}
+
+.repartition-table th {
+    background: #4A4949;
+    font: normal 14px botonMediumCustom Arial, sans-serif;
+    color: white;
+    height: 25px;
+}
+
+.repartition-table td {
+    height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    color: #777777;
+}
+
+.repartition-table td b {
+    font: bold 16px botonMediumCustom, Arial, sans-serif;
+}
+
+.repartition-table tr td:first-child {
+    border-right: 2px solid white;
+    text-align: left;
+    font: bold italic 16px Arial, sans-serif;
+}
+
+.repartition-table tr.odd td,
+.repartition-table tr.odd td b {
+    color: #ffffff;
+}
+
+.repartition-table td img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.repartition-table .odd td {
+    background: #787878;
+}
+
+.repartition-table .even td {
+    background: #F4F4F4;
+}
+
+.footer-infos {
+    width: 100%;
+    border-top: 2px solid #AAAAAA;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.kup-pic {
+    display: inline-block;
+    width: 142px;
+    height: 77px;
+}
+
+.pic-om-psg {
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -306px -197px no-repeat;
+}
+
+.pic-barca-real {
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -466px -197px no-repeat;
+}
+
+.pic-milan-inter {
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -306px -291px no-repeat;
+}
+
+.pic-kross-klassico {
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -466px -291px no-repeat;
+}
+
+.pic-k8-klassico {
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -305px -386px no-repeat;
+}
+
+.kups-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 420px;
+}
+
+.kups-table td {
+    position: relative;
+    vertical-align: top;
+    padding: 10px 0 10px 10px;
+    border-bottom: 2px solid #AAAAAA;
+}
+
+.kups-table td p {
+    font: bold italic 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #AAAAAA;
+    line-height: 20px;
+}
+
+.pic-bet {
+    display: inline-block;
+    vertical-align: middle;
+    width: 19px;
+    height: 12px;
+    margin-left: 0;
+    margin-right: 5px;
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -455px -122px no-repeat;
+}
+
+.pic-mg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 17px;
+    height: 10px;
+    margin-left: 0;
+    margin-right: 7px;
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -484px -123px no-repeat;
+}
+
+.kups-table td p b {
+    color: #FF9000;
+}
+
+.kups-table td h2 {
+    font: bold 18px botonMediumCustom, Arial, sans-serif;
+    color: #FF9000;
+}
+
+.kups-table tr td:first-child {
+    border-right: 2px solid #AAAAAA;
+}
+
+.kups-table tr:last-child td {
+    border-bottom: 0;
+}
+
+.prediction-button {
+    position: absolute;
+    display: block;
+    width: 134px;
+    height: 34px;
+    top: 40px;
+    right: 5px;
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -152px -114px no-repeat;
+}
+
+.prediction-button:hover {
+    background: url('/challenge/klassico_2012/image/sprite_challenge_klassico.png') -295px -114px no-repeat;
+}
+

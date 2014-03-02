@@ -1,0 +1,324 @@
+div.moncompte {
+    position: relative;
+    margin: 100px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
+    z-index: 10;
+    width: 990px;
+    clear:both;
+    display: block;
+}
+
+div.moncompte div.moncompte_onglets_navigation {
+    margin: 0px 0px 0px 0px;
+    width: 990px;
+    height: 57px;
+    margin-top: 23px;
+}
+
+div.interface {
+    margin: 4px 0px 0px 0px;
+    padding-bottom: 130px;
+    width: 990px;
+    background:url('../images/moncompte/int.png') repeat-y;
+}
+div.interface_gauche {
+    margin: 0px 0px 0px 0px;
+    position:relative;
+    float:left;
+    width:753px;
+}
+div.interface_droite {
+    margin: 0px 7px 0px 0px;
+    position:relative;
+    float:right;
+    background-color: #EFEFEF;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+div.interface_gauche div.enteteGauche {
+    background:url('../images/moncompte/fondgauche.png') top right #F4F4F4 no-repeat;
+    margin: 0px 0px 0px 13px;
+    padding: 20px 0px 0px 0px;
+}
+
+div.interface_gauche p.titre{
+    margin: 0px 0px 0px 1px;
+}
+
+div.interface_gauche div.tabs-bar {
+    padding: 10px 0px 0px 0px;
+    width: 740px;
+}
+
+div.interface_gauche div.tabs-bar ul {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    width: 700px;
+    height: 38px;
+}
+
+div.interface_gauche div.tabs-bar ul li {
+    margin: 0;
+    padding: 13px 10px 10px 10px;
+    float: left;
+    text-align: center;
+}
+
+div.interface_gauche div.tabs-bar ul li a {
+    font: normal 12px Arial, sans-serif;
+    color: #F28A31;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 white;
+}
+
+div.interface_gauche div.tabs-bar ul li.tab-selected {
+    background-color: white;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 1px 1px 0 1px;
+    border-color: #E6E6E6;
+    border-style: solid;
+}
+
+div.interface_gauche div.tabs-bar ul li.tab-selected a {
+    color: #6A6A69;
+    font-weight:bold;
+}
+
+div.interface_gauche div.corpsGauche {
+    margin: -1px 0px 0px 0px;
+    padding: 10px 0px 22px 0px;
+    border-top: 1px solid #E6E6E6;
+}
+
+div.interface_gauche div.corpsGauche div.sommaire {
+    margin: 0px 0px 0px 42px;
+    width: 469px;
+    background-color: white;
+}
+div.interface_gauche div.corpsGauche div.fieldsetTabLimit {
+	margin-bottom: 20px;
+	margin-left: 42px;
+	margin-right: 50px;
+}
+div.interface_gauche div.corpsGauche div.fieldsetTabLimit fieldset {
+	padding: 15px;
+	padding-top: 10px;
+	border: 3px solid #6a6a6a;
+	color: #6a6a6a;
+	vertical-align: middle;
+}
+div.interface_gauche div.corpsGauche div.fieldsetTabLimit p {
+	color: #6a6a6a;
+}
+div.interface_gauche div.corpsGauche div.sommaire ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    width: 469px;
+}
+div.interface_gauche div.corpsGauche div.sommaire ul li {
+    background: url('../images/moncompte/fondsommaire.png');
+    background-repeat: no-repeat;
+    margin:0px;
+    padding: 8px 0px 0px 12px;
+    width: 457px;
+    height: 28px;
+}
+div.interface_gauche div.corpsGauche div.sommaire ul li a {
+    font-family: Arial;
+    font-size:12px;
+    font-weight:bold;
+    color: #F28A31;
+    text-decoration: none;
+}
+
+
+
+div.interface_gauche div.corpsGauche div.barre_titre {
+    margin: 18px 0px 0px 0px;
+    display:block;
+    clear:both;
+    width:755px;
+    height:54px;
+}
+div.interface_gauche div.corpsGauche div.barre_titre div.gauche {
+    margin: 0px 0px 0px 0px;
+    position:relative;
+    float:left;
+    width:545px;
+}
+div.interface_gauche div.corpsGauche div.barre_titre div.droite {
+    margin: 0px 7px 0px 0px;
+    position:relative;
+    float:right;
+    width:25px;
+    text-align: right;
+}
+
+
+
+div.interface_gauche div.corpsGauche div.blocBlanc {
+    display:block;
+    clear:both;
+    background-color: white;
+    margin: 0px 0px 0px 13px;
+    width: 740px;
+    min-height: 100px;
+}
+
+div.interface_gauche div.corpsGauche div.blocBlanc div.boutonCloturer {
+    margin: 8px 0px 0px 160px;
+}
+
+div.moncompte div.margeGauche {
+    margin-left: 30px;
+    line-height: 14px;
+}
+
+div.moncompte div.texte {
+    width: 375px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #6A6A69;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+div.moncompte .corpsGauche H1 {
+    height: 22px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #575756;
+    width: 370px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+div.moncompte .checkboxLegende {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #6A6A69;
+}
+
+/**
+ * Comment nous envoyer ces documents
+*/
+div.moncompte .sendDocTitle {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #6A6A69;
+    text-decoration: none;
+}
+
+div.moncompte .sendDocTexte {
+    padding-top: 3px;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    color: #575756;
+    text-decoration: none;
+    line-height: 13px;
+}
+
+div.moncompte .moduleEnvoiIdentite {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #6A6A69;
+    text-decoration: none;
+}
+
+#credit-form-bonus {
+    display: block;
+    width: 607px;
+    height: 87px;
+    margin: 0 auto;
+    background: url('/image/default/challenge/promos/double_bonus_background.png') no-repeat;
+}
+
+#credit-form-bonus p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 520px;
+    height: 75px;
+    margin-left: 80px;
+    margin-top: 5px;
+    color: #929292;
+    font: normal 14px "Helvetica Nue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
+}
+
+#credit-form-bonus p .smaller {
+    display: inline-block;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+#credit-form-bonus p b {
+    color: #FFA000;
+}
+
+#credit-form-bonus p b.green {
+    color: green;
+}
+
+#credit-form-bonus p a.more-infos {
+    font: normal 14px "Helvetica Nue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #929292;
+}
+
+#credit-form-bonus p a.more-infos:hover {
+    text-decoration: underline;
+}
+
+.moncompte .widget-download-table td {
+    vertical-align: top;
+}
+
+.moncompte #file-image-container {
+    width: 100%;
+    height: 170px;;
+}
+
+.upload, .upload_file, .fakefile {
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
+
+.upload {
+    display: block;
+    width: 180px;
+    height: 20px;
+    margin: 0px auto;
+    color: white;
+    font: normal 12px Arial;
+    text-decoration: none;
+    text-align: center;
+    background: #EC7023;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VjNzAyMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNTViMTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EC7023), color-stop(100%,#E55B19));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec7023', endColorstr='#e55b19',GradientType=0 );
+    border: 1px solid #CDAF9E;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+.upload > .fakefile > span {
+    color: white;
+    font: normal 12px Arial, sans-serif;
+    cursor: pointer;
+    z-index: 1;
+    line-height: 20px;
+}
+

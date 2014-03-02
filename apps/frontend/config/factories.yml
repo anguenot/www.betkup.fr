@@ -1,0 +1,99 @@
+# $Id: factories.yml 6076 2012-09-06 17:46:48Z jmasmejean $
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/05-Factories
+
+prod:
+  logger:
+    class:   sfFileLogger
+    param:
+      level:   WARNING
+      file: %SF_LOG_DIR%/%SF_APP%_%SF_ENVIRONMENT%.log
+      loggers: ~
+  mailer:
+    param:
+      delivery_strategy: realtime
+      logging:           %SF_LOGGING_ENABLED%
+      charset:           %SF_CHARSET%
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       service1
+          port:       25
+          encryption: ~
+          username:   ~
+          password:   ~
+
+dev:
+  mailer:
+    param:
+      delivery_strategy: none
+test:
+  mailer:
+    param:
+      delivery_strategy:  none 
+
+all:
+  storage:
+    class: sfSessionStorage
+    param:
+      session_name: betkup
+      session_cookie_path: /
+      session_cookie_domain: .betkup.fr
+      session_cookie_lifetime: 25200
+      session_cookie_secure: true
+      session_cookie_http_only: true
+      cache:
+       class: sfMemcacheSingletonCache
+       param:
+         servers: # Array of servers
+           localserver:
+             host: 127.0.0.1
+             port: 11211
+      
+  routing:
+    class: sfPatternRouting
+    param:
+      generate_shortest_url:            true
+      extra_parameters_as_query_string: true
+
+  view_cache_manager:
+    class: sfViewCacheManager
+    param:
+      cache_key_use_vary_headers: true
+      cache_key_use_host_name:    true
+      
+  view_cache:
+    class: sfMemcacheCache
+    param:
+      lifetime:                  86400
+      prefix:                    betkup_fr
+ 
+  user:
+     class: sfBetkupSecurityUser
+     param:
+       timeout:         3600
+       logging:         true
+       use_flash:       true
+       default_culture: fr
+  
+  response:
+    class: betkupWebResponse
+    param:
+      send_http_headers: true
+
+  mailer:
+    param:
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       localhost
+          port:       25
+          encryption: ~
+          username: ~
+          password: ~
+      
+  i18n:
+    class: sfI18N
+    param:
+      default_culture:  fr_FR
+      source:           gettext

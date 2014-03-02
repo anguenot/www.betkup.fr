@@ -1,0 +1,137 @@
+.prediction {
+	margin-left: -6px;
+}
+
+#header-k8 {
+	width: 720px;
+	height: 64px;
+}
+
+.content-k8 {
+	width: 720px;
+	height: auto;
+}
+
+#bottom-k8 {
+	width: 720px;
+	background: url(/image/default/k8/interface/bg_bottom.png) no-repeat;
+	background-position: -2px bottom;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+#content-prediction-row {
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: 720px;
+	background: url(/image/default/k8/interface/bg_content_k8.png) repeat-y;
+}
+
+#predictions-rows {
+	border: 4px dashed #F7F3ED;	
+	width: 670px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#big-pen {
+	width: 117px;
+	height: 402px;
+	background: url(/image/default/k8/interface/big_pen.png) no-repeat;
+	position: absolute;
+	top: 140px;
+	left: -30px;
+}
+
+#description-rules {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 670px;
+	color: #FF0303;
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+}
+
+/*
+ * REMOVE/MODIFY DEFAULT CSS FROM PREDICTION ROW
+ */
+
+.date {
+	display: none;
+}
+
+.interogations {
+	display: none;
+}
+
+.table-pronostic-row {
+	height: 50px;
+}
+
+td.pellet {
+	display: table-cell;
+	vertical-align: middle;
+	height: 40px;
+}
+
+.pellet div {
+	width: 26px;
+	height: 26px;
+	background: url(/image/default/k8/interface/pellet.png) no-repeat;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 50px;
+	float: right;
+}
+
+td.tdRadio {
+	width: 35px;
+}
+
+td.tdRadio-left, td.avatar-team-left, td.title-team-left {
+	text-align: right;
+}
+
+td.tdRadio-right, td.avatar-team-right, td.title-team-right {
+	text-align: left;
+}
+
+td.tdRadio-center {
+	text-align: center;
+}
+
+td.avatar-team {
+	width: 55px;
+	height: 40px; 
+}
+
+td.avatar-team img {
+	height: 40px;
+}
+
+td.title-team {
+	width: 170px;
+	vertical-align: middle;
+}
+
+.team {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.prediction {
+	display: block;
+	position: relative;
+}
+
+

@@ -1,0 +1,36 @@
+_homeHowTo:
+  enabled:     true
+  lifetime:    604800
+
+_homeBetkupPromo:
+  enabled:     true
+  lifetime:    604800
+
+_homeFriends:
+  enabled:     true
+  lifetime:    604800
+
+rules:
+  enabled:     true
+  with_layout: false
+  lifetime:    604800
+
+homeBoxMyRanking:
+  enabled:     true
+  with_layout: false
+  lifetime:    3600
+
+homeBoxLeader:
+  enabled:     true
+  with_layout: false
+  lifetime:    3600
+
+homeClubRanking:
+  enabled:     true
+  with_layout: false
+  lifetime:    3600
+
+predictionsBoxFeed:
+  enabled:     true
+  with_layout: false
+  lifetime:    3600

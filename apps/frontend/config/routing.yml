@@ -1,0 +1,584 @@
+# $Id: routing.yml 6458 2012-11-15 18:25:11Z jmasmejean $
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+dashboard:
+  url:      /me
+  param:    { module: me, action: index }
+
+account:
+  url:      /account
+  param:    { module: account, action: edit }
+
+account_default:
+  url:      /account/
+  param:    { module: account, action: edit }
+
+account_privacy:
+  url:      /account/privacy
+  param:    { module: account, action: privacy }
+
+account_status:
+  url:      /account/status
+  param:    { module: account, action: status }
+
+account_transaction:
+  url:      /account/transaction
+  param:    { module: account, action: transaction }
+
+account_prediction:
+  url:      /account/prediction
+  param:    { module: account, action: prediction }
+  
+account_prediction_bet:
+  url:      /account/credit/:kup_uuid/:parent_referer
+  param:    { module: account, action: credit }
+  requirements:
+    parent_referer: \w+
+    kup_uuid: \d+
+    
+account_update:
+  url:      /account/updateSimpleAccount
+  param:    { module: account, action: updateSimpleAccount }
+
+account_update_params_kup:
+  url:      /account/updateSimpleAccount/:kup_uuid/:parent_referer
+  param:    { module: account, action: updateSimpleAccount }
+  requirements:
+    parent_referer: \w+
+    kup_uuid: \d+
+
+account_update_params_room:
+  url:      /account/updateSimpleAccount/:kup_uuid/:room_uuid/:parent_referer
+  param:    { module: account, action: updateSimpleAccount }
+  requirements:
+    parent_referer: \w+
+    kup_uuid: \d+
+    room_uuid: \d+
+
+account_register_credit_room:
+  url:      /account/registerCredit/:room_uuid/:redirect_route
+  param:    { module: account, action: registerCredit }
+  requirements:
+    room_uuid: \d+
+    redirect_route: \w+
+
+account_register_advanced:
+  url:      /account/registerAdvanced
+  param:    { module: account, action: registerAdvanced }
+    
+account_register_advanced_room:
+  url:      /account/registerAdvanced/:room_uuid/:redirect_route
+  param:    { module: account, action: registerAdvanced }
+  requirements:
+    room_uuid: \d+
+    redirect_route: \w+
+
+account_register_advanced_room_kup:
+  url:      /account/registerAdvanced/:room_uuid/kup/:kup_uuid/:redirect_route
+  param:    { module: account, action: registerAdvanced }
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+    redirect_route: \w+
+
+account_register_update_room_kup:
+  url:      /account/updateSimpleAccount/:room_uuid/kup/:kup_uuid/:redirect_route
+  param:    { module: account, action: updateSimpleAccount }
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+    redirect_route: \w+
+
+# 
+# SPORT 24 ROUTING
+#
+
+sport24_home:
+  url: /sport24/home
+  param: { module: facebook_f1_sport24, action: home}
+
+sport24_default:
+  url: /sport24/
+  param: { module: facebook_f1_sport24, action: home}
+  
+sport24_predictions:
+  url: /sport24/predictions
+  param: { module: facebook_f1_sport24, action: predictions}
+
+sport24_results:
+  url: /sport24/results
+  param: { module: facebook_f1_sport24, action: results}
+  
+sport24_ranking:
+  url: /sport24/ranking
+  param: { module: facebook_f1_sport24, action: ranking}
+
+sport24_rules:
+  url: /sport24/rules
+  param: { module: facebook_f1_sport24, action: rules}
+  
+sport24_login_facebook:
+  url:      /sport24/login/facebook
+  param:    { module: facebook_f1_sport24, action: facebookConnect }
+  requirements:
+    uuid: \d+  
+    
+sport24_comment_ranking:
+  url:  /sport24/ranking/:selectedTab
+  param:    { module: facebook_f1_sport24, action: ranking }
+  requirements:
+    selectedTab: \d+  
+
+#
+# FACEBOOK TDF ROOTING
+#
+facebook_tdf_default:
+  url: /facebook_tdf/
+  param:    { module: facebook_tdf, action: home }
+
+facebook_tdf_home:
+  url: /facebook_tdf/home
+  param: { module: facebook_tdf, action: home}
+  
+facebook_tdf_like_page:
+  url: /facebook_tdf/like
+  param: { module: facebook_tdf, action: likePage}
+
+facebook_tdf_predictions:
+  url: /facebook_tdf/predictions
+  param: { module: facebook_tdf, action: predictions}
+  
+facebook_tdf_predictions_save:
+  url: /facebook_tdf/predictions/:is_saved
+  param: { module: facebook_tdf, action: predictions}
+  requirements:
+    is_saved: \d+  
+
+facebook_tdf_results:
+  url: /facebook_tdf/results
+  param: { module: facebook_tdf, action: results}
+  
+facebook_tdf_ranking:
+  url: /facebook_tdf/ranking
+  param: { module: facebook_tdf, action: ranking}
+
+facebook_tdf_rules:
+  url: /facebook_tdf/rules
+  param: { module: facebook_tdf, action: rules}
+  
+facebook_tdf_login_facebook:
+  url: /facebook_tdf/login/facebook
+  param: { module: facebook_tdf, action: facebookConnect }
+    
+facebook_tdf_comment_ranking:
+  url:  /facebook_tdf/ranking/:selectedTab
+  param:    { module: facebook_tdf, action: ranking }
+  requirements:
+    selectedTab: \d+ 
+
+#
+# FACEBOOK LIGUE 1 2012 ROUTING
+#
+facebook_ligue1_2012_default:
+  url: /facebook_ligue1_2012/
+  param:    { module: facebook_ligue1_2012, action: home }
+
+facebook_ligue1_2012_home:
+  url: /facebook_ligue1_2012/home
+  param: { module: facebook_ligue1_2012, action: home}
+
+facebook_ligue1_2012_like_page:
+  url: /facebook_ligue1_2012/like
+  param: { module: facebook_ligue1_2012, action: likePage}
+
+facebook_ligue1_2012_predictions:
+  url: /facebook_ligue1_2012/predictions
+  param: { module: facebook_ligue1_2012, action: predictions}
+
+facebook_ligue1_2012_predictions_save:
+  url: /facebook_ligue1_2012/predictions/:is_saved
+  param: { module: facebook_ligue1_2012, action: predictions}
+  requirements:
+    is_saved: \d+
+
+facebook_ligue1_2012_club:
+  url: /facebook_ligue1_2012/club
+  param: { module: facebook_ligue1_2012, action: club}
+
+facebook_ligue1_2012_club_unique:
+  url: /facebook_ligue1_2012/club/:clubId
+  param: { module: facebook_ligue1_2012, action: club}
+  requirements:
+      clubId: \d+
+
+facebook_ligue1_2012_results:
+  url: /facebook_ligue1_2012/results
+  param: { module: facebook_ligue1_2012, action: results}
+
+facebook_ligue1_2012_ranking:
+  url: /facebook_ligue1_2012/ranking
+  param: { module: facebook_ligue1_2012, action: ranking}
+
+facebook_ligue1_2012_ranking_tab:
+  url: /facebook_ligue1_2012/ranking/:tab
+  param: { module: facebook_ligue1_2012, action: ranking}
+  requirements:
+      tab: \w+
+
+facebook_ligue1_2012_rules:
+  url: /facebook_ligue1_2012/rules
+  param: { module: facebook_ligue1_2012, action: rules}
+
+facebook_ligue1_2012_login_facebook:
+  url: /facebook_ligue1_2012/login/facebook
+  param: { module: facebook_ligue1_2012, action: facebookConnect }
+
+facebook_ligue1_2012_comment_ranking:
+  url:  /facebook_ligue1_2012/ranking/:selectedTab
+  param:    { module: facebook_ligue1_2012, action: ranking }
+  requirements:
+    selectedTab: \d+
+
+facebook_ligue1_2012_open_graph_kup_url:
+  url:  /facebook_ligue1_2012/landing/:kup_uuid
+  param:    { module: facebook_ligue1_2012, action: landingPage }
+  requirements:
+    kup_uuid: \d+
+#
+# WIDGET RANKING ROUTING
+#  
+
+widget_ranking_view:
+  url: /room/:room_uuid/widgetRanking/view
+  param:    { module: room, action: widgetRanking }
+  requirements:
+    room_uuid: \d+ 
+    
+widget_ranking_kup:
+  url: /room/:room_uuid/widgetRanking/kup/:kup_uuid/ranking
+  param:    { module: room, action: widgetKupRanking }
+  requirements:
+    kup_uuid: \d+
+    room_uuid: \d+ 
+    
+#
+# CHALLENGE ROUTING
+#    
+challenge_default:
+  url: /challenge
+  param:    { module: challenge, action: home }
+
+challenge_default_root:
+  url: /challenge/
+  param:    { module: challenge, action: home }
+
+challenge_home:
+  url: /challenge/home
+  param:    { module: challenge, action: home }
+
+challenge_promos:
+  url: /challenge/promos/:uuid
+  param:    { module: challenge, action: promos }
+  requirements:
+    uuid: \w+
+
+#
+# ROOM ROUTING
+#
+
+room:
+  url:      /room
+  param:    { module: room, action: home }
+
+room_default:
+  url:      /room/
+  param:    { module: room, action: home }
+
+room_invite:
+  url:      /room/:room_uuid/invite
+  param:    { module: room, action: invite }
+  requirements:
+    room_uuid: \d+
+    
+room_invite_create_step3:
+  url:      /room/:room_uuid/is_in_create_invite/:is_in_create_invite/invite
+  param:    { module: room, action: invite }
+  requirements:
+    room_uuid: \d+
+    is_in_create_invite: \d+
+
+room_kup_invite_step3:
+  url:      /room/:room_uuid/kup/:kup_uuid/is_room_kup_invite/:is_room_kup_invite/invite
+  param:    { module: room, action: invite }
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+    is_room_kup_invite: \d+
+
+room_view:
+  url:      /room/:uuid/view
+  param:    { module: room, action: view }
+  requirements:
+    uuid: \d+
+
+room_kups_ranking:
+  url: /room/:uuid/roomKupsRanking
+  params: { module: room, action: roomKupsRanking }
+  requirements:
+    uuid: \d+
+
+room_kups_news:
+  url:      /room/:uuid/kupsNews
+  param:    { module: room, action: kupsNews }
+  requirements:
+    uuid: \d+
+
+room_view_short:
+  url:      /room/:uuid/
+  param:    { module: room, action: view }
+  requirements:
+    uuid: \d+
+    
+room_view_short_2:
+  url:      /room/:uuid
+  param:    { module: room, action: view }
+  requirements:
+    uuid: \d+
+
+room_members:
+  url:      /room/:uuid/members
+  param:    { module: room, action: members }
+  requirements:
+    uuid: \d+
+
+room_kups:
+  url:      /room/:uuid/kups
+  param:    { module: room, action: kups }
+  requirements:
+    uuid: \d+
+
+room_kups_create_step2:
+  url:      /room/:uuid/is_in_create_add_kups/:is_in_create_add_kups/kups
+  param:    { module: room, action: kups }
+  requirements:
+    uuid: \d+
+    is_in_create_add_kups: \d+
+    
+room_edit:
+  url:      /room/:uuid/edit
+  param:    { module: room, action: edit }
+  requirements:
+    uuid: \d+
+
+room_join:
+  url:      /room/:uuid/join
+  param:    { module: room, action: join }
+  requirements:
+    uuid: \d+
+
+room_create_step2:
+  url:      /room/room_create_step2/:uuid
+  param:    { module: room, action: room_create_step2 }
+  requirements:
+    uuid: \d+
+    
+room_create_step3:
+  url:      /room/room_create_step3/:uuid
+  param:    { module: room, action: room_create_step3 }
+  requirements:
+    uuid: \d+
+
+kup_room_prediction:
+  url:      /room/:room_uuid/kup/:kup_uuid/view
+  param:    { module: room, action: kup }
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+    
+kup_room_prediction_fixtures:
+  url:      /room/:room_uuid/kup/:kup_uuid/prediction/fixtures
+  param:    { module: room, action: kupPredictionFixtures }
+  requirements:
+    uuid: \d+
+
+kup_room_prediction_knockout:
+  url:      /room/:room_uuid/kup/:kup_uuid/prediction/knockout
+  param:    { module: room, action: kupPredictionKnockout }
+  requirements:
+    uuid: \d+
+
+kup_room_ranking:
+  url:      /room/:room_uuid/kup/:kup_uuid/ranking
+  param:    { module: room, action: kupRanking }
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+
+kup_room_results:
+  url:      /room/:room_uuid/kup/:kup_uuid/results
+  param:    { module: room, action: kupResults }
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+
+kup_room_rules:
+  url:      /room/:room_uuid/kup/:kup_uuid/rules
+  param:    { module: room, action: kupRules }
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+    
+kup_room_news:
+  url:      /room/:room_uuid/kup/:kup_uuid/news
+  param:    { module: room, action: kupNews } 
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+
+kup_room_bet:
+  url:      /room/:room_uuid/kup/:kup_uuid/bet
+  param:    { module: room, action: kupBet }
+  requirements:
+    room_uuid: \d+
+    kup_uuid: \d+
+    
+room_join_advanced_account:
+  url:      /room/:uuid/:need_advanced_account/:redirect_route
+  param:    { module: room, action: join }
+  requirements:
+    need_advanced_account: \d+
+    uuid: \d+
+    redirect_route: \w+
+
+room_like_page_fans_facebook:
+  url:      /like-page-room-fans-facebook
+  param:    { module: room, action: likePageFansFacebook }
+#
+# KUP ROUTING
+#
+    
+kup:
+  url:      /kup
+  param:    { module: kup, action: home }
+
+kup_default:
+  url:      /kup/
+  param:    { module: kup, action: home }
+  
+kup_view_from_home:
+  url:      /kup/:uuid/view/:comming_from
+  param:    { module: kup, action: view }
+  requirements:
+    uuid: \d+
+    comming_from: \w+
+
+kup_view:
+  url:      /kup/:uuid/view
+  param:    { module: kup, action: view }
+  requirements:
+    uuid: \d+ 
+   
+kup_ranking:
+  url:      /kup/:uuid/ranking
+  param:    { module: kup, action: ranking }
+  requirements:
+    uuid: \d+
+    
+kup_bet:
+  url:      /kup/:uuid/bet
+  param:    { module: kup, action: bet }
+  requirements:
+    uuid: \d+
+
+kup_news:
+  url:      /kup/:uuid/news
+  param:    { module: kup, action: news }
+  requirements:
+    uuid: \d+
+    
+kup_rules:
+  url:      /kup/:uuid/rules
+  param:    { module: kup, action: rules }
+  requirements:
+    uuid: \d+
+    
+kup_results:
+  url:      /kup/:uuid/results
+  param:    { module: kup, action: results }
+  requirements:
+    uuid: \d+
+
+kup_prediction_fixtures:
+  url:      /kup/:uuid/prediction/fixtures
+  param:    { module: kup, action: predictionFixtures }
+  requirements:
+    uuid: \d+
+
+kup_prediction_knockout:
+  url:      /kup/:uuid/prediction/knockout
+  param:    { module: kup, action: predictionKnockout }
+  requirements:
+    uuid: \d+
+
+kup_bet_invite_step3:
+  url:      /kup/:uuid/:tabInvite/invite
+  param:    { module: kup, action: inviteFriends, tabInvite: 0 }
+  requirements:
+    uuid: \d+
+    tabInvite: \d+
+#
+# ACCOUNT
+#
+
+login_facebook:
+  url:      /account/login/facebook
+  param:    { module: account, action: loginFacebook }
+  requirements:
+    uuid: \d+
+
+linking_facebook:
+  url:      /account/facebook/link
+  param:    { module: account, action: linkToFacebook }
+  requirements:
+    uuid: \d+
+
+password_reset:
+  url:      /account/password/reset
+  param:    { module: account, action: passwordReset }
+  requirements:
+    uuid: \d+
+
+landing_page:
+  url:      /paris-sportifs-communautaire
+  param:    { module: home, action: landingPage }
+
+sitemap_page:
+  url:      /sitemap
+  param:    { module: home, action: sitemap }
+
+#
+# SF DEFAULTS
+#
+sf_guard_signin:
+  url:      /login
+  param:    { module: account, action: login }
+
+sf_guard_signout:
+  url:      /logout
+  param:    { module: account, action: logout }
+
+sf_guard_password:
+  url:      /password
+  param:    { module: account, action: passwordForgotten }
+
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

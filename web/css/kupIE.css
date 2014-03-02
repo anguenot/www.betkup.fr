@@ -1,0 +1,19 @@
+
+.kup .titre {
+    color: #FFFFFF;
+    font-size:16px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: KupBlocTitlessss, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin-left: 25px;
+    letter-spacing: 0px;
+}
+
+.kup .gain {
+    color: #E55A19;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: KupBlocGains, Helvsetica, Arisal, sans-serif;
+    letter-spacing: -1px;
+}

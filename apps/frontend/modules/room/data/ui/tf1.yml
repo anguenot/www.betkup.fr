@@ -1,0 +1,51 @@
+ui:
+  roomName: CE TF1 Publicité
+  header-logo: /partner/tf1/image/sofun-logo.png
+  avatar-room: /partner/tf1/image/avatar_room.png
+  isHeaderPerso: 1
+  header-hosted-logo: /partner/tf1/image/hosted_logo.png
+  header-room-logo: /partner/tf1/image/header_logo.png
+  header-bg: /partner/tf1/image/header_bg_room.png
+  kup-header-bg: /partner/tf1/image/header_bg_kup.png
+  path-img-title: /partner/tf1/image/title
+  path-img-list: /partner/tf1/image/list
+  isPictoPerso : 1
+  path-img-picto: /partner/tf1/image/picto
+  tab-picto-text-color: '#497AAD'
+  isBgPerso: 1
+  body-bg-img: /partner/tf1/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 1
+  body-bg-img-bottom-right: /partner/tf1/image/body_bg_pic_bottom_right.png
+  body-bg-color: '#EEF1F1'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#000087'
+  show-box-how-work: 1
+  box-how-work: /partner/tf1/image/box_how_work_bg.png
+  size-box-how-work: big
+  box-how-work-link: http://tf1.betkup.fr
+  show-box-prizes: 1
+  box-prizes: /partner/tf1/image/box_prizes.png
+  box-prizes-button: /partner/tf1/image/box_prizes_button.png
+  show-box-prizes-2: 1
+  box-prizes-2: /partner/tf1/image/box_prizes_3.png
+  box-prizes-button-2: /partner/tf1/image/box_prizes_button.png
+  box-prizes-kup-uuid-2: 549329
+  show-box-news: 0
+  box-news: /partner/tf1/image/box_news_bg.png
+  show-box-facebook: 0
+  box-facebook: /partner/tf1/image/box_fb_bg.png
+  path_img_kup_perso_prizes: /partner/tf1/image/kupPrizes
+  array_kup_perso_prizes: ['12113', '504884', '549329']
+  path_document_kup_perso_rules: /partner/tf1/document
+  array_kup_perso_rules_pdf: ['']
+  kups:
+    504884:
+      box_prizes:  /partner/tf1/image/box_prizes_2.png
+      box_prizes_button: /partner/tf1/image/box_prizes_button.png
+    12113:
+      box_prizes:  /partner/tf1/image/box_prizes.png
+      box_prizes_button: /partner/tf1/image/box_prizes_button.png
+    549329:
+      box_prizes:  /partner/tf1/image/box_prizes_3.png
+      box_prizes_button: /partner/tf1/image/box_prizes_button.png

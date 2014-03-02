@@ -1,0 +1,34 @@
+ui:
+  kupName: label_kup_title_soccer_euro_2012_4quarts
+  typeSport: soccer
+  picto: foot.png
+  category: Football > Euro 2012
+  events: 4 matchs
+  picto_mini: picto_foot_mini.png
+  document_path: /kup/soccer/euro/2012/4quarts/document
+  vignette_kup_view: /kup/soccer/euro/2012/4quarts/image/vignette_kup_view.png
+  vignette_kup_view_small: /kup/soccer/euro/2012/4quarts/image/vignette_kup_view_small.png
+  vignette_home_view: /kup/soccer/euro/2012/4quarts/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/euro/2012/4quarts/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/euro/2012/4quarts/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/euro/2012/4quarts/image/vignette_edition_kup.png
+  isPrizes: 1
+  rules_view_template: soccer,kup_euro_2012_4quarts
+  predictions_view_template: soccer,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 200
+  img_box_right: /kup/soccer/euro/2012/4quarts/image/img_box_right.png
+  img_prize_1: /kup/soccer/euro/2012/4quarts/image/img_prize_1.png
+  img_prize_2: /kup/soccer/euro/2012/4quarts/image/img_prize_2.png
+  img_prize_3: /kup/soccer/euro/2012/4quarts/image/img_prize_3.png
+  img_prize_4: /kup/soccer/euro/2012/4quarts/image/img_prize_4.png
+  img_prize_1_size: 100x38
+  img_prize_2_size: 100x58
+  img_prize_3_size: 100x58
+  img_prize_4_size: 100x58
+  prize_1_label: label_kup_euro_4quarts_prize_1
+  prize_2_label: label_kup_euro_4quarts_prize_2
+  prize_3_label: label_kup_euro_4quarts_prize_3
+  prize_4_label: label_kup_euro_4quarts_prize_4
+  box_prizes_button: /kup/soccer/euro/2012/match_match/image/box_prizes_button.png

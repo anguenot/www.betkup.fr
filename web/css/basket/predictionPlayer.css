@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'botonMediumCustom';
+    src: url('/fonts/BotonMedium.eot?') format('eot'), url('/fonts/BotonMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.basket-view {
+    position: relative;
+}
+
+.basket-row {
+    display: block;
+    margin: 15px 0;
+}
+
+.basket-row .match-title {
+    display: inline-block;
+    padding: 2px 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font: bold 12px "Arial Narrow", Arial, sans-serif;
+    color: #808080;
+    background: #f4f4f4; /* Old browsers */
+    background: -moz-linear-gradient(top, #f4f4f4 0%, #e4e2e2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f4f4), color-stop(100%, #e4e2e2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f4f4f4 0%, #e4e2e2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f4f4f4 0%, #e4e2e2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f4f4f4 0%, #e4e2e2 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #f4f4f4 0%, #e4e2e2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f4f4f4', endColorstr = '#e4e2e2', GradientType = 0); /* IE6-9 */
+}
+
+.basket-row .match-prediction {
+    margin-top: 10px;
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.player-image-box {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    width: 290px;
+    height: 460px;
+    margin: 0;
+    padding: 0;
+}
+
+.match-info {
+    position: relative;
+    width: 690px;
+    padding: 10px 0 10px 15px;
+    border-bottom: 2px dashed #ffffff;
+}
+
+.match-info h2 {
+    display: inline-block;
+    color: #ffffff;
+    height: 25px;
+    font: normal 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.teams-avatars {
+    position: absolute;
+    height: 80px;
+    right: 20px;
+    top: -20px;
+}
+
+.teams-avatars img {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.teams-avatars .thumb-vs-team {
+    display: inline-block;
+    margin: 0 5px;
+    width: 75px;
+    height: 71px;
+    background: url('/image/default/basket/interface/sprites_players_kup.png') -20px -269px;
+    vertical-align: middle;
+}
+
+.buttons {
+    width: 710px;
+    height: 229px;
+    margin: 0;
+    padding: 20px 0 0 0;
+    background: url('/image/default/basket/interface/sprites_players_kup.png') no-repeat;
+}
+
+.content {
+    min-height: 680px;
+}
+
+.basket-player-row {
+    display: block;
+    float: right;
+    width: 430px;
+    height: 60px;
+    border-top: 2px dashed #ffffff;
+    border-bottom: 2px dashed #ffffff;
+    margin-bottom: 20px;
+}
+
+.table-player-row-q {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.basket-player-row .question-text {
+    width: 225px;
+    height: 60px;
+    background: #363636;
+    padding: 0 13px;
+    vertical-align: middle;
+}
+
+.basket-player-row .question-text span {
+    display: block;
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.basket-player-row .question-text span:before {
+    content: "-";
+}
+
+.basket-player-row .question-choices {
+    height: 60px;
+}
+
+.basket-slider-q-row {
+    display: block;
+    float: right;
+    width: 450px;
+    height: 120px;
+    margin: 10px 0;
+}
+
+.basket-slider-q-row .text-info p {
+    text-indent: 10px;
+    font: bold italic 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.match-prediction {
+    width: 100%;
+}
+
+.prediction-cursor .slider-infos {
+    width: 100%;
+    height: 50px;
+    margin: 5px 0 0 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.prediction-cursor .slider-container {
+    margin-top: 10px;
+}
+
+.prediction-cursor .slider-infos .question-slider {
+    vertical-align: middle;
+    width: 25%;
+}
+
+.prediction-cursor .slider-infos .question-slider div {
+    position: relative;
+    display: inline-block;
+    padding: 5px 5px 0 5px;
+}
+
+.prediction-cursor .slider-infos .question-slider .question-slider-text {
+    display: inline-block;
+    float: right;
+    font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.prediction-cursor .slider-infos .question-slider .separator-hidden,
+.prediction-cursor  .slider-infos .question-slider .separator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 5px;
+    height: 47px;
+}
+
+.prediction-cursor  .slider-infos .question-slider .separator {
+    background: url('/image/default/basket/interface/sprites_players_kup.png') -581px -329px no-repeat;
+}
+
+a > .clear-predictions {
+    display: inline-block;
+    width: 187px;
+    height: 45px;
+    font: bold 16px "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-shadow: 0px -1px 0px #454545;
+    filter: dropshadow(color = #454545, offx = 0, offy = -1);
+    background: url('/image/default/basket/interface/sprites_interface_basket.png') -2px -2px no-repeat;
+    line-height: 35px;
+    padding-left: 40px;
+}
+
+a:hover > .clear-predictions {
+    background: url('/image/default/basket/interface/sprites_interface_basket.png') -2px -55px no-repeat;
+}
+
+a > .random-predictions {
+    display: inline-block;
+    width: 187px;
+    height: 45px;
+    font: bold 16px "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-shadow: 0px -1px 0px #454545;
+    filter: dropshadow(color = #454545, offx = 0, offy = -1);
+    background: url('/image/default/basket/interface/sprites_interface_basket.png') -236px -2px no-repeat;
+    line-height: 35px;
+    padding-left: 40px;
+}
+
+a:hover > .random-predictions {
+    background: url('/image/default/basket/interface/sprites_interface_basket.png') -236px -55px no-repeat;
+}
+
+.save-prediction-submit {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 227px;
+    height: 45px;
+    font: bold 16px "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px -1px 0px #454545;
+    filter: dropshadow(color = #454545, offx = 0, offy = -1);
+    background: url('/image/default/basket/interface/sprites_interface_basket.png') -472px -2px no-repeat;
+    line-height: 30px;
+}
+
+.save-prediction-submit:hover {
+    background: url('/image/default/basket/interface/sprites_interface_basket.png') -472px -55px no-repeat;
+}
+
+.prediction-cursor .ui-slider,
+.prediction-cursor .ui-slider-horizontal,
+.prediction-cursor .ui-widget,
+.prediction-cursor .ui-widget-content,
+.prediction-cursor .ui-corner-all {
+    border: none;
+    width: 441px;
+    height: 22px;
+    background: url('/image/default/basket/interface/sprites_players_kup.png') -103px -295px no-repeat;
+}
+
+.prediction-cursor .ui-slider-horizontal .ui-slider-handle,
+.prediction-cursor .ui-slider-horizontal .ui-state-default,
+.prediction-cursor .ui-slider-horizontal .ui-corner-all {
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: -10px;
+    height: 38px;
+    background: url('/image/default/basket/interface/sprites_players_kup.png') -571px -272px no-repeat;
+}
+
+.prediction-cursor .ui-slider-disabled,
+.prediction-cursor .ui-disabled {
+    border: none;
+    width: 441px;
+    height: 22px;
+    background: url('/image/default/basket/interface/sprites_players_kup.png') -103px -262px no-repeat;
+}
+
+.prediction-cursor .ui-slider-disabled .ui-slider-handle,
+.prediction-cursor .ui-slider-disabled .ui-state-default,
+.prediction-cursor .ui-slider-disabled .ui-corner-all {
+    border: none;
+    cursor: default;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: -10px;
+    height: 38px;
+    background: url('/image/default/basket/interface/sprites_players_kup.png') -609px -272px no-repeat;
+}

@@ -1,0 +1,87 @@
+#arrow-container {
+	width: 400px;
+	height: 30px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.arrow {
+	display: block;
+	width: 20px;
+	height: 10px;
+	margin: 10px auto;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+#reusults-container {
+	width: 450px;
+	height: 370px;
+	margin: 5px auto;
+}
+
+#reusults-container table {
+	border-spacing: 0px;
+	border-collapse: 0px;
+	width: 100%;
+} 
+
+#reusults-container table td {
+	vertical-align: middle;
+}
+
+.picto {
+	width: 80px;
+}
+
+.picto table.table-picto {
+	width: 80px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.picto table.table-picto td {
+	vertical-align: middle;
+	height: 30px;
+	background: #F2F2F2;
+	border-bottom: 1px solid white;
+}
+
+.avatar {
+	width: 100px;
+	background: #F2F2F2;
+}
+
+.line-results {
+	height: 30px;
+	background: #F2F2F2;
+	border-bottom: 1px solid white;
+	line-height: 30px;
+}
+
+.challenge .line-results p {
+	text-align: left;
+	height: 30px;
+	font: bold 12px Arial;
+	color: #333333;
+	line-height: 30px;
+	margin-left: 20px;
+}
+
+.line {
+	border-bottom: 1px solid #333333;
+}
+
+.points {
+	width: 50px;
+}
+
+.points .line-results p {
+	text-align: center;
+	height: 30px;
+	font: bold 14px Arial;
+	color: #C70101;
+	line-height: 30px;
+}

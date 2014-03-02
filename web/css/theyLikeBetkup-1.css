@@ -1,0 +1,46 @@
+@font-face {
+font-family: 'quoteAuthor';
+src: url('/fonts/trebucbd.eot?') format('eot'),
+     url('/fonts/trebucbd.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+.theyLikeBetkup .content {
+    width: 990px;
+}
+
+.theyLikeBetkup .footer {
+    display: block;
+    height: 100px;
+}
+
+
+.theyLikeBetkup .theyLikeBetkupBloc {
+    width: 281px;
+    height: 132px;
+    background: url('/image/default/home/quote/background.png') -2px 0;
+}
+
+.theyLikeBetkup .theyLikeBetkupBloc .message {
+    text-align: center;
+    margin-left: 120px; width: 135px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    color: #616160;
+    height: 90px;
+    overflow: hidden;
+}
+
+.theyLikeBetkup .theyLikeBetkupBloc .auteur {
+    text-align: right;
+    width: 280px;
+    font-family: quoteAuthor, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    color: #575756;
+    overflow: hidden;
+}

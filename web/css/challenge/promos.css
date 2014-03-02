@@ -1,0 +1,220 @@
+#breadcrumb {
+	width: 700px;
+	padding: 5px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.breadcrumb-separator {
+	color: #666666;
+	font: 12px Arial;
+}
+
+#breadcrumb a {
+	color: #666666;
+	font: 12px Arial;
+}
+#breadcrumb a.selected , #breadcrumb a:hover {
+	color: #f28a31;
+}
+
+#promo-image {
+	width: 542px;
+	height: 95px;
+	margin: 10px auto;
+}
+#promo-description {
+	width: 600px;
+	margin: 50px 0px 30px 50px;
+	line-height: 45px;
+}
+#promo-description p {
+	font: 14px Arial;
+	color: #666666;
+	text-align: justify;
+}
+
+#promo-bonnus {
+	width: 700px;
+	margin: 20px 0px;
+}
+
+#promo-bonnus table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 650px;
+	margin: 0px;
+	margin-left: 20px;
+}
+
+#promo-bonnus table td {
+	height: 30px;
+	font: 12px Arial;
+	color: #666666;
+	padding: 10px 0px;
+	vertical-align: middle;
+	text-align: left;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#promo-bonnus table td p {
+	font: bold 20px Arial;
+	color: #666666;
+	text-align: left;
+}
+
+#promo-bonnus table .colored {
+	color: #f18930;
+	font: 20px Futura, Arial;
+	text-align: center;
+	width: 120px;
+}
+
+.pellet-td {
+	width: 60px;
+	text-align: center;
+}
+
+.pellet {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 0px;
+	margin-right: 5px;
+	font: bold 12px Arial;
+	text-align: center;
+	color: #F18930;
+	background: url('/image/default/challenge/sprites_home.png') -140px -26px no-repeat;
+	line-height: 30px;
+}
+
+.arrow-td {
+	position: relative;
+	width: 200px;
+	text-align: center;
+	height: 30px;
+}
+
+.arrow-left {
+	position: absolute;
+	top: -20px;
+	right: 50%;
+	width: 30px;
+	height: 100px;
+	margin: 0px auto;
+	background: url('/image/default/challenge/sprites_home.png') 0px -10px no-repeat;
+    -moz-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+    -o-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+    -ms-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+    transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+        
+}
+
+#promo-bonnus table td.register {
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+	border: none;
+}
+
+#promo-bonnus table td.register a {
+	text-decoration: none;
+	border: none;
+	display: block;
+	margin: 0px auto;
+}
+
+#promo-bonnus table td.td-how-to {
+	text-align: center;
+	padding: 10px 0px 30px 0px;
+	border: none;
+}
+
+#promo-bonnus table td.td-how-to .table-promos-link-how-to {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: auto;
+	margin: 0px auto;
+}
+
+.table-promos-link-or {
+	font: 14px Verdana;
+	color: #666666;
+}
+
+#promo-bonnus table td.td-how-to .table-promos-link-how-to td {
+	vertical-align: middle;
+	border: none;
+	padding: 0px;
+}
+
+#promo-bonnus table td.td-how-to .table-promos-link-how-to .picto {
+	width: 20px;
+	height: 20px;
+	margin: 0px 5px 0px 0px;
+	background: url('/image/default/challenge/sprites_challenge.png') -109px -219px no-repeat;
+}
+
+
+#promo-bonnus table td.td-how-to a {
+	display: inline-block;
+	text-align: center;
+	color: #e8631d;
+	font: normal 14px Verdana;
+	margin-top: 5px;
+	line-height: 20px;
+}
+
+#promo-bonnus table td.td-how-to a:hover {
+	text-decoration: underline;
+}
+
+#more-infos {
+	font: bold 18px Arial;
+	color: #666666;
+	margin: 10px 0px 10px 10px;
+	padding-left: 10px;
+}
+
+#more-infos-contener {
+	width: 670px;
+	margin: 15px 0px 5px 15px;
+	display: none;
+}
+
+#more-infos-contener p {
+	font: 12px Arial;
+	color: #666666;
+	text-align: justify;
+}
+
+.img-more-info {
+	background: url('/image/default/faq/interface/btn_plus.png') center no-repeat;
+	width: 31px;
+	height: 31px;
+	cursor: pointer;
+}
+
+.open .img-more-info {
+	background: url('/image/default/faq/interface/btn_minus.png') center no-repeat;
+	width: 31px;
+	cursor: pointer;
+}
+
+.more-infos-link {
+	color: #e8631d;
+	font: normal 14px Arial;
+	text-decoration: none;
+}
+
+.more-infos-link:hover {
+	text-decoration: underline;
+}
+
+.small {
+	font: normal 12px Arial;
+}
+
+.important {
+	font: bold 14px Arial;
+	color: #000000;
+}

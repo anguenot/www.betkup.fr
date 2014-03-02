@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_w_2012_d1
+  typeSport: tennis
+  picto: tennis.png
+  category: Tennis > Wimbledon
+  events: 1 journée
+  picto_mini: picto_tennis_mini.png
+  document_path: /kup/tennis/w/2012/d1/document
+  vignette_kup_view: /kup/tennis/w/2012/d1/image/vignette_kup_view.png
+  vignette_home_view: /kup/tennis/w/2012/d1/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/tennis/w/2012/d1/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/tennis/w/2012/d1/image/vignette_room_kup_view.png  
+  vignette_edition_kup: /kup/tennis/w/2012/d1/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: tennis,kup_w_2012_daily
+  predictions_view_template: tennis,predictions
+  results_view_template: tennis,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right: 
+  img_prize_1:
+  img_prize_2: 
+  img_prize_3: 
+  prize_1_label:
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button: 

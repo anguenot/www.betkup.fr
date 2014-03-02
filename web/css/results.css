@@ -1,0 +1,112 @@
+.result table {
+	width: 730px;
+	margin-left: -12px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.result > table > thead > tr {
+	height: 40px; 
+	background-image: url('/images/kup/view/result/header_bg.png'); 
+	color: white;
+}
+
+.result > table > thead > tr > th {
+	font-weight: normal;
+}
+
+.result > table > tbody {
+	border-top: 10px solid white;	
+}
+
+.tableDivResultRowLabel {
+	width: 115px;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial;
+	color: #282828;
+}
+
+.result .round-select {
+	margin-top: 0px; 
+	width: 720px; 
+	height: 45px;
+}
+
+.no-results {
+	margin-top: 20px; 
+	width: 710px; 
+	height: 65px;
+}
+
+.thead-1 {
+	text-align: center; 
+	width: 340px;
+}
+.thead-2 {
+	text-align: center; 
+	width: 100px;
+}
+.thead-3 {
+	text-align: center; 
+	width: 100px;
+}
+.thead-4 {
+	text-align: center; 
+	width: 60px;
+}
+.thead-5 {
+	text-align: center; 
+	width: 60px;
+}
+.thead-6 {
+	text-align: center; 
+	width: 70px;
+}
+
+.result-row {
+	width: 339px; 
+	height: 50px;
+	border-bottom: 2px solid white;
+}
+
+.result-row-odd {
+	background-color: #EBEBEB;
+}
+
+.result-row-even {
+	background-color: #F4F4F4;
+}
+
+.result-row-table {
+	width: 339px; 
+	height:50px; 
+	margin:0px; 
+	border-spacing: 0px; 
+	border-collapse:collapse; 
+	white-space:nowrap;
+}
+
+.result-row-cell-1 {
+	text-align: center; 
+	width: 99px; 
+	height: 50px; 
+	border-bottom: 2px solid white; 
+	white-space:nowrap;
+}
+.result-row-cell-2 {
+	text-align: center; width: 99px; height: 50px; border-bottom: 2px solid white; white-space:nowrap; 
+}
+.result-row-cell-3 {
+	text-align: center; width: 59px; height: 50px; border-bottom: 2px solid white; white-space:nowrap;
+}
+.result-row-cell-4 {
+	text-align: center; width: 59px; height: 50px; border-bottom: 2px solid white;
+}
+.result-row-cell-5 {
+	text-align: center; width: 70px; height: 50px; border-bottom: 2px solid white;
+}
+
+.result-row .result-row-table {
+	width: 100%;
+}

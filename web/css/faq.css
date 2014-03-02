@@ -1,0 +1,206 @@
+a {
+	font-family: Arial;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.menu-link:hover {
+	text-decoration: none;
+}
+
+#faq-contener {
+	width: 720px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	display: block;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+/* HEADER */
+
+#faq-header {
+	background: url(/image/default/faq/interface/bg_header_faq.png) no-repeat;
+	width: 720px;
+	height: 122px;
+	display: block;
+	position: relative;
+}
+
+#title-faq-header {
+	background: url(/image/default/faq/interface/title_header.png) no-repeat;
+	width: 365px;
+	height: 63px;
+	display: block;
+	position: absolute;
+	margin-top: 50px;
+}
+
+#logo-faq-header {
+	background: url(/image/default/faq/interface/logo_betkup.png) no-repeat;
+	width: 265px;
+	height: 158px;
+	display: block;
+	position: absolute;
+	right: 30px;
+}
+
+/* MENU*/
+
+#faq-menu {
+	width: 720px;
+	height: 62px;
+	display: block;
+	position: relative;
+	padding-left: 5px;
+	margin-top: 20px;
+}
+
+.menu-link {
+	background: url(/image/default/faq/interface/btn_link.png) no-repeat;
+	width: 136px;
+	height: 48px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 4px;
+}
+
+.link-text {
+	width: 130px;
+	height: 48px;
+	line-height: 45px;
+	margin-left: 5px;
+	text-indent: 30px;
+	color: #FFFFFF;
+	text-align: left;
+	display: block;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.selected > .link-text {
+	color: #969695;
+}
+
+.pen {
+	background: url(/image/default/faq/interface/pen.png) 6px 10px no-repeat;
+	text-indent: 30px;
+}
+
+.selected > .pen {
+	background: url(/image/default/faq/interface/pen_hover.png) 6px 10px no-repeat;
+}
+
+.people {
+	background: url(/image/default/faq/interface/people.png) 10px 10px no-repeat;
+	text-indent: 30px;
+}
+
+.selected .people {
+	background: url(/image/default/faq/interface/people_hover.png) 10px 10px no-repeat;
+}
+
+.bill {
+	background: url(/image/default/faq/interface/bill.png) 4px 14px no-repeat;
+	text-indent: 40px;
+}
+
+.selected .bill {
+	background: url(/image/default/faq/interface/bill_hover.png) 4px 14px no-repeat;
+}
+
+.kup {
+	background: url(/image/default/faq/interface/kup.png) 5px 14px no-repeat;
+	text-indent: 30px;
+}
+
+.selected .kup {
+	background: url(/image/default/faq/interface/kup_hover.png) 5px 14px no-repeat;
+}
+
+.grid {
+	background: url(/image/default/faq/interface/grid.png) 4px 12px no-repeat;
+	text-indent: 35px;
+}
+
+.selected .grid {
+	background: url(/image/default/faq/interface/grid_hover.png) 4px 12px no-repeat;
+}
+
+.selected {
+	background: url(/image/default/faq/interface/btn_link_hover.png) no-repeat;
+	width: 139px;
+	height: 62px;
+}
+
+/* CONTENER*/
+
+#faq-content {
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#top-content {
+	background: url(/image/default/faq/interface/bg_faq_top.png) no-repeat;
+	width: 699px;
+	height: 10px;
+}
+
+#middle-content {
+	background: url(/image/default/faq/interface/bg_faq_middle.png) repeat-y;
+	background-position: -1px 0px;
+	width: 699px;
+	height: auto;
+	padding: 10px 50px 10px 50px;
+}
+
+#bottom-content {
+	background: url(/image/default/faq/interface/bg_faq_bottom.png) no-repeat;
+	background-position: -1px 0px;
+	width: 699px;
+	height: 8px;
+}
+
+.questions table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 600px;
+}
+
+.questions .image {
+	background: url(/image/default/faq/interface/btn_plus.png) center no-repeat;
+	width: 31px;
+}
+
+.questions table td.text {
+	text-align: left;
+	text-indent: 10px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #585856;
+}
+
+.questions table td.image, .questions table td.text {
+	height: 50px;
+	vertical-align: middle;
+}
+
+.answer {
+	display: none;
+}
+
+.answer td {
+	color: #585856;
+	font-family: Arial;
+	font-size: 12px;
+	padding-left: 50px;
+	text-align: left;
+	line-height: 18px;
+}

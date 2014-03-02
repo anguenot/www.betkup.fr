@@ -1,0 +1,160 @@
+* {
+	outline: 0;
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	display: block;
+}
+
+body {
+	font: normal 10px Verdana;
+	color: black;
+}
+
+#body-contener {
+	width: 758px;
+	border: 1px solid #BBC8DB;
+	border-top: 0px;
+	overflow: hidden;
+	margin: 0px auto;
+	position: relative;
+	display: block;
+}
+
+#header {
+	width: 758px;
+    height: 175px;
+    position: relative;
+    display: block;
+    background: url('/image/default/sport24/header_f1.png') top left repeat;
+}
+
+#header > .header-logo {
+	position: absolute;
+	left: 20px;
+	top:5px;
+}
+
+#header > #dashboard {
+	padding: 20px 20px 0px 0px;
+	position: absolute;
+	right: 0px;
+}
+
+#header > #dashboard table {
+	width: 400px;
+	height: 20px;
+}
+
+#header > #dashboard table td {
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#header > #dashboard table td p {
+	font: normal 10px Arial;
+	color: #CCCCCC;
+}
+
+#header > #dashboard table td p.left {
+	text-align: left;
+}
+
+#header > #dashboard table td p.right {
+	text-align: right;
+}
+
+#header > #header-sup-menu {
+	width: 758px;
+	height: 30px;
+	background: #000000;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzZTNlNDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #000000 0%, #3e3e40 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(100%,#3e3e40));
+	background: -webkit-linear-gradient(left,  #000000 0%,#3e3e40 100%);
+	background: -o-linear-gradient(left,  #000000 0%,#3e3e40 100%);
+	background: -ms-linear-gradient(left,  #000000 0%,#3e3e40 100%);
+	background: linear-gradient(left,  #000000 0%,#3e3e40 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#3e3e40',GradientType=1 );
+	position: absolute;
+	top: 110px;	
+}
+
+#header > #header-sup-menu > h2 {
+	float: left;
+	margin-left: 10px;
+	font: bold 14px Verdana;
+	color: white;
+	line-height: 30px;
+}
+
+#header > #header-sup-menu > p {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	text-align: left;
+	color: white;
+	font: italic 12px Arial;
+	width: 200px;
+	line-height: 30px;
+}
+
+#header > #header-sup-menu > p > a > .header-hosted {
+	display: block;
+	position: absolute;
+	margin-top: -50px;
+	right: 0;
+	background: url('/image/default/sport24/betkup_hover.png');
+	width: 84px;
+	height: 47px;
+}
+
+#header > #header-sup-menu > p > a:hover > .header-hosted {
+	background: url('/image/default/sport24/betkup.png');
+}
+
+#header #header-social-box {	
+	position: absolute;
+	right: 60px;
+	top: 80px;
+	text-align: left;
+	width: 150px;
+}
+
+#contents {
+	width: 758px;
+	height: auto;
+	min-height: 400px;
+}
+
+#footer {
+	width: 758px;
+    height: 65px;
+    background: url('/image/default/sport24/footer.png') center repeat;
+}
+
+#footer table {
+	width: 758px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	height: 65px;
+}
+
+#footer table td {
+	width: 189px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#footer table td a {
+	color: white;
+	text-decoration: none;
+	font: normal 12px Arial;
+}
+
+#footer table td a:hover {
+	text-decoration: underline;
+}

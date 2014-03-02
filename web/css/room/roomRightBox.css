@@ -1,0 +1,133 @@
+.public-box {
+	
+}
+
+.public-box .bg-top, .box_right_room_custom .bg-top {
+	width: 219px;
+	height: 6px;
+	background: url(/image/default/room/bg_right_top.png) center no-repeat;
+}
+
+.public-box .bg-top-green {
+	margin-top: -2px;
+	width: 213px;
+	height: 10px;
+	background: url(/image/default/room/top_right_box_green.png) right repeat-x;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.public-box .bg-middle, .box_right_room_custom .bg-middle {
+	width: 219px;
+	background: url(/image/default/room/bg_right_middle.png) center repeat-y;
+}
+
+.public-box .bg-bottom, .box_right_room_custom .bg-bottom {
+	width: 219px;
+	height: 6px;
+	background: url(/image/default/room/bg_right_bottom.png) center no-repeat;
+}
+
+.box_right_room_custom .how-to-box-title {
+	position: absolute;
+	width: 227px;
+	height: 45px;
+	margin-left: -4px;
+	color: #F3F3F3;
+	font: normal 18px BotonMediumCustom;
+	text-shadow: -1px -1px 2px black;
+	filter: dropshadow(color=#000000, offx=-1, offy=-1);
+	line-height: 40px;
+}
+
+.public-box .table-public-box-title {
+	width: 195px;
+	margin: 20px auto 0px auto;
+}
+
+.public-box .title {
+	font: bold 12px Arial;
+	padding: 5px 0 0 0;
+	color: #282828;
+}
+
+.public-box .message {
+	color: #575757;
+	font: bold 12px Arial;
+	width: 180px;
+	margin: 15px auto 15px auto;
+}
+
+.public-box .table-public-box-infos {
+	width: 190px;
+	margin: 0px auto 0px auto;
+}
+
+.public-box .message-info {
+	font: normal 10px Arial;
+	color: #575757;
+}
+
+.public-box .join {
+	width: 103px;
+	margin: 15px auto 0px auto;
+}
+
+.right-box-title {
+	width: 168px;
+	height: 47px;
+	position: absolute;
+	right: -10px;
+	color: #F3F3F3;
+	font: normal 18px BotonMediumCustom;
+	text-align: left;
+	text-indent: 30px;
+	text-shadow: -1px -1px 2px black;
+	filter: dropshadow(color=#000000, offx=-1, offy=-1);
+	line-height: 40px;
+}
+
+.prizes-table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 200px;
+}
+
+.prizes-table tr {
+    border-bottom: 1px dashed #CCC;
+}
+.prizes-table tr:last-child {
+    border: none;
+}
+
+.prizes-table td {
+    padding: 3px 0;
+	vertical-align: middle;
+}
+
+.prizes-table td p {
+	font: normal 12px Arial, sans-serif;
+	color: #666666;
+}
+
+.positions-image {
+	width: 20px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.positions-label {
+	width: 40px;
+	text-align: center;
+}
+
+.positions-label h4 {
+	font: bold 12px Arial;
+	line-height: 25px;
+}
+
+.prize-label {
+	text-align: left;
+	padding-left: 10px;
+}
+

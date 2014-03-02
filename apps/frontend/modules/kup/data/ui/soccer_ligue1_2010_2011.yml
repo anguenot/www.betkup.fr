@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_ligue1_2010_2011
+  typeSport: soccer
+  picto: foot.png
+  category: Football > FR Ligue 1
+  events: 23 journées
+  picto_mini: picto_foot_mini.png
+  document_path: /kup/soccer/ligue1/2012/match_match/document
+  vignette_kup_view: /kup/soccer/ligue1/2012/match_match/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/ligue1/2012/match_match/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/ligue1/2012/match_match/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/ligue1/2012/match_match/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/ligue1/2012/match_match/image/vignette_edition_kup.png
+  isPrizes: 1
+  rules_view_template: soccer,kup_ligue1_2010_2011
+  predictions_view_template: soccer,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 500
+  img_box_right: /kup/soccer/ligue1/2012/match_match/image/img_box_right.png
+  img_prize_1: /kup/soccer/ligue1/2012/match_match/image/img_prize_1.png
+  img_prize_2: /kup/soccer/ligue1/2012/match_match/image/img_prize_2.png
+  img_prize_3: /kup/soccer/ligue1/2012/match_match/image/img_prize_3.png
+  prize_1_label: label_kup_ligue1_2010_2011_prize_1
+  prize_2_label: label_kup_ligue1_2010_2011_prize_2
+  prize_3_label: label_kup_ligue1_2010_2011_prize_3
+  box_prizes_button: /kup/soccer/ligue1/2012/match_match/image/box_prizes_button.png

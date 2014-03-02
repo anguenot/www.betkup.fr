@@ -1,0 +1,45 @@
+#count-down {
+	width: 100%;
+}
+
+#count-down-table {
+	margin: 0px auto;
+	width: 600px;
+}
+
+#count-down-table td {
+	vertical-align: middle;
+}
+
+#count-down-chrono {
+	margin: 10px auto;
+	width: 277px;
+	height: 80px;
+	background: url('/image/default/tennis/count_down.png');
+}
+
+#count-down-table td p {
+	font: bold 22px Arial;
+	color: #C85A19;
+	padding-left: 20px;
+	padding-right: 0px;
+}
+
+#chrono table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 277px;
+	height: 80px;
+}
+
+#chrono table th {
+	width: 69px;
+	font: bold 34px Arial;
+	color: white;
+	padding-top: 10px;
+}
+
+.line-infos td {
+	color: white;
+	text-align: center;
+}

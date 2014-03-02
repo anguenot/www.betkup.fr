@@ -1,0 +1,88 @@
+# $Id: app.yml 6567 2012-11-27 17:30:11Z anguenot $
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# MAKE SURE TO NOT COMMIT ANY MODIFICATIONS IN THIS FILE UNLESS REQUIRED
+# THIS IS USUALLY A GOOD IDEA TO DO A SVN:IGNORE ON THIS FILE WITHIN YOUR
+# IDE TO AVOID COMMITTING IT BY MISTAKE
+all:
+  is_secure_ssl: true;
+  profile: gambling # free / gambling
+  profile_gambling: gambling
+  profile_free: free
+  url_cgu:
+    free: /cgu_free.pdf
+    gambling: /doc/CGU_Betkup.pdf
+  url_rule:
+    free: /regles_free.pdf
+    gambling: /doc/Rules_Betkup.pdf
+  sofun:
+    protocol: http://
+    domain: api.sofungaming.com
+    consumer_key: cac383dba35fb6f7eef12ba8cee504c6
+    consumer_secret: 4a85d20e5cbad626a494f75d233cd688
+    community_id: 1
+  facebook:
+    betkup_page_id: 119909761356930
+    betkup_page_url: http://www.facebook.com/betkup
+    connect_app_id: 116122878412744
+    connect_app_secret: 4589eb615a28f50469b820f01715ff63
+    connect_app_scope: email,user_birthday
+  recaptcha:
+    private_key: 6LczVsUSAAAAANkxN1kj0pqvgInybs1R7CIJZrXu
+    public_key: 6LczVsUSAAAAAOxYXGZ9qTxbBcds5GIHrdDSzUIU
+  crypto:
+    password_hash: sha512
+  analytics:
+    google:
+  .array:
+    memcache:
+      servers:
+        server_01:
+          host: localhost
+          port: 11211
+  kup_status:
+    all_opened : ALL_OPENED
+    all_closed : ALL_CLOSED
+    all : ALL
+  redirection_filter:
+    namespace_name: betkupRedirectionFilterNamespace
+    success_login: me/index
+    success_logout: home/index
+  tracking_filter:
+    cookie_name: betkup_partner_tracking_code
+    param_name: PARTNER
+    registration_simple_complete: betkup_registration_simple_complete
+    registration_advanced_complete: betkup_registration_advanced_complete
+  room:
+    privacy_public: PUBLIC
+    privacy_public_gambling_fr: PUBLIC_GAMBLING_FR
+  credentials:
+    account_type_gambling_fr: GAMBLING_FR
+    account_type_gambling_fr_verified: VERIFIED_FR
+  kup_search_params:
+    sports: SPORTS
+    stake: STAKE
+    status: status
+    sorting: SORTING
+    other: OTHER
+  params_type:
+    sports_all: ALL
+    sports_soccer: SOCCER
+    sports_rugby: RUGBY
+    sports_f1: F1
+    sports_tennis: TENNIS
+    stake_all: ALL
+    stake_free: FREE
+    stake_freerolls: FREEROLLS
+    stake_payable: PAYABLE
+    duration_all: ALL
+    duration_in_progress: IN_PROGRESS
+    duration_in_comming: IN_COMMING
+    duration_closed: CLOSED
+    sorting_start_date: START_DATE
+    sorting_jackpot: JACKPOT
+    sorting_participants: PARTICIPANTS
+    sorting_kup_duration: KUP_DURATION
+    other_public_room: PUBLIC_ROOM
+    other_without_user_kup: WITHOUT_USER_KUP

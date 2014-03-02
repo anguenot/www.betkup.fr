@@ -1,0 +1,193 @@
+ui:
+  roomName: MediaPronos
+  header-logo: /partner/mediaPronos/image/sofun-logo.png
+  avatar-room: /partner/mediaPronos/image/avatar_room.png
+  text_room_welcome_text: text_room_mediaPronos_welcome_text
+  room_welcome_background: /partner/mediaPronos/image/box_welcome_mediaPronos.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/mediaPronos/image/header_logo.png
+  header-room-logo-size: 96x83
+  header-bg: /partner/mediaPronos/image/header_bg_room.png
+  kup-header-bg: /partner/mediaPronos/image/header_bg_kup.png
+  path-img-title-bg: /partner/mediaPronos/image/title.png
+  path-img-title-question: /partner/mediaPronos/image/header_question_mediaPronos.png
+  path-img-title-kup: /partner/mediaPronos/image/header_kup_mediaPronos.png
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  body-bg-color: '#000000'
+  body-bg-img: /partner/mediaPronos/image/bg_room_mediaPronos.png
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/mediaPronos/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/mediaPronos/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  path-img-list: /partner/mediaPronos/image/list
+  show-box-news: 0
+  show-box-facebook: 0
+  show-box-prizes: 1
+  isBoxPrizesCustom: 1
+  box-prize-title-bg: /partner/mediaPronos/image/box_title_prizes.png
+  img-box-prizes: /partner/mediaPronos/image/prizes_mediaPronos.png
+  img_box-prizes-size: 150x97
+  total-prizes: 6
+  prizes-1-positions: '1er'
+  prizes-2-positions: '2e'
+  prizes-3-positions: '3e'
+  prizes-4-positions: '4e'
+  prizes-5-positions: '5e-7e'
+  prizes-6-positions: '8e-10e'
+  prizes-1-label: 'Maillot de Football'
+  prizes-2-label: 'Fifa 13 ou PES 13'
+  prizes-3-label: 'Ballon de foot'
+  prizes-4-label: '15€ de bonus'
+  prizes-5-label: '10€ de bonus'
+  prizes-6-label: '5€ de bonus'
+  kups:
+    419416701:
+      prize_value: 210
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/mediaPronos/kups/weekly/image
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      img_prize_6: img_prize_6.png
+      box-prizes:  /partner/mediaPronos/kups/weekly/image/img_box_right.png
+      box-prizes-size: 99x84
+      box_prizes_button:
+      box-how-work: /partner/mediaPronos/image/box_title_howto.png
+      box-prize-title-bg: /partner/mediaPronos/image/box_title_prizes.png
+      img-box-prizes: /partner/mediaPronos/image/prizes_mediaPronos.png
+      img_box-prizes-size: 99x84
+      total-prizes: 6
+      prizes-1-positions: '1er'
+      prizes-2-positions: '2e '
+      prizes-3-positions: '3e'
+      prizes-4-positions: '4e'
+      prizes-5-positions: '5e-7e'
+      prizes-6-positions: '8e-10e'
+      prizes-1-label: 'Maillot de Football'
+      prizes-2-label: 'Fifa 13 ou PES 13'
+      prizes-3-label: 'Ballon de foot'
+      prizes-4-label: '15€ de bonus'
+      prizes-5-label: '10€ de bonus'
+      prizes-6-label: '5€ de bonus'
+      prizes-1-label-details: 'Maillot de football au choix (80€)'
+      prizes-2-label-details: 'Fifa 13 ou PES 13 (60€)'
+      prizes-3-label-details: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+      prizes-4-label-details: '15€ Freebet'
+      prizes-5-label-details: '10€ de bonus'
+      prizes-6-label-details: '5€ Freebeet'
+    419416702:
+      prize_value: 210
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/mediaPronos/kups/weekly/image
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      img_prize_6: img_prize_6.png
+      box-prizes:  /partner/mediaPronos/kups/weekly/image/img_box_right.png
+      box-prizes-size: 99x84
+      box_prizes_button:
+      box-how-work: /partner/mediaPronos/image/box_title_howto.png
+      box-prize-title-bg: /partner/mediaPronos/image/box_title_prizes.png
+      img-box-prizes: /partner/mediaPronos/image/prizes_mediaPronos.png
+      img_box-prizes-size: 99x84
+      total-prizes: 6
+      prizes-1-positions: '1er'
+      prizes-2-positions: '2e '
+      prizes-3-positions: '3e'
+      prizes-4-positions: '4e'
+      prizes-5-positions: '5e-7e'
+      prizes-6-positions: '8e-10e'
+      prizes-1-label: 'Maillot de Football'
+      prizes-2-label: 'Fifa 13 ou PES 13'
+      prizes-3-label: 'Ballon de foot'
+      prizes-4-label: '15€ de bonus'
+      prizes-5-label: '10€ de bonus'
+      prizes-6-label: '5€ de bonus'
+      prizes-1-label-details: 'Maillot de football au choix (80€)'
+      prizes-2-label-details: 'Fifa 13 ou PES 13 (60€)'
+      prizes-3-label-details: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+      prizes-4-label-details: '15€ Freebet'
+      prizes-5-label-details: '10€ de bonus'
+      prizes-6-label-details: '5€ Freebeet'
+    419416703:
+      prize_value: 210
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/mediaPronos/kups/weekly/image
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      img_prize_6: img_prize_6.png
+      box-prizes:  /partner/mediaPronos/kups/weekly/image/img_box_right.png
+      box-prizes-size: 99x84
+      box_prizes_button:
+      box-how-work: /partner/mediaPronos/image/box_title_howto.png
+      box-prize-title-bg: /partner/mediaPronos/image/box_title_prizes.png
+      img-box-prizes: /partner/mediaPronos/image/prizes_mediaPronos.png
+      img_box-prizes-size: 99x84
+      total-prizes: 6
+      prizes-1-positions: '1er'
+      prizes-2-positions: '2e '
+      prizes-3-positions: '3e'
+      prizes-4-positions: '4e'
+      prizes-5-positions: '5e-7e'
+      prizes-6-positions: '8e-10e'
+      prizes-1-label: 'Maillot de Football'
+      prizes-2-label: 'Fifa 13 ou PES 13'
+      prizes-3-label: 'Ballon de foot'
+      prizes-4-label: '15€ de bonus'
+      prizes-5-label: '10€ de bonus'
+      prizes-6-label: '5€ de bonus'
+      prizes-1-label-details: 'Maillot de football au choix (80€)'
+      prizes-2-label-details: 'Fifa 13 ou PES 13 (60€)'
+      prizes-3-label-details: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+      prizes-4-label-details: '15€ Freebet'
+      prizes-5-label-details: '10€ de bonus'
+      prizes-6-label-details: '5€ Freebeet'
+    419416704:
+      prize_value: 210
+      isCustom: 1
+      path_img_kup_perso_prizes: /partner/mediaPronos/kups/weekly/image
+      img_prize_1: img_prize_1.png
+      img_prize_2: img_prize_2.png
+      img_prize_3: img_prize_3.png
+      img_prize_4: img_prize_4.png
+      img_prize_5: img_prize_5.png
+      img_prize_6: img_prize_6.png
+      box-prizes:  /partner/mediaPronos/kups/weekly/image/img_box_right.png
+      box-prizes-size: 99x84
+      box_prizes_button:
+      box-how-work: /partner/mediaPronos/image/box_title_howto.png
+      box-prize-title-bg: /partner/mediaPronos/image/box_title_prizes.png
+      img-box-prizes: /partner/mediaPronos/image/prizes_mediaPronos.png
+      img_box-prizes-size: 99x84
+      total-prizes: 6
+      prizes-1-positions: '1er'
+      prizes-2-positions: '2e '
+      prizes-3-positions: '3e'
+      prizes-4-positions: '4e'
+      prizes-5-positions: '5e-7e'
+      prizes-6-positions: '8e-10e'
+      prizes-1-label: 'Maillot de Football'
+      prizes-2-label: 'Fifa 13 ou PES 13'
+      prizes-3-label: 'Ballon de foot'
+      prizes-4-label: '15€ de bonus'
+      prizes-5-label: '10€ de bonus'
+      prizes-6-label: '5€ de bonus'
+      prizes-1-label-details: 'Maillot de football au choix (80€)'
+      prizes-2-label-details: 'Fifa 13 ou PES 13 (60€)'
+      prizes-3-label-details: 'Ballon de foot Replica officiel Adidas L1 (25€)'
+      prizes-4-label-details: '15€ Freebet'
+      prizes-5-label-details: '10€ de bonus'
+      prizes-6-label-details: '5€ Freebeet'

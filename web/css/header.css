@@ -1,0 +1,36 @@
+.mainHeader {
+    background-color: black;
+    height: 60px;
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainHeader .contentHeader {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+#top {
+	height: 60px;
+	z-index: 10;
+}
+
+.popupConnection {
+    position: absolute;
+    width: 310px;
+    height: 300px;
+    margin-left: 50px;
+    top: 32px;
+    background: url('/images/header/popupConnection/background.png') center;
+    z-index: 100;
+}
+
+#form_message {
+  display: none;
+  font-weight: bold;
+  color: red;
+}

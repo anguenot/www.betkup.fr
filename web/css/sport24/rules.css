@@ -1,0 +1,197 @@
+.line-separator {
+	height: 20px;
+}
+
+#contents table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#contents table#table-top {
+	width: 730px;
+	margin: 0px auto;
+}
+
+#contents table#table-top th {
+	border-bottom: 1px solid #CCCCCC;
+	text-align: left;
+}
+
+#contents table#table-top th p {
+	font: normal 12px Arial;
+	color: #333333;
+	margin: 15px 0px 5px 0px;
+	padding: 0px;
+}
+
+#contents table#table-top th h1 {
+	color: #333333;
+	font: bold 20px Arial;
+	margin: 5px 0px 10px 0px;
+	padding: 0px;
+}
+
+#contents table#table-top tr {
+	border-bottom: 1px solid #CCC;
+}
+
+#contents table#table-top tr.no-style {
+	border: none;
+}
+
+#contents table#table-top td {
+	padding-top: 10px;
+	vertical-align: top;
+	text-align: center;
+}
+
+#contents table#table-top td h2, #prizes #table-bottom th h2 {
+	color: #C00203;
+	font: bold 16px Arial;
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+#prizes #table-bottom th h2.center {
+	text-align: center;
+	padding-top: 5px;
+}
+
+#contents table#table-top td p {
+	color: #333333;
+	font: normal 12px Arial;
+	margin: 5px 0px 5px 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+#contents table#table-top td h3 {
+	color: #333333;
+	font: bold 14px Arial;
+	margin: 10px 0px 5px 20px;
+	padding: 0px;
+	text-align: left;
+}
+
+#prizes {
+	width: 730px;
+	margin: 40px auto;
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#prizes #table-bottom {
+	width: 690px;
+	margin: 0px auto;
+}
+#prizes #table-bottom th {
+	height: 30px;
+}
+
+#prizes #table-bottom td {
+	vertical-align: middle;
+	text-align: left;
+}
+
+#prizes #table-bottom tr.center td, #prizes #table-bottom td.center {
+	text-align: center;
+}
+
+#prizes #table-bottom tr.center table {
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+#prizes #table-bottom .bg-pics {
+	background-color: #F0F0F0;
+	padding: 5px;
+}
+
+#prizes #table-bottom .jackpot {
+	width: auto;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#prizes #table-bottom .offered-by {
+	float: right;
+	padding-top: 70px;
+	margin-right: 40px;
+}
+
+#prizes #table-bottom td .title-td-table td {
+	height: 45px;
+	text-align: left;
+}
+
+#prizes #table-bottom td .title-td-table td h3 {
+	margin-left: 10px;
+}
+
+#prizes #table-bottom td h3 {
+	font: bold 16px Arial;
+	color: #b8c714;
+	margin: 0px;
+	text-align: left;
+}
+
+#prizes #table-bottom td p {
+	font: normal 12px Arial;
+	color: #777777;
+	text-align: center;
+}
+
+#prizes #table-bottom td h4 {
+	font: bold 20px Arial;
+	color: #C00203;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+#prizes #table-bottom .voucher {
+	width: 213px;
+	text-align: center;
+	margin: 0px 5px;;
+	postition: relative;
+	height: 270px;
+}
+
+
+#prizes #table-bottom .table-oreca {
+	height: 270px;
+}
+#prizes #table-bottom .oreca-store {
+	position: absolute;
+	width: 199px;
+	height: 58px;
+	left: 50%;
+	margin-top: -70px;
+	margin-left: -100px;
+}
+
+.rules-link {
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	color: #333333;
+	font: normal 14px Arial;
+	float: right;
+	margin: 10px 5px 15px 20px;
+}
+
+.rules-link:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

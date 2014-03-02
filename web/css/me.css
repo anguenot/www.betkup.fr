@@ -1,0 +1,196 @@
+.me .title-me {
+	margin-left: -15px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.me .rightroom {
+	top: 435px;
+}
+
+.me .todolist {
+	position: absolute;
+	right: -12px;
+	width: 228px;
+	background-repeat: no-repeat;
+}
+
+.me .todolist .bar {
+	position: relative;
+	width: 237px;
+	height: 38px;
+	top: 68px;
+	left: 34px;
+}
+
+.me .todolist .bar-empty {
+	background: url(/image/default/me/empty_bar.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 21px;
+	width: 159px;
+	z-index: 1;
+}
+
+.me .todolist .bar-progress {
+	background: url(/image/default/me/bar_progress.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 21px;
+	width: 159px;
+	z-index: 2;
+}
+
+.me .todolist .bar-progress .percentage {
+	margin: 4px auto;
+	text-align: left;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000;
+	padding-left: 70px;
+}
+
+.me .todolist .list {
+    left: 30px;
+    position: relative;
+    top: 65px;
+}
+
+.me .todolist .point-check, .me .todolist .point-uncheck {
+	padding-left: 35px;
+	padding-top: 5px;
+	width: 140px;
+	height: 30px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+.me .todolist .point-check {
+	color: #c4c4c4;
+	background: url(/image/default/me/check.png) no-repeat 0 0;
+}
+.me .todolist .point-uncheck {
+	color: #4c4d4f;
+	background: url(/image/default/me/uncheck.png) no-repeat 0 0;
+}
+.me .todolist .point-uncheck a {
+	color: #4c4d4f;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.me .todolist .point-uncheck img {
+	margin-left: 5px;
+}
+.me .todolist .point-uncheck a:hover {
+	text-decoration: underline;
+}
+
+.me .dashboard {
+	width: 710px;
+	height: 206px;
+	position: relative;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.me .dashboard > img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.me .dashboard .close {
+	position: absolute;
+	left: 665px;
+	top: 20px;
+	cursor: pointer;
+}
+
+.me .dashboard a {
+	font-size: 12px;
+	color: #888;
+	text-decoration: underline;
+}
+.me .dashboard a:hover {
+	color: #e55a19;
+}
+
+.me .dashboard .intro-header {
+	position: absolute;
+	top: 31px;
+	left: 50px;
+	color: #4c4d4f;
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.me .dashboard .intro-content {
+	position: absolute;
+	top: 58px;
+	left: 22px;
+	color: #4c4d4f;
+	font-size: 12px;
+	font-family: Arial;
+	
+}
+
+.me .dashboard .see-home {
+    left: 100px;
+    position: absolute;
+    top: 137px;
+    width: 100px;
+}
+
+.me .dashboard .how-to-play {
+	position: absolute;
+    left: 290px;
+    top: 137px;
+    width: 127px;
+}
+
+.me .dashboard .rid-todo {
+    position: absolute;
+    top: 137px;
+    width: 120px;
+    left: 500px;
+}
+
+.me .footer {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+}
+
+.me .room-with-kups .footer {
+	position: absolute;
+	right: 18px;
+	bottom: 5px;
+}
+
+.me .no-element {
+    position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4c4d4f;
+	margin: 30px 0 50px 15px;
+}
+
+.me .no-element-supplement {
+    position: relative;
+    height: 200px;
+    width: 700px;
+}
+
+.me .alert {
+	float: left; 
+	margin-top: 2px; 
+	margin-right: 5px;
+}

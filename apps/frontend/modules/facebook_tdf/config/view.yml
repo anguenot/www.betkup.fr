@@ -1,0 +1,26 @@
+default:
+  stylesheets:    [sofun_bootstrap/scaffolding.css, facebook_tdf/layout.css]
+  has_layout:     true
+  layout:         layout_facebook_tdf
+
+homeSuccess:
+  stylesheets:    [facebook_tdf/home.css, facebook_tdf/chrono.css]
+  javascripts:    [jquery.urldecoder.min.js, datetime.js, php.default.min.js, loading.js, loading-contents-2.js]
+  
+predictionsSuccess:
+  stylesheets:    [facebook_tdf/predictions.css, facebook_tdf/chrono.css]
+  javascripts:    [jquery.urldecoder.min.js, datetime.js, php.default.min.js]
+
+rulesSuccess:
+  stylesheets:    [facebook_tdf/rules.css]
+ 
+resultsSuccess:
+   stylesheets:    [facebook_tdf/results.css]
+
+rankingSuccess:
+  stylesheets:    [kupview.css, facebook_tdf/ranking.css, interface/pagination.css, cycling/selectmenu.css]
+  javascripts:    [jquery.urldecoder.min.js, datetime.js, php.default.min.js, loading.js, loading-contents-2.js, f1.js, serialize-to-json.js]
+
+likePageSuccess:
+  has_layout:     true
+  layout:         layout_like_facebook_tdf

@@ -1,0 +1,15 @@
+default:
+  metas:
+    title:       text_challenge_page_title
+    description: text_challenge_page_description
+  has_layout:    true
+  layout:        layout_int
+  
+homeSuccess:
+  stylesheets:   [my-account.css, challenge/home.css, kup.css, challenge/tabbar.css, tabsHome.css, room.css]
+
+promosSuccess:
+  metas:
+    title:       text_promos_page_title
+    description: text_promos_page_description
+  stylesheets:   [my-account.css, challenge/promos.css, kup.css, challenge/tabbar.css, tabsHome.css, room.css]

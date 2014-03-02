@@ -1,0 +1,287 @@
+.rules-container {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.rules-container h3 {
+    font: bold 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5b7a8e;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.rules-container h1 {
+    font: bold 28px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    color: #5b7a8e;
+}
+
+.rules-table {
+    width: 100%;
+}
+
+.rules-table td {
+    border-top: 2px solid #a6aaad;
+    width: 50%;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.rules-table td.no-line {
+    border: none;
+}
+
+.rules-table td h2 {
+    font: bold 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    color: #5b7a8e;
+}
+
+.rules-table td p {
+    font: normal 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5b7a8e;
+    margin: 5px;
+    text-align: justify;
+}
+
+.rules-prize-image-1 {
+    display: inline-block;
+    width: 340px;
+    height: 191px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -29px -39px no-repeat;
+}
+
+.rules-prize-image-2 {
+    display: inline-block;
+    width: 289px;
+    height: 139px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -445px -81px no-repeat;
+}
+
+.rules-prize-image-3 {
+    display: inline-block;
+    width: 252px;
+    height: 187px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -52px -283px no-repeat;
+}
+
+.prizes-box {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 10px;
+    border: 1px solid #393B38;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.prize-box {
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F4;
+    text-align: center;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #DCDCDC;
+}
+
+.prize-box p {
+    width: 100%;
+    font: normal 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #5B7A8E;
+    line-height: 21px;
+}
+
+.prize-image-1 {
+    display: inline-block;
+    width: 157px;
+    height: 213px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -398px -341px no-repeat;
+}
+
+.prize-image-2 {
+    display: inline-block;
+    width: 209px;
+    height: 212px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -640px -343px no-repeat;
+}
+
+.prize-image-3 {
+    display: inline-block;
+    width: 195px;
+    height: 195px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -401px -603px no-repeat;
+}
+
+.prize-image-4 {
+    display: inline-block;
+    width: 226px;
+    height: 189px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -85px -533px no-repeat;
+}
+
+.prize-image-5 {
+    display: inline-block;
+    width: 157px;
+    height: 213px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -398px -341px no-repeat;
+}
+
+.prize-image-6 {
+    display: inline-block;
+    width: 226px;
+    height: 179px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -64px -790px no-repeat;
+}
+
+.prize-image-7 {
+    display: inline-block;
+    width: 213px;
+    height: 211px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -389px -864px no-repeat;
+}
+
+.prize-image-8 {
+    display: inline-block;
+    width: 213px;
+    height: 207px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -646px -865px no-repeat;
+}
+
+.prize-image-9 {
+    display: inline-block;
+    width: 213px;
+    height: 202px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -69px -990px no-repeat;
+}
+
+.prize-image-10 {
+    display: inline-block;
+    width: 180px;
+    height: 86px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -337px -1096px no-repeat;
+}
+
+.prize-box .bills {
+    position: absolute;
+    top: 0;
+}
+
+.prize-box .bill-big {
+    top: 90px;
+    left: 30px;
+    width: 47px;
+    height: 50px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -549px -1112px no-repeat;
+}
+
+.prize-box .bill-medium {
+    top: 50px;
+    right: 40px;
+    width: 42px;
+    height: 39px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -615px -1122px no-repeat;
+}
+
+.prize-box .bill-small {
+    top: 120px;
+    right: 70px;
+    width: 22px;
+    height: 15px;
+    background: url('/image/default/facebook_ligue1_2012/prizes/sprites_prizes_rules.png') -688px -1136px no-repeat;
+}
+
+
+.prize-box h1 {
+    font: normal 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 150px;
+}
+
+.prize-value {
+    color: #7698AC;
+}
+
+.prizes-title {
+    display: block;
+    text-align: left;
+    height: 40px;
+}
+
+.prizes-title h1 {
+    display: inline-block;
+    font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #c5cd09;
+    float: left;
+    text-indent: 10px;
+    line-height: 38px;
+}
+
+.prizes-title .pellet {
+    display: inline-block;
+    width: 39px;
+    height: 38px;
+    float: left;
+    background: url('/image/default/tdf/interface/sprite_interface.png') -94px -237px no-repeat;
+}
+
+.rules-table .rules-scale {
+    width: 100%;
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+
+.rules-table .rules-scale th, .rules-table .rules-scale td {
+    border: none;
+    vertical-align: middle;
+    height: 40px;
+    font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    padding: 0px;
+}
+
+.rules-table .rules-scale .odd td, .rules-table .rules-scale .odd th {
+    background: #dcdcdc;
+}
+
+.rules-table .rules-scale .even td, .rules-table .rules-scale .even th {
+    background: #f2f2f4;
+}
+
+.rules-table .rules-scale .left {
+    text-align: left;
+    text-indent: 10px;
+}
+
+.rules-table .rules-scale .odd .no-bg {
+    background: none;
+}
+
+.rules-table .rules-scale td.ticker {
+    text-align: center;
+}
+
+.rules-table .rules-scale td.ticker div {
+    display: inline-block;
+    width: 31px;
+    height: 28px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -101px -483px;
+}
+
+.rules-table .rules-scale .small-td {
+    width: 10%;
+}

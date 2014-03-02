@@ -1,0 +1,25 @@
+.room_tabbar {
+	margin: 0px auto 0px auto; 
+	padding: 0px;
+	width: 742px;
+	height: 46px;
+}
+
+.tabs-off {
+	background: url(/image/default/room/tab_off.png) center no-repeat;
+	width: 140px;
+	height: 46px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 2px;
+	cursor: pointer;
+}
+
+.tabs-on {
+	background: url(/image/default/room/tab_on.png) center no-repeat;
+	width: 149px;
+	height: 46px;
+	position: absolute;
+	margin-top: 2px;
+	cursor: pointer;
+}

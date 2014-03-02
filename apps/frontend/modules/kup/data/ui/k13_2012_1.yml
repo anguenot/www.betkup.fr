@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_k13_1
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > K13
+  events: 13 matchs
+  document_path: /kup/soccer/k13/2012/1/document
+  vignette_kup_view: /kup/soccer/k13/2012/1/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/k13/2012/1/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/k13/2012/1/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/k13/2012/1/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/k13/2012/1/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_k13_2012_1
+  predictions_view_template: k8,predictions
+  predictions_view_template_header: header_k13.png
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:

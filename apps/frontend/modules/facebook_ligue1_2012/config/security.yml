@@ -1,0 +1,12 @@
+default:
+  is_secure: true
+  credentials: member
+
+facebookConnect:
+  is_secure: false
+
+landingPage:
+  is_secure: false
+
+likePage:
+  is_secure: false

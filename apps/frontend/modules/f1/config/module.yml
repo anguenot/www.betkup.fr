@@ -1,0 +1,16 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+all:
+  prediction_type:
+    ranking: f1_driver_ranking
+    grid: f1_driver_grid
+    bestlap: f1_driver_best_lap
+    cycling_maillot_jaune: cycling_maillot_jaune
+    cycling_maillot_blanc: cycling_maillot_blanc
+    cycling_maillot_vert: cycling_maillot_vert
+    cycling_maillot_apois: cycling_maillot_apois
+    cycling_podium_individual: cycling_podium_individual
+    cycling_podium_team: cycling_podium_team
+  kup_type: 
+    free: FREE
+    gambling_fr: GAMBLING_FR

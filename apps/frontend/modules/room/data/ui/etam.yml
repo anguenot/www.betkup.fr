@@ -1,0 +1,36 @@
+ui:
+  roomName: Groupe Etam
+  header-logo: /partner/etam/image/sofun-logo.png
+  avatar-room: /partner/etam/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/etam/image/header_logo.png
+  header-bg: /partner/etam/image/header_bg_room.png
+  kup-header-bg: /partner/etam/image/header_bg_kup.png
+  path-img-title: /partner/etam/image/title
+  path-img-list: /partner/etam/image/list
+  isPictoPerso : 1
+  path-img-picto: /partner/etam/image/picto
+  tab-picto-text-color: '#0050DC'
+  isBgPerso: 1
+  body-bg-img: /partner/etam/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  body-bg-color: '#DCDCDC'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#003AA0'
+  header-hosted-logo: /partner/etam/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/etam/image/box_how_work_bg.png
+  size-box-how-work: big
+  box-how-work-link: http://etam.betkup.fr
+  show-box-prizes: 1
+  box-prizes: /partner/etam/image/box_prizes.png
+  box-prizes-button: /partner/etam/image/box_prizes_button.png
+  show-box-news: 0
+  box-news: /partner/etam/image/box_news_bg.png
+  show-box-facebook: 0
+  box-facebook: /partner/etam/image/box_fb_bg.png
+  path_img_kup_perso_prizes: /partner/etam/image/kupPrizes
+  array_kup_perso_prizes: ['2903']
+  path_document_kup_perso_rules: /partner/etam/document
+  array_kup_perso_rules_pdf: ['']

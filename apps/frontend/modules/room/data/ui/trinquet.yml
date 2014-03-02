@@ -1,0 +1,33 @@
+ui:
+  roomName: Au Trinquet
+  header-logo: /partner/trinquet/image/sofun-logo.png
+  avatar-room: /partner/trinquet/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/trinquet/image/header_logo.png
+  header-bg: /partner/trinquet/image/header_bg_room.png
+  kup-header-bg: /partner/trinquet/image/header_bg_kup.png
+  path-img-title: /partner/trinquet/image/title
+  path-img-list: /partner/trinquet/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/trinquet/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/trinquet/image/background.png
+  isPicBottomLeft: 1
+  isPicBottomRight: 1
+  body-bg-img-bottom-left: /partner/trinquet/image/body_bg_pic_bottom_left.png
+  body-bg-img-bottom-right: /partner/trinquet/image/body_bg_pic_bottom_right.png
+  body-bg-color: '#999999'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/trinquet/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/trinquet/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://trinquet.betkup.fr
+  show-box-prizes: 1
+  box-prizes: /partner/trinquet/image/box_prizes.png
+  box-prizes-button: /partner/trinquet/image/box_prizes_button.png
+  show-box-news: 0
+  box-news: /partner/trinquet/image/box_news_bg.png
+  show-box-facebook: 0
+  box-facebook: /partner/trinquet/image/box_fb_bg.png

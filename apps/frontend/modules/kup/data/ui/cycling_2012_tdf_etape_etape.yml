@@ -1,0 +1,32 @@
+ui:
+  kupName: label_kup_title_cycling_2012_tdf_etape_etape
+  typeSport: cycling
+  picto: cycling.png
+  picto_mini: picto_cycling_mini.png
+  category: Tour De France
+  events: 12 Étapes
+  document_path: /kup/cycling/2012/tdf/etape_etape/document
+  vignette_kup_view: /kup/cycling/2012/tdf/etape_etape/image/vignette_kup_view.png
+  vignette_home_view: /kup/cycling/2012/tdf/etape_etape/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/cycling/2012/tdf/etape_etape/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/cycling/2012/tdf/etape_etape/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/cycling/2012/tdf/etape_etape/image/vignette_edition_kup.png
+  isPrizes: 1
+  isCustom: 1
+  results_view_template: cycling,results
+  rules_view_template: cycling,kup_2012_tdf_etape_etape_rules
+  predictions_view_template: cycling,predictions
+  nbRules: 1
+  prizeValue : 390
+  img_box_right: /kup/cycling/2012/tdf/etape_etape/image/img_box_right.png
+  img_prize_1: /kup/cycling/2012/tdf/etape_etape/image/img_prize_1.png
+  img_prize_2: /kup/cycling/2012/tdf/etape_etape/image/img_prize_2.png
+  img_prize_3: /kup/cycling/2012/tdf/etape_etape/image/img_prize_3.png
+  img_prize_4: /kup/cycling/2012/tdf/etape_etape/image/img_prize_4.png
+  img_prize_5: /kup/cycling/2012/tdf/etape_etape/image/img_prize_5.png
+  prize_1_label: label_kup_tdf_2012_etape_etape_prize_1
+  prize_2_label: label_kup_tdf_2012_etape_etape_prize_2
+  prize_3_label: label_kup_tdf_2012_etape_etape_prize_3
+  prize_4_label: label_kup_tdf_2012_etape_etape_prize_4
+  prize_5_label: label_kup_tdf_2012_etape_etape_prize_5
+  box_prizes_button: /kup/cycling/2012/tdf/etape_etape/image/box_prizes_button.png

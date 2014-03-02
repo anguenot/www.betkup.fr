@@ -1,0 +1,8 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# me module configuration
+all:
+  account_type_simple: SIMPLE
+  account_type_gambling_fr: GAMBLING_FR
+  account_type_gambling_fr_verified: VERIFIED_FR

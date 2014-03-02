@@ -1,0 +1,6 @@
+#slidedeck_frame {
+	position: relative;
+	margin: 2px auto;
+    width: 667px;
+    height: 300px;
+}

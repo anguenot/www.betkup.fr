@@ -1,0 +1,168 @@
+#pic-challenge-welcome {
+	position: absolute;
+	top: 45px;
+	left: 15px;
+	width: 80px;
+	height: 80px;
+	background: url('/image/default/challenge/sprites_home.png') -5px -100px no-repeat;
+}
+
+#challenge-elite {
+	margin: 0px auto;
+	padding: 10px;
+	font: normal 22px BotonMediumCustom;
+	color: #666666;
+	text-align: center;
+}
+
+#challenge-view-container {
+	width: 650px;
+	margin: 0px auto;
+	
+}
+
+#challenge-view-container h3.principle {
+	font: 14px Arial;
+	color: white;
+	background: url('/image/default/challenge/sprites_home.png') -35px -60px no-repeat;
+	text-align: left;
+	text-indent: 20px;
+	width: 160px;
+	height: 30px;
+	line-height: 27px;
+}
+
+#challenge-view-container p {
+	padding: 10px 0px;
+	font: 12px Arial;
+	color: #666666;
+}
+
+.challenge-table {
+	width: 650px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.challenge-table td {
+	vertical-align: top;
+	text-align: center;
+}
+
+.challenge-tree-bloc {
+	position: relative;
+	width: 230px;
+	margin: 0px auto;
+	padding: 5px;
+	background: #f4f4f4;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNmQ2ZDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f4f4f4 0%, #d6d6d6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#d6d6d6));
+	background: -webkit-linear-gradient(top,  #f4f4f4 0%,#d6d6d6 100%);
+	background: -o-linear-gradient(top,  #f4f4f4 0%,#d6d6d6 100%);
+	background: -ms-linear-gradient(top,  #f4f4f4 0%,#d6d6d6 100%);
+	background: linear-gradient(top,  #f4f4f4 0%,#d6d6d6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#d6d6d6',GradientType=0 );
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.challenge-tree-bloc h4 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 10px auto 0px auto;
+	font: bold 12px Arial;
+	color: #F18930;
+	background: url('/image/default/challenge/sprites_home.png') -140px -26px no-repeat;
+	line-height: 30px;
+}
+
+#challenge-view-container .challenge-bloc-plus p  {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 35px;
+	width: 30px;
+	height: 30px;
+	font: bold 12px Arial;
+	color: #F18930;
+	background: url('/image/default/challenge/sprites_home.png') -140px -26px no-repeat;
+	line-height: 30px;
+}
+
+.prediction-link {
+	display: block;
+	width: 130px;
+	font: bold 14px Arial;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 7px 0px;
+	margin: 0px auto;
+	background: #ee7725;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlNzcyNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMzU2MTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ee7725 0%, #e35611 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ee7725), color-stop(100%,#e35611));
+	background: -webkit-linear-gradient(top,  #ee7725 0%,#e35611 100%);
+	background: -o-linear-gradient(top,  #ee7725 0%,#e35611 100%);
+	background: -ms-linear-gradient(top,  #ee7725 0%,#e35611 100%);
+	background: linear-gradient(top,  #ee7725 0%,#e35611 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee7725', endColorstr='#e35611',GradientType=0 );
+	border: 1px solid #e35611;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.prediction-link:hover {
+	background: #e35611;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UzNTYxMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZTc3MjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #e35611 0%, #ee7725 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e35611), color-stop(100%,#ee7725));
+	background: -webkit-linear-gradient(top,  #e35611 0%,#ee7725 100%);
+	background: -o-linear-gradient(top,  #e35611 0%,#ee7725 100%);
+	background: -ms-linear-gradient(top,  #e35611 0%,#ee7725 100%);
+	background: linear-gradient(top,  #e35611 0%,#ee7725 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e35611', endColorstr='#ee7725',GradientType=0 );
+		
+}
+
+.arrow-down {
+	width: 30px;
+	height: 100px;
+	margin: 0px auto;
+	background: url('/image/default/challenge/sprites_home.png') 0px -10px no-repeat;
+}
+
+.arrow-container {
+	width: 200px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 0;
+}
+
+.arrow-down-left {
+	width: 30px;
+	height: 100px;
+	float: left;
+	background: url('/image/default/challenge/sprites_home.png') 0px -10px no-repeat;
+	-moz-transform: scale(1) rotate(40deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(40deg) translate(0px, 0px) skew(0deg, 0deg);
+    -o-transform: scale(1) rotate(40deg) translate(0px, 0px) skew(0deg, 0deg);
+    -ms-transform: scale(1) rotate(40deg) translate(0px, 0px) skew(0deg, 0deg);
+    transform: scale(1) rotate(40deg) translate(0px, 0px) skew(0deg, 0deg);    
+}
+
+.arrow-down-right {
+	width: 30px;
+	height: 100px;
+	float: right;
+	background: url('/image/default/challenge/sprites_home.png') 0px -10px no-repeat;
+	-moz-transform: scale(1) rotate(-40deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(-40deg) translate(0px, 0px) skew(0deg, 0deg);
+    -o-transform: scale(1) rotate(-40deg) translate(0px, 0px) skew(0deg, 0deg);
+    -ms-transform: scale(1) rotate(-40deg) translate(0px, 0px) skew(0deg, 0deg);
+    transform: scale(1) rotate(-40deg) translate(0px, 0px) skew(0deg, 0deg);
+        
+}

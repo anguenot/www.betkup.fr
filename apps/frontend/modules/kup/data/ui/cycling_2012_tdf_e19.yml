@@ -1,0 +1,28 @@
+ui:
+  kupName: label_kup_title_cycling_2012_tdf_e19
+  typeSport: cycling
+  picto: cycling.png
+  picto_mini: picto_cycling_mini.png
+  category: Tour De France
+  events: 1 Étape
+  document_path: /kup/cycling/2012/tdf/e19/document
+  vignette_kup_view: /kup/cycling/2012/tdf/e19/image/vignette_kup_view.png
+  vignette_home_view: /kup/cycling/2012/tdf/e19/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/cycling/2012/tdf/e19/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/cycling/2012/tdf/e19/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/cycling/2012/tdf/e19/image/vignette_edition_kup.png
+  vignette_kup_step: /kup/cycling/2012/tdf/e19/image/e19.jpg
+  isPrizes: 0
+  results_view_template: cycling,results
+  rules_view_template: cycling,kup_2012_tdf_e_rules
+  predictions_view_template: cycling,predictions
+  nbRules: 1
+  prizeValue : 0
+  img_box_right: 
+  img_prize_1: 
+  img_prize_2: 
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label: 
+  prize_3_label: 
+  box_prizes_button: 

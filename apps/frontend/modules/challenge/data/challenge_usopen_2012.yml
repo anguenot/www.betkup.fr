@@ -1,0 +1,9 @@
+datas:
+  isArchive: 1
+  type: challenge
+  room_name: 'Challenge US Open 2012'
+  title: 'Challenge US Open 2012'
+  avatar: /image/default/challenge/challenges/avatar/challenge_usopen_2012.png
+  link: room,view
+  link_label: challenge_euro_2012_link_label
+  arguments: ['Je pronostique sur la Kup du jour US Open', 'Tous les jours tente de décrocher la cagnotte (1320 euros sur 2 semaines)', 'Je rejoins le classement générale du Challenge', 'Je partage les 300€ de cagnotte si je termine dans les 3 premiers']

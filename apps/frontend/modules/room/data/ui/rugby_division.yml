@@ -1,0 +1,37 @@
+ui:
+  roomName: Rugby Division
+  header-logo: /partner/rugby_division/image/sofun-logo.png
+  avatar-room: /partner/rugby_division/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/rugby_division/image/header_logo.png
+  header-bg: /partner/rugby_division/image/header_bg_room.png
+  kup-header-bg: /partner/rugby_division/image/header_bg_kup.png
+  path-img-title: /partner/rugby_division/image/title
+  path-img-list: /partner/rugby_division/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/rugby_division/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/rugby_division/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 1
+  body-bg-img-bottom-right: /partner/rugby_division/image/two_guys_one_crane.png
+  body-bg-color: 
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#E55A19'
+  header-hosted-logo: /partner/rugby_division/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/rugby_division/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://rugby_division.betkup.fr
+  show-box-prizes: 1
+  box-prizes: /partner/rugby_division/image/box_prizes.png
+  box-prizes-button: /partner/rugby_division/image/box_prizes_button.png
+  show-box-news: 0
+  box-news: /partner/rugby_division/image/box_news_bg.png
+  show-box-facebook: 1
+  box-facebook: /partner/rugby_division/image/box_fb_bg.png
+  box-facebook-page: http://www.facebook.com/pages/RUGBY-DIVISION/411800115079
+  path_img_kup_perso_prizes: /partner/rugby_division/image/kupPrizes
+  array_kup_perso_prizes: ['2896']
+  path_document_kup_perso_rules: /partner/rugby_division/document
+  array_kup_perso_rules_pdf: ['2896']

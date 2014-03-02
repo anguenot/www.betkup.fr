@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_mix_eu8
+  typeSport: soccer
+  picto: foot.png
+  category: Football > Europa
+  events: 3 matchs
+  picto_mini: picto_foot_mini.png
+  document_path: /kup/soccer/document
+  vignette_kup_view: /kup/soccer/eu/2012/mix_eu8/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/eu/2012/mix_eu8/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/eu/2012/mix_eu8/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/eu/2012/mix_eu8/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/eu/2012/mix_eu8/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_mix_eu
+  predictions_view_template: soccer,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue :
+  img_box_right: 
+  img_prize_1: 
+  img_prize_2: 
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label: 
+  prize_3_label: 
+  box_prizes_button: 

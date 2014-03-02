@@ -1,0 +1,63 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/09-Cache
+
+_slide:
+  enabled:     true
+  lifetime:    86400
+
+_facebook:
+  enabled:     true
+  lifetime:    86400
+
+_quotes:
+  enabled:     true
+  lifetime:    86400
+
+_register:
+  enabled:     true
+  lifetime:    86400
+
+landingPage:
+  enabled:     true
+  with_layout: false
+  lifetime:    86400
+
+howto:
+  enabled:     true
+  with_layout: false
+  lifetime:    604800
+
+faq:
+  enabled:     true
+  with_layout: true
+  lifetime:    604800
+
+faqAccount:
+  enabled:     true
+  with_layout: true
+  lifetime:    604800
+
+faqKupRoom:
+  enabled:     true
+  with_layout: true
+  lifetime:    604800
+
+faqPayment:
+  enabled:     true
+  with_layout: true
+  lifetime:    604800
+
+faqPredictions:
+  enabled:     true
+  with_layout: true
+  lifetime:    604800
+
+faqRegister:
+  enabled:     true
+  with_layout: true
+  lifetime:    604800
+
+betTrust:
+  enabled:     true
+  with_layout: true
+  lifetime:    604800

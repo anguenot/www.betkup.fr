@@ -1,0 +1,23 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  openinviter:
+    username: anguenot
+    private_key: 768af99b08e2b558a1b5107951703612
+    cookie_path: /tmp
+    plugins_cache_file: oi_plugins.php
+  type:
+    email: email
+    facebook: facebook
+    twitter: twitter
+    link: link
+  kup:
+    free: FREE
+    gambling_fr: GAMBLING_FR
+  privacy_room_public: PUBLIC
+  privacy_room_public_gambling_fr: PUBLIC_GAMBLING_FR
+  privacy_room_private: PRIVATE
+  privacy_room_private_gambling_fr: PRIVATE_GAMBLING_FR
+  

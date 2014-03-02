@@ -1,0 +1,31 @@
+ui:
+  roomName: Pubfoot
+  avatar-room: /partner/pubfoot/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/pubfoot/image/header_logo.png
+  header-room-logo-size: 242x84
+  header-bg: /partner/pubfoot/image/header_bg_room.png
+  kup-header-bg: /partner/pubfoot/image/header_bg_kup.png
+  path-img-title-bg: /partner/pubfoot/image/title.png
+  path-img-title-question: /partner/pubfoot/image/header_question_pubfoot.png
+  path-img-title-kup: /partner/pubfoot/image/header_kup_pubfoot.png
+  path-img-list: /partner/pubfoot/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 1
+  body-bg-img-top-left: /partner/pubfoot/image/logo_pubfoot.png
+  body-bg-img: /partner/pubfoot/image/bg_room_pubfoot.jpg
+  body-bg-color: '#5F5F5F'
+  isRoomNameColorPerso: 1
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/pubfoot/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/pubfoot/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0

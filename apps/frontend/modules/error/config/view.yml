@@ -1,0 +1,4 @@
+default:
+  stylesheets:    [error/layout.css]
+  has_layout:     true
+  layout:         layout_error 

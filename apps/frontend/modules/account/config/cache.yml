@@ -1,0 +1,3 @@
+_createAccountOnHome:
+  enabled:     true
+  lifetime:    86400

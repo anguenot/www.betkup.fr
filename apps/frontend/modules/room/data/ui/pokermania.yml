@@ -1,0 +1,20 @@
+ui:
+  roomName: Poker-mania
+  more-infos-answer: text_room_pokermania_home_more_infos_answer
+  text_room_bonus_text: text_room_pokermania_bonus_text
+  path-bonus-box: /partner/sbb/image/bonus_box.png
+  path-bonus-box-scotch: /partner/sbb/image/scotch.png
+  path-bonus-amount: /partner/sbb/image/bonus_amount.png
+  isHeaderPerso: 0
+  isPictoPerso : 0
+  isBgPerso: 0
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 0
+  isRoomNameColorPerso: 0
+  show-box-how-work: 0
+  isCustomBoxWork: 0
+  show-box-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0

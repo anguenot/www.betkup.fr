@@ -1,0 +1,158 @@
+.live .content {
+    width: 709px;
+    background: url('/images/home/middle.png') center;
+}
+
+.live .content .col1 {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 361px;
+    height: 190px;
+    background: url('/images/home/live/backgroundActivite.png') center; 
+    text-align: left;
+}
+
+.live .content .header_table_select{
+	/* width: 50%; 
+	position: absolute; 
+	vertical-align: middle; 
+	right: -20px; */
+	margin-right: 10px;
+}
+
+.live .content .col2 {
+    position: absolute;
+    margin-left: 400px;
+    width: 325px;
+    height: 190px;
+    background: url('/images/home/live/backgroundClassement.png') center; 
+}
+
+.live .content .col1 .datas, .live .content .col2 .datas {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 361px;
+    height: 138px;
+}
+.live .content .col2 .datas {
+    width: 446px;
+}
+
+.live .content .col1 .datas .cellule1, .live .content .col2 .datas .cellule1 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 28px;
+    height: 26px;
+    margin-right: 2px;
+    line-height: 26px;
+}
+.live .content .col2 .datas .cellule1 {
+    width: 35px;
+}
+
+.live .content .col1 .datas .cellule2, .live .content .col2 .datas .cellule2 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    height: 26px;
+    margin-right: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #575756;
+    line-height: 26px;
+}
+.live .content .col2 .datas .cellule2 {
+    width: 35px;
+}
+
+.live .content .col1 .datas .cellule3, .live .content .col2 .datas .cellule3 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 64px;
+    height: 26px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #575756;
+    line-height: 30px;
+    overflow: hidden;
+}
+.live .content .col2 .datas .cellule3 {
+    width: 185px;
+    margin-right: 2px;
+}
+
+.live .content .col1 .datas .cellule1 P,
+.live .content .col2 .datas .cellule1 P,
+.live .content .col1 .datas .cellule3 P,
+.live .content .col2 .datas .cellule3 P,
+.live .content .col1 .datas .cellule4 P,
+.live .content .col2 .datas .cellule4 P {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #575756;
+    margin-left: 6px;
+    overflow: hidden;
+}
+
+.live .content .col2 .datas .cellule1 P {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.live .content .col2 .datas .cellule3 P {
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #575756;
+}
+
+.live .content .col2 .datas .cellule4 P {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #575756;
+}
+
+.live .content .col2 .datas .cellule4 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 26px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #575756;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.live .content .col1 .datas .cellule2 IMG, .live .content .col2 .datas .cellule3 IMG {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin: 2px;
+    margin-right: 7px;
+}
+
+.live .fonce {
+    background-color: #EEEEEE;
+}
+
+.live .clair {
+    background-color: #F6F6F6;
+}

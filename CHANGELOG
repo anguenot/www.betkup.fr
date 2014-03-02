@@ -1,0 +1,1401 @@
+Release Notes - betkup.fr - Version 1.1.2
+
+** Sub-task
+    * [BETKUP-653] - LIGUE DES CHAMPIONS --> Kup 1/4 aller
+    * [BETKUP-676] - Redesign de la page Room > 2 onglets
+    * [BETKUP-750] - Room Custom > Rue des Joueurs
+    * [BETKUP-807] - Room ETGblog
+    * [BETKUP-808] - Room Groover
+    * [BETKUP-819] - Room Mister Rugby
+    * [BETKUP-820] - Room John Anthony
+    * [BETKUP-822] - Room Agences Pronos Sportifs
+    * [BETKUP-823] - Room PubFoot
+    * [BETKUP-824] - Room ClubPronostics
+    * [BETKUP-857] - Date d'enregistrement
+    * [BETKUP-860] - Page résultat custom
+    * [BETKUP-876] - Dernières Room créées
+    * [BETKUP-877] - Création de Room : description
+    * [BETKUP-879] - Kups de Room
+    * [BETKUP-880] - Header > mettre le nombre d'événements 2
+    * [BETKUP-886] - Kup OM - Bayern
+    * [BETKUP-887] - Kup Apoel - Real Madrid
+    * [BETKUP-888] - Kup Benfica - Chelsea
+    * [BETKUP-889] - Kup Milan AC - Barcelone
+    * [BETKUP-891] - Kup Cross Européen 4 payant
+    * [BETKUP-896] - Gestion photo
+    * [BETKUP-898] - Changer lien dans création room
+    * [BETKUP-900] - Edition Room > Bouton sauver
+    * [BETKUP-901] - Longueur minimum de page
+    * [BETKUP-902] - Room > Invitation Amis
+    * [BETKUP-903] - Réparer le invitation > Facebook
+    * [BETKUP-904] - Bug Affichage nombre de membres dans Kup de Room
+    * [BETKUP-905] - Mise à jour réglement F1
+    * [BETKUP-911] - Kup Montpellier vs St Etienne
+    * [BETKUP-920] - Date format / start date
+    * [BETKUP-921] - K8 31/03
+    * [BETKUP-945] - F1 qualifification's points error
+    * [BETKUP-973] - App home page
+    * [BETKUP-974] - App Prediction's page
+    * [BETKUP-975] - Créer une room sport24
+    * [BETKUP-976] - App Result's page.
+    * [BETKUP-977] - App Page lots / règles
+    * [BETKUP-978] - Crééer une app FB pour sport24
+    * [BETKUP-986] - App header + Footer
+    * [BETKUP-988] - Facebook Canvas auto-size
+    * [BETKUP-989] - Google Analytics setup
+    * [BETKUP-990] - App Ranking page
+    * [BETKUP-993] - Box "Comment jouer" sur la home. Il manque des éléments
+    * [BETKUP-995] - Box "classement" sur la home. Il manque des choses
+    * [BETKUP-996] - Faire la barre de progression
+    * [BETKUP-997] - Changer grille de départ en qualifications
+    * [BETKUP-998] - Messages flash
+    * [BETKUP-999] - Page de maintenance / erreur à la taille du canvas FB
+    * [BETKUP-1000] - Home loading boxes
+    * [BETKUP-1001] - Set results to cache to no more than 5 minutes
+    * [BETKUP-1002] - Rajouter le barème
+    * [BETKUP-1003] - Modifier le logo S24 F1
+    * [BETKUP-1004] - Logo de l'appli
+    * [BETKUP-1010] - Valeurs Lots dans Kup De Rooms avec montant différent de la Kup Générique
+    * [BETKUP-1012] - Définir stratégie finale pour intégration FB / Sport24
+    * [BETKUP-1013] - Rajouter un lien de tracking sur les bannière Betkup
+    * [BETKUP-1014] - Faute d'ortographe texte Request
+    * [BETKUP-1016] - Liens sur les auto promos Betkup
+    * [BETKUP-1018] - Room Sport 24 F1
+    * [BETKUP-1019] - Bug authentification
+    * [BETKUP-1020] - room_sport24
+    * [BETKUP-1026] - Bug IE
+    * [BETKUP-1028] - Problème redirect après auth sans canvas
+    * [BETKUP-1029] - Problème URL publish betkup / App FB
+    * [BETKUP-1039] - Session timeout and redirect to FB App.
+    * [BETKUP-1045] - Rajouter un onglet "classement" pour la Room
+    * [BETKUP-1046] - Rajouter des boutons de défilement pour les Rooms à la Une
+    * [BETKUP-1068] - Kup match par match
+    * [BETKUP-1069] - Application Facebook
+    * [BETKUP-1072] - Kup Full Prono EURO 2012
+    * [BETKUP-1075] - Kup Match Choc
+    * [BETKUP-1076] - Room femmes
+    * [BETKUP-1077] - Room Top 5
+    * [BETKUP-1078] - Challenge Room
+    * [BETKUP-1079] - Kup du Jour
+    * [BETKUP-1084] - Information sur l'app facebook de production
+    * [BETKUP-1090] - Kup K8 RG
+    * [BETKUP-1091] - Room Sport Buzz Business
+    * [BETKUP-1093] - Kup 27 mai
+    * [BETKUP-1094] - Kup 28 mai
+    * [BETKUP-1095] - Kup 29 mai
+    * [BETKUP-1096] - Kup 30 mai
+    * [BETKUP-1097] - Kup 31 mai
+    * [BETKUP-1098] - Kup 1er Juin
+    * [BETKUP-1099] - Kup 2 juin
+    * [BETKUP-1100] - Kup 3 juin
+    * [BETKUP-1101] - Kup 4 juin
+    * [BETKUP-1102] - Kup 5 juin
+    * [BETKUP-1103] - Kup 6 juin
+    * [BETKUP-1104] - Kup 7 juin
+    * [BETKUP-1105] - Kup 8 juin
+    * [BETKUP-1106] - Kup 9 juin Finale Femme !
+    * [BETKUP-1107] - Tour 1 Fb
+    * [BETKUP-1108] - Tour 2 Fb
+    * [BETKUP-1109] - Tour 3 Fb
+    * [BETKUP-1110] - Tour 4 Fb
+    * [BETKUP-1111] - Kup 10 juin
+    * [BETKUP-1112] - 1/4 Fb
+    * [BETKUP-1113] - 1/2 Fb
+    * [BETKUP-1114] - Final Fb
+    * [BETKUP-1115] - Chalenge RG
+    * [BETKUP-1116] - Page lots/règles Fb
+    * [BETKUP-1122] - Application 20minutes - DESIGN
+    * [BETKUP-1124] - Kup Match par Match
+    * [BETKUP-1126] - Room Bleus
+    * [BETKUP-1127] - Challenge Room
+    * [BETKUP-1128] - Kup K24
+    * [BETKUP-1130] - Kup Tableau
+    * [BETKUP-1137] - Full prono - redirect après login sur phase de groupe
+    * [BETKUP-1138] - Full prono : rendre clickable le header (phase poules / finale)
+    * [BETKUP-1139] - K8 J1
+    * [BETKUP-1140] - K8 J2
+    * [BETKUP-1141] - K8 J3
+    * [BETKUP-1142] - Kup du Jour 1
+    * [BETKUP-1143] - Kup du Jour 2
+    * [BETKUP-1144] - Kup du Jour 3
+    * [BETKUP-1145] - Kup du Jour 4
+    * [BETKUP-1146] - Kup du Jour 5
+    * [BETKUP-1147] - Kup du Jour 6
+    * [BETKUP-1148] - Kup du Jour 7
+    * [BETKUP-1149] - Kup du Jour 8
+    * [BETKUP-1150] - Kup du Jour 9
+    * [BETKUP-1151] - Kup du Jour 10
+    * [BETKUP-1152] - Kup du Jour 11
+    * [BETKUP-1153] - Kup du Jour 12
+    * [BETKUP-1154] - Pologne - Grèce
+    * [BETKUP-1155] - Russie - République Tchèque
+    * [BETKUP-1156] - Pays-Bas - Danemark
+    * [BETKUP-1157] - Allemagne - Portugal
+    * [BETKUP-1158] - Espagne - Italie
+    * [BETKUP-1159] - Irlande - Croatie
+    * [BETKUP-1160] - France - Angleterre
+    * [BETKUP-1161] - Ukraine - Suède
+    * [BETKUP-1162] - Choc des Poules
+    * [BETKUP-1164] - Application SO FOOT - DESIGN
+    * [BETKUP-1166] - Application RDJ - DESIGN
+    * [BETKUP-1167] - Widget classement Kups
+    * [BETKUP-1168] - Déconnecter le joueur sortant de l'appli 20minutes
+    * [BETKUP-1169] - Génération d'un nouveau mot de passe
+    * [BETKUP-1171] - Image Carousel
+    * [BETKUP-1173] - Room RDJ
+    * [BETKUP-1177] - Bug authentification appli FB
+    * [BETKUP-1180] - Texte invitation
+    * [BETKUP-1181] - Widget classement Kups
+    * [BETKUP-1184] - K8 1er tour
+    * [BETKUP-1189] - Room Tester tout.fr
+    * [BETKUP-1190] - Lots
+    * [BETKUP-1191] - Lots
+    * [BETKUP-1193] - Lien de tracking pour LA Provnce
+    * [BETKUP-1194] - Lots
+    * [BETKUP-1197] - Matieu - Isner
+    * [BETKUP-1198] - Bannière de promotion  SO FOOT
+    * [BETKUP-1199] - Bannière Rue des Joueurs
+    * [BETKUP-1201] - Restriction d'accès sur la Room 20minutes
+    * [BETKUP-1202] - K8 2ème tour
+    * [BETKUP-1203] - Modifications design 20minutes
+    * [BETKUP-1205] - Room Kuzeo
+    * [BETKUP-1207] - K8 3ème tour
+    * [BETKUP-1209] - Lots / règles ne doivent pas prendre les informations de la kup Générique
+    * [BETKUP-1210] - Grèce - République Tchèque
+    * [BETKUP-1211] - Pologne - Russie
+    * [BETKUP-1212] - Danemark - Portugal
+    * [BETKUP-1213] - Pays-Bas - Allemagne
+    * [BETKUP-1214] - Italie - Croatie
+    * [BETKUP-1215] - Espagne - Irlande
+    * [BETKUP-1216] - Suède - Angleterre
+    * [BETKUP-1217] - Ukraine - France
+    * [BETKUP-1218] - Identification des journalistes dans le classement
+    * [BETKUP-1222] - K8 1/4
+    * [BETKUP-1223] - 20minutes Bug affichage connexion sur la page Kup
+    * [BETKUP-1224] - Supprimer l'astérisque sur le cartouche de Kup
+    * [BETKUP-1227] - Challenge rédaction (comme sur 20minutes)
+    * [BETKUP-1228] - Règlement SO FOOT
+    * [BETKUP-1229] - France vs UK
+    * [BETKUP-1232] - Règlement officiel
+    * [BETKUP-1233] - Lots et valeurs de lots
+    * [BETKUP-1234] - Mettre un lien sur le logo de l'application
+    * [BETKUP-1235] - Grèce - Russie
+    * [BETKUP-1236] - République Tchèque - Pologne
+    * [BETKUP-1237] - Portugal - Pays-Bas
+    * [BETKUP-1238] - Danemark - Allemagne
+    * [BETKUP-1239] - Croatie - Espagne
+    * [BETKUP-1242] - Réglement officiel La Provence
+    * [BETKUP-1244] - Ord des matchs Full Prono
+    * [BETKUP-1245] - Italie - Irlande
+    * [BETKUP-1246] - Room Fan2Sport
+    * [BETKUP-1247] - Room Poker-mania
+    * [BETKUP-1248] - Enlever les points d'interrogation sur la partie prono
+    * [BETKUP-1249] - i18n: traduire le nom des équipes sur le front.
+    * [BETKUP-1250] - Joueurs France et England qui ne doivent pas être dans la liste ?
+    * [BETKUP-1251] - Modifications design SO FOOT
+    * [BETKUP-1252] - BUG Facebook Connect (sur Firefox a priori)
+    * [BETKUP-1253] - Affichage de la page Kups
+    * [BETKUP-1256] - Journalistes 20minutes à flagger
+    * [BETKUP-1257] - Corriger les messages flash
+    * [BETKUP-1258] - Bug IE sur le Full Prono
+    * [BETKUP-1259] - Full prono : forward des modifications trunk sur la désactivation des pronos après que le début du premier match
+    * [BETKUP-1261] - Angleterre - Ukraine
+    * [BETKUP-1262] - Suède - France
+    * [BETKUP-1263] - Le logo 20minutes n'apparait pas pour les journalistes
+    * [BETKUP-1264] - Texte publish Twitter
+    * [BETKUP-1265] - Publish Twitter SO FOOT
+    * [BETKUP-1266] - Texte page Welcome bonus
+    * [BETKUP-1270] - Kup 10 juin Finale Homme
+    * [BETKUP-1271] - Kups matchs du jour 1 20minutes App
+    * [BETKUP-1272] - Kups matchs du jour 2 20minutes App
+    * [BETKUP-1273] - Kups matchs du jour 3 20minutes App
+    * [BETKUP-1277] - Ukraine - France (15 juin)
+    * [BETKUP-1278] - Suède - France (19 juin)
+    * [BETKUP-1279] - match/match
+    * [BETKUP-1280] - Kup match pr match
+    * [BETKUP-1281] - France - Angleterre  (11 juin )
+    * [BETKUP-1282] - Ukraine - France (15 juin)
+    * [BETKUP-1283] - Suède - France (19 juin)
+    * [BETKUP-1284] - Trier les Kups par date et mettre une pagination
+    * [BETKUP-1285] - widget
+    * [BETKUP-1287] - Kup France match 2
+    * [BETKUP-1288] - Kup France match 3
+    * [BETKUP-1292] - Page résultats buggée
+    * [BETKUP-1293] - Page classement - général buggé
+    * [BETKUP-1304] - 1er 1/4 de finale République-Tchèque - Portugal
+    * [BETKUP-1305] - 2e 1/4 de finale Allemagne-Grèce
+    * [BETKUP-1307] - 1er 1/4 Rep tchèque Portugal APP RDJ
+    * [BETKUP-1308] - 2e 1/4 Allemagne Grece Appli RDJ
+    * [BETKUP-1309] - 1er 1/4 de finale APP Laprovence
+    * [BETKUP-1310] - 2e 1/4 de Finale La provence
+    * [BETKUP-1311] - 1/4 de finale 20minutes
+    * [BETKUP-1313] - Concours du 19/06
+    * [BETKUP-1315] - 3e 1/4 de finale Euro Espagne - France
+    * [BETKUP-1316] - 4e 1/4 de finale Angleterre - Italie
+    * [BETKUP-1317] - Chocs des Quarts
+    * [BETKUP-1318] - LE "4-QUARTS"
+    * [BETKUP-1319] - 3e 1/4 de finale APP la provence
+    * [BETKUP-1320] - 4e 1/4 de finale APP La provence
+    * [BETKUP-1321] - 3e 1/4 de finale APP RDJ
+    * [BETKUP-1322] - 4e 1/4 de finale APP RDJ
+    * [BETKUP-1323] - Kup France 1/4 de finale
+    * [BETKUP-1324] - 1/4 de la France : Tous partenaires sauf Fan2sport
+    * [BETKUP-1328] - KUP  France Angleterre APP RDJ
+    * [BETKUP-1329] - Kup Ukraine - France APP RDJ
+    * [BETKUP-1330] - Kup Suède - France APP RDJ
+    * [BETKUP-1335] - M/M wimbledon
+    * [BETKUP-1336] - Challenge Kup du jour
+    * [BETKUP-1337] - KUPS MATCHS CHOCS
+    * [BETKUP-1338] - KUPS DU JOUR
+    * [BETKUP-1339] - KUP K8
+    * [BETKUP-1340] - Kup du 25 juin
+    * [BETKUP-1341] - KUP K24
+    * [BETKUP-1342] - Kup du 26 juin
+    * [BETKUP-1343] - Kup du 27 juin
+    * [BETKUP-1347] - K8 1er tour
+    * [BETKUP-1349] - Page challenge Wimbledon
+    * [BETKUP-1351] - Challenge W12
+    * [BETKUP-1357] - Carrousel Week 24/06
+    * [BETKUP-1358] - Room SBB et RDJ
+    * [BETKUP-1359] - 1er 1/2 Portugal - Espagne 27 juin
+    * [BETKUP-1360] - 2e 1/2 Allemagne - Italie 28 juin
+    * [BETKUP-1365] - KUP GP UK - Silverstone - GRATUIT
+    * [BETKUP-1366] - KUP GP UK - Silverstone - FREEROLL
+    * [BETKUP-1369] - Demis RDJ
+    * [BETKUP-1371] - BUG drop down avec captcha
+    * [BETKUP-1374] - 1/4 de finale RDJ
+    * [BETKUP-1378] - K8 2ème tour Wimbledon
+    * [BETKUP-1382] - Kup du 28 juin
+    * [BETKUP-1384] - 4-Quarts
+    * [BETKUP-1385] - Barème TDF
+    * [BETKUP-1386] - Etape prologue 30 juin
+    * [BETKUP-1390] - K8 3ème tour Wimbledon
+    * [BETKUP-1391] - Kup du 29 juin
+    * [BETKUP-1393] - Bug1
+    * [BETKUP-1394] - BUG2
+    * [BETKUP-1395] - Bug3
+    * [BETKUP-1396] - Bug KDJ 3
+    * [BETKUP-1398] - Finale Euro
+    * [BETKUP-1399] - Finale partenaires
+    * [BETKUP-1400] - Bonus Facebook
+    * [BETKUP-1404] - Kup du 30 juin
+    * [BETKUP-1406] - Challenge TDF
+    * [BETKUP-1409] - Etape 1 1er juillet
+    * [BETKUP-1410] - Etape 2 2 juillet
+    * [BETKUP-1411] - Kup du jour 2 juillet
+    * [BETKUP-1412] - K8 1/8e
+    * [BETKUP-1413] - Affichage points full-prono
+    * [BETKUP-1414] - Repartition gains angleterre - Italie
+    * [BETKUP-1415] - Problème point KDJ 6
+    * [BETKUP-1417] - Page résultat TDF
+    * [BETKUP-1418] - APP Facebook TDF
+    * [BETKUP-1420] - Kup du jour 3 juillet
+    * [BETKUP-1421] - Kup du jour 4 juillet
+    * [BETKUP-1422] - K8 1/4 de finale
+    * [BETKUP-1423] - Liste joueur suite au bug Opta
+    * [BETKUP-1424] - Kup du jour 5 juillet
+    * [BETKUP-1425] - Design
+    * [BETKUP-1426] - Page Lots/Règles
+    * [BETKUP-1428] - Pictos Tour de France
+    * [BETKUP-1432] - Picto cyclisme
+    * [BETKUP-1434] - Problème de points
+    * [BETKUP-1435] - Texte box
+    * [BETKUP-1436] - Etape 6 / 6 juillet
+    * [BETKUP-1437] - La Grande Boucle
+    * [BETKUP-1438] - Etape par Etape
+    * [BETKUP-1439] - Etape 7 / 7 juillet
+    * [BETKUP-1440] - Etape 8 /  8 juillet
+    * [BETKUP-1441] - Etape 9 / 9 juillet
+    * [BETKUP-1442] - Etape 10 / 11 juillet
+    * [BETKUP-1443] - Etape 11 / 12 juillet
+    * [BETKUP-1444] - Etape 12 / 13 juillet
+    * [BETKUP-1445] - Etape 13 / 14 juillet
+    * [BETKUP-1446] - Etape 14 / 15 juillet
+    * [BETKUP-1447] - Page resultats
+    * [BETKUP-1448] - Etape 15 / 16 juillet
+    * [BETKUP-1449] - Etape 16 / 18 juillet
+    * [BETKUP-1450] - Etape 17 / 19 juillet
+    * [BETKUP-1451] - Etape 18 / 20 juillet
+    * [BETKUP-1452] - Etape 19 / 21 juillet
+    * [BETKUP-1453] - Etape 20 /  22 Juillet
+    * [BETKUP-1455] - Kup du 6 juillet
+    * [BETKUP-1456] - Match Choc Tsonga 6 juillet
+    * [BETKUP-1458] - Bonus Facebook du 04/07
+    * [BETKUP-1459] - Kup du jour 7 juillet
+    * [BETKUP-1460] - kup du jour 8 juillet
+    * [BETKUP-1461] - Kup 2 Finales
+    * [BETKUP-1462] - Kup Finales Room SBB
+    * [BETKUP-1464] - Changer l'image welcome bonus
+    * [BETKUP-1465] - Image Facebook AD
+    * [BETKUP-1466] - Griser les jeux en sets quand match débuté
+    * [BETKUP-1468] - Carrousel Tour de France
+    * [BETKUP-1471] - Décalage visuel sur la grande boucle
+    * [BETKUP-1472] - Laisser la Grande Boucle ouverte
+    * [BETKUP-1473] - Précision du réglement des Kups
+    * [BETKUP-1475] - Gros Header page Facebook
+    * [BETKUP-1476] - Bug affichage et points matchs chocs
+    * [BETKUP-1477] - Email semaine du 9 au 15
+    * [BETKUP-1478] - Viralité de l'applicaiton
+    * [BETKUP-1480] - Bos du 7/07
+    * [BETKUP-1481] - Bug étape par étape
+    * [BETKUP-1482] - Bonus du 11/07
+    * [BETKUP-1483] - App Facebook : forcer le like pour lancer l'application
+    * [BETKUP-1485] - Besoin d'un lien tracké pour un patenaire
+    * [BETKUP-1489] - Gain transformé en bonus betkup
+    * [BETKUP-1490] - Gains Challenge Wimbledon
+    * [BETKUP-1491] - Pictos étape App Facebook : 17,18,19 et 20
+    * [BETKUP-1495] - Bonus du 17/07
+    * [BETKUP-1496] - Kup journée Ligue 2 2012/2013
+    * [BETKUP-1497] - Kup de la 1er journée
+    * [BETKUP-1498] - Kup de la 2e journée
+    * [BETKUP-1499] - Kup de la 3e journée
+    * [BETKUP-1500] - Kup de la 4e journée
+    * [BETKUP-1501] - Kup de la 5e journée
+    * [BETKUP-1502] - Kup de la 6e journée
+    * [BETKUP-1503] - Kup de la 7e journée
+    * [BETKUP-1504] - Kup de la 8e journée
+    * [BETKUP-1505] - Kup de la 9e journée
+    * [BETKUP-1506] - Kup de la 10e journée
+    * [BETKUP-1508] - Page Bonus Finale TDF
+    * [BETKUP-1510] - header Kup de la journée Ligue 2
+
+
+** Bug
+    * [BETKUP-781] - Room publique / privée
+    * [BETKUP-906] - Speed da shit
+    * [BETKUP-907] - rajouter € après la valeur des lots dans la page Kups
+    * [BETKUP-912] - LDC match par match
+    * [BETKUP-913] - [Kup Serie A] thibautandre@hotmail.com
+    * [BETKUP-914] - Kup Ligue 1 (22ème journée)
+    * [BETKUP-918] - Affichage nom écurie  (shortner)
+    * [BETKUP-919] - Cross EU Lots apparait sur la Kup payante
+    * [BETKUP-923] - Bug affichage durée Kups
+    * [BETKUP-924] - Match PSG vs Bordeaux fermé aux pronos en avance
+    * [BETKUP-925] - Labels des chronos sur la page Kups
+    * [BETKUP-931] - K8 - pronos non visibles après que le match soit fermé et autres modifications
+    * [BETKUP-933] - Affichage durée Kup
+    * [BETKUP-946] - Bandeau Twitter
+    * [BETKUP-947] - Affichage Room RDJ
+    * [BETKUP-950] - Servor Error sur Room Invite
+    * [BETKUP-958] - Bug Room > Publish Facebook
+    * [BETKUP-961] - Bug affichage des messages flash
+    * [BETKUP-966] - Bug pour créer une Room
+    * [BETKUP-1031] - Nom de Room historique des paris
+    * [BETKUP-1120] - Cases vide sur la Kup F1
+    * [BETKUP-1170] - Validation de compte
+    * [BETKUP-1176] - Supprimer le bouton Demander accès sur les Rooms privées
+    * [BETKUP-1183] - Affichag Kup M/M Euro
+    * [BETKUP-1206] - Affichage Mes Rooms
+    * [BETKUP-1240] - Bug affichage page lots / règles dans Kup de Room
+    * [BETKUP-1260] - Bug Full prono
+    * [BETKUP-1291] - F1 - bug sur les pronos dans les rooms
+    * [BETKUP-1295] - Formulaire de crédit (bloquer plusieurs clicks)
+    * [BETKUP-1301] - Bug affichage quand pronos disabled
+    * [BETKUP-1303] - Page de virement des gains, CSS cassées
+    * [BETKUP-1327] - gains non reversés sur le compte betkup
+    * [BETKUP-1346] - Remettre les bonnes polices en place
+    * [BETKUP-1348] - Disparition de badeau dans Room > Kups & news
+    * [BETKUP-1353] - Problème dans register advanced
+    * [BETKUP-1354] - Bug redirect prono
+    * [BETKUP-1363] - Style le drop down connexion sur tennis
+    * [BETKUP-1367] - Versement des gains et classement
+    * [BETKUP-1370] - bug activation / clôture de compte
+    * [BETKUP-1372] - Bur room perso
+    * [BETKUP-1377] - Redirect après pronos sur Wimbledon
+    * [BETKUP-1380] - Taille des box apercu de Room pour matcher l'image
+    * [BETKUP-1381] - Valeurs Lots dans Kup De Rooms avec montant différent de la Kup Générique
+    * [BETKUP-1383] - Bug KDJ 3
+    * [BETKUP-1387] - Bug points M/M
+    * [BETKUP-1388] - Le tableau de répartition des gains a sauté
+    * [BETKUP-1389] - Probléme de connexion au site dans "un foyer"
+    * [BETKUP-1392] - Bug wimbledon
+    * [BETKUP-1397] - page classement bug tableau
+    * [BETKUP-1401] - Publish FB sport24 : mauvais design.
+    * [BETKUP-1427] - Décalage homepage (visuel)
+    * [BETKUP-1463] - Bug connexion / deconnexion
+    * [BETKUP-1469] - Décalage page Kups
+    * [BETKUP-1479] - Bug Kup annulée
+    * [BETKUP-1492] - Probléme de virement
+
+
+** Improvement
+    * [BETKUP-759] - Room header infos
+    * [BETKUP-816] - Il faudrait voir pourquoi le choix des kup dans une room est si long
+    * [BETKUP-839] - Pop up publish facebook après pronos
+    * [BETKUP-949] - Changer les header de kup + Kup de room + kup de room RDJ
+    * [BETKUP-956] - Modification 1 N 2
+    * [BETKUP-992] - Sortir _view() et _results() de betkupActions() dans des composants soccer et rugby dédier.
+    * [BETKUP-1034] - Modification Règlement S24
+    * [BETKUP-1134] - Donner accès à la création de Room
+    * [BETKUP-1243] - Changer texte "en savoir +" room RDJ
+    * [BETKUP-1298] - Publier ses gains sur FB
+    * [BETKUP-1355] - Modification page challenge
+    * [BETKUP-1376] - Récupérer une image de Kup pour le publish Facebook
+    * [BETKUP-1403] - Affichage résultat Full Prono
+    * [BETKUP-1405] - Carousel finale EURO
+    * [BETKUP-1431] - Passer le welcome bonus en Tour de France
+
+** New Feature
+    * [BETKUP-1073] - Modification image d'accueil S24
+    * [BETKUP-1092] - Affichage Teasing Kup Roland Garros
+    * [BETKUP-1185] - Room 20minutes
+    * [BETKUP-1186] - Image Carousel Roland Garrros
+    * [BETKUP-1297] - Changer le captcha uniquement sur 20minutes
+    * [BETKUP-1302] - Campagne 20 minutes lien de tracking
+    * [BETKUP-1306] - Campagnes Facebook > Lien de tracking
+    * [BETKUP-1334] - Wimbledon
+    * [BETKUP-1345] - Passer les Kups F1 en payant
+    * [BETKUP-1350] - Pouvoir faire des URL avec des filtres de Kups custom
+    * [BETKUP-1352] - Liens tracké particuliers
+    * [BETKUP-1364] - Formula 1 2012 - VRROOOOOOMMMMMM
+    * [BETKUP-1368] - GP Grande-Bretagne (Silverstone) gratuit
+    * [BETKUP-1379] - Tour de France 2012
+    * [BETKUP-1408] - Room Winner Tennis Academy
+    * [BETKUP-1419] - Classmeent gain EURO 2012
+    * [BETKUP-1467] - GP ALLEMAGNE (Nürburgring)
+    * [BETKUP-1474] - Affichage règle pronostics TdF
+
+
+** Task
+    * [BETKUP-703] - Gérer le cas particulier Betkup sur les créations de room au niveau du message
+    * [BETKUP-754] - Visuel Gain
+    * [BETKUP-777] - Recherche de Kups
+    * [BETKUP-790] - Kup Manchester City - FC Porto
+    * [BETKUP-796] - Kup 8e retour LDC
+    * [BETKUP-813] - Carré promotion Room Rue des Joueurs
+    * [BETKUP-827] - Affichage automatique des Kups Featured
+    * [BETKUP-831] - Dashboard Power User
+    * [BETKUP-856] - Master Ticket F1
+    * [BETKUP-870] - 1er K8
+    * [BETKUP-872] - Ouvertures journées Kups de Ligues
+    * [BETKUP-882] - Kup Cross Européen 4
+    * [BETKUP-883] - Lien de tracking
+    * [BETKUP-894] - ROOMS CUSTOM BATCH 1
+    * [BETKUP-910] - Next Kups
+    * [BETKUP-915] - Email week end 24/25 mars
+    * [BETKUP-916] - Bannière pour lesbleues.fr
+    * [BETKUP-922] - H Cup Match par Match
+    * [BETKUP-926] - Publish automatique des pronos
+    * [BETKUP-927] - Kup GP China
+    * [BETKUP-928] - H-Cup --> Edimbourg - Toulouse
+    * [BETKUP-929] - H-Cup --> Saracens - Clermont
+    * [BETKUP-930] - Kup PSG - OM
+    * [BETKUP-934] - K Real - Apoel
+    * [BETKUP-935] - Kup Chelsea - Benfica
+    * [BETKUP-936] - Bonus pour comptes négatif
+    * [BETKUP-937] - Kup Lille - Toulouse
+    * [BETKUP-938] - Kup Rennes - Lyon
+    * [BETKUP-939] - Kup Barcelone - Milan
+    * [BETKUP-940] - Kup Bayern - OM
+    * [BETKUP-941] - Kup Arsenal - Manchester City
+    * [BETKUP-942] - Kup Edimbourg Toulouse
+    * [BETKUP-943] - Kup Saracens - Clermont
+    * [BETKUP-944] - Opération Rue des Joueurs
+    * [BETKUP-948] - K8 7/04
+    * [BETKUP-952] - Kup CrossEuropéen 5 payant
+    * [BETKUP-953] - Kup OM - MHSC
+    * [BETKUP-954] - Image carousel Rue Des Joueurs
+    * [BETKUP-955] - K13 14/04
+    * [BETKUP-960] - Kup Podium Rue des Joueurs
+    * [BETKUP-962] - Kup Bayern - Real Madrid
+    * [BETKUP-963] - Kup Chelsea - Barcelone
+    * [BETKUP-965] - Rooms en HP
+    * [BETKUP-967] - Kup Cross Européen 5
+    * [BETKUP-968] - Kup Chocs Top 14
+    * [BETKUP-969] - Ku GP Bahreïn
+    * [BETKUP-970] - Kup Barcelone - Real Madrid
+    * [BETKUP-971] - Liste des Rooms dans l'onglet Room
+    * [BETKUP-979] - Kup_choc_européen_7
+    * [BETKUP-980] - Kup GP Barhain
+    * [BETKUP-981] - Kup Leaders
+    * [BETKUP-982] - Kup_bayern_vs_real madrid
+    * [BETKUP-983] - kup_chelsea_vs_barcelone
+    * [BETKUP-984] - kup_h_cup_clermont_vs_leinster
+    * [BETKUP-985] - kup_h_cup_ulster_vs_edimbourg
+    * [BETKUP-987] - Kup Podium
+    * [BETKUP-1005] - Kup Chocs Top 14 21/04
+    * [BETKUP-1006] - Kup Arsenal - Chelsea
+    * [BETKUP-1007] - Kup Cross Européen 6
+    * [BETKUP-1008] - Kup Real Madrid - Bayern Munich
+    * [BETKUP-1009] - Kup Barcelone - Chelsea
+    * [BETKUP-1011] - Kup K8 21/04
+    * [BETKUP-1022] - Kup Man.City - Man.U
+    * [BETKUP-1023] - Kup Llle - PSG
+    * [BETKUP-1024] - Kup Cross Européen 8
+    * [BETKUP-1025] - K8 du 28/04
+    * [BETKUP-1030] - Kup GP Espagne
+    * [BETKUP-1032] - Changer l'image de l'ancienne application F1
+    * [BETKUP-1041] - K8 d 1/05
+    * [BETKUP-1042] - K8 du 6/05
+    * [BETKUP-1043] - Kup Montpelleir - Evian TG
+    * [BETKUP-1044] - Kup PSG - ASSE
+    * [BETKUP-1052] - Kup Cross Européen 9
+    * [BETKUP-1053] - Kup Valenciennes - PSG
+    * [BETKUP-1054] - Kup Rennes - MHSC
+    * [BETKUP-1055] - Kup Liverpool - Chelsea
+    * [BETKUP-1056] - Kup Chocs Top 14 05/05
+    * [BETKUP-1057] - Kup finale UEFA
+    * [BETKUP-1059] - Kup K8 PL 13/05
+    * [BETKUP-1060] - Kup K8 Liga 13/05
+    * [BETKUP-1061] - Kup K8 Serie A 13/05
+    * [BETKUP-1062] - Kup K8 L1 13/05
+    * [BETKUP-1063] - Kup K8 20/05
+    * [BETKUP-1064] - Kup Lutte pour le maintien
+    * [BETKUP-1066] - Kup GP Monaco
+    * [BETKUP-1067] - Roland Garros 2012
+    * [BETKUP-1070] - Kup finale LDC
+    * [BETKUP-1074] - Reprise de la page Kups
+    * [BETKUP-1081] - Création d'un onglet Promos & Challenge
+    * [BETKUP-1085] - Finale de la H-Cup Leinster - Ulster
+    * [BETKUP-1086] - Kup Auxerre - Montpellier
+    * [BETKUP-1087] - Kup Lorient - PSG
+    * [BETKUP-1088] - Kup Castres - Montpellier
+    * [BETKUP-1089] - Kup Toulou - Racing Métro 92
+    * [BETKUP-1117] - Modifier le logo Roland Garros
+    * [BETKUP-1118] - Page d'attente Roland Garros
+    * [BETKUP-1121] - Application 20minutes - EURO 2012
+    * [BETKUP-1123] - Euro 2012
+    * [BETKUP-1129] - Bug F1
+    * [BETKUP-1132] - Kit Vidéo
+    * [BETKUP-1136] - Mettre à jour la documentation d'install de Betkup.fr en FR
+    * [BETKUP-1163] - Application SO FOOT - EURO 2012
+    * [BETKUP-1172] - Partenaires EUR0 2012
+    * [BETKUP-1179] - Programme Incentive EURO
+    * [BETKUP-1182] - Kup GP Canada
+    * [BETKUP-1195] - Stade Toulousain - Castres Olympique
+    * [BETKUP-1196] - Clermont - Toulou
+    * [BETKUP-1204] - Symfony 1.4.18 support
+    * [BETKUP-1221] - Vidéo en pop in
+    * [BETKUP-1231] - Finale Top 14
+    * [BETKUP-1241] - Room TesterTout > Forcer l'inscription par compte complet
+    * [BETKUP-1268] - Adresses email de contact
+    * [BETKUP-1269] - Message sur la page de Room
+    * [BETKUP-1296] - Modifications drapeaux
+    * [BETKUP-1344] - Spécification Challenge KDJ Wimbledon
+    * [BETKUP-1430] - Newsletter gagnants EURO
+    * [BETKUP-1488] - Email / Hall of fame Wimbledon
+    * [BETKUP-1507] - GP DE HONGRIE (Budapest)
+
+
+Release Notes - betkup.fr - Version 1.1.1
+
+** Sub-task
+    * [BETKUP-498] - Classement > Finir tableau 
+    * [BETKUP-501] - Classement > Wall 
+    * [BETKUP-502] - Header > mettre le nombre d'�v�nements
+    * [BETKUP-505] - Flot de pronos 
+    * [BETKUP-514] - Pronos > Rendre les matchs inactifs quand ils sont pass�s 
+    * [BETKUP-590] - Mise en page du tableau de r�sultats
+    * [BETKUP-628] - Mix EU Leagues --> Kups Week end Cross Europ�en n�2
+    * [BETKUP-630] - Mix EU Leagues --> Kups Week end Cross Europ�en n�3
+    * [BETKUP-631] - CAN --> KUP FINALE
+    * [BETKUP-632] - CAN --> KUP SEMI-FINAL
+    * [BETKUP-633] - VI NATIONS --> Kup Match par Match
+    * [BETKUP-635] - VI NATIONS --> Kup France - Irlande
+    * [BETKUP-636] - VI NATIONS --> Kup �cosse - France
+    * [BETKUP-637] - VI NATIONS --> Kup France - Angleterre
+    * [BETKUP-638] - VI NATIONS --> Kup Pays de Galles - France
+    * [BETKUP-639] - VI NATIONS --> Kup Week end 3
+    * [BETKUP-640] - VI NATIONS -- Kup Week end 5 (ou derni�re ligne droite)
+    * [BETKUP-644] - LIGUE DES CHAMPIONS --> Kup Lyon - Apoel
+    * [BETKUP-645] - LIGUE DES CHAMPIONS --> Kup Milan - Arsenal
+    * [BETKUP-646] - LIGUE DES CHAMPIONS --> Kup Naples - Chelsea
+    * [BETKUP-647] - LIGUE DES CHAMPIONS --> Kup OM - Inter
+    * [BETKUP-648] - LIGUE DES CHAMPION --> Kup Apoel - Lyon
+    * [BETKUP-649] - LIGUE DES CHAMPIONS --> Kup Arsenal - Milan AC
+    * [BETKUP-650] - LIGUE DES CHAMPIONS --> Kup Chelsea - Naples
+    * [BETKUP-651] - LIGUE DES CHAMPIONS --> Kup Inter - OM
+    * [BETKUP-678] - Page de cl�ture de compte
+    * [BETKUP-809] - Kup Clermont VS Toulouse. 
+    * [BETKUP-840] - Kup OL  Lille
+    * [BETKUP-844] - F1 - GP AUSTRALIA
+    * [BETKUP-859] - Publish Fb
+    * [BETKUP-862] - Remplacer l'appli F1 par un visuel
+    * [BETKUP-866] - HTTPS is broken sur la kup F1
+    * [BETKUP-874] - Facebook - Lien publish dans room ne sont pas corrects.
+
+
+** Bug
+    * [BETKUP-708] - Drop down
+    * [BETKUP-720] - Probl�me dans l'email pour d�fier ses amis dans une Kup
+    * [BETKUP-725] - Page Kup > Rendre tout le cartouche clicable 
+    * [BETKUP-727] - Kup dans une room
+    * [BETKUP-730] - Login ne marche pas avec cookie date de naissance...
+    * [BETKUP-732] - Affichage quand kup annul�e
+    * [BETKUP-733] - Bug connexion Facebook
+    * [BETKUP-735] - USER Report : points VI Nations
+    * [BETKUP-736] - 3�me �tape d'insciption IE9
+    * [BETKUP-738] - Oubli d'un match Rayo Vallecano - Getafe
+    * [BETKUP-739] - Filtrer les transactions en �chec
+    * [BETKUP-740] - Kup de room - acc�s � la page mise
+    * [BETKUP-741] - Bug Send Facebook
+    * [BETKUP-742] - Contraintes code postal
+    * [BETKUP-743] - D�partement sur adresse � l'�tranger doit �tre envoy� est = 99
+    * [BETKUP-744] - Refresh de l'adresse (CP) apr�s erreur de validation serveur side
+    * [BETKUP-745] - Bug Navigateur enregistrement du RIB sur un surclassement 
+    * [BETKUP-746] - Formulaire �dition compte - mettre � jour la session lors de changements
+    * [BETKUP-747] - Kup France Irlande
+    * [BETKUP-748] - Ville / pays de naissance -> BUG
+    * [BETKUP-751] - Adresse, nom et pr�nom, ville regexp
+    * [BETKUP-752] - Affichage r�sultats nouvelle questions (France - Italie et Mix EU)
+    * [BETKUP-753] - Affichages dans une Kup de Room 
+    * [BETKUP-761] - Formulaire inscription - ville de naissance 
+    * [BETKUP-762] - Probl�me surclassement
+    * [BETKUP-763] - Bug sur l'upload des documents
+    * [BETKUP-766] - Probl�me update compte facebook. Nom prenom ne passe pas.
+    * [BETKUP-773] - RIB / IBAN section et valeur par d�faut
+    * [BETKUP-775] - Reminder - v�rification
+    * [BETKUP-782] - ARJEL Request 6 : BUG date de naissance & sexe & CGU
+    * [BETKUP-784] - Redirections Kups de Room 
+    * [BETKUP-786] - Bug affichage Room Customs 
+    * [BETKUP-788] - Probl�me edition formulaire et capteur
+    * [BETKUP-793] - Kup Cross Europ�en
+    * [BETKUP-794] - Kup OL - PSG
+    * [BETKUP-804] - Changement de pseudo marche pas 
+    * [BETKUP-805] - Kup Payante > Navigation dans le module invite est cass�e 
+    * [BETKUP-811] - Civilit� est "null" dans des certains cas (editField)
+    * [BETKUP-812] - Kup S�rie A
+    * [BETKUP-814] - Bug affichage sur page r�sultats Kup (shortner?)
+    * [BETKUP-825] - Racourcir les nom de kups et mettre des ...
+    * [BETKUP-828] - Probl�me lors de l'ajout d'une kup � une room
+    * [BETKUP-832] - Message d'erreur lorsque les pi�ces sont sup�rieurs � 2MB
+    * [BETKUP-833] - �dition compte simple cass�e
+    * [BETKUP-834] - My Betkup - dashboard should be 100%  when account verified
+    * [BETKUP-846] - Texte bulle d'aide score exact
+    * [BETKUP-847] - Texte Kup payante
+    * [BETKUP-863] - Question en double sur Naple Chelsea
+    * [BETKUP-875] - Home page - slider ne marche plus
+
+
+** Improvement
+    * [BETKUP-526] - S�lection d'une manche par d�faut 
+    * [BETKUP-737] - El�ments Marketing Important
+    * [BETKUP-756] - Compte complex: indication sur pourquoi on demande le RIB / IBAN
+    * [BETKUP-760] - Date avant d�but
+    * [BETKUP-765] - Carousel > affichage par d�faut
+    * [BETKUP-800] - Changer tous les select box du site
+    * [BETKUP-810] - Featured on homepage 
+    * [BETKUP-835] - Am�lioration upload doc
+    * [BETKUP-842] - ARJEL Request 3 : Alternance message
+    * [BETKUP-843] - Message au moment de la mise
+    * [BETKUP-852] - Textes lots r�gles new !
+    * [BETKUP-854] - Texte r�glement 
+
+** New Feature
+    * [BETKUP-801] - ARJEL Request 7 : Ne pas pr�-remplir les limites � l'inscription 
+    * [BETKUP-802] - ARJEL Request 8 : Rajouter l'auto exculsion d�finitive
+    * [BETKUP-803] - ARJEL Request 9 : Virement auto
+    * [BETKUP-806] - Cr�ation de la pop up FAQ
+
+
+** Task
+    * [BETKUP-341] - Page Comment ca marche ? 
+    * [BETKUP-361] - Redirects
+    * [BETKUP-687] - Carousel pour lancement
+    * [BETKUP-706] - Message code d'activation
+    * [BETKUP-709] - Bouton cr�er ma room � remplacer
+    * [BETKUP-718] - Texte des ?
+    * [BETKUP-724] - Chrono Kup
+    * [BETKUP-728] - Ils parlent de nous
+    * [BETKUP-731] - Contraintes plus forte sur pseudo (ARJEL)
+    * [BETKUP-749] - Room � la Une
+    * [BETKUP-755] - Liste buteurs Kup Match par Match
+    * [BETKUP-758] - Kup PSG - MHSC
+    * [BETKUP-767] - ARJEL Request : Arr�ter remplissage auto date de naissance 
+    * [BETKUP-768] - ARJEL Request 2 : Changer le header noir d'avertissement
+    * [BETKUP-769] - ARJEL Request 3 : Ajouter message interdits de jeu 
+    * [BETKUP-770] - ARJEL Request 4 : Rajouter le num�ro de licence dans le footer
+    * [BETKUP-771] - ARJEL Request 5 : Infos compte joueur
+    * [BETKUP-772] - Mod�le de lettre d'envoie legigame
+    * [BETKUP-774] - Calcul de points Kups week-end du 11/02
+    * [BETKUP-776] - Kups � ouvrir et � mettre en HP
+    * [BETKUP-778] - Description Kup
+    * [BETKUP-779] - Header > mettre le nombre d'�v�nements 2
+    * [BETKUP-780] - Calcul points semaine du 13/02
+    * [BETKUP-783] - Box_gains
+    * [BETKUP-785] - Room � mettre en HP
+    * [BETKUP-787] - Kups en HP
+    * [BETKUP-789] - Kup OL - PSG
+    * [BETKUP-791] - Room � mettre en HP
+    * [BETKUP-792] - Ordre des Kups
+    * [BETKUP-795] - Design Room Personnalis�e
+    * [BETKUP-797] - Room � la une
+    * [BETKUP-798] - Kups de ligues : ouverture journ�es
+    * [BETKUP-799] - Kup TOP14 - nombre d'�v�nements
+    * [BETKUP-826] - Kup Carousel, HP et page Kup
+    * [BETKUP-829] - Redirect apr�s cl�ture de la Kup
+    * [BETKUP-830] - % de bonnes r�posnes
+    * [BETKUP-836] - D�partement de naissance � modifier
+    * [BETKUP-841] - Kup week end 4
+    * [BETKUP-850] - Redirect depuis le carousel
+    * [BETKUP-851] - kup k8 d�coupe Pronostics
+    * [BETKUP-853] - Symfony 1.4.17 upgrade
+    * [BETKUP-855] - KupCross Europ�en version payante
+    * [BETKUP-868] - Bloquer la possibilit� de pronostiquer si qualification ou course d�but�e
+
+Release Notes - betkup.fr - Version 1.1 (Roller Coaster)
+
+** Sub-task
+    * [BETKUP-329] - Kup - invitation
+    * [BETKUP-408] - Écran lancer une Kup
+    * [BETKUP-585] - Performance : batching Kups / Rooms
+    * [BETKUP-599] - Affichage statut Kup (Kup de room) dans compteur buggé
+    * [BETKUP-618] - Warnings Apache / css
+    * [BETKUP-626] - Mix EU Leagues --> Kups Week end Cross Européen
+    * [BETKUP-627] - Réglement et CGU
+    * [BETKUP-629] - Compte de jeu simple / complet 
+    * [BETKUP-633] - VI NATIONS --> Kup Match par Match
+    * [BETKUP-634] - VI NATIONS --> Kup France - Italie
+    * [BETKUP-635] - VI NATIONS --> Kup France - Irlande
+    * [BETKUP-641] - LIGUE DES CHAMPIONS --> Kup Match par Match
+    * [BETKUP-644] - LIGUE DES CHAMPIONS --> Kup Lyon - Apoel
+    * [BETKUP-645] - LIGUE DES CHAMPIONS --> Kup Milan - Arsenal
+    * [BETKUP-647] - LIGUE DES CHAMPIONS --> Kup OM - Inter
+    * [BETKUP-654] - Acceptation des conditions générales du site 
+    * [BETKUP-655] - Limiter l'inscription aux personnes majeures (compte complet ET simple) 
+    * [BETKUP-658] - Rajouter la chartre de jeu responsable
+    * [BETKUP-659] - Rajouter un lien Contactez nous en bas de page 
+    * [BETKUP-662] - Formulaire enregistrement / édition compte
+    * [BETKUP-669] - Reprendre le formulaire d'upgrade au compte complet 
+    * [BETKUP-670] - Complément pour la To do 
+    * [BETKUP-671] - Bug "Créditer plus tard"
+    * [BETKUP-679] - Labels pour RIB 
+    * [BETKUP-680] - Édition RIB / IBAN impossible
+    * [BETKUP-682] - Register -> le prénom n'est pas sauvegardé...
+    * [BETKUP-683] - Problem dashboard...
+    * [BETKUP-686] - Fournir l'image de Room Edit 
+
+
+** Bug
+    * [BETKUP-600] - Page Résultats - régression CDM
+    * [BETKUP-607] - Bug calcul de points
+    * [BETKUP-620] - HTTPS broken sur classement Kups de room (avatars FB en plain HTTP)
+    * [BETKUP-622] - Problème date début Kup : inscription kups à rooms
+    * [BETKUP-660] - Communes, pays, départements, etc.
+    * [BETKUP-667] - Bugs affichages Firefox 3.5.5
+    * [BETKUP-674] - Missing Kup Templates for room admin
+    * [BETKUP-695] - Module création de room
+    * [BETKUP-696] - Invitation d'un amis
+    * [BETKUP-711] - BUGS Redirections
+    * [BETKUP-712] - Nombre de ârticipants
+    * [BETKUP-713] - Lien de surclassement de comtpe est actif 
+    * [BETKUP-714] - Lier son compte Facebook depuis l'invitation
+    * [BETKUP-719] - Règles & barème 
+    * [BETKUP-722] - Kup Payante > Prono > Crédit : les liens sont inactifs
+    * [BETKUP-723] - Bug visuel > header 
+
+
+** Improvement
+    * [BETKUP-244] - Stocker un cookie Betkup persistant pour information de login
+    * [BETKUP-447] - Auth failure redirects to login page (room / kups in room)
+    * [BETKUP-559] - V1: Présence de codes sources non nécessaires ou non utilisés (tests, débogage).
+    * [BETKUP-563] - Utilisation du pseudo (vs nom prénom)
+    * [BETKUP-588] - Module Invitation vFinale
+    * [BETKUP-591] - Kup - résultats - status pronos si fermé mais pas calculé
+    * [BETKUP-612] - Rajouter le pseudo dans les activités 
+    * [BETKUP-615] - Message Flash >Allonger le temps d'affichage 
+    * [BETKUP-616] - Rajouter un call to action "Pas encore de compte ?!" sur la page de connexion
+    * [BETKUP-617] - PHP Task: XXX the me and Kups' Room's cases should be factore out
+    * [BETKUP-619] - Créer un bouton pour lancer le request Facebook dans Invite 
+    * [BETKUP-661] - Mon Compte > Colonne de droite
+    * [BETKUP-688] - UI: inscription kup dans rooms
+    * [BETKUP-707] - Création Room - temps de chargement
+    * [BETKUP-729] - Login in is fucking slow
+
+** New Feature
+    * [BETKUP-689] - Redirect de jeu 
+
+
+** Task
+    * [BETKUP-121] - Kups
+    * [BETKUP-178] - Rooms
+    * [BETKUP-226] - Changement de mot de passe - le cas Facebook.
+    * [BETKUP-255] - Page "Parier en confiance" et liens footer 
+    * [BETKUP-361] - Redirects
+    * [BETKUP-602] - CASH GAME !!
+    * [BETKUP-603] - Rajouter date de naissance dans le mail mot de passe oublié
+    * [BETKUP-606] - Ouvrir plus de journées à l'avance sur ligues1 + top 14
+    * [BETKUP-609] - Informations présentes au sein sur le point d'interrogation
+    * [BETKUP-610] - symfony 1.4.16 released
+    * [BETKUP-624] - **KUPS PUBLIC LAUNCH 2012**
+    * [BETKUP-681] - Bug Message de l'invitation
+    * [BETKUP-684] - Mises sur Kups payante
+    * [BETKUP-690] - Bug validation de mise
+    * [BETKUP-691] - Problème date de naissance
+    * [BETKUP-693] - Pb formulaire crédit de compte
+    * [BETKUP-694] - Mise misées
+    * [BETKUP-697] - Kup Mise 0,50 €
+    * [BETKUP-699] - Double mise sur la même kup payante
+    * [BETKUP-721] - Carousel
+
+Release Notes - betkup.fr - Version 1.0.4
+
+** Sub-task
+    * [BETKUP-231] - Formulaire de création d'une room
+    * [BETKUP-235] - Room - edition Kups
+    * [BETKUP-267] - My Betkup - Room - Sélecteur Kup au dessus des Vignettes
+    * [BETKUP-373] - Création de Room > Formulaire 
+    * [BETKUP-483] - Classement rien afficher si pas de résultats
+    * [BETKUP-493] - Activer les états des Kups 
+    * [BETKUP-496] - Pronos > Date de dernier enregistrement 
+    * [BETKUP-516] - Kup Quarts de finale
+    * [BETKUP-517] - Kup Demie-finale n°1
+    * [BETKUP-518] - Kup Demie-finale n°2
+    * [BETKUP-519] - Kup Les Finales
+    * [BETKUP-520] - Page changement de mot de passe
+    * [BETKUP-529] - Texte des "?" Kup Demie n°1 & n°2
+    * [BETKUP-530] - Texte des "?" Kup les finales
+    * [BETKUP-561] - Final Kup - points computation rules and display widgets
+    * [BETKUP-566] - Création Kup Ligue 1
+    * [BETKUP-567] - Création Kup Premier League
+    * [BETKUP-568] - Création Kup Bundesliga
+    * [BETKUP-569] - Création Kup Liga BBVA
+    * [BETKUP-570] - Création Kup Série A
+    * [BETKUP-571] - Création Kup Top 14
+    * [BETKUP-573] - Multi-sport support / refactoring
+    * [BETKUP-576] - Changer l'indicateur de chargement de page 
+    * [BETKUP-577] - My Betkup version je n'ai pas joué du tout 
+    * [BETKUP-578] - Finir la section Room
+    * [BETKUP-581] - Liens sur la page si pas d'activité sur My Betkup
+    * [BETKUP-582] - Bug redirect création de Room 
+    * [BETKUP-587] - Focus sur l'étape 2
+
+
+** Bug
+    * [BETKUP-458] - Bug Affichage taille de site 
+    * [BETKUP-549] - Cache - Boutton créer une room sur kup/home
+    * [BETKUP-550] - Kup - pronos - longueur site
+    * [BETKUP-551] - Kup Le Tableau - aucun prono -1
+    * [BETKUP-552] - IE8: page pronos match par march broken
+    * [BETKUP-556] - Bug Page Résultats dans room
+    * [BETKUP-589] - Kup - vignette home : rien ne s'affiche quand commencé
+    * [BETKUP-593] - Impossible de pronostiquer 0 comme score
+    * [BETKUP-594] - Manque des joueurs pour la Premier League UK et autres
+
+
+** Improvement
+    * [BETKUP-459] - My Betkup > Kups de rooms - sliders
+    * [BETKUP-492] - Kups > Activer le drop down
+    * [BETKUP-525] - Affichage des Kups sur My Betkup et pages Room
+    * [BETKUP-564] - Use Memcache for view cache
+    * [BETKUP-579] - Indiquer le statut de la Kup dans le compte à rebours
+    * [BETKUP-580] - Petit défaut d'affichage, affiche pas les bonnes icones pour les bon sports.
+
+
+
+** Task
+    * [BETKUP-73] - Import users and teams from old betkup from CSV
+    * [BETKUP-304] - My Betkup > Section Mes Kups 
+    * [BETKUP-515] - Création des Kups de la phase finale
+    * [BETKUP-521] - Points Kups Tableau
+    * [BETKUP-531] - Texte des "?" Kup Match par Match
+    * [BETKUP-554] - Erreur texte bouton kup quarts de finale dans une room
+    * [BETKUP-555] - Align aide / feedback buttons on  both home and int layout
+    * [BETKUP-557] - Nettoyer les sections du carrousel
+    * [BETKUP-558] - Kup 1/2 dans Room TF1
+    * [BETKUP-562] - Personalistion kup la Finale room de tf1
+    * [BETKUP-565] - Lancements nouvelles Kups (Football + TOP 14)
+    * [BETKUP-572] - Symfony 1.4.15 upgrade
+    * [BETKUP-601] - 1.0.4 release
+    
+Release Notes - betkup.fr - Version 1.0.3
+
+** Sub-task
+    * [BETKUP-104] - Static assets caching
+    * [BETKUP-105] - Apache2 tunning
+    * [BETKUP-125] - Vérifier la limite de dépôt lors d'un nouveau crédit
+    * [BETKUP-161] - Top - Facebook share
+    * [BETKUP-168] - Top - ReTweet
+    * [BETKUP-169] - Top - Facebook Send
+    * [BETKUP-358] - Room Header - facebook / twitter widgets
+    * [BETKUP-404] - Filter by active rounds. Make it dynamic.
+    * [BETKUP-486] - Pronos > Implémenter les boutons de pronos auto
+    * [BETKUP-487] - Pronos > Styler les drop downs
+    * [BETKUP-488] - Pronos > Pictos ? et stats
+    * [BETKUP-489] - Pronos > Espacements 
+    * [BETKUP-494] - Emplacement des sliders 
+    * [BETKUP-497] - Classement > Aller à mon classement 
+    * [BETKUP-500] - Classement > Pagination
+
+** Bug
+    * [BETKUP-380] - Open Tags
+    * [BETKUP-510] - Pronostic > Message de confirmation 
+    * [BETKUP-513] - Création > Room : Redirect
+    * [BETKUP-524] - Publication Kup Facebook
+    * [BETKUP-527] - Kup home - box comment ça marche ?
+    * [BETKUP-534] - Room - twitter - texte pas bon
+    * [BETKUP-535] - Kup - Facebook Send - buggé
+    * [BETKUP-536] - Kup de Room - Facebook Send buggé
+    * [BETKUP-537] - Création de compte complet - étape 2 crédit - page cassée
+    * [BETKUP-541] - Slidedeck popup warnings about SSL
+
+** Improvement
+    * [BETKUP-363] - app.yml / module.yml
+    * [BETKUP-364] - App level lib deps versus Module level deps
+    * [BETKUP-506] - Longueur fond de site 
+    * [BETKUP-539] - Google Analytics - track page load
+    * [BETKUP-540] - Google Web Master Tools registration
+
+** Task
+    * [BETKUP-45] - User account
+    * [BETKUP-50] - Historique des paris
+    * [BETKUP-102] - Performances / production configuration
+    * [BETKUP-291] - Symfony production logging configuration
+    * [BETKUP-511] - Passer de 59 à 100 en score exact
+    * [BETKUP-522] - Statut Kups Settled
+    * [BETKUP-532] - Remove unused Facebook PHP SDK
+    * [BETKUP-533] - Kup Pronos - ne pas afficher les boutons si pas de pronos sur la page.
+    * [BETKUP-538] - Remove deprecated CMS module
+    * [BETKUP-542] - CSRF protection
+    * [BETKUP-543] - V18: Présence de pages d'erreurs non personnalisées.
+    * [BETKUP-544] - V19: Message d'erreur lors de l'authentification différent selon l'erreur.
+    * [BETKUP-545] - Comments and cleanup
+    * [BETKUP-547] - V21: Absence de message de dernière connexion.
+    * [BETKUP-548] - 1.0.3 release
+    
+Release Notes - betkup.fr - Version 1.0.2
+
+** Sub-task
+    * [BETKUP-323] - Vignettes room - section room - mouse over - bouton rejoindre
+    * [BETKUP-337] - Inscription compte complet > RIB/IBAN switch en JS marche pas 
+    * [BETKUP-377] - Onglet top page - alignement
+    * [BETKUP-466] - Credit form - JS  broken
+    * [BETKUP-481] - Page résultats Kup - header tableau
+    * [BETKUP-482] - Lien retour à la room depuis les onglets d'admins (edit/kups/invite)
+    * [BETKUP-485] - Header Room - espacement titre quand un peu long
+    * [BETKUP-488] - Pronos > Pictos ? et stats
+    * [BETKUP-489] - Pronos > Espacements 
+    * [BETKUP-491] - Pronos > Alignement des questions 
+    * [BETKUP-495] - Police toujours pas les bonnes 
+    * [BETKUP-508] - Vignette Kups - problème chrono
+    * [BETKUP-509] - Problème affichage durée quand < 1 jour
+
+
+** Bug
+    * [BETKUP-208] - IE8 - popup de connexion - texte 
+    * [BETKUP-414] - IE 8 > Drop down à l'inscription 
+    * [BETKUP-415] - IE8 > Inscription
+    * [BETKUP-475] - Wrong parameters sent to PF
+    * [BETKUP-476] - IE8 / FF : popup texte bas bouton + centré
+    * [BETKUP-477] - IE8: formulaire inscription "saute"
+    * [BETKUP-478] - Home -> sliders rooms plus centré
+    * [BETKUP-480] - IE - select box (page pronos / résultats) marchent pas
+
+
+** Improvement
+    * [BETKUP-473] - MAJ Kup Room TF1
+    * [BETKUP-474] - MAJ Kup Room ETAM
+    * [BETKUP-506] - Longueur fond de site 
+
+
+
+** Task
+    * [BETKUP-378] - IE9 - vignette kup - problème police
+    * [BETKUP-445] - Mise à jour de la Room Rugby Connection
+    * [BETKUP-449] - Augmenter le scroll des rooms personalisées
+    * [BETKUP-468] - changement logo header Room DFO (des filles en Ovalie)
+    * [BETKUP-484] - Création de la Kup France VS NZ
+    * [BETKUP-507] - Symfony 1.4.14
+
+Release Notes - betkup.fr - Version 1.0.1
+
+** Sub-task
+    * [BETKUP-137] - Kup home - barre de recherche
+    * [BETKUP-164] - Page classement et wall
+    * [BETKUP-236] - Room - invitation / emails
+    * [BETKUP-252] - Section "ils parlent de nous"
+    * [BETKUP-253] - Liens footers
+    * [BETKUP-385] - Invitation - Twitter
+    * [BETKUP-386] - Invitation - Facebook
+    * [BETKUP-387] - Invitation - Link
+    * [BETKUP-388] - Publier sur Facebook
+    * [BETKUP-389] - Invitation pour member de room publique
+    * [BETKUP-428] - Bug CSS tableau
+    * [BETKUP-429] - Empêcher la sélection de 2 équipes dans une colonne
+    * [BETKUP-431] - Mettre une valeur par défaut sur les select box
+    * [BETKUP-436] - IE8 : bouton en bas de page - espacement
+    * [BETKUP-437] - Afficher le nom complet de l'équipe dans le drop down
+    * [BETKUP-441] - Tableau - décalage bouton enregister à droite
+    * [BETKUP-453] - IE8: erreur JS
+    * [BETKUP-455] - TODO liste pour le gratuit
+    * [BETKUP-470] - FF slider not working
+    * [BETKUP-471] - My Betkup > affichage avatar room
+
+
+** Bug
+    * [BETKUP-207] - IE8 - bug Facebook like button header
+    * [BETKUP-402] - Accueil Room > Pb de découpe / CSS
+    * [BETKUP-433] - Bug recaptcha IE8
+    * [BETKUP-434] - Fix SSL on home page
+    * [BETKUP-440] - Traduction select box Kups
+    * [BETKUP-446] - Firefox > PB de défilement
+    * [BETKUP-456] - home - room - CSS à droite crade
+    * [BETKUP-457] - Error up Post Login
+    * [BETKUP-463] - Classement - photo / pseudo
+    * [BETKUP-472] - Choix joueurs / pronos fucked
+
+
+** Improvement
+    * [BETKUP-454] - IE8 issues
+    * [BETKUP-461] - Statut Kup fermée
+
+
+
+** Task
+    * [BETKUP-41] - Application meta configuration (view.yml)
+    * [BETKUP-186] - 1.0 release
+    * [BETKUP-198] - Module invite
+    * [BETKUP-199] - Kup Rugby Full Prono
+    * [BETKUP-327] - Enlever toute la partie payante
+    * [BETKUP-330] - Mise en place des customs sur les Kups 
+    * [BETKUP-390] - Alignement des kups dans les rooms
+    * [BETKUP-391] - Problème dans le découpage du bouton ROOM
+    * [BETKUP-399] - Faire un Favicon
+    * [BETKUP-411] - Bug box lots des kups génériques qui apparait dans une room lambda
+    * [BETKUP-416] - Problème d'affichage section "en direct"
+    * [BETKUP-417] - Home - box de connection - valeur par défaut
+    * [BETKUP-419] - Ajouter les liens sur le bouton "a gagner" des box lots
+    * [BETKUP-421] - bazar dans les picto de ma room
+    * [BETKUP-423] - URL TF1 et ETAM
+    * [BETKUP-430] - Modification de la Room Rugby Division
+    * [BETKUP-438] - Changement du témoignagne Rugby Connection Home
+    * [BETKUP-439] - Changement du témoignagne Rugby Connection Home
+    * [BETKUP-442] - Problème question dans la kup choc des poules
+    * [BETKUP-443] - Supprimer la mention "lots" des kups dans les rooms qui n'en n'ont pas
+    * [BETKUP-448] - bug visiteur problème création de room
+    * [BETKUP-450] - Bug des chronos kups dans une room
+    * [BETKUP-452] - Affichage du nom d'une room qui se superpose
+    * [BETKUP-460] - Pronos : dates + blocage
+    * [BETKUP-462] - Corriger faute témoignage rugby division
+    * [BETKUP-469] - changer le nom de la room des filles en ovalie
+
+Release Notes - betkup.fr - Version 1.0 (Elbow)
+
+** Sub-task
+    * [BETKUP-12] - Memcache installation documentation
+    * [BETKUP-15] - Secure symfony at root level
+    * [BETKUP-16] - Define a custom security filter et configure it at Symfony root level
+    * [BETKUP-17] - Define a customer betkup user
+    * [BETKUP-22] - User sessions / Memcached
+    * [BETKUP-26] - Carousel haut de page
+    * [BETKUP-28] - Kups à la une
+    * [BETKUP-29] - Rooms à la une
+    * [BETKUP-31] - Section "Ils aiment betkup"
+    * [BETKUP-33] - Section Je veux m'inscrire
+    * [BETKUP-34] - Haut de page "Jouer comporte des risques"
+    * [BETKUP-35] - Facebook Like Widget
+    * [BETKUP-53] - Home - searching Kups
+    * [BETKUP-99] - Pseudo auto-complete
+    * [BETKUP-100] - Drop downs date - affichier l'année uniquement à partir de -16 ou -18
+    * [BETKUP-122] - Découpage
+    * [BETKUP-128] - Édition membre: drop down / champ libre sur les limites
+    * [BETKUP-160] - Box mon statut à droite
+    * [BETKUP-167] - Page régles et barêmes
+    * [BETKUP-170] - Header Kup - Kup de rooms
+    * [BETKUP-171] - Select participants / manches
+    * [BETKUP-173] - Page classement - slider
+    * [BETKUP-182] - Rugby World Cup Setup
+    * [BETKUP-215] - Implémenter les Kups pour la CDM
+    * [BETKUP-230] - Room - statut colonne de droite
+    * [BETKUP-233] - Room - header
+    * [BETKUP-238] - Room - home - vue membre
+    * [BETKUP-239] - Room - home - vue NON membre
+    * [BETKUP-245] - Room access policy and security
+    * [BETKUP-246] - Kup access policy and security
+    * [BETKUP-247] - Kup access policy and security
+    * [BETKUP-261] - Partie en direct - sélécteur à implémenter
+    * [BETKUP-284] - Personnalisation Room ETAM
+    * [BETKUP-285] - Personnalisation Room TF1
+    * [BETKUP-286] - Personnalisation Room Rugby Division
+    * [BETKUP-287] - Personnalisation Room Rabadan
+    * [BETKUP-288] - Personnalisation Room Trinquet
+    * [BETKUP-290] - Room UI customization mecanism
+    * [BETKUP-294] - Personnalisation Room Rencontres à XV
+    * [BETKUP-299] - Page 1 Room > Boutons jouer 
+    * [BETKUP-303] - My Betkup vide > Message d'intro
+    * [BETKUP-305] - My Betkup > Section Mes Rooms 
+    * [BETKUP-306] - My Betkup > To do list
+    * [BETKUP-307] - Compte à rebours vignettes Kups.
+    * [BETKUP-310] - Personnalisation Room DFO
+    * [BETKUP-311] - Personnalisation Room So Sport
+    * [BETKUP-312] - Personnalisation Room Rugby Connection
+    * [BETKUP-313] - Personnalisation Room Mêlée Ouverte
+    * [BETKUP-324] - Registration - Validation JS incorrect
+    * [BETKUP-331] - Custom Kup > Kup Poule du Coq
+    * [BETKUP-332] - Custom Kup > Kup VI Nations
+    * [BETKUP-333] - Custom Kup > Chocs des Poules
+    * [BETKUP-334] - Custom Kup > Match par Match
+    * [BETKUP-336] - Custom Kup > La Totale
+    * [BETKUP-344] - Picto titre kups sur vue room
+    * [BETKUP-345] - Picto titre recherche Rooms sur room/home
+    * [BETKUP-346] - Écran poules - aligner les boutons en bas
+    * [BETKUP-347] - Widget ranking et feed sur page room
+    * [BETKUP-348] - Poules > Prévoir une feuille sans prono
+    * [BETKUP-349] - Poules > Styliser les boutons radio de pronostic
+    * [BETKUP-350] - Poules > Aligner les boutons au centre
+    * [BETKUP-351] - Poules > Supprimer le bouton pour choisir les favoris
+    * [BETKUP-352] - Poules & Tableau > Logos et nom des équipes
+    * [BETKUP-353] - Tableau > Mouse over sur les cases 
+    * [BETKUP-354] - Tableau > Un message browser apparait quand je choisis un pays dans le menu déroulant 
+    * [BETKUP-355] - Tableau > Boutons Radio non stylisés
+    * [BETKUP-356] - Alignement box dans la colonne de droite 
+    * [BETKUP-357] - Formulaire de création - folding unfolding des options comme sur la maquette
+    * [BETKUP-360] - Mécanisme de customization de Kups
+    * [BETKUP-365] - Warnings - errors sur écran poules
+    * [BETKUP-366] - Personnalisation Room Sud Rugby
+    * [BETKUP-367] - Homepage > Je veux m'inscrire
+    * [BETKUP-369] - Accueil Room + Homepage > Vignette de Room toujours pas les bonnes dimensions 
+    * [BETKUP-370] - Peaufinage distances dans accueil Room
+    * [BETKUP-371] - Peaufinage Recherche Room
+    * [BETKUP-372] - Création de Room > Problème avec la page de fond
+    * [BETKUP-375] - Page d'une Room > header
+    * [BETKUP-379] - room/home batch cassé quand nombre de room > 6 et < 12
+    * [BETKUP-382] - Création de la page lots règles des kups dans les rooms
+    * [BETKUP-383] - Chargement mails de gauche à droite
+    * [BETKUP-398] - Page pronostics
+    * [BETKUP-400] - Page pronostic - sélecteur manche à styler
+    * [BETKUP-401] - Ne pas afficher la room communautaire Betkup.
+    * [BETKUP-403] - room/home - problème batch lorsqu'il y a un nombre particulier de rooms
+
+
+** Bug
+    * [BETKUP-328] - Page 404 broken
+    * [BETKUP-368] - Formulaire inscription - Décalage
+    * [BETKUP-381] - Box colonne de droite dans Room Rencontre à XV
+    * [BETKUP-393] - Page de Kup > pb de découpe/intégration 
+    * [BETKUP-394] - Page de Kup > Affichage du chrono
+    * [BETKUP-396] - Zone de clic mal configuré dans la nav
+    * [BETKUP-409] - Page d'une Room > header > PB pictos
+    * [BETKUP-427] - J'accède à la Kup d'une Room sans être membre
+
+
+** Improvement
+    * [BETKUP-222] - Espace vers le picto crayon / label
+    * [BETKUP-302] - Header connecté > Décalage
+    * [BETKUP-343] - Références du nom de rooms persos en dur dans les templates - vérification des vues Kups dans rooms avec custom
+    * [BETKUP-359] - Room invitation - picto Inviter des amis
+    * [BETKUP-395] - Chrono > Changer clôture pour début 
+
+** New Feature
+    * [BETKUP-7] - Tournament display stages abstraction
+
+
+** Task
+    * [BETKUP-8] - Platform clustering
+    * [BETKUP-11] - Configure Sympony Sessions to use memcached
+    * [BETKUP-42] - i18n / l10n
+    * [BETKUP-43] - Misc cleanup
+    * [BETKUP-44] - Marketing
+    * [BETKUP-60] - CSV exports of teams / members
+    * [BETKUP-61] - Customiser la page de l'application Betkup
+    * [BETKUP-158] - Rooms
+    * [BETKUP-159] - Custom DTD w/ Autocomplete
+    * [BETKUP-256] - Intégration Rooms Partenaires CDM
+    * [BETKUP-295] - i18n settings
+    * [BETKUP-326] - Créer template de la newsletter Betkup
+    * [BETKUP-392] - Trou dans les pages des onglets
+    * [BETKUP-397] - Faire des box Lots pour les 6 Kups 
+    * [BETKUP-405] - Modifier le Carousel de la Homepage
+    * [BETKUP-406] - kup/home - information Kups
+    * [BETKUP-407] - Ajouter box lots sur la page des kups officielles
+    * [BETKUP-410] - Pbm affichage kup dans une room
+    * [BETKUP-412] - Problème avec les pdf
+    * [BETKUP-413] - Mauvais liens carousel
+    * [BETKUP-418] - IE9 - Le captcha n'apparait pas, impossible de créer un compte
+    * [BETKUP-420] - Reprendre tout les header (suppression / activation de contenu)
+    * [BETKUP-422] - Kup La Total doit disparaitre
+    * [BETKUP-424] - Kup > Classement
+    * [BETKUP-425] - INdiquez la valeur des lots dans la cagnotte 
+    * [BETKUP-426] - Kups de Room -  pronostics
+
+Release Notes - betkup.fr - Version 1.0 - m4
+
+** Sub-task
+    * [BETKUP-26] - Carousel haut de page
+    * [BETKUP-134] - Rajouter la mention GRATUIT !
+    * [BETKUP-216] - Reprise de la page de crédit dans flot de création
+    * [BETKUP-218] - Onglet Kup
+    * [BETKUP-228] - Gestion des avatars teams
+    * [BETKUP-230] - Room - statut colonne de droite
+    * [BETKUP-232] - Formulaire édition room
+    * [BETKUP-234] - Room - header - kup dans room
+    * [BETKUP-245] - Room access policy and security
+    * [BETKUP-248] - Vérification dynamique et finale room name
+    * [BETKUP-249] - Room home - recherche
+    * [BETKUP-276] - Lier mon compte Facebook à droite
+    * [BETKUP-277] - Homepage > Rooms à la Une : peaufiner 
+    * [BETKUP-279] - Homepage > Ils aiment Betkup
+    * [BETKUP-280] - Vue initiale ? 
+    * [BETKUP-284] - Personnalisation Room ETAM
+    * [BETKUP-285] - Personnalisation Room TF1
+    * [BETKUP-286] - Personnalisation Room Rugby Division
+    * [BETKUP-287] - Personnalisation Room Rabadan
+    * [BETKUP-288] - Personnalisation Room Trinquet
+    * [BETKUP-294] - Personnalisation Room Rencontres à XV
+    * [BETKUP-305] - My Betkup > Section Mes Rooms 
+    * [BETKUP-308] - Barre de progression todo list
+    * [BETKUP-309] - Décalage tab My Betkup
+    * [BETKUP-310] - Personnalisation Room DFO
+    * [BETKUP-311] - Personnalisation Room So Sport
+    * [BETKUP-312] - Personnalisation Room Rugby Connection
+    * [BETKUP-316] - Batch sur /room
+    * [BETKUP-321] - Onglet Mon Betkup
+    * [BETKUP-339] - Problème layout partie Kup
+
+** Bug
+    * [BETKUP-220] - Reprise de la homepage non identifié
+    * [BETKUP-297] - Création de compte complet > Marche pas 
+    * [BETKUP-314] - Erreur import JS sur room/view
+    * [BETKUP-315] - Registration toute cassée...
+    * [BETKUP-317] - Logo - Page de login
+    * [BETKUP-318] - Affichage statut de mon compte dans header
+    * [BETKUP-319] - Bug Connexion Deconnextion
+    * [BETKUP-320] - Erreur sur $roomUI
+    * [BETKUP-322] - Logo Betkup sur pages login / mot de passe etc...
+    * [BETKUP-325] - Home - Kups - régression CSS
+
+Release Notes - betkup.fr - Version 1.0 - m3
+
+** Sub-task
+    * [BETKUP-9] - Kup templates
+    * [BETKUP-25] - Footer
+    * [BETKUP-58] - Home - bas de page - twitter intégration
+    * [BETKUP-114] - Création compte simple / complex - bloc gauche - scroll
+    * [BETKUP-140] - Amélioration pop up connexion
+    * [BETKUP-141] - Rajouter les filtres mouse over sur Kups et Rooms
+    * [BETKUP-145] - Options de choix de pseudo
+    * [BETKUP-174] - Page classement - slider
+    * [BETKUP-200] - Vérification formulaire CB.
+    * [BETKUP-206] - User Experience > Passage au compte complet 
+    * [BETKUP-216] - Reprise de la page de crédit dans flot de création
+    * [BETKUP-217] - Envoie de doc > Rajouter texte explicatif 
+    * [BETKUP-218] - Onglet Kup
+    * [BETKUP-250] - Colonne de droite - fixer la couleur du font
+    * [BETKUP-262] - Message de confirmation sur création de compte simple
+    * [BETKUP-263] - Room Page Recherche - bordure rouge
+    * [BETKUP-264] - Régression sur page room...
+    * [BETKUP-265] - Espace sur tab trop important
+    * [BETKUP-266] - Espacement sur titre / header haut
+    * [BETKUP-268] - Box TODO list sur la droite
+    * [BETKUP-269] - Couper le titre de la room
+    * [BETKUP-270] - Infos Rooms (police + taille + espacement)
+    * [BETKUP-271] - Homepage > Slider
+    * [BETKUP-272] - Homepage > Kups à la Une : supprimer mouse over
+    * [BETKUP-273] - Lien admin
+    * [BETKUP-274] - Kup & Room slider
+    * [BETKUP-275] - Homepage > Kups à la Une : Défilement & distance
+    * [BETKUP-277] - Homepage > Rooms à la Une : peaufiner 
+    * [BETKUP-278] - Tableau de bord header
+    * [BETKUP-279] - Homepage > Ils aiment Betkup
+    * [BETKUP-281] - Homepage > Box Facebook
+    * [BETKUP-282] - Homepage > Je veux m'inscrire
+    * [BETKUP-283] - Homepage & Footer
+    * [BETKUP-284] - Personnalisation Room ETAM
+    * [BETKUP-285] - Personnalisation Room TF1
+    * [BETKUP-286] - Personnalisation Room Rugby Division
+    * [BETKUP-287] - Personnalisation Room Rabadan
+    * [BETKUP-288] - Personnalisation Room Trinquet
+    * [BETKUP-289] - Erreur sur les messages d'aide sur les formulaires de création
+    * [BETKUP-290] - Room UI customization mecanism
+    * [BETKUP-292] - Défilement sans limite en hauteur
+    * [BETKUP-293] - Bulles d'erreur 
+    * [BETKUP-300] - Page accueil Room >taille des boxes
+    * [BETKUP-309] - Décalage tab My Betkup
+
+** Bug
+    * [BETKUP-251] - Avatar par défault - créateur - vue room
+    * [BETKUP-296] - Création compte complet > IBAN marche pas 
+    * [BETKUP-297] - Création de compte complet > Marche pas 
+
+** Improvement
+    * [BETKUP-298] - Page 1 Room > Navigation trop basse 
+    * [BETKUP-302] - Header connecté > Décalage
+
+** Task
+    * [BETKUP-162] - Intégration payline
+    * [BETKUP-257] - Intégration Rooms Partenaires CDM
+    * [BETKUP-260] - Google Analytics setup
+    
+Release Notes - betkup.fr - Version 1.0 - m2
+
+** Sub-task
+    * [BETKUP-71] - Login - password perdu
+    * [BETKUP-72] - Paramètres des sessions.
+    * [BETKUP-114] - Création compte simple / complex - bloc gauche - scroll
+    * [BETKUP-141] - Rajouter les filtres mouse over sur Kups et Rooms
+    * [BETKUP-153] - Design champs select box
+    * [BETKUP-154] - Formulaire complet > RIB et limites
+    * [BETKUP-180] - Mon Compte > Notif & publications > Rajouter Facebook
+    * [BETKUP-206] - User Experience > Passage au compte complet 
+    * [BETKUP-220] - Reprise de la homepage non identifié
+    * [BETKUP-223] - Découpe Page Creation Room Step One
+    * [BETKUP-224] - Search tags - i18n
+    * [BETKUP-225] - Bug header sur room 
+    * [BETKUP-227] - Implement User logout on platform
+    * [BETKUP-229] - Room - home - boutons colonne de droite
+    * [BETKUP-254] - Rendre clickable les icônes "sociales"
+    * [BETKUP-258] - Footer - flèche de renvoie vers le haut
+    * [BETKUP-259] - Footer - plugins recommander / envoyer
+
+** Bug
+    * [BETKUP-181] - Décalage formulaire de login quand message d'erreur
+    * [BETKUP-195] - Message d'erreur persistant sur plusieurs pages 
+    * [BETKUP-204] - Page de login cassée!
+    * [BETKUP-211] - Formulaire upgrade bug
+    
+** Improvement
+    * [BETKUP-188] - page Login > Petites modification de CSS
+    * [BETKUP-189] - Box de connexion rapide > améliorations 
+    * [BETKUP-205] - Rajouter un message de confirmation de création de compte
+    * [BETKUP-209] - Activer la mémorisation du login, mdp et date de naissance par le browser
+    * [BETKUP-210] - Mon Compte > Rendre clicable l'onglet sur lequel on se trouve
+    * [BETKUP-212] - Contenu erroné sur la création d'un compte complet 
+    * [BETKUP-214] - Créer un message "flash up" pour confirmer upgrade 
+    * [BETKUP-217] - Envoie de doc > Rajouter texte explicatif 
+
+** Task
+    * [BETKUP-23] - Symfony User sessions
+    * [BETKUP-39] - Maintenance page
+    * [BETKUP-40] - Page 404 / erreur
+    * [BETKUP-175] - CGU
+    * [BETKUP-183] - Textes explicatif pour les pages compte joueur simple
+    * [BETKUP-201] - Password forgotten - ajouter une captcha
+    * [BETKUP-202] - Password reset - ajouter une captcha
+    * [BETKUP-203] - Validation finale formulaire complexe 
+    * [BETKUP-213] - Message Status à la Twitter
+    * [BETKUP-221] - Bug sur le département
+    * [BETKUP-240] - Page erreur 500
+    * [BETKUP-241] - Snap a bug
+    * [BETKUP-242] - User voice
+    * [BETKUP-260] - Google Analytics setup
+
+Release Notes - betkup.fr - Version 1.0 - m1 (2011-08-07)
+
+** Sub-task
+    * [BETKUP-47] - Notifications et publications
+    * [BETKUP-65] - Refactoring captcha
+    * [BETKUP-135] - Amélioration Box express
+    * [BETKUP-136] - Rajouter Facebook Connect sur la box Express
+    * [BETKUP-138] - Transmettre les infos de la box express
+    * [BETKUP-139] - Bouton Facebook Connect
+    * [BETKUP-142] - Agrandir la police utilisée pour bien remplir les champs 
+    * [BETKUP-143] - Rajouter le genre à l'inscription (Mr, Mme...)
+    * [BETKUP-144] - Les textes d'aide doivent apparaitre au mouse over
+    * [BETKUP-146] - Champs date (ex : date de naissance) 
+    * [BETKUP-147] - Taille des champs, organisation de l'espace et comportement 
+    * [BETKUP-148] - Création compte complet > Vérifications à la volée 
+    * [BETKUP-149] - Création compte simple > Vérifications finale
+    * [BETKUP-150] - Formulaire compte complet 
+    * [BETKUP-151] - Compte complet > Selection d'un champs 
+    * [BETKUP-152] - Champs sélection pays
+    * [BETKUP-155] - Box choix de compte
+    * [BETKUP-190] - Password reset - texte pour reset après user redirect
+
+** Bug
+    * [BETKUP-196] - Formulaire de création complexe est cassé!
+
+** Improvement
+    * [BETKUP-185] - Message lorsqu'une session expire PF side
+
+** Task
+    * [BETKUP-193] - Symfony 1.4.13 support

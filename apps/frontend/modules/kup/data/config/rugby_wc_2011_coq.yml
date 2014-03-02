@@ -1,0 +1,6 @@
+all:
+  kupName: label_kup_title_coq
+  ic: 6663 6678 6684 6694
+  se:
+  questions: 6663 6678 6684 6694
+  bg: 6663 6678 6684 6694

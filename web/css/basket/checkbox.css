@@ -1,0 +1,366 @@
+/*
+ * CSS FILE FOR BASKET RADIO BUTTON CUSTOM SKIN
+ *
+ * Typicaly for predictions ic and predictions q
+ * 
+ * @package    betkup.fr
+ * @author     Sofun Gaming SAS
+ */
+
+/* PREDICTIONS_IC */
+.basket-ic-left-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-ic-left-radio .mark {
+    display: inline;
+}
+
+.basket-ic-left-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url(/image/default/basket/interface/sprites_interface_basket.png) no-repeat;
+    background-position: -17px -191px;
+}
+
+.basket-ic-left-radio-hover img {
+    background-position: -136px -190px;
+}
+
+.basket-ic-left-radio-checked img {
+    background-position: -77px -190px;
+}
+
+.basket-ic-left-radio-checked .basket-ic-left-radio-hover img {
+    background-position: -77px -190px;
+}
+
+.basket-ic-left-radio-disabled img {
+    background-position: -257px -191px;
+}
+
+.basket-ic-left-radio-checked .basket-ic-left-radio-disabled img {
+    background-position: -198px -191px;
+}
+
+.basket-ic-right-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-ic-right-radio .mark {
+    display: inline;
+}
+
+.basket-ic-right-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url(/image/default/basket/interface/sprites_interface_basket.png) no-repeat;
+    background-position: -17px -245px;
+}
+
+.basket-ic-right-radio-hover img {
+    background-position: -135px -245px;
+}
+
+.basket-ic-right-radio-checked img {
+    background-position: -77px -245px;
+}
+
+.basket-ic-right-radio-checked .basket-ic-right-radio-hover img {
+    background-position: -77px -245px;
+}
+
+.basket-ic-right-radio-disabled img {
+    background-position: -257px -245px;
+}
+
+.basket-ic-right-radio-checked .basket-ic-right-radio-disabled img {
+    background-position: -198px -245px;
+}
+
+/* PREDICTIONS_Q YES/NO */
+
+.basket-q-left-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-q-left-radio .mark {
+    display: inline;
+}
+
+.basket-q-left-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url(/image/default/basket/interface/sprites_interface_basket.png) no-repeat;
+    background-position: -350px -191px;
+}
+
+.basket-q-left-radio-hover img {
+    background-position: -471px -192px;
+}
+
+.basket-q-left-radio-checked img {
+    background-position: -410px -191px;
+}
+
+.basket-q-left-radio-checked .basket-q-left-radio-hover img {
+    background-position: -410px -191px;
+}
+
+.basket-q-left-radio-disabled img {
+    background-position: -589px -191px;
+}
+
+.basket-q-left-radio-checked .basket-q-left-radio-disabled img {
+    background-position: -531px -191px;
+}
+
+.basket-q-right-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-q-right-radio .mark {
+    display: inline;
+}
+
+.basket-q-right-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url(/image/default/basket/interface/sprites_interface_basket.png) no-repeat;
+    background-position: -350px -247px;
+}
+
+.basket-q-right-radio-hover img {
+    background-position: -471px -247px;
+}
+
+.basket-q-right-radio-checked img {
+    background-position: -410px -247px;
+}
+
+.basket-q-right-radio-checked .basket-q-right-radio-hover img {
+    background-position: -410px -247px;
+}
+
+.basket-q-right-radio-disabled img {
+    background-position: -589px -247px;
+}
+
+.basket-q-right-radio-checked .basket-q-right-radio-disabled img {
+    background-position: -531px -247px;
+}
+
+/* PREDICTIONS_Q 1X2 */
+
+.basket-q2-left-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-q2-left-radio .mark {
+    display: inline;
+}
+
+.basket-q2-left-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url(/image/default/basket/interface/sprites_interface_basket.png) no-repeat;
+    background-position: -17px -191px;
+}
+
+.basket-q2-left-radio-hover img {
+    background-position: -136px -190px;
+}
+
+.basket-q2-left-radio-checked img {
+    background-position: -77px -190px;
+}
+
+.basket-q2-left-radio-checked .basket-q2-left-radio-hover img {
+    background-position: -77px -190px;
+}
+
+.basket-q2-left-radio-disabled img {
+    background-position: -257px -191px;
+}
+
+.basket-q2-left-radio-checked .basket-q2-left-radio-disabled img {
+    background-position: -198px -191px;
+}
+
+.basket-q2-center-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-q2-center-radio .mark {
+    display: inline;
+}
+
+.basket-q2-center-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url(/image/default/basket/interface/sprites_interface_basket.png) no-repeat;
+    background-position: -16px -397px;
+}
+
+.basket-q2-center-radio-hover img {
+    background-position: -135px -399px;
+}
+
+.basket-q2-center-radio-checked img {
+    background-position: -77px -397px;
+}
+
+.basket-q2-center-radio-checked .basket-q2-center-radio-hover img {
+    background-position: -77px -397px;
+}
+
+.basket-q2-center-radio-disabled img {
+    background-position: -256px -398px;
+}
+
+.basket-q2-center-radio-checked .basket-q2-center-radio-disabled img {
+    background-position: -198px -398px;
+}
+
+.basket-q2-right-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-q2-right-radio .mark {
+    display: inline;
+}
+
+.basket-q2-right-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url(/image/default/basket/interface/sprites_interface_basket.png) no-repeat;
+    background-position: -17px -245px;
+}
+
+.basket-q2-right-radio-hover img {
+    background-position: -135px -245px;
+}
+
+.basket-q2-right-radio-checked img {
+    background-position: -77px -245px;
+}
+
+.basket-q2-right-radio-checked .basket-q2-right-radio-hover img {
+    background-position: -77px -245px;
+}
+
+.basket-q2-right-radio-disabled img {
+    background-position: -257px -245px;
+}
+
+.basket-q2-right-radio-checked .basket-q2-right-radio-disabled img {
+    background-position: -198px -245px;
+}
+
+/* PREDICTION PLAYER KUP QUESTION */
+
+.basket-player-q-left-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-player-q-left-radio .mark {
+    display: inline;
+}
+
+.basket-player-q-left-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url('/image/default/basket/interface/sprites_players_kup.png') no-repeat;
+    background-position: -41px -355px;
+}
+
+.basket-player-q-left-radio-hover img {
+    background-position: -143px -355px;
+}
+
+.basket-player-q-left-radio-checked img {
+    background-position: -91px -355px;
+}
+
+.basket-player-q-left-radio-checked .basket-player-q-left-radio-hover img {
+    background-position: -91px -355px;
+}
+
+.basket-player-q-left-radio-disabled img {
+    background-position: -243px -355px;
+}
+
+.basket-player-q-left-radio-checked .basket-player-q-left-radio-disabled img {
+    background-position: -193px -355px;
+}
+
+.basket-player-q-right-radio {
+    display: inline;
+    font-size: 20px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.basket-player-q-right-radio .mark {
+    display: inline;
+}
+
+.basket-player-q-right-radio img {
+    vertical-align: middle;
+    width: 47px;
+    height: 47px;
+    background: transparent url('/image/default/basket/interface/sprites_players_kup.png') no-repeat;
+    background-position: -41px -408px;
+}
+
+.basket-player-q-right-radio-hover img {
+    background-position: -143px -408px;
+}
+
+.basket-player-q-right-radio-checked img {
+    background-position: -91px -408px;
+}
+
+.basket-player-q-right-radio-checked .basket-player-q-right-radio-hover img {
+    background-position: -91px -408px;
+}
+
+.basket-player-q-right-radio-disabled img {
+    background-position: -243px -408px;
+}
+
+.basket-player-q-right-radio-checked .basket-player-q-right-radio-disabled img {
+    background-position: -193px -408px;
+}

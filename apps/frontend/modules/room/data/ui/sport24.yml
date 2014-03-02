@@ -1,0 +1,61 @@
+ui:
+  roomName: sport24
+  avatar-room: /partner/sport24/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/sport24/image/header_logo.png
+  header-room-logo-size: 243x100
+  header-bg: /partner/sport24/image/header_bg_room.png
+  kup-header-bg: /partner/sport24/image/header_bg_kup.png
+  path-img-title-bg: /partner/sport24/image/title.png
+  path-img-title-question: /partner/sport24/image/header_question_sport24.png
+  path-img-title-kup: /partner/sport24/image/header_kup_sport24.png
+  path-img-list: /partner/sport24/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 1
+  isBodyBgColor: 1
+  body-bg-img-bottom-right: /partner/sport24/image/car.png
+  body-bg-img: /partner/sport24/image/bg_room_sport24.jpg
+  body-bg-color: '#000000'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/sport24/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/sport24/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 0
+  box-prizes: /partner/sport24/image/prizes_news.png
+  box-prizes-button: /partner/sport24/image/box_prizes_button.png
+  path_img_kup_perso_prizes: /partner/sport24/image/kupPrizes
+  show-box-news: 0
+  show-box-facebook: 0
+  array_kup_perso_prizes: ['3395092', '3051670', '2656750', '2573781', '2481566', '2410657', '3545276', '3904690', '3862964', '3621975', '3597285']
+  kups:
+    3395092:
+      prize_value: 180
+    3051670:
+      prize_value: 180
+    2656750:
+      prize_value: 180
+    2573781:
+      prize_value: 180
+    2481566:
+      prize_value: 180
+    2410657:
+      prize_value: 180
+    3545276:
+      prize_value: 180
+    3904690:
+      prize_value: 180
+    3862964:
+      prize_value: 180
+    3621975:
+      prize_value: 180
+    3597285:
+      prize_value: 180
+    4230895:
+      prize_value: 180
+      

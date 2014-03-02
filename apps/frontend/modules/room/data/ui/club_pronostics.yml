@@ -1,0 +1,30 @@
+ui:
+  roomName: ClubPronostics
+  avatar-room: /partner/club_pronostics/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/club_pronostics/image/header_logo.png
+  header-room-logo-size: 419x41
+  header-bg: /partner/club_pronostics/image/header_bg_room.png
+  kup-header-bg: /partner/club_pronostics/image/header_bg_kup.png
+  path-img-title-bg: /partner/club_pronostics/image/title.png
+  path-img-title-question: /partner/club_pronostics/image/header_question_club_pronostics.png
+  path-img-title-kup: /partner/club_pronostics/image/header_club_pronostics.png
+  path-img-list: /partner/club_pronostics/image/list
+  isPictoPerso : 0
+  isBgPerso: 1
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 1
+  body-bg-img: /partner/club_pronostics/image/bg_room_club_pronostics.jpg
+  body-bg-color: '#D9D9D9'
+  isRoomNameColorPerso: 1
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/club_pronostics/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/club_pronostics/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 0
+  show-box-news: 0
+  show-box-facebook: 0

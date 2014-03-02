@@ -1,0 +1,400 @@
+.tableau .orange {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #F28A31;
+	text-decoration: none;
+}
+
+.tableau a:hover .orange {
+    text-decoration: underline;
+}
+
+.tableau .gris {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #6A6A69;
+	text-decoration: none;
+}
+
+.tableau .barreVerticale {
+	margin-left: 12px;
+	margin-right: 12px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #F28A31;
+}
+
+.tableau .legende {
+	margin-left: 12px;
+	margin-right: 12px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: white;
+}
+
+.tableau .data {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #6A6A69;
+}
+
+.tableau .orange {
+	color: #F28A31;
+}
+
+.tableau .vert {
+	color: #99BF1C;
+}
+
+div.flash_notice {
+	border: 1px solid #7F9B35;
+	margin-top: 20px;
+	padding: 8px;
+	background-color: #CEDE97;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #7F9B35;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+div.flash_notice H1,H1 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #7F9B35;
+	margin-bottom: 8px;
+}
+
+div.flash_success {
+	border: 1px solid #7F9B35;
+	margin-top: 20px;
+	padding: 8px;
+	background-color: #CEDE97;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #7F9B35;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+div.flash_success H1,H1 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #7F9B35;
+	margin-bottom: 8px;
+}
+
+div.flash_error {
+	border: 1px solid #D66C68;
+	padding: 8px;
+	background-color: #F6D3CF;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #BE0027;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+div.flash_error H1 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #BE0027;
+	margin-bottom: 8px;
+}
+
+/*
+	CSS for all forms
+*/
+.formInputVarchar,.formInputVarchar1,.formInputVarchar2,.formInputVarchar3,.formInputVarchar4
+	{
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A8A8A;
+	background-color: #F4F4F4;
+	width: 224px;
+	height: 24px;
+	border-top: 1px solid #D7D7D7;
+	border-left: 1px solid #D7D7D7;
+	border-right: 1px solid #EBEBEB;
+	border-bottom: 1px solid #EBEBEB;
+	margin: 1px;
+	line-height: 155%;
+}
+
+.formInputVarcharPseudo{
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A8A8A;
+	background-color: #F4F4F4;
+	width: 224px;
+	height: 24px;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	border-left:0px;
+	border-right:0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	line-height: 155%;
+}
+
+.formInputVarchar1 {
+	width: 70px;
+}
+
+.formInputVarchar2 {
+	width: 70px;
+}
+
+.formInputVarchar3 {
+	width: 150px;
+}
+
+.formInputVarchar4 {
+	width: 70px;
+}
+
+.formInputVarcharSelected {
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A8A8A;
+	background-color: #F4F4F4;
+	width: 224px;
+	height: 24px;
+	border-top: 2px solid #F5C95B;
+	border-left: 2px solid #F5C95B;
+	border-right: 2px solid #F4DA96;
+	border-bottom: 2px solid #F4DA96;
+	margin: 0px;
+}
+
+.formInputVarcharSelectedPseudo {
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A8A8A;
+	width: 224px;
+	height: 24px;
+	border-top: 2px solid #F5C95B;
+	border-bottom: 2px solid #F5C95B;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.formInputVarcharError {
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A8A8A;
+	background-color: #F4F4F4;
+	width: 224px;
+	height: 24px;
+	border-top: 2px solid #e6332b;
+	border-left: 2px solid #e6332b;
+	border-right: 2px solid #ec807b;
+	border-bottom: 2px solid #ec807b;
+	background-image: url("/images/interface/error.png");
+}
+
+.formInputVarcharErrorOnlyTicker {
+	background-image: url("/images/interface/error.png");
+	background-repeat: no-repeat;
+}
+
+.formInputVarcharErrorOnlyTickerPseudo {
+	background-image: url("/images/interface/errorPseudo.png");
+	background-repeat: no-repeat;
+}
+
+.formInputVarcharSuccess {
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A8A8A;
+	background-color: #F4F4F4;
+	width: 224px;
+	height: 24px;
+	border-top: 2px solid green;
+	border-left: 2px solid green;
+	border-right: 2px solid green;
+	border-bottom: 2px solid green;
+	background-image: url("/images/interface/success.png");
+}
+
+.formInputVarcharSuccessOnlyTicker {
+	background-image: url("/images/interface/success.png");
+	background-repeat: no-repeat;
+}
+
+.formInputVarcharSuccessOnlyTickerPseudo {
+	background-image: url("/images/interface/successPseudo.png");
+	background-repeat: no-repeat;
+}
+
+.formInputSelect {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A8A8A;
+	width: 80px;
+	background-color: #F4F4F4;
+	border-top: 1px solid #D7D7D7;
+	border-left: 1px solid #D7D7D7;
+	border-right: 1px solid #EBEBEB;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.formInputSelectSelected {
+	border-top: 2px solid #F5C95B;
+	border-left: 2px solid #F5C95B;
+	border-right: 2px solid #F4DA96;
+	border-bottom: 2px solid #F4DA96;
+}
+
+.legende {
+	font-family: Arial;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A8A8A;
+}
+
+.header .link {
+	float: right;
+	width: 100px;
+	line-height: 65px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+	font-style: normal;
+	color: #FFFFFF;
+}
+
+.header .link A {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.header .link A:hover {
+	text-decoration: underline;
+}
+
+/**
+ * Gestion des tags
+ * dans les rooms par exemple
+*/
+.tag .name {
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+	color: #696967;
+}
+
+.tag .score {
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: italic;
+	color: #696967;
+}
+
+/**
+ * Widget Choices
+ * dans la recherche de room par exemple
+ */
+.interfaceWidgetChoices .cellule {
+	width: 188px;
+	border-bottom: 1px solid #C8C8C8;
+	height: 22px;
+	background-color: #F4F4F4;
+}
+
+.interfaceWidgetChoices .celluleFirst {
+	border-top: 1px solid #C8C8C8;
+}
+
+.interfaceWidgetChoices .cellule .picture {
+	float: left;
+}
+
+.interfaceWidgetChoices .cellule .title {
+	float: left;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	color: #696967;
+	line-height: 22px;
+	overflow: hidden;
+}
+
+.bottom-background-white {
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-khtml-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-khtml-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background-color: white;
+	margin: 0px;
+}
+
+.notification
+{
+    text-align: center;
+    display: none;
+    width: 100%;
+    position: fixed;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 17px;
+    overflow: auto;
+    top: 0px;
+    vertical-align: middle;
+    background-color: #f28a31;
+    height: 52px;
+  	opacity:0.95; 
+  	z-index: 500;
+}

@@ -1,0 +1,73 @@
+ui:
+  roomName: SPORT BUZZ BUSINESS
+  avatar-room: /partner/sbb/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/sbb/image/header_logo.jpg
+  header-room-logo-size: 117x80
+  header-bg: /partner/sbb/image/header_bg_room.png
+  kup-header-bg: /partner/sbb/image/header_bg_kup.png
+  path-img-title-bg: /partner/sbb/image/title.png
+  path-img-title-question: /partner/sbb/image/header_question_sbb.png
+  path-img-title-kup: /partner/sbb/image/header_kup_sbb.png
+  path-img-list: /partner/sbb/image/list
+  more-infos-answer: text_room_sbb_home_more_infos_answer
+  text_room_bonus_text: text_room_sbb_bonus_text
+  path-bonus-box: /partner/sbb/image/bonus_box.png
+  path-bonus-box-scotch: /partner/sbb/image/scotch.png
+  path-bonus-amount: /partner/sbb/image/bonus_amount.png
+  isPictoPerso : 0
+  isBgPerso: 0
+  isPicTopLeft: 0
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  isBodyBgColor: 1
+  body-bg-img: /partner/sbb/image/bg_room_sbb.jpg
+  body-bg-color: '#000000'
+  isRoomNameColorPerso: 0
+  header-author-font-color: '#FFFFFF'
+  header-hosted-logo: /partner/sbb/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/sbb/image/box_title_howto.png
+  size-box-how-work: small
+  isCustomBoxWork: 1
+  show-box-prizes: 1
+  isBoxPrizesCustom: 1
+  box-prize-title-bg: /partner/sbb/image/box_title_prizes.png
+  img-box-prizes: /partner/sbb/image/prizes_sbb.png
+  img_box-prizes-size: 130x84
+  total-prizes: 3
+  prizes-1-label: 'Raquette Tecnifibre + 2 cordages (165 €)'
+  prizes-2-label: 'un short + tee shirt (95 €)'
+  prizes-3-label: 'Un sac tecnifibre (70 €)'
+  show-box-news: 0
+  show-box-facebook: 0
+  path_img_kup_perso_prizes: /partner/sbb/image/
+  array_kup_perso_prizes: ['70000001','3538937']
+  kups:
+    70000001:
+      isCustom: 1
+      prize_value: 330
+      box-prizes: /partner/sbb/image/prizes_sbb.png
+      box-prizes-size: 130x84
+      box_prizes_button: 
+      box-prize-title-bg: /partner/sbb/image/box_title_prizes.png
+      img-box-prizes: /partner/sbb/image/prizes_sbb.png
+      img_box-prizes-size: 130x84
+      total-prizes: 3
+      prizes-1-label: 'Raquette Tecnifibre + 2 cordages (165 €)'
+      prizes-2-label: 'un short + tee shirt (95 €)'
+      prizes-3-label: 'Un sac tecnifibre (70 €)'
+    3538937:
+      isCustom: 1
+      prize_value: 310
+      box-prizes: /partner/sbb/image/prizes_sbb_w.png
+      box-prizes-size: 130x84
+      box_prizes_button: 
+      box-prize-title-bg: /partner/sbb/image/box_title_prizes.png
+      img-box-prizes: /partner/sbb/image/prizes_sbb_w.png
+      img_box-prizes-size: 130x84
+      total-prizes: 4
+      prizes-1-label: 'Raquette Tecnifibre + 2 cordages (165 €)'
+      prizes-2-label: '1 tenues t shirt + short adidas ( 100€)'
+      prizes-3-label: '1 raquette Prince rose 40€'
+      prizes-4-label: '1 paire de poignet éponge 8€'

@@ -1,0 +1,48 @@
+.count-down-title {
+	width: 300px;
+	margin: 0px auto;
+	font: bold 14px Arial;
+	color: #666666;
+	text-align: center;
+}
+
+.count-down-container {
+	width: 131px;
+	margin: 0px auto;
+}
+
+#count-down-chrono {
+	width: 131px;
+	height: 45px;
+	margin: 0px auto;
+	background: url('/image/fr/widget_ranking/interface/sprites_widget_20minutes.png') -142px -146px no-repeat;
+}
+
+.before-start {
+	width: 100%;
+	font: 12px Arial;
+	text-align: center;
+	color: #666666;
+}
+
+.line-infos td {
+	color: white;
+	font: 10px Arial;
+	text-align: center;
+}
+
+
+#chrono table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 131px;
+	height: 40px;
+}
+
+#chrono table th {
+	width: 32px;
+	font: bold 12px Arial;
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}

@@ -1,0 +1,696 @@
+.home-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    margin: 30px auto;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQIW2N8/erVfwYkwAgSEBUTYwSJgdjYBZC1AAA7gxb9RaBRGwAAAABJRU5ErkJggg==);
+}
+
+.home-box-header {
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding: 0 10px;
+    background: #7698ac; /* Old browsers */
+    background: -moz-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7698ac), color-stop(100%, #5a768a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7698ac 0%, #5a768a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #7698ac 0%, #5a768a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7698ac', endColorstr = '#5a768a', GradientType = 0); /* IE6-9 */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+.home-box-header h2 {
+    display: inline-block;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 30px;
+    color: white;
+    font-size: 16px;
+    float: left;
+}
+
+.home-box-content h4 {
+    margin: 10px 15px;
+    color: #5C798D;;
+}
+
+.home-box-content {
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.home-box-content .title h3 {
+    margin: 3px 20px;
+    text-align: left;
+}
+
+.friends-to-invite-container {
+    display: block;
+    width: 100%;
+    height: 210px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.friends-to-invite-container, .friends-ranking-container {
+    padding: 9px;
+}
+
+.friends-ranking-container {
+    display: block;
+    width: 100%;
+    height: 125px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.box-wrap {
+    overflow: hidden;
+    text-align: center;
+}
+
+.friend-box {
+    width: 60px;
+    height: auto;
+    margin: 5px 0;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.friend-ranking-box {
+    width: 90px;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.friend-box img, .friend-ranking-box img {
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.friend-ranking-box a {
+    font: normal 13px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #3661A0;
+}
+
+.friend-box a {
+    font: normal 11px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #3661A0;
+}
+
+.friend-box .friend-name {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.friend-box a.friend-challenge-text {
+    color: black;
+    font-size: 12px;
+    padding: 1px 5px;
+    background: #F8F8F8;
+    border: 1px solid #D7D8DA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.friend-box a.friend-challenge-text:hover {
+    background: #BBBBBB;
+}
+
+.friend-ranking-box .friend-name {
+    display: inline-block;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.home-next-match-description {
+    width: 100%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.home-next-match-description p {
+    font-size: 14px;
+}
+
+.home-next-match-description h1, .home-next-match-description p {
+    color: #5C798D;
+}
+
+.home-next-match-description h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+}
+
+.home-next-match-carousel-table {
+    width: 100%;
+}
+
+.home-next-match-carousel {
+    display: block;
+    height: 150px;
+    width: 100%;
+    background: rgba(209, 210, 212, 0.7);
+}
+
+.carousel-content {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    z-index: 100;
+}
+
+.arrow-carousel-left, .arrow-carousel-right {
+    width: 35px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+.arrow-carousel-left {
+    text-align: left;
+}
+
+.arrow-carousel-right {
+    text-align: right;
+}
+
+.arrow-carousel-left a,
+.arrow-carousel-right a {
+    display: inline-block;
+    height: 50px;
+    width: 30px;
+}
+
+.arrow-carousel-right a {
+    background: #7596aa; /* Old browsers */
+    background: -moz-linear-gradient(left, #7596aa 0%, #5b788c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #7596aa), color-stop(100%, #5b788c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #7596aa 0%, #5b788c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #7596aa 0%, #5b788c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #7596aa 0%, #5b788c 100%); /* IE10+ */
+    background: linear-gradient(to right, #7596aa 0%, #5b788c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7596aa', endColorstr = '#5b788c', GradientType = 1); /* IE6-9 */
+
+}
+
+.arrow-carousel-left a {
+    background: #5b788c; /* Old browsers */
+    background: -moz-linear-gradient(left, #5b788c 0%, #7596aa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #5b788c), color-stop(100%, #7596aa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #5b788c 0%, #7596aa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #5b788c 0%, #7596aa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #5b788c 0%, #7596aa 100%); /* IE10+ */
+    background: linear-gradient(to right, #5b788c 0%, #7596aa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#5b788c', endColorstr = '#7596aa', GradientType = 1); /* IE6-9 */
+}
+
+.arrow-right, .arrow-left {
+    margin-top: 13px;
+}
+
+.arrow-left {
+    margin-left: -6px;
+}
+
+.arrow-right {
+    margin-left: 10px;
+}
+
+.arrow-right {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow-right:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #FFF;
+    -moz-transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    top: 0;
+    left: -20px;
+    box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5);
+}
+
+.arrow-right:hover, .arrow-right:hover:after {
+    box-shadow: none;
+}
+
+.arrow-left {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow-left:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #FFF;
+    -moz-transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(45deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    top: 0;
+    left: 20px;
+    box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5);
+}
+
+.arrow-left:hover, .arrow-left:hover:after {
+    box-shadow: none;
+}
+
+#carousel-game-list {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#slides {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+#slides ul {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+}
+
+#slides li {
+    display: block;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+#carousel-game-list .carousel-game-table {
+    width: 100%;
+    height: 150px;
+}
+
+#carousel-game-list .carousel-game-table td {
+    height: 150px;
+    text-align: center;
+}
+
+#carousel-game-list .carousel-game-table .carousel-vs-image {
+    text-align: center;
+    width: 60px;
+}
+
+#carousel-game-list .carousel-game-table .carousel-vs-image div {
+    width: 59px;
+    height: 76px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -717px -344px no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #00FFFFFF, endColorstr = #00FFFFFF);
+}
+
+.carousel-team p {
+    font: bold 13px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    color: #648296;
+}
+
+.how-to-table {
+    width: 100%;
+}
+
+.how-to-table td {
+    vertical-align: middle;
+    text-align: left;
+    padding: 0;
+}
+
+.pellet {
+    width: 28px;
+    height: 27px;
+}
+
+.pellet div {
+    width: 28px;
+    height: 27px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -56px -482px no-repeat;
+    text-align: center;
+    font: normal 14px "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    color: white;
+    line-height: 27px;
+}
+
+.prizes-image {
+    width: 100%;
+    text-align: center;
+}
+
+.prizes-image img {
+    display: inline-block;
+}
+
+.box-how-to {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.home-title-next-game {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -60px -443px no-repeat;
+}
+
+.home-title-ranking {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 33px;
+    height: 28px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -104px -443px no-repeat;
+}
+
+.home-title-how-to {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -15px -443px no-repeat;
+}
+
+.home-title-my-ranking {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 39px;
+    height: 26px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -151px -443px no-repeat;
+}
+
+.home-title-leaders {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 2px;
+    width: 36px;
+    height: 25px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -204px -446px no-repeat;
+}
+
+.home-title-friends {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 24px;
+    height: 30px;
+    float: left;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -254px -442px no-repeat;
+}
+
+.home-club-ranking-container {
+    width: 100%;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.home-club-ranking-table {
+    width: 100%;
+}
+
+.home-club-ranking-table th {
+    text-align: center;
+    font: bold 13px "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+    height: 30px;
+    vertical-align: middle;
+    background: #434544;
+}
+
+.home-club-ranking-table .odd td {
+    background: rgba(77, 93, 101, 0.15);
+}
+
+.home-club-ranking-table .even td {
+    background: rgba(77, 93, 101, 0.05);
+}
+
+.home-club-ranking-table .selected {
+    border: 1px dashed #668498;
+}
+
+.home-club-ranking-table td {
+    text-align: center;
+    vertical-align: middle;
+    height: 46px;
+}
+
+.home-club-ranking-table .club-position, .home-club-ranking-table td .club-infos, .home-club-ranking-table td .club-infos a, .home-club-ranking-table .club-points, .home-club-ranking-table .club-supporters {
+    font: bold 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5D7A8E;
+    text-decoration: none;
+}
+
+.home-club-ranking-table td .club-infos {
+    width: 100%;
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 10px;
+    float: left;
+    height: 46px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 46px;
+}
+
+.home-club-ranking-table td .club-infos a {
+    display: inline-block;
+    line-height: 46px;
+    color: #3B5998;
+}
+
+.home-club-ranking-table td .club-infos a:hover {
+    text-decoration: underline;
+}
+
+.home-club-ranking-table td .club-infos img {
+    display: inline-block;
+    float: left;
+}
+
+.participation {
+    position: relative;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+
+}
+
+.participation .is-participant {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    width: 31px;
+    height: 30px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -101px -483px;
+}
+
+.participation .not-participant {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    width: 27px;
+    height: 26px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -241px -495px;
+}
+
+.participation p {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.home-leader-box {
+    width: 100%;
+}
+
+.home-leader-box-table {
+    width: 100%;
+}
+
+.home-leader-box-table th {
+    background: #434544;
+    color: white;
+    font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.home-leader-box-table td, .home-leader-box-table th {
+    width: 33.3333333333333333333%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.home-leader-box-table td {
+    padding-top: 10px;
+}
+
+.home-leader-box-table td span {
+    display: block;
+}
+
+.home-leader-box-table td a {
+    font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #3B5998;
+    text-decoration: none;
+}
+
+.home-leader-box-table td a:hover {
+    text-decoration: underline;
+}
+
+.home-leader-box-table .ranking-big {
+    font: bold 40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444444;
+}
+
+.home-leader-box-table .home-my-ranking-table-bg {
+    display: block;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.home-leader-box-table .home-my-ranking-table-bg span {
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 2;
+}
+
+.home-leader-box-table .home-my-ranking-table-bg span.small {
+    font: normal 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444444;
+}
+
+.home-leader-box-table .td-bg-general {
+    background: url('/image/default/facebook_ligue1_2012/interface/home_img_ranking_general.png') center no-repeat;
+}
+
+.home-leader-box-table .td-bg-day {
+    background: url('/image/default/facebook_ligue1_2012/interface/home_img_ranking_day.png') center no-repeat;
+}
+
+.home-leader-box-table .td-bg-club {
+    position: relative;
+}
+
+.home-leader-box-table .td-bg-club .club-text-content {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    z-index: 2;
+}
+
+.home-leader-box-table .club-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+.fb-picture {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 80px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.fb-picture img {
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+all:
+  room_associate:
+    name: 'Facebook Le Tour 2012'
+  rss_parser:
+    url: 'http://www.lequipe.fr/rss/actu_rss_Cyclisme.xml'
+  analytics:
+    google: UA-9329202-16
+  security_betkup:
+    administrator: room_administrator
+    member: room_member
+    anonymous: room_anonymous
+    participant: room_participant
+  kup_security_betkup:
+    administrator: kup_administrator
+    member: kup_member
+    anonymous: kup_anonymous
+    participant: kup_participant
+  privacy_public: PUBLIC
+  privacy_public_gambling_fr: PUBLIC_GAMBLING_FR
+  privacy_private: PRIVATE
+  privacy_private_gambling_fr: PRIVATE_GAMBLING_FR
+  privacy_default: PUBLIC
+  kup_type:
+    free: FREE
+    gambling_fr: GAMBLING_FR
+  registration:
+    account_type_simple: SIMPLE
+  facebook:
+    app_page_url: https://apps.facebook.com/dev-betkup-tdf/ # CHANGE IN PRODUCTION
+    connect_app_id:  243074475795920 # CHANGE IN PRODUCTION
+    connect_app_secret: ad906cd5d709f9fb220fffbe947a8cf8 # CHANGE IN PRODUCTION
+    connect_app_scope: email,user_birthday
+    canvas_ns: dev-betkup-tdf # CHANGE IN PRODUCTION

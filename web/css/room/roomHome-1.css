@@ -1,0 +1,267 @@
+@font-face {
+font-family: 'BotonMediumCustom';
+src: url('/fonts/BotonMedium.eot?') format('eot'),
+     url('/fonts/BotonMedium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+#room-how-to {
+	width: 700px;
+	margin-left: 15px;
+}
+
+#room-how-to > #room-how-to-contener {
+	height: 123px;
+	clear: both;
+}
+
+#room-how-to div#room-howto-left {
+	background: url(/image/default/room/room_howto_left.png) center no-repeat;
+	width: 236px;
+	height: 123px;
+	float: left;
+}
+
+#room-how-to div#room-howto-center {
+	background: url(/image/default/room/room_howto_center.png) center no-repeat;
+	width: 254px;
+	height: 122px;
+	margin-top: 1px;
+	margin-left: -20px;
+	float: left;
+}
+
+#room-how-to div#room-howto-right {
+	background: url(/image/default/room/room_howto_right.png) center no-repeat;
+	width: 230px;
+	height: 123px;
+	margin-left: -16px;
+	float: left;
+}
+
+#room-how-to .checked-ticker {
+	clear: both;
+	background: url(/image/default/room/checked_ticker.png) center no-repeat;
+	width: 37px;
+	height: 36px;
+	position: absolute;
+}
+
+#room-how-to .ticker-1 {
+	margin-top: 45px;
+	margin-left: 215px;
+}
+
+#room-how-to .ticker-2 {
+	margin-top: 45px;
+	margin-left: 450px;
+}
+
+#room-how-to .room-howto-number {
+	color: #FFFFFF;
+	font: bold 25px "BotonMediumCustom", Verdana;
+	position: absolute;
+}
+
+#room-how-to .number-1 {
+	margin: 7px 0px 0px 10px;
+}
+
+#room-how-to .number-2 {
+	margin: 7px 0px 0px 25px;
+}
+
+#room-how-to .number-3 {
+	margin: 7px 0px 0px 25px;
+}
+
+#room-how-to h2 {
+	margin: 0px;
+	padding: 0px;
+	font: bold 14px Arial;
+	width: 150px;
+	color: #FFFFFF;
+}
+
+#room-how-to ul {
+	margin: 0px;
+	padding: 0px;
+	width: 150px;
+	list-style: disc;	
+}
+
+#room-how-to ul li {
+	color: #FFFFFF;
+	font: normal 12px Arial;
+}
+
+#room-how-to #room-howto-left h2 {
+	margin: 10px 0px 0px 60px;
+}
+
+#room-how-to #room-howto-center h2, #room-how-to #room-howto-right h2 {
+	margin: 10px 0px 0px 80px;
+}
+
+#room-how-to #room-howto-left ul {
+	margin: 20px 0px 0px 60px;
+}
+
+#room-how-to #room-howto-center ul {
+	margin: 30px 0px 0px 80px;
+}
+
+#room-how-to #room-howto-right ul {
+	margin: 20px 0px 0px 80px;
+}
+ 
+#room-how-to > #pictures-list {
+	width: 700px;
+	height: 171px;
+	position: relative;
+}
+
+#room-how-to #pictures-list ul {
+	margin: 0px;
+	padding: 0px;
+	width: 700px;
+	height: 171px;
+	list-style: none;
+	position: relative;
+	display: inline-block;
+}
+
+#room-how-to #pictures-list ul li {
+	float: left;
+	margin-left: 35px;
+	height: 171px;
+}
+
+#room-how-to #pictures-list ul li#picture-1, #room-how-to #pictures-list ul li#picture-2 {
+	padding-top: 25px;
+}
+
+#room-home-buttons {
+	width: 170px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#room-home-more-infos {
+	width: 660px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#room-home-more-infos .image {
+	background: url(/image/default/faq/interface/btn_plus.png) center no-repeat;
+	width: 31px;
+	height: 31px;
+}
+
+#room-home-more-infos .answer {
+	display: none;
+}
+
+#room-home-more-infos .answer td {
+	color: #585856;
+	font-family: Arial;
+	font-size: 12px;
+	padding-left: 50px;
+	text-align: left;
+	line-height: 18px;
+}
+
+#room-home-more-infos table td.image, #room-home-more-infos table td.text {
+	height: 50px;
+	vertical-align: middle;
+}
+
+#room-home-more-infos table td.text {
+	text-align: left;
+	text-indent: 10px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #585856;
+}
+
+#room-bonus-box {
+    position: relative;
+	width: 318px;
+	height: 147px;
+	margin: -20px auto 0px auto;
+	padding: 0;
+	display: block;
+}
+
+#room-bonus-box-scotch {
+	width: 78px;
+	height: 32px;
+	margin-left: 120px;
+	margin-top: -20px;
+	position: absolute;
+}
+
+#room-bonus-box h2 {
+	display: inline-block;
+	font: bold 18px Arial;
+	color: #585756;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+#room-bonus-box p.text-bonnus {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	font: normal 12px Arial;
+	color: #585756;
+	margin-top: 15px;
+	margin-left: 110px;
+	width: 200px;
+	height: 70px;
+}
+
+#room-bonus-box span.text-warning {
+	font: italic 9px Arial;
+	color: #DB291A;
+}
+
+#room-bonus-box-icon-top {
+	position: absolute;
+	margin-left: 270px;
+	margin-top: 15px;
+	width: 33px;
+	height: 25px;
+}
+
+#room-bonus-box-amount {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 45px;
+	width: 74px;
+	height: 68px;
+}
+
+#room-bonus-box a.more-infos {
+	color: #585756;
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 65px;
+}
+
+#room-bonus-box a.custom-more-info-rdj {
+    position: absolute;
+    left: 280px;
+    top: 120px;
+    color: #444444;
+    font: bold 12px Arial, sans-serif;
+    margin: 0;
+}
+
+#room-bonus-box a.more-infos:hover {
+	text-decoration: underline;
+}
+

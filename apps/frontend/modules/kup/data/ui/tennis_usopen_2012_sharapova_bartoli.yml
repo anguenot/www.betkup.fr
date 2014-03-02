@@ -1,0 +1,44 @@
+ui:
+  kupName: label_kup_title_usopen_2012_sharapova_bartoli
+  typeSport: tennis
+  picto: tennis.png
+  category: Tennis > US Open
+  events: 1 journée
+  picto_mini: picto_tennis_mini.png
+  document_path: /kup/tennis/usopen/2012/sharapova_bartoli/document
+  vignette_kup_view: /kup/tennis/usopen/2012/sharapova_bartoli/image/vignette_kup_view.png
+  vignette_home_view: /kup/tennis/usopen/2012/sharapova_bartoli/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/tennis/usopen/2012/sharapova_bartoli/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/tennis/usopen/2012/sharapova_bartoli/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/tennis/usopen/2012/sharapova_bartoli/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: tennis,kup_usopen_2012_daily
+  predictions_view_template: tennis,predictions
+  results_view_template: tennis,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right: 
+  img_prize_1:
+  img_prize_2: 
+  img_prize_3: 
+  prize_1_label:
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    ic:
+      label: 'Pronostiquez le vainqueur du match'
+      points: '2 pts'
+    se:
+      label: 'Pronostiquez l\'issue du match en sets'
+      points: '10/2 pts'

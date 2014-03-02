@@ -1,0 +1,357 @@
+#body-container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: 900px;
+    background: #FAFAFA url('/image/default/facebook_ligue1_2012/interface/patern_ligue1.png') repeat;
+}
+
+/*
+ * Fix for headings.
+ */
+.home-box h1,
+.home-box h2,
+.home-box h3,
+.home-box h4,
+.home-box h5,
+.home-box h6 {
+    margin: 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+.home-box h1 {
+    line-height: 36px;
+    font: bold 26px "FF DIN BOLD", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.home-box h1 small {
+    font-size: 18px;
+}
+
+.home-box h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.home-box h2 small {
+    font-size: 18px;
+}
+
+.home-box h3 {
+
+    line-height: 27px;
+    font: bold 16px "FF DIN BOLD", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.home-box h3 small {
+    font-size: 14px;
+}
+
+.home-box h4,
+.home-box h5,
+.home-box h6 {
+    line-height: 18px;
+}
+
+.home-box h4 {
+    font-size: 14px;
+}
+
+.home-box h4 small {
+    font-size: 12px;
+}
+
+.home-box h5 {
+    font-size: 12px;
+}
+
+.home-box h6 {
+    font-size: 11px;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #393b38 url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') center top no-repeat;
+}
+
+.header-fixed {
+    display: block;
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header-social-box {
+    position: absolute;
+    left: 280px;
+    top: 10px;
+    text-align: center;
+}
+
+#header-logo {
+    width: 228px;
+    height: 94px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -20px -116px no-repeat;
+    float: left;
+}
+
+#header-logo-betkup {
+    position: absolute;
+    width: 126px;
+    height: 74px;
+    left: 230px;
+    top: 20px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -286px -135px no-repeat;
+}
+
+#footer {
+    display: block;
+    margin: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #434544;
+}
+
+.row-footer {
+
+    width: 850px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.row-footer a {
+    font: normal 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 10px;
+    color: white;
+}
+
+.row-footer a:hover {
+    color: #7698AC;
+}
+
+.row-footer table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-play {
+    width: 17px;
+    height: 15px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -21px -490px no-repeat;
+}
+
+.menu-bar {
+    width: 100%;
+    background: #7698AC;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.menu li a {
+    display: inline-block;
+    color: #FAFAFA;
+    font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 15px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.menu li a .textClub {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+}
+
+.menu li a img {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu li a:hover, .menu li a.selected {
+    background: #fafafa;
+    color: #7698AC;
+}
+
+.l1-progress-bar {
+    width: 400px;
+    position: relative;
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+#l1-progress-bar-text-table,
+#l1-progress-bar-picto-table {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#l1-progress-bar-text-table td,
+#l1-progress-bar-picto-table td {
+    vertical-align: middle;
+    text-align: center;
+    width: 25%;
+    font: normal 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.progress-picto {
+    margin: 0 auto;
+    width: 20px;
+    height: 19px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -487px -171px no-repeat;
+}
+
+.progress-picto-selected {
+    margin: 0 auto;
+    width: 20px;
+    height: 19px;
+    background: url('/image/default/facebook_ligue1_2012/interface/sprites_design.png') -463px -171px no-repeat;
+}
+
+.progress-warning.progress-striped .bar {
+    background-color: #668498;
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button a {
+    display: inline-block;
+    padding: 6px 15px;
+    text-align: center;
+    margin: 10px 5px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #A71529;
+    background: #ec414a; /* Old browsers */
+    background: -moz-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ec414a), color-stop(50%, #bd282d), color-stop(51%, #a11126), color-stop(100%, #e53945)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ec414a', endColorstr = '#e53945', GradientType = 0); /* IE6-9 */
+}
+
+.button a:hover {
+    background: #e53945; /* Old browsers */
+    background: -moz-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e53945), color-stop(49%, #a11126), color-stop(50%, #bd282d), color-stop(100%, #ec414a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#e53945', endColorstr = '#ec414a', GradientType = 0); /* IE6-9 */
+}
+
+.promo-button {
+    position: absolute;
+    display: table;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.button-link {
+    display: inline-table;
+    padding: 6px 15px;
+    text-align: center;
+    margin: 0 10px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #A71529;
+    background: #ec414a; /* Old browsers */
+    background: -moz-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ec414a), color-stop(50%, #bd282d), color-stop(51%, #a11126), color-stop(100%, #e53945)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ec414a 0%, #bd282d 50%, #a11126 51%, #e53945 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ec414a', endColorstr = '#e53945', GradientType = 0); /* IE6-9 */
+}
+
+.button-link:hover {
+    background: #e53945; /* Old browsers */
+    background: -moz-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e53945), color-stop(49%, #a11126), color-stop(50%, #bd282d), color-stop(100%, #ec414a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e53945 0%, #a11126 49%, #bd282d 50%, #ec414a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#e53945', endColorstr = '#ec414a', GradientType = 0); /* IE6-9 */
+}
+
+.logo-betkup {
+    display: inline-block;
+    width: 120px;
+    height: 66px;
+    background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') no-repeat;
+}
+
+.betkup-facebook {
+    display: inline-table;
+    width: 32px;
+    height: 32px;
+    background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') -189px -126px no-repeat;
+}
+
+.betkup-twitter {
+    display: inline-table;
+    width: 32px;
+    height: 32px;
+    background: url('/image/default/tdf/app_facebook/interface/sprite_home_tdf.png') -189px -88px no-repeat;
+}
+
+.betkup-facebook:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+
+.betkup-twitter:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+
+.select-kups-ranking {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+}

@@ -1,0 +1,28 @@
+ui:
+  kupName: label_kup_title_soccer_euro_2012_quarters_chocs
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Euro 2012
+  events: 4 matches
+  document_path: /kup/soccer/euro/2012/quarters_chocs/document
+  vignette_kup_view: /kup/soccer/euro/2012/quarters_chocs/image/vignette_kup_view.png
+  vignette_kup_view_small: /kup/soccer/euro/2012/quarters_chocs/image/vignette_kup_view_small.png
+  vignette_home_view: /kup/soccer/euro/2012/quarters_chocs/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/euro/2012/quarters_chocs/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/euro/2012/quarters_chocs/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/euro/2012/quarters_chocs/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_euro_2012_quarters_chocs
+  predictions_view_template: soccer,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:

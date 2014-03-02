@@ -1,0 +1,130 @@
+@font-face {
+font-family: 'BotonMediumCustom';
+src: url('/fonts/BotonMedium.eot?') format('eot'),
+     url('/fonts/BotonMedium.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+.header-promos {
+	
+}
+
+.challenge-box {
+	position: relative;
+	margin-left: -15px;
+	width: 740px;
+	height: 160px;
+	padding-top: 10px;
+	background: url('/image/default/challenge/sprites_challenge.png') no-repeat;
+}
+
+.challenge-box table {
+	width: 710px;
+	height: 140px;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.avatar {
+	width: 210px;
+}
+
+.challenge-avatar {
+	width: 189px;
+	height: 150px;
+	margin: 0px auto;
+	margin-top: -5px;
+	padding-top: 11px;
+	background: url('/image/default/challenge/sprites_challenge.png') -400px -170px no-repeat;
+}
+
+.challenge-avatar img {
+	display: block;
+	width: 170px;
+	height: 130px;
+	margin: 0px auto;
+}
+
+.challenge-name {
+	margin-top: 5px;
+}
+
+.challenge-name h2 {
+	text-align: left;
+	font: normal 18px BotonMediumCustom, Arial;
+	color: #666666;
+}
+
+.infos {
+	width: 500px;
+	vertical-align: top;
+}
+
+.arguments-line {
+	display: block;
+	position: relative;
+	float: left;
+	width: 230px;
+	margin-left: 15px;
+	margin-top: 5px;
+	height: 30px;
+}
+
+.arguments-line table {
+	width: 240px;
+	height: 30px;
+}
+
+.arguments-line table .ticker {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.arguments-line table .ticker div {
+	width: 25px;
+	height: 25px;
+	margin: 0px auto;
+	background: url('/image/default/challenge/sprites_challenge.png') -76px -180px no-repeat;
+}
+
+.arguments-line p {
+	margin: 0px;
+	padding: 0px;
+	font: normal 12px Arial;
+	color: #666666;
+}
+
+.go-to {
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+}
+
+.go-to a span {
+	display: block;
+	height: 20px;
+	font:normal 12px Arial;
+	color: #f28c2e;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	line-height: 20px;
+}
+
+.go-to a:hover span {
+	text-decoration: underline;
+}
+
+.go-to a span.picto {
+	width: 20px;
+	height: 20px;
+	background: url('/image/default/challenge/sprites_challenge.png') -109px -219px no-repeat;
+}
+
+.orange {
+	color: #F28A31;
+}

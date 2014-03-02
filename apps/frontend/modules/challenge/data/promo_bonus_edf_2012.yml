@@ -1,0 +1,10 @@
+datas:
+  isArchive: 0
+  type: promo
+  uuid: promo_bonus_edf_2012
+  title: BONUS BETKUP SOUTIEN L'EDF
+  avatar: /image/default/challenge/challenges/avatar/promo_bonus_edf_2012.jpeg
+  link: challenge,promos
+  component_route: challenge,promo_bonus_edf_2012
+  link_label: promos_euro_2012_link_label
+  arguments: [Créez un compte complet ou surclassez un compte simple, Misez sur au moins une des Kups EDF !, Tentez de remporter 2 fois 250 €, SI l'EDF perd vos mises sont remboursées !]

@@ -1,0 +1,46 @@
+ui:
+  kupName: label_kup_title_201213_cl_krossc_2
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > Champions League
+  events: 8 matchs
+  document_path: /kup/soccer/cl/201213/krossc/document
+  vignette_kup_view: /kup/soccer/cl/201213/krossc/image/vignette_kup_view2.png
+  vignette_home_view: /kup/soccer/cl/201213/krossc/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/cl/201213/krossc/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/cl/201213/krossc/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/cl/201213/krossc/image/vignette_edition_kup.png
+  isPrizes: 0
+  rules_view_template: soccer,kup_cl_201213_krossc
+  predictions_view_template: soccer,predictions
+  nbRules: 1
+  prizeValue : 0
+  img_box_right:
+  img_prize_1:
+  img_prize_2:
+  img_prize_3: 
+  prize_1_label: 
+  prize_2_label:
+  prize_3_label: 
+  box_prizes_button:
+  with_text: 1
+  color: '#FFFFFF'
+  font_family: 'Arial Narrow'
+  font_size:
+    small_box:
+      title: 18px
+      description: 13px
+    big_box:
+      title: 27px
+      description: 16px
+  questions:
+    se:
+      label: 'Pronostiquez le Score exact final'
+      points: '15/5 pts'
+    21:
+      label: 'Pronostiquez le premier buteur du match ?'
+      points: '15 pts'
+    25:
+      label: 'Pronostiquez le nombre de buts d\'écart à la fin du match ?'
+      points: '5 pts'

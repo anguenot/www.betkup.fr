@@ -1,0 +1,9 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  stylesheets:    [main.css, header.css, home.css, kup.css, room.css, enDirect.css, theyLikeBetkup-1.css, footer-1.css, interieure.css, interface.css, moncompte.css, widget.css, prediction.css, kupview.css, ./invite/email.css, /scroll/css/scrollbar.css]
+  javascripts:    [jquery.min.js, Tween.js, jquery-ui-1.8.10.custom.min.js, general.js, /scroll/jquery.scroll.js, twitter.like.flash.message.js, loading.js, php.default.min.js]
+
+  has_layout:     true
+  layout:         layout_int

@@ -1,0 +1,37 @@
+ui:
+  roomName: Rencontres à XV
+  header-logo: /partner/rencontres_XV/image/sofun-logo.png
+  avatar-room: /partner/rencontres_XV/image/avatar_room.png
+  isHeaderPerso: 1
+  header-room-logo: /partner/rencontres_XV/image/header_logo.png
+  header-bg: /partner/rencontres_XV/image/header_bg_room.png
+  kup-header-bg: /partner/rencontres_XV/image/header_bg_kup.png
+  path-img-title: /partner/rencontres_XV/image/title
+  path-img-list: /partner/rencontres_XV/image/list
+  isPictoPerso : 0
+  path-img-picto: /partner/rencontres_XV/image/picto
+  isBgPerso: 1
+  body-bg-img: /partner/rencontres_XV/image/background.png
+  isPicBottomLeft: 0
+  isPicBottomRight: 0
+  body-bg-color: white
+  isRoomNameColorPerso: 1
+  header-author-font-color: black
+  header-hosted-logo: /partner/rencontres_XV/image/hosted_logo.png
+  show-box-how-work: 1
+  box-how-work: /partner/rencontres_XV/image/box_how_work_bg.png
+  size-box-how-work: small
+  box-how-work-link: http://rencontres_XV.betkup.fr
+  show-box-prizes: 1
+  box-prizes: /partner/rencontres_XV/image/box_prizes.png
+  box-prizes-button: /partner/rencontres_XV/image/box_prizes_button.png
+  show-box-news: 1
+  box-news: /partner/rencontres_XV/image/box_news_bg.png
+  box-news-rss: http://www.rencontresaxv.fr/feed/rss/
+  show-box-facebook: 1
+  box-facebook: /partner/rencontres_XV/image/box_fb_bg.png
+  box-facebook-page: http://www.facebook.com/rencontresaxv 
+  path_img_kup_perso_prizes: /partner/rencontres_XV/image/kupPrizes
+  array_kup_perso_prizes: ['7720','2898']
+  path_document_kup_perso_rules: /partner/rencontres_XV/document
+  array_kup_perso_rules_pdf: ['7720','2898']

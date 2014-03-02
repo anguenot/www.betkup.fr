@@ -1,0 +1,31 @@
+#chrono {
+	position: absolute;
+	right: 10px;
+	width: 151px;
+	height: 44px;
+	margin-top: -10px;
+	background: transparent url('/image/default/sport24/chrono.png') top left no-repeat;
+}
+
+#chrono table {
+	width: 148px;
+	height: 44px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+#chrono table th {
+	width: 37px;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	font: bold 26px Arial;
+}
+
+#chrono table tr.line-infos td {
+	text-align: center;
+	vertical-align: top;
+	font: bold 8px Verdana;
+	color: #808082;
+}

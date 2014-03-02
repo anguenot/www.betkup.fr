@@ -1,0 +1,17 @@
+.multimedia {
+    height: 332px;
+    overflow: hidden;
+    margin: 132px 0 5px 10px;
+}
+
+.skin-slidedeck {
+    float: left;
+}
+
+.createAccountOnHome {
+    float: right;
+    width: 290px;
+    height: 318px;
+    background: url('/images/home/createAccount/background.png');
+    text-align: center;
+}

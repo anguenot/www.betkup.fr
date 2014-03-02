@@ -1,0 +1,27 @@
+ui:
+  kupName: label_kup_title_premier_league_2010_2011
+  typeSport: soccer
+  picto: foot.png
+  picto_mini: picto_foot_mini.png
+  category: Football > UK Premier L.
+  events: 25 journées
+  document_path: /kup/soccer/premier_league/2012/match_match/document
+  vignette_kup_view: /kup/soccer/premier_league/2012/match_match/image/vignette_kup_view.png
+  vignette_home_view: /kup/soccer/premier_league/2012/match_match/image/vignette_home_view.png
+  vignette_kup_home_view: /kup/soccer/premier_league/2012/match_match/image/vignette_kup_home_view.png
+  vignette_room_kup_view: /kup/soccer/premier_league/2012/match_match/image/vignette_room_kup_view.png
+  vignette_edition_kup: /kup/soccer/premier_league/2012/match_match/image/vignette_edition_kup.png
+  isPrizes: 1
+  rules_view_template: soccer,kup_2012_premiere_league_match_match
+  predictions_view_template: soccer,predictions
+  results_view_template: soccer,results
+  nbRules: 1
+  prizeValue : 265
+  img_box_right: /kup/soccer/premier_league/2012/match_match/image/img_box_right.png
+  img_prize_1: /kup/soccer/premier_league/2012/match_match/image/img_prize_1.png
+  img_prize_2: /kup/soccer/premier_league/2012/match_match/image/img_prize_2.png
+  img_prize_3: /kup/soccer/premier_league/2012/match_match/image/img_prize_3.png
+  prize_1_label: label_kup_premier_league_2010_2011_prize_1
+  prize_2_label: label_kup_premier_league_2010_2011_prize_2
+  prize_3_label: label_kup_premier_league_2010_2011_prize_3
+  box_prizes_button: /kup/soccer/premier_league/2012/match_match/image/box_prizes_button.png
