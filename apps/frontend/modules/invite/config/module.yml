@@ -4,8 +4,8 @@
 # default values
 all:
   openinviter:
-    username: anguenot
-    private_key: 768af99b08e2b558a1b5107951703612
+    username: xxxxxxx
+    private_key: xxxxxxxxxx
     cookie_path: /tmp
     plugins_cache_file: oi_plugins.php
   type:

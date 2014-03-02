@@ -26,8 +26,8 @@ all:
       payline_err_code: 02101,02102,02103
       payline_ws_switch_enable: ''
       payline_switch_back_timer: 600
-      merchant_id: 12156100549557
-      access_key: 4CxFvOvxzUQ73AFut4AJ
+      merchant_id: XXXXXXXX
+      access_key: XXXXXXXX
       production_flag: FALSE # SWITCH TO TRUE ON PRODUCTION INSTANCE ONLY
       transaction_status_unknown: UNKNOWN
       transaction_status_pending: PENDING

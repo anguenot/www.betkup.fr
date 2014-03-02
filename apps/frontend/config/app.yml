@@ -23,14 +23,14 @@ all:
     consumer_secret: 4a85d20e5cbad626a494f75d233cd688
     community_id: 1
   facebook:
-    betkup_page_id: 119909761356930
+    betkup_page_id: xxxxxxxxxxxxx
     betkup_page_url: http://www.facebook.com/betkup
-    connect_app_id: 116122878412744
-    connect_app_secret: 4589eb615a28f50469b820f01715ff63
+    connect_app_id: xxxxxxxxxxxxx
+    connect_app_secret: xxxxxxxxx
     connect_app_scope: email,user_birthday
   recaptcha:
-    private_key: 6LczVsUSAAAAANkxN1kj0pqvgInybs1R7CIJZrXu
-    public_key: 6LczVsUSAAAAAOxYXGZ9qTxbBcds5GIHrdDSzUIU
+    private_key: xxxxxxxxx
+    public_key: xxxxxxxx
   crypto:
     password_hash: sha512
   analytics:
